@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChurBro - Compare Grocery Prices</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 18px;
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            outline: none;
+            transition: all 0.3s;
+        }
+        
+        .search-box:focus {
+            border-color: #764ba2;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .stats {
+            padding: 20px 30px;
+            background: #e7f3ff;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .products {
+            padding: 30px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .product {
+            border: 2px solid #e9ecef;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            transition: all 0.3s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .product:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .product-info {
+            flex: 1;
+        }
+        
+        .store-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .store-newworld { background: #c82128; color: white; }
+        .store-paknsave { background: #ffd700; color: #333; }
+        .store-woolworths { background: #28a745; color: white; }
+        
+        .product-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .product-brand {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .product-price {
+            text-align: right;
+        }
+        
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+            color: #28a745;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 16px;
+        }
+        
+        .deal-badge {
+            background: #ff6b6b;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        
+        .saving {
+            color: #28a745;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #667eea;
+            font-size: 20px;
+        }
+        
+        .error {
+            text-align: center;
+            padding: 50px;
+            color: #dc3545;
+        }
+        
+        .refresh-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        .refresh-btn:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛒 ChurBro</h1>
+            <p>Compare prices across New World, PAK'nSAVE & Woolworths</p>
+        </div>
+        
+        <div class="controls">
+            <input type="text" id="searchBox" class="search-box" placeholder="🔍 Search for products...">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="deals">🔥 Deals Only</button>
+                <button class="filter-btn" data-filter="New World">New World</button>
+                <button class="filter-btn" data-filter="PAK'nSAVE">PAK'nSAVE</button>
+                <button class="filter-btn" data-filter="Woolworths">Woolworths</button>
+                <button class="refresh-btn" onclick="loadData()">🔄 Refresh</button>
+            </div>
+        </div>
+        
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-value" id="totalProducts">-</div>
+                <div class="stat-label">Total Products</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="dealsCount">-</div>
+                <div class="stat-label">Deals Available</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="avgPrice">-</div>
+                <div class="stat-label">Avg Price</div>
+            </div>
+        </div>
+        
+        <div class="products" id="productsContainer">
+            <div class="loading">Loading products...</div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000';
+        let allProducts = [];
+        let currentFilter = 'all';
+        
+        // Load data on page load
+        window.onload = () => {
+            loadData();
+        };
+        
+        async function loadData() {
+            try {
+                const response = await fetch(`${API_URL}/api/products`);
+                const data = await response.json();
+                allProducts = data.products;
+                
+                // Update stats
+                document.getElementById('totalProducts').textContent = data.total_products;
+                document.getElementById('dealsCount').textContent = 
+                    allProducts.filter(p => p.deal_type && p.deal_type !== '').length;
+                document.getElementById('avgPrice').textContent = 
+                    '$' + (allProducts.reduce((sum, p) => sum + p.price, 0) / allProducts.length).toFixed(2);
+                
+                displayProducts(allProducts);
+            } catch (error) {
+                document.getElementById('productsContainer').innerHTML = 
+                    '<div class="error">❌ Could not load data. Make sure API server is running!</div>';
+            }
+        }
+        
+        function displayProducts(products) {
+            const container = document.getElementById('productsContainer');
+            
+            if (products.length === 0) {
+                container.innerHTML = '<div class="loading">No products found</div>';
+                return;
+            }
+            
+            container.innerHTML = products.map(product => {
+                const storeClass = product.store.toLowerCase().replace(/[^a-z]/g, '');
+                const hasDeal = product.deal_type && product.deal_type !== '';
+                const hasDiscount = product.saving > 0;
+                
+                return `
+                    <div class="product">
+                        <div class="product-info">
+                            <span class="store-badge store-${storeClass}">${product.store}</span>
+                            <div class="product-name">${product.name}</div>
+                            ${product.brand ? `<div class="product-brand">${product.brand}</div>` : ''}
+                            ${hasDeal ? `<span class="deal-badge">${product.deal_type}</span>` : ''}
+                            ${hasDiscount ? `<div class="saving">💰 Save $${product.saving.toFixed(2)} (${product.percent_off.toFixed(0)}% off)</div>` : ''}
+                        </div>
+                        <div class="product-price">
+                            <div class="price">$${product.price.toFixed(2)}</div>
+                            ${hasDiscount ? `<div class="original-price">$${product.original_price.toFixed(2)}</div>` : ''}
+                            ${product.price_per_kg ? `<div style="font-size: 12px; color: #666;">$${product.price_per_kg.toFixed(2)}/${product.unit_type}</div>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allProducts.filter(p => 
+                p.name.toLowerCase().includes(query) || 
+                (p.brand && p.brand.toLowerCase().includes(query))
+            );
+            displayProducts(applyFilter(filtered));
+        });
+        
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                
+                currentFilter = e.target.dataset.filter;
+                const searchQuery = document.getElementById('searchBox').value.toLowerCase();
+                
+                let filtered = allProducts;
+                if (searchQuery) {
+                    filtered = filtered.filter(p => 
+                        p.name.toLowerCase().includes(searchQuery) ||
+                        (p.brand && p.brand.toLowerCase().includes(searchQuery))
+                    );
+                }
+                
+                displayProducts(applyFilter(filtered));
+            });
+        });
+        
+        function applyFilter(products) {
+            if (currentFilter === 'all') return products;
+            if (currentFilter === 'deals') {
+                return products.filter(p => p.deal_type && p.deal_type !== '');
+            }
+            return products.filter(p => p.store === currentFilter);
+        }
+    </script>
+</body>
+</html>
