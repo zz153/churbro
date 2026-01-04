@@ -43,6 +43,14 @@
             font-size: 1.2em;
             opacity: 0.9;
         }
+
+        .update-info {
+            background: rgba(255,255,255,0.2);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
         
         .controls {
             padding: 30px;
@@ -233,6 +241,7 @@
         <div class="header">
             <h1>🛒 ChurBro</h1>
             <p>Compare prices across New World, PAK'nSAVE & Woolworths</p>
+            <div class="update-info" id="updateInfo">Loading...</div>
         </div>
         
         <div class="controls">
@@ -268,7 +277,8 @@
     </div>
 
     <script>
-        const API_URL = 'http://localhost:5000';
+        // ⚙️ UPDATED - Points to GitHub Pages now!
+        const API_URL = 'https://zz153.github.io/churbro/api/latest.json';
         let allProducts = [];
         let currentFilter = 'all';
         
@@ -279,21 +289,27 @@
         
         async function loadData() {
             try {
-                const response = await fetch(`${API_URL}/api/products`);
+                const response = await fetch(API_URL);
                 const data = await response.json();
-                allProducts = data.products;
+                allProducts = data.products || [];
                 
                 // Update stats
-                document.getElementById('totalProducts').textContent = data.total_products;
+                document.getElementById('totalProducts').textContent = data.total_products || allProducts.length;
                 document.getElementById('dealsCount').textContent = 
                     allProducts.filter(p => p.deal_type && p.deal_type !== '').length;
                 document.getElementById('avgPrice').textContent = 
                     '$' + (allProducts.reduce((sum, p) => sum + p.price, 0) / allProducts.length).toFixed(2);
                 
+                // Show last updated time
+                const updated = new Date(data.updated_at);
+                document.getElementById('updateInfo').textContent = 
+                    `Last updated: ${updated.toLocaleString('en-NZ')}`;
+                
                 displayProducts(allProducts);
             } catch (error) {
+                console.error('Error:', error);
                 document.getElementById('productsContainer').innerHTML = 
-                    '<div class="error">❌ Could not load data. Make sure API server is running!</div>';
+                    '<div class="error">❌ Could not load data. Please try refreshing!</div>';
             }
         }
         
@@ -322,7 +338,7 @@
                         <div class="product-price">
                             <div class="price">$${product.price.toFixed(2)}</div>
                             ${hasDiscount ? `<div class="original-price">$${product.original_price.toFixed(2)}</div>` : ''}
-                            ${product.price_per_kg ? `<div style="font-size: 12px; color: #666;">$${product.price_per_kg.toFixed(2)}/${product.unit_type}</div>` : ''}
+                            ${product.price_per_kg ? `<div style="font-size: 12px; color: #666;">${product.price_per_kg}</div>` : ''}
                         </div>
                     </div>
                 `;
