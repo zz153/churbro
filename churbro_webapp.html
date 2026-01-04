@@ -3,385 +3,928 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChurBro - Compare Grocery Prices</title>
+    <title>ChurBro - Dunedin Grocery Price Comparison</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
+        :root {
+            --new-world: #e31837;
+            --paknsave: #fdb913;
+            --woolworths: #0a8f3f;
+            --gray-100: #f8f9fa;
+            --gray-200: #e9ecef;
+            --gray-300: #dee2e6;
+            --gray-600: #6c757d;
+            --gray-900: #212529;
+            --primary: #667eea;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
         }
-        
+
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
         }
-        
+
+        /* Header */
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 30px;
             text-align: center;
         }
-        
+
         .header h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
+            font-weight: 700;
         }
-        
+
         .header p {
             font-size: 1.2em;
             opacity: 0.9;
+            margin-bottom: 15px;
         }
 
         .update-info {
             background: rgba(255,255,255,0.2);
-            padding: 10px;
+            padding: 10px 20px;
             border-radius: 10px;
-            margin-top: 10px;
             font-size: 0.9em;
+            display: inline-block;
         }
-        
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px 30px;
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.85em;
+            color: var(--gray-600);
+            margin-top: 5px;
+        }
+
+        /* Controls */
         .controls {
             padding: 30px;
-            background: #f8f9fa;
-            border-bottom: 1px solid #dee2e6;
+            background: var(--gray-100);
         }
-        
+
         .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
             width: 100%;
-            padding: 15px 20px;
-            font-size: 18px;
-            border: 2px solid #667eea;
-            border-radius: 10px;
-            margin-bottom: 15px;
+            padding: 15px 50px 15px 20px;
+            font-size: 1.1em;
+            border: 2px solid var(--gray-300);
+            border-radius: 12px;
             outline: none;
             transition: all 0.3s;
         }
-        
-        .search-box:focus {
-            border-color: #764ba2;
+
+        .search-box input:focus {
+            border-color: var(--primary);
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
-        
-        .filters {
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray-600);
+            font-size: 1.2em;
+        }
+
+        /* Filter Section */
+        .filter-section {
+            margin-bottom: 20px;
+        }
+
+        .filter-label {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: var(--gray-600);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .filter-buttons {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
-        
+
         .filter-btn {
             padding: 10px 20px;
-            border: 2px solid #667eea;
+            border: 2px solid var(--gray-300);
             background: white;
-            color: #667eea;
-            border-radius: 20px;
+            border-radius: 8px;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 0.95em;
+            font-weight: 500;
             transition: all 0.3s;
+            white-space: nowrap;
         }
-        
-        .filter-btn:hover, .filter-btn.active {
-            background: #667eea;
+
+        .filter-btn:hover {
+            border-color: var(--primary);
+            background: rgba(102, 126, 234, 0.05);
+        }
+
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .filter-btn.new-world.active {
+            background: var(--new-world);
+            border-color: var(--new-world);
+        }
+
+        .filter-btn.paknsave.active {
+            background: var(--paknsave);
+            border-color: var(--paknsave);
+            color: var(--gray-900);
+        }
+
+        .filter-btn.woolworths.active {
+            background: var(--woolworths);
+            border-color: var(--woolworths);
+        }
+
+        .sort-select {
+            padding: 10px 15px;
+            border: 2px solid var(--gray-300);
+            border-radius: 8px;
+            font-size: 0.95em;
+            cursor: pointer;
+            outline: none;
+            background: white;
+        }
+
+        /* Products Grid */
+        .products-section {
+            padding: 30px;
+        }
+
+        .results-header {
+            margin-bottom: 20px;
+            color: var(--gray-600);
+            font-size: 0.95em;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        /* Product Card */
+        .product-card {
+            background: white;
+            border: 2px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+
+        .store-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.75em;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .store-badge.new-world {
+            background: var(--new-world);
             color: white;
         }
-        
-        .stats {
-            padding: 20px 30px;
-            background: #e7f3ff;
+
+        .store-badge.paknsave {
+            background: var(--paknsave);
+            color: var(--gray-900);
+        }
+
+        .store-badge.woolworths {
+            background: var(--woolworths);
+            color: white;
+        }
+
+        .product-name {
+            font-size: 1.05em;
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 8px;
+            line-height: 1.4;
+            min-height: 2.8em;
+        }
+
+        .product-brand {
+            font-size: 0.85em;
+            color: var(--gray-600);
+            margin-bottom: 12px;
+        }
+
+        .price-section {
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 10px;
+            margin-bottom: 12px;
         }
-        
-        .stat {
-            text-align: center;
-            padding: 10px;
-        }
-        
-        .stat-value {
+
+        .current-price {
             font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
+            font-weight: 700;
+            color: var(--gray-900);
         }
-        
-        .stat-label {
-            color: #666;
-            margin-top: 5px;
+
+        .original-price {
+            font-size: 1.1em;
+            color: var(--gray-600);
+            text-decoration: line-through;
         }
-        
-        .products {
-            padding: 30px;
-            max-height: 600px;
-            overflow-y: auto;
+
+        .savings-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            background: var(--danger);
+            color: white;
+            border-radius: 6px;
+            font-size: 0.85em;
+            font-weight: 700;
         }
-        
-        .product {
-            border: 2px solid #e9ecef;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 10px;
-            transition: all 0.3s;
+
+        .price-per-kg {
+            font-size: 0.85em;
+            color: var(--gray-600);
+            margin-bottom: 12px;
+        }
+
+        /* Deal Badges */
+        .deal-badges {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .deal-badge {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.75em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .deal-badge.club {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .deal-badge.extra {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .deal-badge.everyday {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .deal-badge.special {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        /* Cross-Store Comparison */
+        .comparison-box {
+            margin-top: 12px;
+            padding: 12px;
+            background: var(--gray-100);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .comparison-title {
+            font-size: 0.8em;
+            font-weight: 600;
+            color: var(--gray-600);
+            margin-bottom: 8px;
+        }
+
+        .comparison-item {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 6px 0;
+            font-size: 0.85em;
         }
-        
-        .product:hover {
-            border-color: #667eea;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
-            transform: translateY(-2px);
+
+        .comparison-store {
+            font-weight: 500;
         }
-        
-        .product-info {
-            flex: 1;
+
+        .comparison-price {
+            font-weight: 700;
         }
-        
-        .store-badge {
-            display: inline-block;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 12px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        
-        .store-newworld { background: #c82128; color: white; }
-        .store-paknsave { background: #ffd700; color: #333; }
-        .store-woolworths { background: #28a745; color: white; }
-        
-        .product-name {
-            font-size: 18px;
+
+        .comparison-savings {
+            color: var(--success);
+            font-size: 0.8em;
             font-weight: 600;
-            color: #333;
-            margin-bottom: 5px;
         }
-        
-        .product-brand {
-            color: #666;
-            font-size: 14px;
+
+        .best-price {
+            background: #dcfce7;
+            padding: 6px 10px;
+            border-radius: 6px;
+            margin: -6px -10px;
         }
-        
-        .product-price {
-            text-align: right;
-        }
-        
-        .price {
-            font-size: 32px;
-            font-weight: bold;
-            color: #28a745;
-        }
-        
-        .original-price {
-            text-decoration: line-through;
-            color: #999;
-            font-size: 16px;
-        }
-        
-        .deal-badge {
-            background: #ff6b6b;
-            color: white;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 12px;
-            font-weight: bold;
-            margin-top: 5px;
-            display: inline-block;
-        }
-        
-        .saving {
-            color: #28a745;
-            font-size: 14px;
-            font-weight: 600;
-            margin-top: 5px;
-        }
-        
+
+        /* Loading & Empty States */
         .loading {
             text-align: center;
-            padding: 50px;
-            color: #667eea;
-            font-size: 20px;
+            padding: 60px 20px;
+            color: var(--gray-600);
         }
-        
-        .error {
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--gray-200);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .empty-state {
             text-align: center;
-            padding: 50px;
-            color: #dc3545;
+            padding: 60px 20px;
+            color: var(--gray-600);
         }
-        
-        .refresh-btn {
-            background: #28a745;
-            color: white;
-            border: none;
-            padding: 10px 30px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: all 0.3s;
+
+        .empty-state h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: var(--gray-900);
         }
-        
-        .refresh-btn:hover {
-            background: #218838;
-            transform: scale(1.05);
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-buttons {
+                gap: 8px;
+            }
+
+            .filter-btn {
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }
+        }
+
+        .error-message {
+            background: #fee2e2;
+            border: 2px solid #ef4444;
+            color: #991b1b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Header -->
         <div class="header">
-            <h1>🛒 ChurBro</h1>
-            <p>Compare prices across New World, PAK'nSAVE & Woolworths</p>
+            <h1>🥩 ChurBro</h1>
+            <p>Compare grocery prices across Dunedin supermarkets</p>
             <div class="update-info" id="updateInfo">Loading...</div>
         </div>
-        
-        <div class="controls">
-            <input type="text" id="searchBox" class="search-box" placeholder="🔍 Search for products...">
-            <div class="filters">
-                <button class="filter-btn active" data-filter="all">All Products</button>
-                <button class="filter-btn" data-filter="deals">🔥 Deals Only</button>
-                <button class="filter-btn" data-filter="New World">New World</button>
-                <button class="filter-btn" data-filter="PAK'nSAVE">PAK'nSAVE</button>
-                <button class="filter-btn" data-filter="Woolworths">Woolworths</button>
-                <button class="refresh-btn" onclick="loadData()">🔄 Refresh</button>
-            </div>
-        </div>
-        
-        <div class="stats" id="stats">
-            <div class="stat">
+
+        <!-- Stats Bar -->
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-card">
                 <div class="stat-value" id="totalProducts">-</div>
                 <div class="stat-label">Total Products</div>
             </div>
-            <div class="stat">
-                <div class="stat-value" id="dealsCount">-</div>
-                <div class="stat-label">Deals Available</div>
-            </div>
-            <div class="stat">
+            <div class="stat-card">
                 <div class="stat-value" id="avgPrice">-</div>
-                <div class="stat-label">Avg Price</div>
+                <div class="stat-label">Average Price</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="bestDeal">-</div>
+                <div class="stat-label">Best Deal</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="showingCount">-</div>
+                <div class="stat-label">Showing</div>
             </div>
         </div>
-        
-        <div class="products" id="productsContainer">
-            <div class="loading">Loading products...</div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <!-- Search -->
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search for products (e.g., 'chicken breast', 'pams bacon')..."
+                    autocomplete="off"
+                >
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <!-- Store Filter -->
+            <div class="filter-section">
+                <span class="filter-label">🏪 Stores</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-store="all">All Stores</button>
+                    <button class="filter-btn new-world" data-store="New World">New World</button>
+                    <button class="filter-btn paknsave" data-store="PAK'nSAVE">PAK'nSAVE</button>
+                    <button class="filter-btn woolworths" data-store="Woolworths">Woolworths</button>
+                </div>
+            </div>
+
+            <!-- Price Range Filter -->
+            <div class="filter-section">
+                <span class="filter-label">💰 Price Range</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-price="all">All Prices</button>
+                    <button class="filter-btn" data-price="0-10">Under $10</button>
+                    <button class="filter-btn" data-price="10-20">$10 - $20</button>
+                    <button class="filter-btn" data-price="20-30">$20 - $30</button>
+                    <button class="filter-btn" data-price="30+">$30+</button>
+                </div>
+            </div>
+
+            <!-- Deal Type Filter -->
+            <div class="filter-section">
+                <span class="filter-label">🏷️ Deals</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-deal="all">All Products</button>
+                    <button class="filter-btn" data-deal="any">Only Deals</button>
+                    <button class="filter-btn" data-deal="club">Club Deals</button>
+                    <button class="filter-btn" data-deal="extra">Extra Low</button>
+                    <button class="filter-btn" data-deal="discount">On Sale</button>
+                </div>
+            </div>
+
+            <!-- Sort -->
+            <div class="filter-section">
+                <span class="filter-label">📊 Sort By</span>
+                <select class="sort-select" id="sortSelect">
+                    <option value="name-asc">Name (A → Z)</option>
+                    <option value="name-desc">Name (Z → A)</option>
+                    <option value="price-asc">Price (Low → High)</option>
+                    <option value="price-desc">Price (High → Low)</option>
+                    <option value="discount-desc">Best Discount First</option>
+                    <option value="saving-desc">Biggest Savings First</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Products Section -->
+        <div class="products-section">
+            <div class="results-header" id="resultsHeader"></div>
+            <div id="productsContainer">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading fresh prices...</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
-        // ⚙️ UPDATED - Points to GitHub Pages now!
+        // Configuration
         const API_URL = 'https://zz153.github.io/churbro/api/latest.json';
-        let allProducts = [];
-        let currentFilter = 'all';
         
-        // Load data on page load
+        // State
+        let allProducts = [];
+        let filteredProducts = [];
+        let currentFilters = {
+            store: 'all',
+            price: 'all',
+            deal: 'all',
+            search: '',
+            sort: 'name-asc'
+        };
+
+        // Initialize
         window.onload = () => {
+            setupEventListeners();
             loadData();
         };
-        
+
+        // Setup Event Listeners
+        function setupEventListeners() {
+            // Search
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                currentFilters.search = e.target.value;
+                applyFilters();
+            });
+
+            // Store filters
+            document.querySelectorAll('[data-store]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    setActiveButton(btn, '[data-store]');
+                    currentFilters.store = btn.dataset.store;
+                    applyFilters();
+                });
+            });
+
+            // Price filters
+            document.querySelectorAll('[data-price]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    setActiveButton(btn, '[data-price]');
+                    currentFilters.price = btn.dataset.price;
+                    applyFilters();
+                });
+            });
+
+            // Deal filters
+            document.querySelectorAll('[data-deal]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    setActiveButton(btn, '[data-deal]');
+                    currentFilters.deal = btn.dataset.deal;
+                    applyFilters();
+                });
+            });
+
+            // Sort
+            document.getElementById('sortSelect').addEventListener('change', (e) => {
+                currentFilters.sort = e.target.value;
+                applyFilters();
+            });
+        }
+
+        function setActiveButton(btn, selector) {
+            document.querySelectorAll(selector).forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+
+        // Load Data
         async function loadData() {
             try {
                 const response = await fetch(API_URL);
+                if (!response.ok) throw new Error('Failed to fetch data');
+                
                 const data = await response.json();
                 allProducts = data.products || [];
                 
-                // Update stats
-                document.getElementById('totalProducts').textContent = data.total_products || allProducts.length;
-                document.getElementById('dealsCount').textContent = 
-                    allProducts.filter(p => p.deal_type && p.deal_type !== '').length;
-                document.getElementById('avgPrice').textContent = 
-                    '$' + (allProducts.reduce((sum, p) => sum + p.price, 0) / allProducts.length).toFixed(2);
+                updateHeader(data);
+                applyFilters();
                 
-                // Show last updated time
-                const updated = new Date(data.updated_at);
-                document.getElementById('updateInfo').textContent = 
-                    `Last updated: ${updated.toLocaleString('en-NZ')}`;
-                
-                displayProducts(allProducts);
             } catch (error) {
+                showError('Could not load data. Please try again later.');
                 console.error('Error:', error);
-                document.getElementById('productsContainer').innerHTML = 
-                    '<div class="error">❌ Could not load data. Please try refreshing!</div>';
             }
         }
-        
-        function displayProducts(products) {
-            const container = document.getElementById('productsContainer');
+
+        function updateHeader(data) {
+            const updateTime = new Date(data.updated_at).toLocaleString();
+            document.getElementById('updateInfo').textContent = `Last updated: ${updateTime}`;
             
-            if (products.length === 0) {
-                container.innerHTML = '<div class="loading">No products found</div>';
-                return;
-            }
-            
-            container.innerHTML = products.map(product => {
-                const storeClass = product.store.toLowerCase().replace(/[^a-z]/g, '');
-                const hasDeal = product.deal_type && product.deal_type !== '';
-                const hasDiscount = product.saving > 0;
-                
-                return `
-                    <div class="product">
-                        <div class="product-info">
-                            <span class="store-badge store-${storeClass}">${product.store}</span>
-                            <div class="product-name">${product.name}</div>
-                            ${product.brand ? `<div class="product-brand">${product.brand}</div>` : ''}
-                            ${hasDeal ? `<span class="deal-badge">${product.deal_type}</span>` : ''}
-                            ${hasDiscount ? `<div class="saving">💰 Save $${product.saving.toFixed(2)} (${product.percent_off.toFixed(0)}% off)</div>` : ''}
-                        </div>
-                        <div class="product-price">
-                            <div class="price">$${product.price.toFixed(2)}</div>
-                            ${hasDiscount ? `<div class="original-price">$${product.original_price.toFixed(2)}</div>` : ''}
-                            ${product.price_per_kg ? `<div style="font-size: 12px; color: #666;">${product.price_per_kg}</div>` : ''}
-                        </div>
-                    </div>
-                `;
-            }).join('');
+            document.getElementById('totalProducts').textContent = data.total_products || 0;
         }
-        
-        // Search functionality
-        document.getElementById('searchBox').addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
-            const filtered = allProducts.filter(p => 
-                p.name.toLowerCase().includes(query) || 
-                (p.brand && p.brand.toLowerCase().includes(query))
-            );
-            displayProducts(applyFilter(filtered));
-        });
-        
-        // Filter buttons
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
+
+        // Filtering Logic
+        function applyFilters() {
+            filteredProducts = allProducts.filter(product => {
+                // Store filter
+                if (currentFilters.store !== 'all' && product.store !== currentFilters.store) {
+                    return false;
+                }
+
+                // Price filter
+                if (currentFilters.price !== 'all') {
+                    const price = product.price;
+                    const [min, max] = currentFilters.price.split('-').map(p => {
+                        if (p === 'all') return [0, Infinity];
+                        if (p.includes('+')) return parseFloat(p);
+                        return parseFloat(p);
+                    });
+                    
+                    if (currentFilters.price.includes('+')) {
+                        if (price < min) return false;
+                    } else {
+                        if (price < min || price >= max) return false;
+                    }
+                }
+
+                // Deal filter
+                if (currentFilters.deal !== 'all') {
+                    if (currentFilters.deal === 'any') {
+                        if (!product.deal_type || product.deal_type === null) return false;
+                    } else if (currentFilters.deal === 'club') {
+                        if (!product.deal_type || !product.deal_type.toLowerCase().includes('club')) return false;
+                    } else if (currentFilters.deal === 'extra') {
+                        if (!product.deal_type || !product.deal_type.toLowerCase().includes('extra')) return false;
+                    } else if (currentFilters.deal === 'discount') {
+                        if (product.percent_off <= 0) return false;
+                    }
+                }
+
+                // Search filter (fuzzy matching)
+                if (currentFilters.search) {
+                    const searchTerm = currentFilters.search.toLowerCase().trim();
+                    const searchable = [
+                        product.name || '',
+                        product.brand || '',
+                        product.store || ''
+                    ].join(' ').toLowerCase();
+                    
+                    // Split search into words for multi-word matching
+                    const searchWords = searchTerm.split(/\s+/);
+                    const matchesAll = searchWords.every(word => searchable.includes(word));
+                    
+                    if (!matchesAll) return false;
+                }
+
+                return true;
+            });
+
+            // Apply sorting
+            sortProducts();
+            
+            // Update display
+            updateStats();
+            renderProducts();
+        }
+
+        function sortProducts() {
+            const [field, direction] = currentFilters.sort.split('-');
+            
+            filteredProducts.sort((a, b) => {
+                let aVal, bVal;
                 
-                currentFilter = e.target.dataset.filter;
-                const searchQuery = document.getElementById('searchBox').value.toLowerCase();
-                
-                let filtered = allProducts;
-                if (searchQuery) {
-                    filtered = filtered.filter(p => 
-                        p.name.toLowerCase().includes(searchQuery) ||
-                        (p.brand && p.brand.toLowerCase().includes(searchQuery))
-                    );
+                switch(field) {
+                    case 'name':
+                        aVal = (a.name || '').toLowerCase();
+                        bVal = (b.name || '').toLowerCase();
+                        break;
+                    case 'price':
+                        aVal = a.price || 0;
+                        bVal = b.price || 0;
+                        break;
+                    case 'discount':
+                        aVal = a.percent_off || 0;
+                        bVal = b.percent_off || 0;
+                        break;
+                    case 'saving':
+                        aVal = a.saving || 0;
+                        bVal = b.saving || 0;
+                        break;
+                    default:
+                        return 0;
                 }
                 
-                displayProducts(applyFilter(filtered));
+                if (direction === 'asc') {
+                    return aVal > bVal ? 1 : aVal < bVal ? -1 : 0;
+                } else {
+                    return aVal < bVal ? 1 : aVal > bVal ? -1 : 0;
+                }
             });
-        });
-        
-        function applyFilter(products) {
-            if (currentFilter === 'all') return products;
-            if (currentFilter === 'deals') {
-                return products.filter(p => p.deal_type && p.deal_type !== '');
+        }
+
+        function updateStats() {
+            // Average price
+            const avgPrice = filteredProducts.length > 0
+                ? filteredProducts.reduce((sum, p) => sum + p.price, 0) / filteredProducts.length
+                : 0;
+            document.getElementById('avgPrice').textContent = `$${avgPrice.toFixed(2)}`;
+
+            // Best deal
+            const bestDeal = filteredProducts.reduce((max, p) => 
+                p.percent_off > (max?.percent_off || 0) ? p : max
+            , null);
+            document.getElementById('bestDeal').textContent = bestDeal 
+                ? `${bestDeal.percent_off.toFixed(0)}% off`
+                : 'N/A';
+
+            // Showing count
+            document.getElementById('showingCount').textContent = filteredProducts.length;
+
+            // Results header
+            document.getElementById('resultsHeader').textContent = 
+                `Showing ${filteredProducts.length} of ${allProducts.length} products`;
+        }
+
+        // Cross-store comparison
+        function findSimilarProducts(product) {
+            // Normalize product name for comparison
+            const normalize = (str) => {
+                return str
+                    .toLowerCase()
+                    .replace(/\n/g, ' ')
+                    .replace(/\s+/g, ' ')
+                    .replace(/woolworths nz|new world|pams|macro/gi, '')
+                    .replace(/prepacked|tray|pack|pk/gi, '')
+                    .replace(/\d+g|\d+kg|\d+ml|\d+l/gi, '')
+                    .trim();
+            };
+
+            const thisName = normalize(product.name);
+            const similar = [];
+
+            allProducts.forEach(p => {
+                if (p.store === product.store) return; // Skip same store
+                
+                const pName = normalize(p.name);
+                
+                // Calculate similarity (simple word overlap)
+                const thisWords = new Set(thisName.split(/\s+/).filter(w => w.length > 2));
+                const pWords = new Set(pName.split(/\s+/).filter(w => w.length > 2));
+                const intersection = new Set([...thisWords].filter(w => pWords.has(w)));
+                const similarity = intersection.size / Math.min(thisWords.size, pWords.size);
+                
+                if (similarity > 0.5) { // 50% word overlap
+                    similar.push(p);
+                }
+            });
+
+            return similar;
+        }
+
+        // Render Products
+        function renderProducts() {
+            const container = document.getElementById('productsContainer');
+            
+            if (filteredProducts.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No products found</h3>
+                        <p>Try adjusting your filters or search terms</p>
+                    </div>
+                `;
+                return;
             }
-            return products.filter(p => p.store === currentFilter);
+
+            container.innerHTML = '<div class="products-grid">' + 
+                filteredProducts.map(product => createProductCard(product)).join('') +
+                '</div>';
+        }
+
+        function createProductCard(product) {
+            const storeClass = product.store.toLowerCase().replace(/'/g, '').replace(/\s+/g, '-');
+            const hasDiscount = product.percent_off > 0;
+            
+            // Deal badges
+            let dealBadges = '';
+            if (product.deal_type) {
+                const dealType = product.deal_type.toLowerCase();
+                if (dealType.includes('club')) {
+                    dealBadges += '<span class="deal-badge club">Club Deal</span>';
+                }
+                if (dealType.includes('extra')) {
+                    dealBadges += '<span class="deal-badge extra">Extra Low</span>';
+                }
+                if (dealType.includes('everyday')) {
+                    dealBadges += '<span class="deal-badge everyday">Everyday Low</span>';
+                }
+                if (dealType.includes('special')) {
+                    dealBadges += '<span class="deal-badge special">On Special</span>';
+                }
+            }
+
+            // Price display
+            let priceHTML = `<span class="current-price">$${product.price.toFixed(2)}</span>`;
+            if (hasDiscount && product.original_price !== product.price) {
+                priceHTML += `<span class="original-price">$${product.original_price.toFixed(2)}</span>`;
+                priceHTML += `<span class="savings-badge">${product.percent_off.toFixed(0)}% OFF</span>`;
+            }
+
+            // Price per kg
+            let pricePerKg = '';
+            if (product.price_per_kg && product.unit_type === 'kg') {
+                pricePerKg = `<div class="price-per-kg">$${product.price_per_kg.toFixed(2)}/kg</div>`;
+            } else if (product.price_per_kg && product.price_per_kg !== product.price) {
+                pricePerKg = `<div class="price-per-kg">$${product.price_per_kg.toFixed(2)}/kg</div>`;
+            }
+
+            // Cross-store comparison
+            const similarProducts = findSimilarProducts(product);
+            let comparisonHTML = '';
+            
+            if (similarProducts.length > 0) {
+                const allPrices = [product, ...similarProducts];
+                const cheapest = allPrices.reduce((min, p) => p.price < min.price ? p : min);
+                
+                comparisonHTML = '<div class="comparison-box">';
+                comparisonHTML += '<div class="comparison-title">🔍 Also available at:</div>';
+                
+                similarProducts.forEach(sim => {
+                    const isCheapest = sim.store === cheapest.store && sim.price === cheapest.price;
+                    const savingsVsCurrent = product.price - sim.price;
+                    const itemClass = isCheapest ? 'comparison-item best-price' : 'comparison-item';
+                    
+                    comparisonHTML += `<div class="${itemClass}">`;
+                    comparisonHTML += `<span class="comparison-store">${sim.store}</span>`;
+                    comparisonHTML += `<span class="comparison-price">$${sim.price.toFixed(2)}`;
+                    
+                    if (savingsVsCurrent > 0.1) {
+                        comparisonHTML += ` <span class="comparison-savings">(SAVE $${savingsVsCurrent.toFixed(2)}!)</span>`;
+                    } else if (savingsVsCurrent < -0.1) {
+                        comparisonHTML += ` <span style="color: var(--danger);">(+$${Math.abs(savingsVsCurrent).toFixed(2)})</span>`;
+                    }
+                    
+                    comparisonHTML += '</span></div>';
+                });
+                
+                comparisonHTML += '</div>';
+            }
+
+            return `
+                <div class="product-card">
+                    <span class="store-badge ${storeClass}">${product.store}</span>
+                    <div class="product-name">${cleanProductName(product.name)}</div>
+                    ${product.brand ? `<div class="product-brand">${product.brand}</div>` : ''}
+                    <div class="price-section">${priceHTML}</div>
+                    ${pricePerKg}
+                    ${dealBadges ? `<div class="deal-badges">${dealBadges}</div>` : ''}
+                    ${comparisonHTML}
+                </div>
+            `;
+        }
+
+        function cleanProductName(name) {
+            return name.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+        }
+
+        function showError(message) {
+            document.getElementById('productsContainer').innerHTML = `
+                <div class="error-message">
+                    <h3>❌ Error</h3>
+                    <p>${message}</p>
+                </div>
+            `;
         }
     </script>
 </body>
