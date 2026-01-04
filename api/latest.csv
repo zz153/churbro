@@ -1,2247 +1,2475 @@
 store,name,brand,price,original_price,price_per_kg,unit_type,saving,percent_off,deal_type,scraped_at
 New World,"Prime Beef Mince
 
-kg",,22.89,22.89,,ea,0.0,0.0,,2026-01-04T22:49:10.755520
+kg",,22.89,22.89,,ea,0.0,0.0,,2026-01-04T23:08:19.747118
 New World,"NZ Premium Beef Mince
 
-kg",,27.89,27.89,,ea,0.0,0.0,,2026-01-04T22:49:10.799329
+kg",,27.89,27.89,,ea,0.0,0.0,,2026-01-04T23:08:19.793453
 New World,"Beef Rump Steak
 
-kg",,34.89,34.89,,ea,0.0,0.0,,2026-01-04T22:49:10.844828
+kg",,34.89,34.89,,ea,0.0,0.0,,2026-01-04T23:08:19.836707
 New World,"Lamb Leg Roast
 
-kg",,25.49,25.49,,ea,0.0,0.0,,2026-01-04T22:49:10.887789
+kg",,25.49,25.49,,ea,0.0,0.0,,2026-01-04T23:08:19.879430
 New World,"Lamb Shoulder Chops
 
-kg",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T22:49:10.931121
+kg",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T23:08:19.922321
 New World,"Beef Scotch Fillet Steak
 
-kg",,47.99,47.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:10.971257
+kg",,47.99,47.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:19.961122
 New World,"NZ Beef Porterhouse Steak
 
-kg",,41.89,41.89,,ea,0.0,0.0,,2026-01-04T22:49:11.017973
+kg",,41.89,41.89,,ea,0.0,0.0,,2026-01-04T23:08:20.009264
 New World,"NZ Pork Loin Chops
 
-kg",,15.99,15.99,,ea,0.0,0.0,,2026-01-04T22:49:11.060845
+kg",,15.99,15.99,,ea,0.0,0.0,,2026-01-04T23:08:20.051901
 New World,"Lamb Loin Chops
 
-kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T22:49:11.103061
+kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T23:08:20.093645
 New World,"Vacuum Packed Whole Lamb Leg
 
-kg",,25.49,25.49,,ea,0.0,0.0,,2026-01-04T22:49:11.144659
+kg",,25.49,25.49,,ea,0.0,0.0,,2026-01-04T23:08:20.135690
 New World,"Pams Streaky Bacon
 
-250g",,7.29,7.29,,ea,0.0,0.0,,2026-01-04T22:49:11.186751
+250g",,7.29,7.29,,ea,0.0,0.0,,2026-01-04T23:08:20.177368
 New World,"NZ Pork Mince
 
-kg",,18.89,18.89,,ea,0.0,0.0,,2026-01-04T22:49:11.232307
+kg",,18.89,18.89,,ea,0.0,0.0,,2026-01-04T23:08:20.219508
 New World,"Pork Leg
 
-kg",,12.59,12.59,,ea,0.0,0.0,,2026-01-04T22:49:11.273479
+kg",,12.59,12.59,,ea,0.0,0.0,,2026-01-04T23:08:20.260896
 New World,"NZ Pork Shoulder Roast
 
-kg",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:49:11.314412
+kg",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:08:20.301809
 New World,"Beehive Streaky Bacon
 
-800g",,22.39,22.39,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:11.353510
+800g",,22.39,22.39,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:20.342927
 New World,"Hellers Manuka Smoked Streaky Bacon
 
-250g",,8.25,8.25,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:11.534014
+250g",,8.25,8.25,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:20.524506
 New World,"Pams Sliced Champagne Leg Ham
 
-225g",,5.59,5.59,,ea,0.0,0.0,,2026-01-04T22:49:11.579764
+225g",,5.59,5.59,,ea,0.0,0.0,,2026-01-04T23:08:20.570091
 New World,"Farmland Wickford Ham
 
-kg",,24.9,24.9,,ea,0.0,0.0,,2026-01-04T22:49:11.625401
+kg",,24.9,24.9,,ea,0.0,0.0,,2026-01-04T23:08:20.616257
 New World,"Beehive Streaky Bacon
 
-250g",,9.19,9.19,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:11.663803
+250g",,9.19,9.19,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:20.654683
 New World,"Hellers Shaved Manuka Smoked Ham
 
-200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T22:49:11.758880
+200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T23:08:20.733700
 New World,"Hellers Sausage Meat
 
-450g",,7.29,7.29,,ea,0.0,0.0,,2026-01-04T22:49:11.810492
+450g",,7.29,7.29,,ea,0.0,0.0,,2026-01-04T23:08:20.785555
 New World,"Beehive Shaved Champagne Ham
 
-200g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T22:49:11.846564
+200g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:08:20.821599
 New World,"NZ Beef Schnitzel
 
-kg",,24.99,24.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:11.888557
+kg",,24.99,24.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:20.862697
 New World,"Lamb Steak
 
-kg",,36.99,36.99,,ea,0.0,0.0,,2026-01-04T22:49:11.934221
+kg",,36.99,36.99,,ea,0.0,0.0,,2026-01-04T23:08:20.908982
 New World,"Crumbed Beef Schnitzel
 
-kg",,24.99,24.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:12.015267
+kg",,24.99,24.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:20.992518
 New World,"Farmland Streaky Bacon
 
-500g",,17.39,17.39,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:12.053492
+500g",,17.39,17.39,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:21.032710
 New World,"Pams Fresh Whole Chicken Medium
 
-1.5kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T22:49:12.098101
+1.5kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T23:08:21.077945
 New World,"Hellers London Pride Sausages
 
-6pk",,7.99,7.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:12.142900
+6pk",,7.99,7.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:21.118986
 New World,"Hellers Craft Angus Beef Sausages
 
-6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:49:12.216664
+6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:08:21.193274
 New World,"Pams Streaky Bacon
 
-500g",,12.45,12.45,,ea,0.0,0.0,,2026-01-04T22:49:12.257630
+500g",,12.45,12.45,,ea,0.0,0.0,,2026-01-04T23:08:21.234183
 New World,"Diced Chicken
 
-kg",,18.99,18.99,,ea,0.0,0.0,,2026-01-04T22:49:12.299951
+kg",,18.99,18.99,,ea,0.0,0.0,,2026-01-04T23:08:21.275339
 New World,"Hellers Shaved Champagne Ham
 
-200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T22:49:12.344649
+200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T23:08:21.320061
 New World,"Hellers Genuine Pork Sausages
 
-6pk",,7.99,7.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:12.384889
+6pk",,7.99,7.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:21.360526
 New World,"Sizzlers Double Cheese
 
-450g",,7.15,7.15,,ea,0.0,0.0,,2026-01-04T22:49:12.462551
+450g",,7.15,7.15,,ea,0.0,0.0,,2026-01-04T23:08:21.442950
 New World,"Hellers Trusty BBQ Pre-Cooked Sausages
 
-1kg",,13.15,13.15,,ea,0.0,0.0,,2026-01-04T22:49:12.498902
+1kg",,13.15,13.15,,ea,0.0,0.0,,2026-01-04T23:08:21.481005
 New World,"Beef Fillet Steak
 
-kg",,63.99,63.99,,ea,0.0,0.0,,2026-01-04T22:49:12.535457
+kg",,63.99,63.99,,ea,0.0,0.0,,2026-01-04T23:08:21.526720
 New World,"NZ Pork Shoulder Chops
 
-kg",,15.79,15.79,,ea,0.0,0.0,,2026-01-04T22:49:12.609334
+kg",,15.79,15.79,,ea,0.0,0.0,,2026-01-04T23:08:21.600693
 New World,"Hellers Manuka Smoked Streaky Bacon
 
-400g",,12.89,12.89,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:12.687253
+400g",,12.89,12.89,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:21.678693
 New World,"Pams Middle Bacon
 
-350g",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T22:49:29.078864
+350g",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T23:08:37.852474
 New World,"Pork Sirloin Steak
 
-kg",,23.99,23.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:29.123895
+kg",,23.99,23.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:37.894874
 New World,"Boneless Chicken Thigh Fillets
 
-kg",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T22:49:29.169758
+kg",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T23:08:37.940267
 New World,"Pams Shoulder Bacon
 
-400g",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T22:49:29.211002
+400g",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T23:08:37.981441
 New World,"Brink's Chicken Tenderloins
 
-kg",,23.49,23.49,,ea,0.0,0.0,,2026-01-04T22:49:29.256240
+kg",,23.49,23.49,,ea,0.0,0.0,,2026-01-04T23:08:38.027226
 New World,"Hellers Chunky Cheese Sausages
 
-1kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T22:49:29.296892
+1kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T23:08:38.068896
 New World,"Hellers Chinese Honey Sausages
 
-1kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T22:49:29.333124
+1kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T23:08:38.105236
 New World,"Hellers Craft Angus Beef Burgers
 
-4pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:49:29.375076
+4pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:08:38.141687
 New World,"Hellers New Yorker Porker Sausages
 
-6pk",,7.99,7.99,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:29.415752
+6pk",,7.99,7.99,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:38.182983
 New World,"Aoraki Smokehouse Original Artisan Cold Smoked Salmon Slices
 
-100g",,14.19,14.19,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:29.453949
+100g",,14.19,14.19,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:38.221196
 New World,"Hellers Manuka Smoked Shoulder Bacon
 
-200g",,5.39,5.39,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:29.491781
+200g",,5.39,5.39,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:38.259387
 New World,"Hellers Craft Old Fashioned Beef Sausages
 
-6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:49:29.536195
+6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:08:38.306194
 New World,"Bird & Barrow Skinless Chicken Breast
 
-kg",,26.99,26.99,,ea,0.0,0.0,,2026-01-04T22:49:29.608171
+kg",,26.99,26.99,,ea,0.0,0.0,,2026-01-04T23:08:38.378823
 New World,"Hellers Ol' Smokey Streaky Bacon
 
-800g",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T22:49:29.649554
+800g",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T23:08:38.418910
 New World,"Farmland Champagne Ham Sliced
 
-kg",,25.9,25.9,,ea,0.0,0.0,Super Saver,2026-01-04T22:49:29.686643
+kg",,25.9,25.9,,ea,0.0,0.0,Super Saver,2026-01-04T23:08:38.456444
 New World,"Harris Farms Prime Beef Mince
 
-500g",,11.75,11.75,,ea,0.0,0.0,,2026-01-04T22:49:29.731171
+500g",,11.75,11.75,,ea,0.0,0.0,,2026-01-04T23:08:38.501148
 New World,"NZ Stir Fry Beef
 
-kg",,30.99,30.99,,ea,0.0,0.0,,2026-01-04T22:49:29.771258
+kg",,30.99,30.99,,ea,0.0,0.0,,2026-01-04T23:08:38.541043
 New World,"Ingham's Garlic & Herb Butterfly Chicken
 
-1.1kg",,13.39,13.39,,ea,0.0,0.0,,2026-01-04T22:49:29.883183
+1.1kg",,13.39,13.39,,ea,0.0,0.0,,2026-01-04T23:08:38.655029
 New World,"Pams Streaky Bacon
 
-1kg",,25.75,25.75,,ea,0.0,0.0,,2026-01-04T22:49:29.920647
+1kg",,25.75,25.75,,ea,0.0,0.0,,2026-01-04T23:08:38.690659
 New World,"Hellers Honey Cured Streaky Bacon
 
-250g",,8.25,8.25,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:29.958422
+250g",,8.25,8.25,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:38.728691
 New World,"Pams Classic Beef Sausages
 
-6 x 75g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T22:49:30.003219
+6 x 75g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T23:08:38.773282
 New World,"Waitoa Manuka Honey & Rosemary Chicken
 
-1.1kg",,13.86,15.25,,ea,1.39,9.1,Club Deal,2026-01-04T22:49:30.036490
+1.1kg",,13.86,15.25,,ea,1.39,9.1,Club Deal,2026-01-04T23:08:38.806858
 New World,"NZ Diced Beef
 
-kg",,30.99,30.99,,ea,0.0,0.0,,2026-01-04T22:49:30.081448
+kg",,30.99,30.99,,ea,0.0,0.0,,2026-01-04T23:08:38.853311
 New World,"NZ Pork Slices
 
-kg",,25.49,25.49,,ea,0.0,0.0,,2026-01-04T22:49:30.123379
+kg",,25.49,25.49,,ea,0.0,0.0,,2026-01-04T23:08:38.893239
 New World,"Hellers Manuka Smoked Rasher Bacon
 
-800g",,18.35,18.35,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:30.162402
+800g",,18.35,18.35,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:38.931166
 New World,"Hellers Manuka Smoked Streaky Bacon
 
-800g",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T22:49:30.246001
+800g",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T23:08:39.014857
 New World,"Hellers Craft Shredded Roast Chicken
 
-300g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T22:49:30.286270
+300g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T23:08:39.054533
 New World,"Pams Sage & Onion Stuffed Chicken
 
-1.5kg",,15.59,15.59,,ea,0.0,0.0,,2026-01-04T22:49:30.321689
+1.5kg",,15.59,15.59,,ea,0.0,0.0,,2026-01-04T23:08:39.091714
 New World,"Hellers Manuka Smoked Middle Eye Bacon
 
-250g",,9.79,9.79,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:30.355673
+250g",,9.79,9.79,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:39.125645
 New World,"Pieter's Dutch Salami
 
-250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T22:49:30.399883
+250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T23:08:39.170121
 New World,"Beef Bones
 
-kg",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T22:49:30.437183
+kg",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T23:08:39.205563
 New World,"Hellers Crafty Cooks Bacon Strips
 
-200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T22:49:30.472987
+200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T23:08:39.241351
 New World,"Pams Classic Pork Sausages
 
-6 x 75g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T22:49:30.513205
+6 x 75g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T23:08:39.281099
 New World,"Hellers Classic Family Cheerios
 
-1kg",,12.49,12.49,,ea,0.0,0.0,,2026-01-04T22:49:30.548777
+1kg",,12.49,12.49,,ea,0.0,0.0,,2026-01-04T23:08:39.320557
 New World,"Verkerks Frankfurters
 
-300g",,7.85,7.85,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:30.586502
+300g",,7.85,7.85,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:39.359744
 New World,"Beehive Shoulder Bacon
 
-200g",,6.15,6.15,,ea,0.0,0.0,,2026-01-04T22:49:30.626786
+200g",,6.15,6.15,,ea,0.0,0.0,,2026-01-04T23:08:39.399501
 New World,"Tegel Free Range Meal Maker Shredded Roast Chicken
 
-260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:30.737092
+260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:39.508187
 New World,"Pieter's Danish Salami
 
-250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T22:49:30.781630
+250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T23:08:39.547870
 New World,"Harris Farms Beef 'n Caramelised Onion Burgers
 
-2 x 125g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:30.824238
+2 x 125g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:39.581033
 New World,"Freedom Farms Streaky Bacon
 
-250g",,16.69,16.69,,ea,0.0,0.0,,2026-01-04T22:49:30.864360
+250g",,16.69,16.69,,ea,0.0,0.0,,2026-01-04T23:08:39.622549
 New World,"Pieter's Pepperoni Salami
 
-250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T22:49:30.904043
+250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T23:08:39.662418
 New World,"Verkerks Cheese Kransky
 
-280g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:30.936752
+280g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:39.695496
 New World,"Beehive Shaved Honey Baked Ham
 
-2 x 100g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T22:49:30.978311
+2 x 100g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:08:39.734975
 New World,"Harris Farms North Canterbury Beef Burgers
 
-2 x 125g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:31.015813
+2 x 125g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:39.772449
 New World,"Pork Bones
 
-kg",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T22:49:49.881910
+kg",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:08:56.523494
 New World,"Hellers Manuka Smoked Rasher Bacon
 
-200g",,6.09,6.09,,ea,0.0,0.0,,2026-01-04T22:49:49.923085
+200g",,6.09,6.09,,ea,0.0,0.0,,2026-01-04T23:08:56.565138
 New World,"Hellers Craft Angus Beef Meatballs
 
-400g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:49:49.964241
+400g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:08:56.608261
 New World,"Hellers Craft Sliced Roast Chicken
 
-300g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T22:49:50.014042
+300g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T23:08:56.658382
 New World,"Verkerks Mini Danish Salami
 
-300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.047621
+300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:56.691752
 New World,"Hellers Gluten Free Original Sausages
 
-1kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T22:49:50.088161
+1kg",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T23:08:56.732228
 New World,"Hellers Manuka Smoked Bacon Pieces
 
-500g",,7.49,7.49,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.157790
+500g",,7.49,7.49,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:56.801040
 New World,"Tegel Free Range Meal Maker Sliced Roast Chicken
 
-260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.200896
+260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:56.848448
 New World,"NZ Beef Bolar Roast
 
-kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T22:49:50.240997
+kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T23:08:56.889963
 New World,"Hellers Shaved Honey Baked Ham
 
-200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T22:49:50.280852
+200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T23:08:56.930313
 New World,"Pieter's Italian Salami
 
-250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T22:49:50.320919
+250g",,7.55,7.55,,ea,0.0,0.0,,2026-01-04T23:08:56.970025
 New World,"Lamb Butterfly Leg Roasts
 
-kg",,41.49,41.49,,ea,0.0,0.0,,2026-01-04T22:49:50.430197
+kg",,41.49,41.49,,ea,0.0,0.0,,2026-01-04T23:08:57.076156
 New World,"Hellers Shaved Beef Pastrami
 
-100g",,6.55,6.55,,ea,0.0,0.0,,2026-01-04T22:49:50.470176
+100g",,6.55,6.55,,ea,0.0,0.0,,2026-01-04T23:08:57.116354
 New World,"Hellers Craft Honey Lamb & Rosemary Sausages
 
-6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:49:50.505413
+6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:08:57.152490
 New World,"Hellers Craft Lamb & Thyme Sausages
 
-6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:49:50.555719
+6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:08:57.206194
 New World,"Waitoa Whole Chicken with Garden Herbs Stuffing
 
-1.5kg",,18.75,18.75,,ea,0.0,0.0,,2026-01-04T22:49:50.596360
+1.5kg",,18.75,18.75,,ea,0.0,0.0,,2026-01-04T23:08:57.246577
 New World,"NZ Beef Blade Steak
 
-kg",,31.99,31.99,,ea,0.0,0.0,,2026-01-04T22:49:50.635915
+kg",,31.99,31.99,,ea,0.0,0.0,,2026-01-04T23:08:57.286668
 New World,"Harris Farms Steak 'n Cheese Burgers
 
-2 x 125g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.675222
+2 x 125g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.324579
 New World,"Verkerks Italian Salami
 
-300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.747958
+300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.397304
 New World,"Hellers Shaved Roast Chicken
 
-200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T22:49:50.787726
+200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T23:08:57.439047
 New World,"Hellers Craft Sliced Ham Off The Bone
 
-250g",,12.19,12.19,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.821106
+250g",,12.19,12.19,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.472395
 New World,"Pams Precooked Sausages
 
-1kg",,10.59,10.59,,ea,0.0,0.0,,2026-01-04T22:49:50.865226
+1kg",,10.59,10.59,,ea,0.0,0.0,,2026-01-04T23:08:57.516797
 New World,"Pams Finest Authentic Italian Prosciutto Crudo
 
-70g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T22:49:50.900515
+70g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T23:08:57.552601
 New World,"Verkerks Mini Peperoni Salami
 
-300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:50.939960
+300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.590463
 New World,"Harris Farms Corned Silverside Beef
 
-kg",,20.29,20.29,,ea,0.0,0.0,,2026-01-04T22:49:50.979722
+kg",,20.29,20.29,,ea,0.0,0.0,,2026-01-04T23:08:57.630420
 New World,"Primo Smallgoods Chorizo
 
-200g",,6.65,6.65,,ea,0.0,0.0,,2026-01-04T22:49:51.019513
+200g",,6.65,6.65,,ea,0.0,0.0,,2026-01-04T23:08:57.671319
 New World,"NZ Diced Pork
 
-kg",,22.99,22.99,,ea,0.0,0.0,,2026-01-04T22:49:51.054993
+kg",,22.99,22.99,,ea,0.0,0.0,,2026-01-04T23:08:57.707408
 New World,"Pams Finest European Duo Prosciutto & Milano Salami
 
-80g",,12.45,12.45,,ea,0.0,0.0,,2026-01-04T22:49:51.134528
+80g",,12.45,12.45,,ea,0.0,0.0,,2026-01-04T23:08:57.786607
 New World,"Hellers Honey Baked Ham Off The Bone
 
-250g",,12.19,12.19,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.172099
+250g",,12.19,12.19,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.824314
 New World,"Skinless Chicken Breast Fillets
 
-kg",,15.79,15.79,,ea,0.0,0.0,,2026-01-04T22:49:51.218683
+kg",,15.79,15.79,,ea,0.0,0.0,,2026-01-04T23:08:57.869765
 New World,"Regal Cold Smoked Salmon
 
-100g",,14.95,14.95,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.256554
+100g",,14.95,14.95,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.908042
 New World,"Verkerks Chorizo
 
-300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.294141
+300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.947064
 New World,"Verkerks Dutch Salami
 
-300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.332018
+300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:57.985107
 New World,"Harris Farms English Shorts Pork Sausages
 
-350g",,9.75,9.75,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.369606
+350g",,9.75,9.75,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:58.023032
 New World,"Pams Value Precooked Middle Bacon
 
-700g",,15.09,15.09,,ea,0.0,0.0,,2026-01-04T22:49:51.409761
+700g",,15.09,15.09,,ea,0.0,0.0,,2026-01-04T23:08:58.062691
 New World,"Medallion Middle Bacon
 
-800g",,18.35,18.35,,ea,0.0,0.0,,2026-01-04T22:49:51.450452
+800g",,18.35,18.35,,ea,0.0,0.0,,2026-01-04T23:08:58.102393
 New World,"Tegel Free Range Chicken Mexican Wraps
 
-4pk",,12.49,12.49,,ea,0.0,0.0,,2026-01-04T22:49:51.490199
+4pk",,12.49,12.49,,ea,0.0,0.0,,2026-01-04T23:08:58.141834
 New World,"Hellers Manuka Smoked Middle Eye Bacon
 
-500g",,15.59,15.59,,ea,0.0,0.0,,2026-01-04T22:49:51.561101
+500g",,15.59,15.59,,ea,0.0,0.0,,2026-01-04T23:08:58.214389
 New World,"Tegel Fresh Free Range Smoked Chicken Breast
 
-300g",,13.59,13.59,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.598344
+300g",,13.59,13.59,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:58.251982
 New World,"Harris Farms Italian Shorts Beef Sausages
 
-350g",,9.75,9.75,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.635718
+350g",,9.75,9.75,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:58.289465
 New World,"Tegel Free Range Meal Maker Smoked Chicken
 
-260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T22:49:51.672763
+260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T23:08:58.326505
 New World,"Fresh Red Gurnard Fillets
 
-kg",,44.99,44.99,,ea,0.0,0.0,,2026-01-04T22:49:51.714083
+kg",,44.99,44.99,,ea,0.0,0.0,,2026-01-04T23:08:58.366015
 New World,"Hellers Manuka Smoked Ham
 
-900g",,16.66,18.75,,ea,2.09,11.1,Club Deal,2026-01-04T22:49:51.786332
+900g",,16.66,18.75,,ea,2.09,11.1,Club Deal,2026-01-04T23:08:58.437315
 New World,"NZ Fresh Bone-In Pork Belly
 
-kg",,26.49,26.49,,ea,0.0,0.0,,2026-01-04T22:50:08.485313
+kg",,26.49,26.49,,ea,0.0,0.0,,2026-01-04T23:09:16.048669
 New World,"Harris Farms Old English Beef Sausages MAP
 
-480g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T22:50:08.526103
+480g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:09:16.094870
 New World,"Shredded Chicken
 
-kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T22:50:08.566856
+kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T23:09:16.134873
 New World,"Lamb Drumsticks
 
-kg",,28.99,28.99,,ea,0.0,0.0,,2026-01-04T22:50:08.604308
+kg",,28.99,28.99,,ea,0.0,0.0,,2026-01-04T23:09:16.170094
 New World,"Hellers Free Range Danish Eye Bacon
 
-250g",,12.99,12.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:08.642010
+250g",,12.99,12.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:16.207368
 New World,"Tegel Free Range Manuka Smoked Chicken Rashers
 
-200g",,7.59,7.59,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:08.683802
+200g",,7.59,7.59,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:16.249259
 New World,"Freedom Farms Rindless Middle Bacon
 
-200g",,13.09,13.09,,ea,0.0,0.0,,2026-01-04T22:50:08.794050
+200g",,13.09,13.09,,ea,0.0,0.0,,2026-01-04T23:09:16.359125
 New World,"Primo Smallgoods Spanish Chorizo
 
-200g",,6.65,6.65,,ea,0.0,0.0,,2026-01-04T22:50:08.838879
+200g",,6.65,6.65,,ea,0.0,0.0,,2026-01-04T23:09:16.400905
 New World,"Lisa's Mediterranean Falafel Mix
 
-400g",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T22:50:08.874167
+400g",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T23:09:16.435920
 New World,"Beehive Mini Cheese Kransky Sausages
 
-800g",,15.69,15.69,,ea,0.0,0.0,,2026-01-04T22:50:08.909662
+800g",,15.69,15.69,,ea,0.0,0.0,,2026-01-04T23:09:16.471090
 New World,"NZ Pork Scotch Fillet
 
-kg",,30.99,30.99,,ea,0.0,0.0,,2026-01-04T22:50:08.945669
+kg",,30.99,30.99,,ea,0.0,0.0,,2026-01-04T23:09:16.506938
 New World,"Hellers Shaved Hot Pork
 
-200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T22:50:08.985295
+200g",,7.19,7.19,,ea,0.0,0.0,,2026-01-04T23:09:16.546258
 New World,"Tarakihi Fillets NZ
 
-kg",,44.99,44.99,,ea,0.0,0.0,,2026-01-04T22:50:09.024925
+kg",,44.99,44.99,,ea,0.0,0.0,,2026-01-04T23:09:16.585835
 New World,"Farmland Ham & Chicken Luncheon
 
-kg",,19.9,19.9,,ea,0.0,0.0,,2026-01-04T22:50:09.064630
+kg",,19.9,19.9,,ea,0.0,0.0,,2026-01-04T23:09:16.626403
 New World,"NZ Beef Chuck Steak
 
-kg",,34.59,34.59,,ea,0.0,0.0,,2026-01-04T22:50:09.099880
+kg",,34.59,34.59,,ea,0.0,0.0,,2026-01-04T23:09:16.661676
 New World,"Farmland Leg Ham Banquet Boneless
 
-890g",,16.49,16.49,,ea,0.0,0.0,,2026-01-04T22:50:09.140792
+890g",,16.49,16.49,,ea,0.0,0.0,,2026-01-04T23:09:16.700879
 New World,"Tegel Free Range Meal Maker Shredded Roast Chicken
 
-100g",,6.19,6.19,,ea,0.0,0.0,,2026-01-04T22:50:09.181024
+100g",,6.19,6.19,,ea,0.0,0.0,,2026-01-04T23:09:16.740310
 New World,"Hellers Mild Chorizo
 
-150g",,6.79,6.79,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:09.214340
+150g",,6.79,6.79,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:16.773404
 New World,"Harris Farms Country Pork Sausages MAP
 
-480g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T22:50:09.254315
+480g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:09:16.813138
 New World,"Unsliced Beef Fillet Steak
 
-kg",,63.99,63.99,,ea,0.0,0.0,,2026-01-04T22:50:09.299248
+kg",,63.99,63.99,,ea,0.0,0.0,,2026-01-04T23:09:16.852584
 New World,"Hellers Classic Saveloys
 
-1kg",,12.49,12.49,,ea,0.0,0.0,,2026-01-04T22:50:09.349062
+1kg",,12.49,12.49,,ea,0.0,0.0,,2026-01-04T23:09:16.893756
 New World,"Hutton's Lite Ham & Chicken Flavoured Luncheon
 
-500g",,8.15,8.15,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:09.388231
+500g",,8.15,8.15,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:16.931194
 New World,"Farmland Pastrami Thin Sliced Beef
 
-100g",,7.59,7.59,,ea,0.0,0.0,,2026-01-04T22:50:09.427951
+100g",,7.59,7.59,,ea,0.0,0.0,,2026-01-04T23:09:16.970429
 New World,"Beehive Frankfurters
 
-1kg",,15.69,15.69,,ea,0.0,0.0,,2026-01-04T22:50:09.467680
+1kg",,15.69,15.69,,ea,0.0,0.0,,2026-01-04T23:09:17.009706
 New World,"Pork Leg Steak
 
-kg",,26.99,26.99,,ea,0.0,0.0,,2026-01-04T22:50:09.502553
+kg",,26.99,26.99,,ea,0.0,0.0,,2026-01-04T23:09:17.044687
 New World,"Monkfish Fillets
 
-kg",,35.49,35.49,,ea,0.0,0.0,,2026-01-04T22:50:09.542139
+kg",,35.49,35.49,,ea,0.0,0.0,,2026-01-04T23:09:17.083782
 New World,"Hellers Smoked Chicken Breast
 
-300g",,16.05,16.05,,ea,0.0,0.0,,2026-01-04T22:50:09.581701
+300g",,16.05,16.05,,ea,0.0,0.0,,2026-01-04T23:09:17.123279
 New World,"Country Pride Ham & Chicken Flavoured Premium Luncheon
 
-200g",,5.69,5.69,,ea,0.0,0.0,,2026-01-04T22:50:09.617411
+200g",,5.69,5.69,,ea,0.0,0.0,,2026-01-04T23:09:17.162056
 New World,"NZ Tenderised Beef Steak
 
-kg",,33.89,33.89,,ea,0.0,0.0,,2026-01-04T22:50:09.658483
+kg",,33.89,33.89,,ea,0.0,0.0,,2026-01-04T23:09:17.201377
 New World,"Lamb Shanks (Knuckles)
 
-kg",,28.99,28.99,,ea,0.0,0.0,,2026-01-04T22:50:09.697809
+kg",,28.99,28.99,,ea,0.0,0.0,,2026-01-04T23:09:17.240515
 New World,"Bird & Barrow Chicken Tenderloins
 
-kg",,24.99,24.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:09.807804
+kg",,24.99,24.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:17.349503
 New World,"Verkerks Peppered Hungarian Salami
 
-200g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:09.849821
+200g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:17.390804
 New World,"Hutton's Streaky Bacon
 
-400g",,11.45,11.45,,ea,0.0,0.0,,2026-01-04T22:50:09.955686
+400g",,11.45,11.45,,ea,0.0,0.0,,2026-01-04T23:09:17.469591
 New World,"Campbell's Butchery Beef Flavoured Sausages
 
-kg",,13.49,13.49,,ea,0.0,0.0,,2026-01-04T22:50:09.998905
+kg",,13.49,13.49,,ea,0.0,0.0,,2026-01-04T23:09:17.509307
 New World,"Hellers NZ Free Farmed Shaved Champagne Ham
 
-100g",,6.55,6.55,,ea,0.0,0.0,,2026-01-04T22:50:10.044555
+100g",,6.55,6.55,,ea,0.0,0.0,,2026-01-04T23:09:17.544684
 New World,"Tegel Free Range Chicken Luncheon
 
-800g",,8.95,8.95,,ea,0.0,0.0,,2026-01-04T22:50:10.084894
+800g",,8.95,8.95,,ea,0.0,0.0,,2026-01-04T23:09:17.584236
 New World,"Hellers Free Range Danish Streaky Bacon
 
-250g",,12.99,12.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:10.117494
+250g",,12.99,12.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:17.616830
 New World,"Chicken & Cranberry Mignon
 
-1pk",,5.59,5.59,,ea,0.0,0.0,,2026-01-04T22:50:10.161428
+1pk",,5.59,5.59,,ea,0.0,0.0,,2026-01-04T23:09:17.660409
 New World,"Verkerks Traditional Aged Chorizo Salami
 
-200g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:10.193940
+200g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:17.694274
 New World,"Roast Pork
 
-kg",,39.9,39.9,,ea,0.0,0.0,Super Saver,2026-01-04T22:50:10.232053
+kg",,39.9,39.9,,ea,0.0,0.0,Super Saver,2026-01-04T23:09:17.731148
 New World,"Bird & Barrow Chicken Thigh Fillet
 
-kg",,28.99,28.99,,ea,0.0,0.0,,2026-01-04T22:50:10.275576
+kg",,28.99,28.99,,ea,0.0,0.0,,2026-01-04T23:09:17.774793
 New World,"Beehive Rindless Eye Bacon
 
-250g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:50:10.314779
+250g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:09:17.814057
 New World,"Pams Finest Tasty Duo Smoked Prosciutto & Hot Italian Salami
 
-80g",,12.45,12.45,,ea,0.0,0.0,,2026-01-04T22:50:10.353896
+80g",,12.45,12.45,,ea,0.0,0.0,,2026-01-04T23:09:17.853124
 New World,"Verkerks Bavarian Salami
 
-300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:10.390905
+300g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:17.890194
 New World,"Tonzu Natural Herb Organic Vegetarian Sausages
 
-300g",,9.99,9.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:10.427870
+300g",,9.99,9.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:17.926931
 New World,"Tegel Free Range Meal Maker Sliced Cajun Chicken
 
-260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:30.682707
+260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:34.768701
 New World,"NZ Lambs Fry
 
-kg",,13.99,13.99,,ea,0.0,0.0,,2026-01-04T22:50:30.724460
+kg",,13.99,13.99,,ea,0.0,0.0,,2026-01-04T23:09:34.815265
 New World,"Shore Mariner Seafood Marinara Mix
 
-300g",,10.69,10.69,,ea,0.0,0.0,,2026-01-04T22:50:30.764692
+300g",,10.69,10.69,,ea,0.0,0.0,,2026-01-04T23:09:34.855873
 New World,"Pams Corned Pork Silverside
 
-kg",,17.99,17.99,,ea,0.0,0.0,,2026-01-04T22:50:30.804935
+kg",,17.99,17.99,,ea,0.0,0.0,,2026-01-04T23:09:34.891147
 New World,"First Light Wagyu Beef Burgers
 
-400g",,15.49,15.49,,ea,0.0,0.0,,2026-01-04T22:50:30.844961
+400g",,15.49,15.49,,ea,0.0,0.0,,2026-01-04T23:09:34.930718
 New World,"Sizzlers Original
 
-450g",,7.15,7.15,,ea,0.0,0.0,,2026-01-04T22:50:30.880991
+450g",,7.15,7.15,,ea,0.0,0.0,,2026-01-04T23:09:34.965427
 New World,"Hellers Craft Angus Beef & Garlic Sausages
 
-6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:50:30.916930
+6pk",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:09:35.000651
 New World,"Freedom Farms Rindless Eye Bacon
 
-250g",,16.39,16.39,,ea,0.0,0.0,,2026-01-04T22:50:30.957776
+250g",,16.39,16.39,,ea,0.0,0.0,,2026-01-04T23:09:35.040260
 New World,"Tegel BBQ Drums Cooked
 
-kg",,19.9,19.9,,ea,0.0,0.0,,2026-01-04T22:50:30.997795
+kg",,19.9,19.9,,ea,0.0,0.0,,2026-01-04T23:09:35.080849
 New World,"Farmland Foods Cooked Corn Silverside
 
-kg",,44.9,44.9,,ea,0.0,0.0,,2026-01-04T22:50:31.033412
+kg",,44.9,44.9,,ea,0.0,0.0,,2026-01-04T23:09:35.115726
 New World,"Chicken Drumsticks
 
-kg",,7.09,7.09,,ea,0.0,0.0,,2026-01-04T22:50:31.068586
+kg",,7.09,7.09,,ea,0.0,0.0,,2026-01-04T23:09:35.150573
 New World,"Whole Beef Ribeye
 
-kg",,47.49,47.49,,ea,0.0,0.0,,2026-01-04T22:50:31.108072
+kg",,47.49,47.49,,ea,0.0,0.0,,2026-01-04T23:09:35.190094
 New World,"Chicken Basil Pesto & Garlic Mignon
 
-ea",,5.59,5.59,,ea,0.0,0.0,,2026-01-04T22:50:31.148594
+ea",,5.59,5.59,,ea,0.0,0.0,,2026-01-04T23:09:35.229838
 New World,"Harris Farms Smokey T's Brisket n' Cheddar Sausage MAP
 
-450g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T22:50:31.184536
+450g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:09:35.264943
 New World,"Hellers Honey Cured Streaky Bacon
 
-800g",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T22:50:31.219906
+800g",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T23:09:35.300370
 New World,"Hellers Craft Sliced Tandoori Chicken
 
-250g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T22:50:31.259663
+250g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T23:09:35.341207
 New World,"Harris Farms Lamb Herb n Manuka Burgers
 
-2 x 110g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:31.292616
+2 x 110g",,7.15,7.15,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:35.374881
 New World,"Pork Fillets
 
-kg",,32.99,32.99,,ea,0.0,0.0,,2026-01-04T22:50:31.338245
+kg",,32.99,32.99,,ea,0.0,0.0,,2026-01-04T23:09:35.414462
 New World,"Tegel BBQ Chicken Thighs Cooked
 
-kg",,19.9,19.9,,ea,0.0,0.0,,2026-01-04T22:50:31.383233
+kg",,19.9,19.9,,ea,0.0,0.0,,2026-01-04T23:09:35.453820
 New World,"Tegel Free Range Manuka Smoked Chicken Rashers
 
-350g",,11.95,11.95,,ea,0.0,0.0,,2026-01-04T22:50:31.418457
+350g",,11.95,11.95,,ea,0.0,0.0,,2026-01-04T23:09:35.489156
 New World,"Primo Smallgoods Gold Proscuitto
 
-100g",,15.09,15.09,,ea,0.0,0.0,,2026-01-04T22:50:31.453676
+100g",,15.09,15.09,,ea,0.0,0.0,,2026-01-04T23:09:35.524074
 New World,"Vegie Delights Hot Dogs
 
-300g",,14.55,14.55,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:31.491822
+300g",,14.55,14.55,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:35.561213
 New World,"Hutton's Shoulder Bacon
 
-550g",,11.45,11.45,,ea,0.0,0.0,,2026-01-04T22:50:31.531262
+550g",,11.45,11.45,,ea,0.0,0.0,,2026-01-04T23:09:35.602659
 New World,"Bostock Brothers 100% Certified Organic Free Range Chicken Drumsticks
 
-900g",,15.05,15.05,,ea,0.0,0.0,,2026-01-04T22:50:31.570557
+900g",,15.05,15.05,,ea,0.0,0.0,,2026-01-04T23:09:35.641920
 New World,"Pork Schnitzel
 
-kg",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T22:50:31.620871
+kg",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T23:09:35.692447
 New World,"Pork Boneless & Skinless Loin Roast
 
-kg",,24.99,24.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:31.659598
+kg",,24.99,24.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:35.729457
 New World,"Tegel Free Range Meal Maker Shredded Sweet Chilli Chicken
 
-100g",,6.19,6.19,,ea,0.0,0.0,,2026-01-04T22:50:31.703749
+100g",,6.19,6.19,,ea,0.0,0.0,,2026-01-04T23:09:35.772990
 New World,"Beef Minute Steak
 
-kg",,27.99,27.99,,ea,0.0,0.0,,2026-01-04T22:50:31.738677
+kg",,27.99,27.99,,ea,0.0,0.0,,2026-01-04T23:09:35.807765
 New World,"Ghiotti Salame Milano
 
-70g",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T22:50:31.778491
+70g",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T23:09:35.847316
 New World,"Hellers Craft Spanish Chorizo Sausages
 
-200g",,8.49,8.49,,ea,0.0,0.0,,2026-01-04T22:50:31.818336
+200g",,8.49,8.49,,ea,0.0,0.0,,2026-01-04T23:09:35.889661
 New World,"Farmland Beef Thin Sliced Hot
 
-100g",,7.59,7.59,,ea,0.0,0.0,,2026-01-04T22:50:31.853678
+100g",,7.59,7.59,,ea,0.0,0.0,,2026-01-04T23:09:35.929827
 New World,"NZ Frenched Lamb Rack
 
-kg",,62.99,62.99,,ea,0.0,0.0,,2026-01-04T22:50:31.888762
+kg",,62.99,62.99,,ea,0.0,0.0,,2026-01-04T23:09:35.964320
 New World,"Farmland Thin Sliced Hot Pork
 
-100g",,7.59,7.59,,ea,0.0,0.0,,2026-01-04T22:50:31.928188
+100g",,7.59,7.59,,ea,0.0,0.0,,2026-01-04T23:09:36.003531
 New World,"Pams Finest Premium Cooked Jumbo Shrimp
 
-500g",,19.05,19.05,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:31.966548
+500g",,19.05,19.05,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:36.041375
 New World,"Harris Farms North Canterbury Beef Burger Patties
 
-480g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:50:32.005811
+480g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:09:36.080665
 New World,"Pams Precooked Cheese Sausages
 
-1kg",,10.59,10.59,,ea,0.0,0.0,,2026-01-04T22:50:32.052133
+1kg",,10.59,10.59,,ea,0.0,0.0,,2026-01-04T23:09:36.120399
 New World,"Tegel Free Range Meal Maker Shredded Satay Flavoured Chicken
 
-260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:32.085939
+260g",,12.85,12.85,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:36.154949
 New World,"Tonzu Original High Protein Organic Tempeh
 
-250g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:32.125087
+250g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:36.192489
 New World,"Beak & Sons Tender & Smoky Hickory BBQ Pork Ribs
 
-kg",,24.45,24.45,,ea,0.0,0.0,,2026-01-04T22:50:32.165358
+kg",,24.45,24.45,,ea,0.0,0.0,,2026-01-04T23:09:36.231873
 New World,"Tonzu Organic Vegan Sage & Onion Sausages
 
-300g",,9.99,9.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:32.198801
+300g",,9.99,9.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:36.264385
 New World,"Bostock Brothers 100% Certified Organic Free Range Skinless Chicken Breast
 
-kg",,33.99,33.99,,ea,0.0,0.0,,2026-01-04T22:50:32.238358
+kg",,33.99,33.99,,ea,0.0,0.0,,2026-01-04T23:09:36.303758
 New World,"NZ Lamb Leg Chops
 
-kg",,27.99,27.99,,ea,0.0,0.0,,2026-01-04T22:50:32.278665
+kg",,27.99,27.99,,ea,0.0,0.0,,2026-01-04T23:09:36.343216
 New World,"Bostock Brothers 100% Certified Organic Free Range Chicken Nibbles
 
-900g",,14.85,14.85,,ea,0.0,0.0,,2026-01-04T22:50:32.351213
+900g",,14.85,14.85,,ea,0.0,0.0,,2026-01-04T23:09:36.419414
 New World,"Beef Brisket
 
-kg",,25.99,25.99,,ea,0.0,0.0,,2026-01-04T22:50:32.390826
+kg",,25.99,25.99,,ea,0.0,0.0,,2026-01-04T23:09:36.458972
 New World,"Beak & Sons Tender & Smoky Apple BBQ Pulled Pork
 
-600g",,23.99,23.99,,ea,0.0,0.0,,2026-01-04T22:50:32.426604
+600g",,23.99,23.99,,ea,0.0,0.0,,2026-01-04T23:09:36.493949
 New World,"NZ Pork Spare Ribs
 
-kg",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T22:50:32.461490
+kg",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T23:09:36.528641
 New World,"Sea Cuisine Crumbed Prawns Butterflied 21/25
 
-250g",,8.09,8.09,,ea,0.0,0.0,,2026-01-04T22:50:32.496525
+250g",,8.09,8.09,,ea,0.0,0.0,,2026-01-04T23:09:36.563783
 New World,"Capsicum & Apricot Chicken Mignon
 
-1pk",,5.49,5.49,,ea,0.0,0.0,,2026-01-04T22:50:32.531821
+1pk",,5.49,5.49,,ea,0.0,0.0,,2026-01-04T23:09:36.598677
 New World,"Lamb Hearts
 
-kg",,15.49,15.49,,ea,0.0,0.0,,2026-01-04T22:50:32.570970
+kg",,15.49,15.49,,ea,0.0,0.0,,2026-01-04T23:09:36.633636
 New World,"Ghiotti Soppressa Veneta
 
-70g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:50.727089
+70g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:54.223018
 New World,"Chicken Nibbles
 
-kg",,13.49,13.49,,ea,0.0,0.0,,2026-01-04T22:50:50.773906
+kg",,13.49,13.49,,ea,0.0,0.0,,2026-01-04T23:09:54.271616
 New World,"Hellers Premium Roast Beef
 
-kg",,49.9,49.9,,ea,0.0,0.0,,2026-01-04T22:50:50.814038
+kg",,49.9,49.9,,ea,0.0,0.0,,2026-01-04T23:09:54.311322
 New World,"Henderson's Manuka Smoked Streaky Bacon
 
-500g",,21.85,21.85,,ea,0.0,0.0,,2026-01-04T22:50:50.849183
+500g",,21.85,21.85,,ea,0.0,0.0,,2026-01-04T23:09:54.346707
 New World,"Ghiotti Chorizo Extra
 
-70g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:50.923464
+70g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:54.420440
 New World,"Campbell's Cocktail Saveloys
 
-kg",,16.79,16.79,,ea,0.0,0.0,,2026-01-04T22:50:50.967496
+kg",,16.79,16.79,,ea,0.0,0.0,,2026-01-04T23:09:54.464425
 New World,"Bird & Barrow Chicken Mince
 
-kg",,23.99,23.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:51.000634
+kg",,23.99,23.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:54.497699
 New World,"Whole Beef Eye Fillet
 
-kg",,56.99,56.99,,ea,0.0,0.0,,2026-01-04T22:50:51.050743
+kg",,56.99,56.99,,ea,0.0,0.0,,2026-01-04T23:09:54.543144
 New World,"First Light Premium Wagyu Beef Sausages
 
-420g",,15.25,15.25,,ea,0.0,0.0,,2026-01-04T22:50:51.090495
+420g",,15.25,15.25,,ea,0.0,0.0,,2026-01-04T23:09:54.582384
 New World,"Campbell's Butchery Saveloys
 
-kg",,14.99,14.99,,ea,0.0,0.0,,2026-01-04T22:50:51.125694
+kg",,14.99,14.99,,ea,0.0,0.0,,2026-01-04T23:09:54.617313
 New World,"NZ Pork Crackling
 
-kg",,9.49,9.49,,ea,0.0,0.0,,2026-01-04T22:50:51.160929
+kg",,9.49,9.49,,ea,0.0,0.0,,2026-01-04T23:09:54.651753
 New World,"Bostock Brothers 100% Certified Organic Free Range Chicken Tenders
 
-500g",,15.85,15.85,,ea,0.0,0.0,,2026-01-04T22:50:51.200265
+500g",,15.85,15.85,,ea,0.0,0.0,,2026-01-04T23:09:54.691106
 New World,"Picanha Beef Rump Roast
 
-kg",,34.89,34.89,,ea,0.0,0.0,,2026-01-04T22:50:51.240587
+kg",,34.89,34.89,,ea,0.0,0.0,,2026-01-04T23:09:54.730302
 New World,"Tonzu Organic Vegan Garlic & Chilli Sausages
 
-300g",,9.99,9.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:51.277934
+300g",,9.99,9.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:54.768008
 New World,"Campbell's Butchery Chipolatas Sausages
 
-kg",,16.99,16.99,,ea,0.0,0.0,,2026-01-04T22:50:51.318350
+kg",,16.99,16.99,,ea,0.0,0.0,,2026-01-04T23:09:54.808969
 New World,"First Light Flat Iron Wagyu Beef Steak
 
-250g",,12.79,12.79,,ea,0.0,0.0,,2026-01-04T22:50:51.353200
+250g",,12.79,12.79,,ea,0.0,0.0,,2026-01-04T23:09:54.846864
 New World,"Roast Lamb
 
-kg",,42.9,42.9,,ea,0.0,0.0,,2026-01-04T22:50:51.392536
+kg",,42.9,42.9,,ea,0.0,0.0,,2026-01-04T23:09:54.897405
 New World,"Henderson's Manuka Smoked Middle Bacon
 
-500g",,23.29,23.29,,ea,0.0,0.0,,2026-01-04T22:50:51.427627
+500g",,23.29,23.29,,ea,0.0,0.0,,2026-01-04T23:09:54.932589
 New World,"Beak & Sons Tender & Saucy Bourbon Beef Brisket
 
-600g",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T22:50:51.466599
+600g",,24.99,24.99,,ea,0.0,0.0,,2026-01-04T23:09:54.972331
 New World,"Bird & Barrow Diced Chicken Breast
 
-kg",,23.99,23.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:51.499793
+kg",,23.99,23.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:55.008269
 New World,"Lamb Back Straps
 
-kg",,69.99,69.99,,ea,0.0,0.0,,2026-01-04T22:50:51.549885
+kg",,69.99,69.99,,ea,0.0,0.0,,2026-01-04T23:09:55.052360
 New World,"Pork Belly Bites
 
-kg",,30.49,30.49,,ea,0.0,0.0,,2026-01-04T22:50:51.632248
+kg",,30.49,30.49,,ea,0.0,0.0,,2026-01-04T23:09:55.123112
 New World,"Tegel Free Range Meal Maker Shredded Flame Grilled Style Chicken
 
-100g",,6.19,6.19,,ea,0.0,0.0,,2026-01-04T22:50:51.666970
+100g",,6.19,6.19,,ea,0.0,0.0,,2026-01-04T23:09:55.157947
 New World,"Sea Cuisine Raw Prawn Cutlets
 
-0.5kg",,16.39,16.39,,ea,0.0,0.0,,2026-01-04T22:50:51.701689
+0.5kg",,16.39,16.39,,ea,0.0,0.0,,2026-01-04T23:09:55.192604
 New World,"Verkerks Wagyu Salami
 
-100g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:51.770461
+100g",,11.29,11.29,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:55.261923
 New World,"Bostock Brothers 100% Certified Organic Free Range Boneless Chicken Thighs
 
-kg",,41.99,41.99,,ea,0.0,0.0,,2026-01-04T22:50:51.809910
+kg",,41.99,41.99,,ea,0.0,0.0,,2026-01-04T23:09:55.302393
 New World,"Martinez Salchichon Spanish Salami
 
-90g",,5.69,5.69,,ea,0.0,0.0,,2026-01-04T22:50:51.851040
+90g",,5.69,5.69,,ea,0.0,0.0,,2026-01-04T23:09:55.342948
 New World,"Lamb Kidneys
 
-kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T22:50:51.886042
+kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T23:09:55.378485
 New World,"First Light Wagyu Beef Meatballs
 
-400g",,15.49,15.49,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:51.923022
+400g",,15.49,15.49,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:55.415528
 New World,"United Fish Co Oven Ready Coconut Crumbed Prawns
 
-250g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T22:50:51.962456
+250g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T23:09:55.454789
 New World,"Pestell's Ends Manuka Smoked Bacon
 
-1kg",,18.99,18.99,,ea,0.0,0.0,,2026-01-04T22:50:52.033135
+1kg",,18.99,18.99,,ea,0.0,0.0,,2026-01-04T23:09:55.525826
 New World,"Martinez Picante Pepperoni Salami
 
-90g",,5.69,5.69,,ea,0.0,0.0,,2026-01-04T22:50:52.067840
+90g",,5.69,5.69,,ea,0.0,0.0,,2026-01-04T23:09:55.563224
 New World,"Pork Mignon
 
-1pk",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T22:50:52.104401
+1pk",,6.99,6.99,,ea,0.0,0.0,,2026-01-04T23:09:55.598116
 New World,"Store-Made Irish Pork Sausages
 
-kg",,21.99,21.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:50:52.141373
+kg",,21.99,21.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:09:55.635050
 New World,"Ghiotti L'Autentico Prosciutto
 
-80g",,9.99,9.99,,ea,0.0,0.0,,2026-01-04T22:50:52.180546
+80g",,9.99,9.99,,ea,0.0,0.0,,2026-01-04T23:09:55.674112
 New World,"Rose & Mint Lamb Shoulder Chops
 
-kg",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T22:50:52.219817
+kg",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T23:09:55.713979
 New World,"Diced Lamb
 
-kg",,39.99,39.99,,ea,0.0,0.0,,2026-01-04T22:50:52.259146
+kg",,39.99,39.99,,ea,0.0,0.0,,2026-01-04T23:09:55.752869
 New World,"Roast Beef
 
-kg",,42.9,42.9,,ea,0.0,0.0,,2026-01-04T22:50:52.298746
+kg",,42.9,42.9,,ea,0.0,0.0,,2026-01-04T23:09:55.792069
 New World,"First Light Perfectly Aged Wagyu Beef Ribeye
 
-170g",,20.99,20.99,,ea,0.0,0.0,,2026-01-04T22:50:52.333660
+170g",,20.99,20.99,,ea,0.0,0.0,,2026-01-04T23:09:55.828164
 New World,"United Fish Co Oven Ready Salt & Pepper Battered Prawns
 
-250g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T22:50:52.374360
+250g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T23:09:55.868061
 New World,"Aquarius Fresh Pacific Oysters
 
-200g",,26.09,26.09,,ea,0.0,0.0,,2026-01-04T22:50:52.408753
+200g",,26.09,26.09,,ea,0.0,0.0,,2026-01-04T23:09:55.902824
 New World,"Hellers Craft Sliced Barbecue Chicken
 
-250g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T22:50:52.447936
+250g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T23:09:55.941917
 New World,"United Fish Co Oven Ready Hot & Spicy Battered Prawns
 
-250g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T22:50:52.482466
+250g",,9.69,9.69,,ea,0.0,0.0,,2026-01-04T23:09:55.976747
 New World,"Hellers Honey Baked Ham
 
-900g",,16.66,18.75,,ea,2.09,11.1,Club Deal,2026-01-04T22:50:52.515261
+900g",,16.66,18.75,,ea,2.09,11.1,Club Deal,2026-01-04T23:09:56.013394
 New World,"Beak & Sons Sweet & Zesty Plum & Ginger Pork Belly
 
-600g",,23.25,23.25,,ea,0.0,0.0,,2026-01-04T22:50:52.559054
+600g",,23.25,23.25,,ea,0.0,0.0,,2026-01-04T23:09:56.057403
 New World,"Lamb Drumsticks
 
-1pk",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T22:50:52.594201
+1pk",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:09:56.092361
 New World,"NZ Elephant Fish Fillets
 
-kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T22:51:08.722142
+kg",,29.99,29.99,,ea,0.0,0.0,,2026-01-04T23:10:13.301296
 New World,"Sealord Shrimp & Surimi Salad
 
-kg",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T22:51:08.762434
+kg",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T23:10:13.341728
 New World,"Bostock Brothers 100% Certified Organic Free Range Marinated Butterflied Chicken
 
-1.35kg",,27.15,27.15,,ea,0.0,0.0,,2026-01-04T22:51:08.803843
+1.35kg",,27.15,27.15,,ea,0.0,0.0,,2026-01-04T23:10:13.377080
 New World,"Martinez Chorizo Extra Cured Sausages
 
-120g",,7.35,7.35,,ea,0.0,0.0,,2026-01-04T22:51:08.843619
+120g",,7.35,7.35,,ea,0.0,0.0,,2026-01-04T23:10:13.417001
 New World,"Ghiotti Salchichon
 
-70g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:08.876552
+70g",,8.99,8.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:13.449834
 New World,"Chicken Tenderloins
 
-kg",,23.49,23.49,,ea,0.0,0.0,,2026-01-04T22:51:08.920213
+kg",,23.49,23.49,,ea,0.0,0.0,,2026-01-04T23:10:13.493976
 New World,"United Fish Co Tangyang Crispy Squid
 
-400g",,12.09,12.09,,ea,0.0,0.0,,2026-01-04T22:51:08.960207
+400g",,12.09,12.09,,ea,0.0,0.0,,2026-01-04T23:10:13.534257
 New World,"Loose Bacon
 
-kg",,32.99,32.99,,ea,0.0,0.0,,2026-01-04T22:51:08.995508
+kg",,32.99,32.99,,ea,0.0,0.0,,2026-01-04T23:10:13.569380
 New World,"Farmland Pastrami
 
-kg",,54.9,54.9,,ea,0.0,0.0,,2026-01-04T22:51:09.030543
+kg",,54.9,54.9,,ea,0.0,0.0,,2026-01-04T23:10:13.604576
 New World,"Shore Mariner Cooked Vannamei Whole Prawns
 
-400g",,17.59,17.59,,ea,0.0,0.0,,2026-01-04T22:51:09.066468
+400g",,17.59,17.59,,ea,0.0,0.0,,2026-01-04T23:10:13.639098
 New World,"Crumbed Chicken Schnitzel
 
-kg",,18.99,18.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:09.099245
+kg",,18.99,18.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:13.671984
 New World,"Martinez Pancetta Premium Bacon
 
-90g",,8.05,8.05,,ea,0.0,0.0,,2026-01-04T22:51:09.143300
+90g",,8.05,8.05,,ea,0.0,0.0,,2026-01-04T23:10:13.715776
 New World,"Shore Mariner Panko Crumbed Prawn Bites
 
-375g",,14.19,14.19,,ea,0.0,0.0,,2026-01-04T22:51:09.182736
+375g",,14.19,14.19,,ea,0.0,0.0,,2026-01-04T23:10:13.755362
 New World,"Shore Mariner Crumbed Formed Squid Rings
 
-450g",,8.75,8.75,,ea,0.0,0.0,,2026-01-04T22:51:09.217431
+450g",,8.75,8.75,,ea,0.0,0.0,,2026-01-04T23:10:13.792240
 New World,"Premium Game Ltd Venison Leg Medallions
 
-500g",,24.79,24.79,,ea,0.0,0.0,,2026-01-04T22:51:09.252075
+500g",,24.79,24.79,,ea,0.0,0.0,,2026-01-04T23:10:13.843425
 New World,"Ghiotti Fiesta Espanola
 
-85g",,12.99,12.99,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:09.289383
+85g",,12.99,12.99,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:13.881084
 New World,"Frozen Vannamei Whole Raw Prawn
 
-kg",,27.99,27.99,,ea,0.0,0.0,,2026-01-04T22:51:09.331280
+kg",,27.99,27.99,,ea,0.0,0.0,,2026-01-04T23:10:13.920836
 New World,"Farmland Hot Pork
 
-kg",,54.9,54.9,,ea,0.0,0.0,,2026-01-04T22:51:09.371987
+kg",,54.9,54.9,,ea,0.0,0.0,,2026-01-04T23:10:13.955636
 New World,"NZ Lamb Leg Boneless Roast
 
-kg",,36.49,36.49,,ea,0.0,0.0,,2026-01-04T22:51:09.420547
+kg",,36.49,36.49,,ea,0.0,0.0,,2026-01-04T23:10:13.994860
 New World,"Cando Kina
 
-150g",,39.99,39.99,,ea,0.0,0.0,,2026-01-04T22:51:09.460124
+150g",,39.99,39.99,,ea,0.0,0.0,,2026-01-04T23:10:14.033932
 New World,"Beehive Country Deli Cooked Boneless Leg Ham
 
-750g",,21.32,22.85,,ea,1.53,6.7,Club Deal,2026-01-04T22:51:09.497758
+750g",,21.32,22.85,,ea,1.53,6.7,Club Deal,2026-01-04T23:10:14.074817
 New World,"Verkerks Pepperoni
 
-kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T22:51:09.541529
+kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T23:10:14.118352
 New World,"Char Sui Pork Bellies
 
-1pk",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T22:51:09.576952
+1pk",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:10:14.153050
 New World,"Blackball Salami Company Limited Original Garlic Salami
 
-100g",,14.09,14.09,,ea,0.0,0.0,,2026-01-04T22:51:09.618444
+100g",,14.09,14.09,,ea,0.0,0.0,,2026-01-04T23:10:14.192112
 New World,"Farmland Cooked Hot Beef
 
-kg",,54.9,54.9,,ea,0.0,0.0,,2026-01-04T22:51:09.658031
+kg",,54.9,54.9,,ea,0.0,0.0,,2026-01-04T23:10:14.231256
 New World,"Fresh Salmon Fillet Pin Out
 
-kg",,65.99,65.99,,ea,0.0,0.0,,2026-01-04T22:51:09.692856
+kg",,65.99,65.99,,ea,0.0,0.0,,2026-01-04T23:10:14.265756
 New World,"Premium Game Ltd Venison Mince
 
-500g",,13.79,13.79,,ea,0.0,0.0,,2026-01-04T22:51:09.728237
+500g",,13.79,13.79,,ea,0.0,0.0,,2026-01-04T23:10:14.300473
 New World,"Salmon Fillets Pin In
 
-kg",,59.99,59.99,,ea,0.0,0.0,,2026-01-04T22:51:09.767638
+kg",,59.99,59.99,,ea,0.0,0.0,,2026-01-04T23:10:14.340502
 New World,"Blackball Salami Company Limited Venison Pepperoni Salami
 
-100g",,17.69,17.69,,ea,0.0,0.0,,2026-01-04T22:51:09.802571
+100g",,17.69,17.69,,ea,0.0,0.0,,2026-01-04T23:10:14.375254
 New World,"Apricot Cream Cheese & Bacon Chicken Breast Fillet
 
-1pk",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T22:51:09.837621
+1pk",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T23:10:14.409821
 New World,"Premium Game Ltd Venison Steaks
 
-500g",,22.79,22.79,,ea,0.0,0.0,,2026-01-04T22:51:09.911215
+500g",,22.79,22.79,,ea,0.0,0.0,,2026-01-04T23:10:14.479952
 New World,"Chicken Breast with Smoked Cheddar, Bacon & BBQ Sauce
 
-1pk",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T22:51:09.950339
+1pk",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:10:14.518850
 New World,"Verkerks Italian Salami
 
-kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T22:51:09.989587
+kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T23:10:14.557378
 New World,"Blackball Salami Company Limited Black Pudding Salami Chubb
 
-450g",,16.99,16.99,,ea,0.0,0.0,,2026-01-04T22:51:10.059096
+450g",,16.99,16.99,,ea,0.0,0.0,,2026-01-04T23:10:14.627380
 New World,"Verkerks Traditional Chorizo
 
-kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T22:51:10.093793
+kg",,39.9,39.9,,ea,0.0,0.0,,2026-01-04T23:10:14.662122
 New World,"Kings Battered Crabsticks
 
-7pk",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T22:51:10.129936
+7pk",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T23:10:14.697003
 New World,"Quorn Meat -Free Sausages
 
-336g",,11.29,11.29,,ea,0.0,0.0,,2026-01-04T22:51:10.164615
+336g",,11.29,11.29,,ea,0.0,0.0,,2026-01-04T23:10:14.731524
 New World,"Casa Modena Pork Shank
 
-650g",,17.99,17.99,,ea,0.0,0.0,,2026-01-04T22:51:10.199331
+650g",,17.99,17.99,,ea,0.0,0.0,,2026-01-04T23:10:14.766083
 New World,"Pacific West Beer Battered Prawns
 
-300g",,13.45,13.45,,ea,0.0,0.0,,2026-01-04T22:51:10.234775
+300g",,13.45,13.45,,ea,0.0,0.0,,2026-01-04T23:10:14.800658
 New World,"Store Made Premium Pork Sausages
 
-kg",,25.99,25.99,,ea,0.0,0.0,,2026-01-04T22:51:10.269796
+kg",,25.99,25.99,,ea,0.0,0.0,,2026-01-04T23:10:14.835277
 New World,"Shore Mariner Squid Tentacles
 
-500g",,10.15,10.15,,ea,0.0,0.0,,2026-01-04T22:51:10.304547
+500g",,10.15,10.15,,ea,0.0,0.0,,2026-01-04T23:10:14.875751
 New World,"Birds Eye Plant Based Wholemeal Crumb Chicken Style Tenders
 
-300g",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T22:51:10.343926
+300g",,14.69,14.69,,ea,0.0,0.0,,2026-01-04T23:10:14.915113
 New World,"De Gustibus Pancetta With Pepper
 
-70g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T22:51:10.380635
+70g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:10:14.950082
 New World,"Lamb Ribeye Steak
 
-kg",,35.99,35.99,,ea,0.0,0.0,,2026-01-04T22:51:10.420295
+kg",,35.99,35.99,,ea,0.0,0.0,,2026-01-04T23:10:14.989278
 New World,"Oriental Mint Lamb Shoulder Chops
 
-kg",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T22:51:10.459769
+kg",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T23:10:15.029028
 New World,"Verkerks Chorizo
 
-kg",,37.9,37.9,,ea,0.0,0.0,,2026-01-04T22:51:10.494617
+kg",,37.9,37.9,,ea,0.0,0.0,,2026-01-04T23:10:15.063731
 New World,"Lamb Oyster Shoulder
 
-kg",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T22:51:10.529374
+kg",,21.99,21.99,,ea,0.0,0.0,,2026-01-04T23:10:15.098630
 New World,"Thigh Cutlets
 
-kg",,17.29,17.29,,ea,0.0,0.0,,2026-01-04T22:51:10.564671
+kg",,17.29,17.29,,ea,0.0,0.0,,2026-01-04T23:10:15.134330
 New World,"Shore Mariner Cajun Popcorn Squid
 
-360g",,10.79,10.79,,ea,0.0,0.0,,2026-01-04T22:51:27.036699
+360g",,10.79,10.79,,ea,0.0,0.0,,2026-01-04T23:10:32.344033
 New World,"Pams Honey Soy Chicken Kebabs
 
-275g",,6.49,6.49,,ea,0.0,0.0,,2026-01-04T22:51:27.072595
+275g",,6.49,6.49,,ea,0.0,0.0,,2026-01-04T23:10:32.381416
 New World,"Pams Mexican Chicken Kebabs
 
-275g",,6.49,6.49,,ea,0.0,0.0,,2026-01-04T22:51:27.112662
+275g",,6.49,6.49,,ea,0.0,0.0,,2026-01-04T23:10:32.421375
 New World,"Pams Satay Chicken Kebabs
 
-275g",,6.49,6.49,,ea,0.0,0.0,,2026-01-04T22:51:27.154542
+275g",,6.49,6.49,,ea,0.0,0.0,,2026-01-04T23:10:32.461123
 New World,"Harris Farms Pork Jalapeno 'n Cheddar Sausage
 
-420g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T22:51:27.194219
+420g",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:10:32.500354
 New World,"Pams Sage & Onion Stuffed Chicken Oven Ready
 
-1.5kg",,17.99,17.99,,ea,0.0,0.0,,2026-01-04T22:51:27.229007
+1.5kg",,17.99,17.99,,ea,0.0,0.0,,2026-01-04T23:10:32.535014
 New World,"Pams Summer Roast Garlic & Lemon Chicken
 
-1.5kg",,15.59,15.59,,ea,0.0,0.0,,2026-01-04T22:51:27.268767
+1.5kg",,15.59,15.59,,ea,0.0,0.0,,2026-01-04T23:10:32.574131
 New World,"TFC Belly Rolled Slice (1.5mm) Pork
 
-450g",,18.99,18.99,,ea,0.0,0.0,,2026-01-04T22:51:27.304420
+450g",,18.99,18.99,,ea,0.0,0.0,,2026-01-04T23:10:32.608981
 New World,"Traditional Storemade Beef Flavoured Sausages
 
-kg",,19.49,19.49,,ea,0.0,0.0,,2026-01-04T22:51:27.353055
+kg",,19.49,19.49,,ea,0.0,0.0,,2026-01-04T23:10:32.658783
 New World,"John West Chunk Style Tuna In Olive Oil Blend
 
-12 x 95g",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T22:51:27.393825
+12 x 95g",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T23:10:32.693792
 New World,"John West Chunk Style Tuna in Springwater
 
-12 x 95g",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T22:51:27.429105
+12 x 95g",,19.99,19.99,,ea,0.0,0.0,,2026-01-04T23:10:32.728726
 New World,"Fry's Plant-Based Vegan Steak-style Strips
 
-250g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:51:27.560082
+250g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:10:32.858762
 New World,"Fry's Plant-Based Vegan Homestyle Chick'n Burgers
 
-320g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:51:27.595209
+320g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:10:32.893542
 New World,"Fry's Plant-Based Vegan Chick'n-style Strips
 
-250g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:51:27.630481
+250g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:10:32.929711
 New World,"Tegel Garlic & Herb Butterflied New Zealand Chicken
 
-1.35kg",,16.49,16.49,,ea,0.0,0.0,,2026-01-04T22:51:27.665342
+1.35kg",,16.49,16.49,,ea,0.0,0.0,,2026-01-04T23:10:32.964529
 New World,"United Food Co Prawn Money Bags
 
-450g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:51:27.703756
+450g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:10:32.999424
 New World,"United Food Co Prawn Toast
 
-450g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:51:27.747476
+450g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:10:33.034180
 New World,"Primo Smallgoods Danish Salami
 
-200g",,10.49,10.49,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:27.780689
+200g",,10.49,10.49,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:33.066749
 New World,"Primo Smallgoods Hot Sopressa Salami
 
-200g",,10.49,10.49,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:27.818201
+200g",,10.49,10.49,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:33.113526
 New World,"Primo Smallgoods Pepperoni Salami
 
-200g",,10.49,10.49,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:27.855538
+200g",,10.49,10.49,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:33.151261
 New World,"Merchant of Venison Venison Medallion Steaks
 
-kg",,47.49,47.49,,ea,0.0,0.0,,2026-01-04T22:51:27.895934
+kg",,47.49,47.49,,ea,0.0,0.0,,2026-01-04T23:10:33.192084
 New World,"Pams Value Raw Prawn Meat Pieces
 
-500g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T22:51:27.935671
+500g",,10.99,10.99,,ea,0.0,0.0,,2026-01-04T23:10:33.231693
 New World,"Silver Fern Farms Honest Beef Burgers With Smokey Caramelised Onion
 
-500g",,15.25,15.25,,ea,0.0,0.0,Club Deal,2026-01-04T22:51:27.974662
+500g",,15.25,15.25,,ea,0.0,0.0,Club Deal,2026-01-04T23:10:33.269432
 New World,"Pams Shredded Roast Chicken
 
-260g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T22:51:28.014610
+260g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T23:10:33.309019
 New World,"Pams Sliced Cajun Chicken
 
-260g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T22:51:28.049988
+260g",,9.25,9.25,,ea,0.0,0.0,,2026-01-04T23:10:33.344149
 New World,"Harmless Food Co Plant Based Chicken Alternative
 
-250g",,10.95,10.95,,ea,0.0,0.0,,2026-01-04T22:51:28.086450
+250g",,10.95,10.95,,ea,0.0,0.0,,2026-01-04T23:10:33.379045
 New World,"On The Menu Pub Faves Roast Beef
 
-320g",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T22:51:28.286731
+320g",,8.99,8.99,,ea,0.0,0.0,,2026-01-04T23:10:33.577977
 New World,"Hellers Craft Shredded Kentucky Chicken
 
-250g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T22:51:28.321680
+250g",,11.85,11.85,,ea,0.0,0.0,,2026-01-04T23:10:33.612726
 New World,"Harris Farms Lamb Mince
 
-450g",,11.75,11.75,,ea,0.0,0.0,,2026-01-04T22:51:28.356719
+450g",,11.75,11.75,,ea,0.0,0.0,,2026-01-04T23:10:33.647360
 New World,"First Light Wagyu Beef Brisket Manuka Smoked BBQ Wagyu Beef Brisket
 
-350g",,19.25,19.25,,ea,0.0,0.0,,2026-01-04T22:51:28.392247
+350g",,19.25,19.25,,ea,0.0,0.0,,2026-01-04T23:10:33.682155
 New World,"Brink's Smoked Boneless Chicken Breast
 
-1kg",,26.49,26.49,,ea,0.0,0.0,,2026-01-04T22:51:28.427458
+1kg",,26.49,26.49,,ea,0.0,0.0,,2026-01-04T23:10:33.718296
 New World,"Southern Ocean New Zealand King Salmon Pieces
 
-150g",,13.49,13.49,,ea,0.0,0.0,,2026-01-04T22:51:28.462240
+150g",,13.49,13.49,,ea,0.0,0.0,,2026-01-04T23:10:33.752790
 PAK'nSAVE,"Prime Beef Mince
 
-kg",,19.99,19.99,19.99,kg,0.0,0.0,EXTRA,2026-01-04T22:51:58.978961
+kg",,19.99,19.99,19.99,kg,0.0,0.0,EXTRA,2026-01-04T23:11:02.178910
 PAK'nSAVE,"NZ Chicken Drumsticks
 
-kg",,6.79,6.79,6.79,kg,0.0,0.0,NONE,2026-01-04T22:51:59.019329
+kg",,6.79,6.79,6.79,kg,0.0,0.0,,2026-01-04T23:11:02.218995
 PAK'nSAVE,"NZ Premium Beef Mince
 
-kg",,20.79,20.79,20.79,kg,0.0,0.0,EXTRA,2026-01-04T22:51:59.053017
+kg",,20.79,20.79,20.79,kg,0.0,0.0,EXTRA,2026-01-04T23:11:02.252657
 PAK'nSAVE,"Beef Rump Steak
 
-kg",,26.79,26.79,26.79,kg,0.0,0.0,EXTRA,2026-01-04T22:51:59.093087
+kg",,26.79,26.79,26.79,kg,0.0,0.0,EXTRA,2026-01-04T23:11:02.290456
 PAK'nSAVE,"Pork Leg
 
-kg",,11.99,11.99,11.99,kg,0.0,0.0,NONE,2026-01-04T22:51:59.130272
+kg",,11.99,11.99,11.99,kg,0.0,0.0,,2026-01-04T23:11:02.329701
 PAK'nSAVE,"NZ Pork Shoulder Roast
 
-kg",,10.99,10.99,10.99,kg,0.0,0.0,NONE,2026-01-04T22:51:59.162458
+kg",,10.99,10.99,10.99,kg,0.0,0.0,,2026-01-04T23:11:02.361734
 PAK'nSAVE,"Chicken Nibbles
 
-kg",,12.29,12.29,12.29,kg,0.0,0.0,NONE,2026-01-04T22:51:59.232153
+kg",,12.29,12.29,12.29,kg,0.0,0.0,,2026-01-04T23:11:02.432023
 PAK'nSAVE,"NZ Pork Loin Chops
 
-kg",,16.99,16.99,16.99,kg,0.0,0.0,NONE,2026-01-04T22:51:59.264334
+kg",,16.99,16.99,16.99,kg,0.0,0.0,,2026-01-04T23:11:02.463939
 PAK'nSAVE,"Lamb Shoulder Chops
 
-kg",,18.99,18.99,18.99,kg,0.0,0.0,NONE,2026-01-04T22:51:59.296016
+kg",,18.99,18.99,18.99,kg,0.0,0.0,,2026-01-04T23:11:02.495213
 PAK'nSAVE,"Pams Streaky Bacon
 
-250g",,5.99,5.99,23.96,ea,0.0,0.0,EVERYDAY,2026-01-04T22:51:59.328848
+250g",,5.99,5.99,23.96,ea,0.0,0.0,EVERYDAY,2026-01-04T23:11:02.527965
 PAK'nSAVE,"NZ Beef Porterhouse Steak
 
-kg",,40.49,40.49,40.49,kg,0.0,0.0,NONE,2026-01-04T22:51:59.365409
+kg",,40.49,40.49,40.49,kg,0.0,0.0,,2026-01-04T23:11:02.568195
 PAK'nSAVE,"NZ Pork Mince
 
-kg",,17.99,17.99,17.99,kg,0.0,0.0,NONE,2026-01-04T22:51:59.396136
+kg",,17.99,17.99,17.99,kg,0.0,0.0,,2026-01-04T23:11:02.599399
 PAK'nSAVE,"Beef Scotch Fillet Steak
 
-kg",,47.49,47.49,47.49,kg,0.0,0.0,NONE,2026-01-04T22:51:59.464430
+kg",,47.49,47.49,47.49,kg,0.0,0.0,,2026-01-04T23:11:02.666976
 PAK'nSAVE,"Skinless Chicken Breast Fillets
 
-kg",,15.29,15.29,15.29,kg,0.0,0.0,NONE,2026-01-04T22:51:59.495734
+kg",,15.29,15.29,15.29,kg,0.0,0.0,,2026-01-04T23:11:02.697777
 PAK'nSAVE,"Chicken Drumsticks
 
-kg",,6.79,6.79,6.79,kg,0.0,0.0,NONE,2026-01-04T22:51:59.562012
+kg",,6.79,6.79,6.79,kg,0.0,0.0,,2026-01-04T23:11:02.765110
 PAK'nSAVE,"Beehive Shaved Champagne Ham
 
-200g",,6.49,6.49,32.45,ea,0.0,0.0,EXTRA,2026-01-04T22:51:59.594893
+200g",,6.49,6.49,32.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:02.797473
 PAK'nSAVE,"Beehive Streaky Bacon
 
-800g",,16.79,16.79,20.99,ea,0.0,0.0,EXTRA,2026-01-04T22:51:59.631106
+800g",,16.79,16.79,20.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:02.834788
 PAK'nSAVE,"Ingham's Garlic & Herb Butterfly Chicken
 
-1.1kg",,11.49,11.49,10.45,ea,0.0,0.0,EXTRA,2026-01-04T22:51:59.706649
+1.1kg",,11.49,11.49,10.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:02.907914
 PAK'nSAVE,"Pork Bones
 
-kg",,9.99,9.99,9.99,kg,0.0,0.0,NONE,2026-01-04T22:51:59.737973
+kg",,9.99,9.99,9.99,kg,0.0,0.0,,2026-01-04T23:11:02.938311
 PAK'nSAVE,"NZ Beef Schnitzel
 
-kg",,25.49,25.49,25.49,kg,0.0,0.0,NONE,2026-01-04T22:51:59.800501
+kg",,25.49,25.49,25.49,kg,0.0,0.0,,2026-01-04T23:11:03.001134
 PAK'nSAVE,"Hellers Manuka Smoked Streaky Bacon
 
-1kg",,17.99,17.99,17.99,ea,0.0,0.0,EXTRA,2026-01-04T22:51:59.831816
+1kg",,17.99,17.99,17.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.048749
 PAK'nSAVE,"Pieter's Dutch Salami
 
-250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T22:51:59.871486
+250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.086332
 PAK'nSAVE,"Sizzlers Double Cheese
 
-450g",,6.49,6.49,14.42,ea,0.0,0.0,NONE,2026-01-04T22:51:59.901794
+450g",,6.49,6.49,14.42,ea,0.0,0.0,,2026-01-04T23:11:03.116915
 PAK'nSAVE,"Hellers Trusty BBQ Pre-Cooked Sausages
 
-1kg",,10.49,10.49,10.49,ea,0.0,0.0,EXTRA,2026-01-04T22:51:59.928806
+1kg",,10.49,10.49,10.49,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.144211
 PAK'nSAVE,"Hellers Shaved Manuka Smoked Ham
 
-200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.000615
+200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.216384
 PAK'nSAVE,"Hellers Chunky Cheese Sausages
 
-1kg",,13.19,13.19,13.19,ea,0.0,0.0,NONE,2026-01-04T22:52:00.162340
+1kg",,13.19,13.19,13.19,ea,0.0,0.0,,2026-01-04T23:11:03.380384
 PAK'nSAVE,"Beehive Streaky Bacon
 
-250g",,7.29,7.29,29.16,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.189331
+250g",,7.29,7.29,29.16,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.407460
 PAK'nSAVE,"Pieter's Pepperoni Salami
 
-250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.256655
+250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.473902
 PAK'nSAVE,"Hellers Chinese Honey Sausages
 
-1kg",,13.19,13.19,13.19,ea,0.0,0.0,NONE,2026-01-04T22:52:00.286847
+1kg",,13.19,13.19,13.19,ea,0.0,0.0,,2026-01-04T23:11:03.504522
 PAK'nSAVE,"Pieter's Danish Salami
 
-250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.313693
+250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.531309
 PAK'nSAVE,"Boneless Chicken Thigh Fillets
 
-kg",,23.29,23.29,23.29,kg,0.0,0.0,NONE,2026-01-04T22:52:00.343838
+kg",,23.29,23.29,23.29,kg,0.0,0.0,,2026-01-04T23:11:03.561589
 PAK'nSAVE,"Beehive Shaved Honey Baked Ham
 
-2 x 100g",,6.49,6.49,32.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.375300
+2 x 100g",,6.49,6.49,32.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.593119
 PAK'nSAVE,"Hellers Manuka Smoked Streaky Bacon
 
-250g",,5.99,5.99,23.96,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.411454
+250g",,5.99,5.99,23.96,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.629786
 PAK'nSAVE,"NZ Chicken Necks
 
-kg",,7.99,7.99,7.99,kg,0.0,0.0,NONE,2026-01-04T22:52:00.449425
+kg",,7.99,7.99,7.99,kg,0.0,0.0,,2026-01-04T23:11:03.664479
 PAK'nSAVE,"Pieter's Italian Salami
 
-250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T22:52:00.481491
+250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T23:11:03.696197
 PAK'nSAVE,"Hellers Cocktail Saveloys
 
-kg",,13.99,13.99,13.99,kg,0.0,0.0,NONE,2026-01-04T22:52:00.516553
+kg",,13.99,13.99,13.99,kg,0.0,0.0,,2026-01-04T23:11:03.726358
 PAK'nSAVE,"Wilson Hellaby Corned Silverside
 
-kg",,18.99,18.99,18.99,kg,0.0,0.0,NONE,2026-01-04T22:52:00.543245
+kg",,18.99,18.99,18.99,kg,0.0,0.0,,2026-01-04T23:11:03.757318
 PAK'nSAVE,"Lamb Loin Chops
 
-kg",,27.99,27.99,27.99,kg,0.0,0.0,NONE,2026-01-04T22:52:00.613466
+kg",,27.99,27.99,27.99,kg,0.0,0.0,,2026-01-04T23:11:03.814816
 PAK'nSAVE,"Hellers Manuka Smoked Streaky Bacon
 
-800g",,19.99,19.99,15.99,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.131437
+800g",,19.99,19.99,15.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:20.444373
 PAK'nSAVE,"Chicken Frames
 
-kg",,7.29,7.29,7.29,kg,0.0,0.0,NONE,2026-01-04T22:52:17.169705
+kg",,7.29,7.29,7.29,kg,0.0,0.0,,2026-01-04T23:11:20.483139
 PAK'nSAVE,"Pams Streaky Bacon
 
-500g",,11.79,11.79,23.58,ea,0.0,0.0,NONE,2026-01-04T22:52:17.207771
+500g",,11.79,11.79,23.58,ea,0.0,0.0,,2026-01-04T23:11:20.514274
 PAK'nSAVE,"Hellers Shaved Champagne Ham
 
-200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.239991
+200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:20.546441
 PAK'nSAVE,"Harris Farms Prime Beef Mince
 
-500g",,11.49,11.49,22.98,ea,0.0,0.0,NONE,2026-01-04T22:52:17.275260
+500g",,11.49,11.49,22.98,ea,0.0,0.0,,2026-01-04T23:11:20.581613
 PAK'nSAVE,"Waitoa Manuka Honey & Rosemary Chicken
 
-1.1kg",,14.99,14.99,13.63,ea,0.0,0.0,NONE,2026-01-04T22:52:17.311608
+1.1kg",,14.99,14.99,13.63,ea,0.0,0.0,,2026-01-04T23:11:20.613125
 PAK'nSAVE,"Crumbed Beef Schnitzel
 
-kg",,25.49,25.49,25.49,kg,0.0,0.0,NONE,2026-01-04T22:52:17.341833
+kg",,25.49,25.49,25.49,kg,0.0,0.0,,2026-01-04T23:11:20.648636
 PAK'nSAVE,"Chicken Nibbles
 
-kg",,12.29,12.29,12.29,kg,0.0,0.0,NONE,2026-01-04T22:52:17.367641
+kg",,12.29,12.29,12.29,kg,0.0,0.0,,2026-01-04T23:11:20.674819
 PAK'nSAVE,"NZ Pork Shoulder Chops
 
-kg",,14.49,14.49,14.49,kg,0.0,0.0,NONE,2026-01-04T22:52:17.397809
+kg",,14.49,14.49,14.49,kg,0.0,0.0,,2026-01-04T23:11:20.704982
 PAK'nSAVE,"Hellers Manuka Smoked Rasher Bacon
 
-800g",,13.99,13.99,17.49,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.460950
+800g",,13.99,13.99,17.49,ea,0.0,0.0,EXTRA,2026-01-04T23:11:20.767731
 PAK'nSAVE,"Beehive Mini Cheese Kransky Sausages
 
-800g",,13.85,13.85,17.31,ea,0.0,0.0,NONE,2026-01-04T22:52:17.495383
+800g",,13.85,13.85,17.31,ea,0.0,0.0,,2026-01-04T23:11:20.802440
 PAK'nSAVE,"Ingham's Butterfly Chicken Tandoori
 
-1.1kg",,11.49,11.49,10.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.521876
+1.1kg",,11.49,11.49,10.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:20.829160
 PAK'nSAVE,"Pieter's Spanish Chorizo Salami
 
-250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.557219
+250g",,5.79,5.79,23.16,ea,0.0,0.0,EXTRA,2026-01-04T23:11:20.865188
 PAK'nSAVE,"Pork Hock
 
-1pk",,9.99,9.99,,ea,0.0,0.0,NONE,2026-01-04T22:52:17.587852
+1pk",,9.99,9.99,,ea,0.0,0.0,,2026-01-04T23:11:20.895384
 PAK'nSAVE,"Pams Shoulder Bacon
 
-400g",,6.29,6.29,15.73,ea,0.0,0.0,EVERYDAY,2026-01-04T22:52:17.618968
+400g",,6.29,6.29,15.73,ea,0.0,0.0,EVERYDAY,2026-01-04T23:11:20.930477
 PAK'nSAVE,"NZ Fresh Bone-In Pork Belly
 
-kg",,23.89,23.89,23.89,kg,0.0,0.0,NONE,2026-01-04T22:52:17.653224
+kg",,23.89,23.89,23.89,kg,0.0,0.0,,2026-01-04T23:11:20.964850
 PAK'nSAVE,"Hellers London Pride Sausages
 
-6pk",,10.29,10.29,,ea,0.0,0.0,NONE,2026-01-04T22:52:17.683054
+6pk",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:11:20.994941
 PAK'nSAVE,"Hellers Cheese & Bacon Sausages
 
-1kg",,13.19,13.19,13.19,ea,0.0,0.0,NONE,2026-01-04T22:52:17.708534
+1kg",,13.19,13.19,13.19,ea,0.0,0.0,,2026-01-04T23:11:21.026711
 PAK'nSAVE,"Hellers Classic Family Cheerios
 
-1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.760667
+1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:21.101423
 PAK'nSAVE,"Hellers New Yorker Porker Sausages
 
-6pk",,10.29,10.29,,ea,0.0,0.0,NONE,2026-01-04T22:52:17.881086
+6pk",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:11:21.223180
 PAK'nSAVE,"Hellers Gluten Free Original Sausages
 
-1kg",,13.19,13.19,13.19,ea,0.0,0.0,NONE,2026-01-04T22:52:17.906309
+1kg",,13.19,13.19,13.19,ea,0.0,0.0,,2026-01-04T23:11:21.248702
 PAK'nSAVE,"Hellers Craft Angus Beef Sausages
 
-6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:17.969372
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:21.311537
 PAK'nSAVE,"Hellers Manuka Smoked Bacon Pieces
 
-500g",,6.99,6.99,13.98,ea,0.0,0.0,NONE,2026-01-04T22:52:18.001727
+500g",,6.99,6.99,13.98,ea,0.0,0.0,,2026-01-04T23:11:21.341487
 PAK'nSAVE,"NZ Beef Bolar Roast
 
-kg",,27.99,27.99,27.99,kg,0.0,0.0,NONE,2026-01-04T22:52:18.031800
+kg",,27.99,27.99,27.99,kg,0.0,0.0,,2026-01-04T23:11:21.371882
 PAK'nSAVE,"Hellers Genuine Pork Sausages
 
-6pk",,10.29,10.29,,ea,0.0,0.0,NONE,2026-01-04T22:52:18.061538
+6pk",,10.29,10.29,,ea,0.0,0.0,,2026-01-04T23:11:21.401776
 PAK'nSAVE,"Pams Middle Bacon
 
-350g",,6.29,6.29,17.97,ea,0.0,0.0,EVERYDAY,2026-01-04T22:52:18.088145
+350g",,6.29,6.29,17.97,ea,0.0,0.0,EVERYDAY,2026-01-04T23:11:21.428698
 PAK'nSAVE,"Ingham Sweet & Smokey BBQ Butterfly Chicken
 
-1.1kg",,11.49,11.49,10.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:18.125088
+1.1kg",,11.49,11.49,10.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:21.465673
 PAK'nSAVE,"Tegel Free Range Meal Maker Shredded Roast Chicken
 
-260g",,11.79,11.79,45.35,ea,0.0,0.0,NONE,2026-01-04T22:52:18.159208
+260g",,11.79,11.79,45.35,ea,0.0,0.0,,2026-01-04T23:11:21.500087
 PAK'nSAVE,"Value Pre-Cooked Sausages
 
-35pk",,19.49,19.49,,ea,0.0,0.0,NONE,2026-01-04T22:52:18.184591
+35pk",,19.49,19.49,,ea,0.0,0.0,,2026-01-04T23:11:21.525684
 PAK'nSAVE,"Lamb Steak
 
-kg",,34.99,34.99,34.99,kg,0.0,0.0,NONE,2026-01-04T22:52:18.209969
+kg",,34.99,34.99,34.99,kg,0.0,0.0,,2026-01-04T23:11:21.551286
 PAK'nSAVE,"Hellers Crafty Cooks Bacon Strips
 
-200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:18.240777
+200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:21.582570
 PAK'nSAVE,"Tegel Herb Crumbed Chicken Schnitzel
 
-kg",,21.99,21.99,21.99,kg,0.0,0.0,NONE,2026-01-04T22:52:18.275211
+kg",,21.99,21.99,21.99,kg,0.0,0.0,,2026-01-04T23:11:21.617090
 PAK'nSAVE,"Hellers Sliced Ham & Chicken
 
-kg",,14.99,14.99,14.99,kg,0.0,0.0,NONE,2026-01-04T22:52:18.300817
+kg",,14.99,14.99,14.99,kg,0.0,0.0,,2026-01-04T23:11:21.642874
 PAK'nSAVE,"Harris Farms Old English Beef Sausages MAP
 
-480g",,9.99,9.99,20.81,ea,0.0,0.0,NONE,2026-01-04T22:52:18.326095
+480g",,9.99,9.99,20.81,ea,0.0,0.0,,2026-01-04T23:11:21.668452
 PAK'nSAVE,"Picanha Beef Rump Roast
 
-kg",,33.99,33.99,33.99,kg,0.0,0.0,NONE,2026-01-04T22:52:18.358006
+kg",,33.99,33.99,33.99,kg,0.0,0.0,,2026-01-04T23:11:21.698828
 PAK'nSAVE,"Beehive Cocktails
 
-1kg",,13.85,13.85,13.85,ea,0.0,0.0,NONE,2026-01-04T22:52:18.387924
+1kg",,13.85,13.85,13.85,ea,0.0,0.0,,2026-01-04T23:11:21.730624
 PAK'nSAVE,"Boneless Pork Belly
 
-kg",,26.99,26.99,26.99,kg,0.0,0.0,NONE,2026-01-04T22:52:18.413335
+kg",,26.99,26.99,26.99,kg,0.0,0.0,,2026-01-04T23:11:21.756502
 PAK'nSAVE,"Hellers Craft Old Fashioned Beef Sausages
 
-6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:18.444564
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:21.787457
 PAK'nSAVE,"NZ Beef Chuck Steak
 
-kg",,31.59,31.59,31.59,kg,0.0,0.0,NONE,2026-01-04T22:52:18.474333
+kg",,31.59,31.59,31.59,kg,0.0,0.0,,2026-01-04T23:11:21.817468
 PAK'nSAVE,"Hellers Craft Shredded Roast Chicken
 
-300g",,9.99,9.99,33.3,ea,0.0,0.0,EXTRA,2026-01-04T22:52:18.505841
+300g",,9.99,9.99,33.3,ea,0.0,0.0,EXTRA,2026-01-04T23:11:21.849052
 PAK'nSAVE,"NZ Stir Fry Beef
 
-kg",,29.89,29.89,29.89,kg,0.0,0.0,NONE,2026-01-04T22:52:18.535724
+kg",,29.89,29.89,29.89,kg,0.0,0.0,,2026-01-04T23:11:21.879282
 PAK'nSAVE,"Sizzlers Cheese
 
-450g",,6.49,6.49,14.42,ea,0.0,0.0,NONE,2026-01-04T22:52:18.570607
+450g",,6.49,6.49,14.42,ea,0.0,0.0,,2026-01-04T23:11:21.909437
 PAK'nSAVE,"Pams Streaky Bacon
 
-1kg",,22.99,22.99,22.99,ea,0.0,0.0,NONE,2026-01-04T22:52:18.604730
+1kg",,22.99,22.99,22.99,ea,0.0,0.0,,2026-01-04T23:11:21.935259
 PAK'nSAVE,"Tegel Free Range Meal Maker Sliced Roast Chicken
 
-260g",,11.79,11.79,45.35,ea,0.0,0.0,NONE,2026-01-04T22:52:18.636479
+260g",,11.79,11.79,45.35,ea,0.0,0.0,,2026-01-04T23:11:21.965149
 PAK'nSAVE,"Hellers Shaved Roast Chicken
 
-200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:35.724740
+200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:39.636872
 PAK'nSAVE,"Hellers Saveloys
 
-kg",,13.99,13.99,13.99,kg,0.0,0.0,NONE,2026-01-04T22:52:35.759903
+kg",,13.99,13.99,13.99,kg,0.0,0.0,,2026-01-04T23:11:39.672017
 PAK'nSAVE,"Hellers Family Franks
 
-1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T22:52:35.787148
+1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:39.699614
 PAK'nSAVE,"Hellers Trusty BBQ Pre-Cooked Sausages
 
-2kg",,22.49,22.49,11.25,ea,0.0,0.0,NONE,2026-01-04T22:52:35.817296
+2kg",,22.49,22.49,11.25,ea,0.0,0.0,,2026-01-04T23:11:39.729899
 PAK'nSAVE,"Verkerks Frankfurters
 
-300g",,5.79,5.79,19.3,ea,0.0,0.0,EXTRA,2026-01-04T22:52:35.844281
+300g",,5.79,5.79,19.3,ea,0.0,0.0,EXTRA,2026-01-04T23:11:39.757188
 PAK'nSAVE,"Aoraki Smokehouse Original Artisan Cold Smoked Salmon Slices
 
-100g",,13.99,13.99,139.9,ea,0.0,0.0,NONE,2026-01-04T22:52:35.875159
+100g",,13.99,13.99,139.9,ea,0.0,0.0,,2026-01-04T23:11:39.788008
 PAK'nSAVE,"Waitoa Whole Chicken with Garden Herbs Stuffing
 
-1.5kg",,19.29,19.29,12.86,ea,0.0,0.0,NONE,2026-01-04T22:52:35.900805
+1.5kg",,19.29,19.29,12.86,ea,0.0,0.0,,2026-01-04T23:11:39.813779
 PAK'nSAVE,"NZ Chicken Livers
 
-kg",,21.99,21.99,21.99,kg,0.0,0.0,NONE,2026-01-04T22:52:35.930922
+kg",,21.99,21.99,21.99,kg,0.0,0.0,,2026-01-04T23:11:39.844077
 PAK'nSAVE,"Verkerks Cheese Kransky
 
-280g",,5.99,5.99,21.39,ea,0.0,0.0,EXTRA,2026-01-04T22:52:35.962144
+280g",,5.99,5.99,21.39,ea,0.0,0.0,EXTRA,2026-01-04T23:11:39.875737
 PAK'nSAVE,"Pork Sirloin Steak
 
-kg",,34.99,34.99,34.99,kg,0.0,0.0,NONE,2026-01-04T22:52:35.994112
+kg",,34.99,34.99,34.99,kg,0.0,0.0,,2026-01-04T23:11:39.906283
 PAK'nSAVE,"Hellers Craft Country Pork Sausages
 
-6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.026285
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:39.939843
 PAK'nSAVE,"Hellers Craft Honey Lamb & Rosemary Sausages
 
-6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.057831
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:39.971648
 PAK'nSAVE,"NZ Lamb Leg Chops
 
-kg",,23.99,23.99,23.99,kg,0.0,0.0,NONE,2026-01-04T22:52:36.087913
+kg",,23.99,23.99,23.99,kg,0.0,0.0,,2026-01-04T23:11:40.001835
 PAK'nSAVE,"Hellers Manuka Smoked Middle Eye Bacon
 
-250g",,6.49,6.49,25.96,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.154323
+250g",,6.49,6.49,25.96,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.068350
 PAK'nSAVE,"NZ Beef Blade Steak
 
-kg",,30.59,30.59,30.59,kg,0.0,0.0,NONE,2026-01-04T22:52:36.188260
+kg",,30.59,30.59,30.59,kg,0.0,0.0,,2026-01-04T23:11:40.102475
 PAK'nSAVE,"NZ Diced Pork
 
-kg",,21.49,21.49,21.49,kg,0.0,0.0,NONE,2026-01-04T22:52:36.218195
+kg",,21.49,21.49,21.49,kg,0.0,0.0,,2026-01-04T23:11:40.132848
 PAK'nSAVE,"Hellers Craft Sliced Roast Chicken
 
-300g",,9.99,9.99,33.3,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.249280
+300g",,9.99,9.99,33.3,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.163935
 PAK'nSAVE,"Verkerks Mini Danish Salami
 
-300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.313735
+300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.228077
 PAK'nSAVE,"Pams Sliced Champagne Leg Ham
 
-225g",,5.49,5.49,24.4,ea,0.0,0.0,NONE,2026-01-04T22:52:36.343545
+225g",,5.49,5.49,24.4,ea,0.0,0.0,,2026-01-04T23:11:40.257778
 PAK'nSAVE,"Tegel Free Range Honey Soy Chicken Kebabs
 
-6pk",,8.99,8.99,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.374651
+6pk",,8.99,8.99,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.288929
 PAK'nSAVE,"Tegel Free Range Satay Flavoured Chicken Kebabs
 
-6pk",,8.99,8.99,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.414870
+6pk",,8.99,8.99,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.329207
 PAK'nSAVE,"Tegel Free Range Chicken Luncheon
 
-800g",,8.15,8.15,10.19,ea,0.0,0.0,NONE,2026-01-04T22:52:36.444852
+800g",,8.15,8.15,10.19,ea,0.0,0.0,,2026-01-04T23:11:40.359176
 PAK'nSAVE,"Hellers Manuka Smoked Streaky Bacon
 
-400g",,10.79,10.79,26.98,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.471501
+400g",,10.79,10.79,26.98,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.385654
 PAK'nSAVE,"Hellers Shaved Hot Pork
 
-200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.506530
+200g",,5.49,5.49,27.45,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.421054
 PAK'nSAVE,"Primo Smallgoods Chorizo
 
-200g",,6.25,6.25,31.25,ea,0.0,0.0,NONE,2026-01-04T22:52:36.542286
+200g",,6.25,6.25,31.25,ea,0.0,0.0,,2026-01-04T23:11:40.454985
 PAK'nSAVE,"Hutton's Ham & Chicken Flavoured Luncheon
 
-800g",,8.19,8.19,10.24,ea,0.0,0.0,NONE,2026-01-04T22:52:36.568054
+800g",,8.19,8.19,10.24,ea,0.0,0.0,,2026-01-04T23:11:40.482542
 PAK'nSAVE,"Hellers Family Meatballs
 
-400g",,8.59,8.59,21.48,ea,0.0,0.0,NONE,2026-01-04T22:52:36.593905
+400g",,8.59,8.59,21.48,ea,0.0,0.0,,2026-01-04T23:11:40.508521
 PAK'nSAVE,"Hellers Family Burgers
 
-6pk",,8.59,8.59,,ea,0.0,0.0,NONE,2026-01-04T22:52:36.650185
+6pk",,8.59,8.59,,ea,0.0,0.0,,2026-01-04T23:11:40.565548
 PAK'nSAVE,"Farmland Leg Ham Banquet Boneless
 
-890g",,15.49,15.49,17.4,ea,0.0,0.0,NONE,2026-01-04T22:52:36.675230
+890g",,15.49,15.49,17.4,ea,0.0,0.0,,2026-01-04T23:11:40.590710
 PAK'nSAVE,"Hellers Classic Saveloys
 
-1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.706166
+1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.621744
 PAK'nSAVE,"Hellers Classic Pre-Cooked Chicken Sausages
 
-1kg",,13.19,13.19,13.19,ea,0.0,0.0,NONE,2026-01-04T22:52:36.735851
+1kg",,13.19,13.19,13.19,ea,0.0,0.0,,2026-01-04T23:11:40.651537
 PAK'nSAVE,"Hellers Sliced Manuka Smoked Ham
 
-kg",,18.99,18.99,18.99,kg,0.0,0.0,NONE,2026-01-04T22:52:36.804659
+kg",,18.99,18.99,18.99,kg,0.0,0.0,,2026-01-04T23:11:40.718177
 PAK'nSAVE,"Lamb Shanks (Knuckles)
 
-kg",,26.99,26.99,26.99,kg,0.0,0.0,NONE,2026-01-04T22:52:36.834289
+kg",,26.99,26.99,26.99,kg,0.0,0.0,,2026-01-04T23:11:40.749748
 PAK'nSAVE,"Pams Value Precooked Middle Bacon
 
-700g",,14.29,14.29,20.41,ea,0.0,0.0,NONE,2026-01-04T22:52:36.863561
+700g",,14.29,14.29,20.41,ea,0.0,0.0,,2026-01-04T23:11:40.779186
 PAK'nSAVE,"Harris Farms North Canterbury Beef Burgers
 
-2 x 125g",,6.59,6.59,26.36,ea,0.0,0.0,NONE,2026-01-04T22:52:36.893067
+2 x 125g",,6.59,6.59,26.36,ea,0.0,0.0,,2026-01-04T23:11:40.808914
 PAK'nSAVE,"Farmland Sliced Luncheon Large Pre-Pack
 
-kg",,20.9,20.9,20.9,kg,0.0,0.0,NONE,2026-01-04T22:52:36.918072
+kg",,20.9,20.9,20.9,kg,0.0,0.0,,2026-01-04T23:11:40.833929
 PAK'nSAVE,"Verkerks Italian Salami
 
-300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T22:52:36.949478
+300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.865166
 PAK'nSAVE,"Tegel Free Range Meal Maker Smoked Chicken
 
-260g",,11.79,11.79,45.35,ea,0.0,0.0,NONE,2026-01-04T22:52:36.979125
+260g",,11.79,11.79,45.35,ea,0.0,0.0,,2026-01-04T23:11:40.895086
 PAK'nSAVE,"Hellers Craft Lamb & Thyme Sausages
 
-6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:37.005056
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:40.921481
 PAK'nSAVE,"Pams Classic Beef Sausages
 
-6 x 75g",,8.95,8.95,19.89,ea,0.0,0.0,NONE,2026-01-04T22:52:37.034925
+6 x 75g",,8.95,8.95,19.89,ea,0.0,0.0,,2026-01-04T23:11:40.951211
 PAK'nSAVE,"NZ Chicken Hearts
 
-kg",,14.79,14.79,14.79,kg,0.0,0.0,NONE,2026-01-04T22:52:37.061839
+kg",,14.79,14.79,14.79,kg,0.0,0.0,,2026-01-04T23:11:40.976880
 PAK'nSAVE,"NZ Tenderised Beef Steak
 
-kg",,32.49,32.49,32.49,kg,0.0,0.0,NONE,2026-01-04T22:52:37.091839
+kg",,32.49,32.49,32.49,kg,0.0,0.0,,2026-01-04T23:11:41.008440
 PAK'nSAVE,"Frozen Whole Golden Pompano Fish
 
-kg",,19.99,19.99,19.99,kg,0.0,0.0,NONE,2026-01-04T22:52:37.121972
+kg",,19.99,19.99,19.99,kg,0.0,0.0,,2026-01-04T23:11:41.038615
 PAK'nSAVE,"Verkerks Mini Peperoni Salami
 
-300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T22:52:37.153403
+300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T23:11:41.069859
 PAK'nSAVE,"Pork Shoulder Rolled Roast
 
-kg",,20.99,20.99,20.99,kg,0.0,0.0,NONE,2026-01-04T22:52:37.215061
+kg",,20.99,20.99,20.99,kg,0.0,0.0,,2026-01-04T23:11:41.131492
 PAK'nSAVE,"Beef Fillet Steak
 
-kg",,62.99,62.99,62.99,kg,0.0,0.0,NONE,2026-01-04T22:52:54.558970
+kg",,62.99,62.99,62.99,kg,0.0,0.0,,2026-01-04T23:11:58.650420
 PAK'nSAVE,"Hellers Craft Angus Beef Meatballs
 
-400g",,9.49,9.49,23.73,ea,0.0,0.0,EXTRA,2026-01-04T22:52:54.592802
+400g",,9.49,9.49,23.73,ea,0.0,0.0,EXTRA,2026-01-04T23:11:58.683278
 PAK'nSAVE,"Farmland Champagne Ham Sliced
 
-kg",,28.9,28.9,28.9,kg,0.0,0.0,EXTRA,2026-01-04T22:52:54.627077
+kg",,28.9,28.9,28.9,kg,0.0,0.0,EXTRA,2026-01-04T23:11:58.718012
 PAK'nSAVE,"Tegel Free Range Meal Maker Shredded Roast Chicken
 
-100g",,5.99,5.99,59.9,ea,0.0,0.0,NONE,2026-01-04T22:52:54.697210
+100g",,5.99,5.99,59.9,ea,0.0,0.0,,2026-01-04T23:11:58.789250
 PAK'nSAVE,"Pams Classic Pork Sausages
 
-6 x 75g",,8.95,8.95,19.89,ea,0.0,0.0,NONE,2026-01-04T22:52:54.755514
+6 x 75g",,8.95,8.95,19.89,ea,0.0,0.0,,2026-01-04T23:11:58.846137
 PAK'nSAVE,"Beehive Tasty Cheese Sausages
 
-800g",,17.25,17.25,21.56,ea,0.0,0.0,NONE,2026-01-04T22:52:54.781029
+800g",,17.25,17.25,21.56,ea,0.0,0.0,,2026-01-04T23:11:58.872043
 PAK'nSAVE,"Tegel Free Range Manuka Smoked Chicken Rashers
 
-350g",,10.95,10.95,31.29,ea,0.0,0.0,NONE,2026-01-04T22:52:54.806518
+350g",,10.95,10.95,31.29,ea,0.0,0.0,,2026-01-04T23:11:58.897395
 PAK'nSAVE,"Hellers Mild Chorizo
 
-150g",,6.49,6.49,43.27,ea,0.0,0.0,NONE,2026-01-04T22:52:54.831973
+150g",,6.49,6.49,43.27,ea,0.0,0.0,,2026-01-04T23:11:58.923283
 PAK'nSAVE,"NZ Pork Crackling
 
-kg",,10.99,10.99,10.99,kg,0.0,0.0,NONE,2026-01-04T22:52:54.857322
+kg",,10.99,10.99,10.99,kg,0.0,0.0,,2026-01-04T23:11:58.948702
 PAK'nSAVE,"Primo Smallgoods Spanish Chorizo
 
-200g",,6.25,6.25,31.25,ea,0.0,0.0,NONE,2026-01-04T22:52:54.887063
+200g",,6.25,6.25,31.25,ea,0.0,0.0,,2026-01-04T23:11:58.978680
 PAK'nSAVE,"Premier Precooked Original Sausages
 
-1kg",,17.25,17.25,17.25,ea,0.0,0.0,NONE,2026-01-04T22:52:54.912475
+1kg",,17.25,17.25,17.25,ea,0.0,0.0,,2026-01-04T23:11:59.004404
 PAK'nSAVE,"Harris Farms Beef 'n Caramelised Onion Burgers
 
-2 x 125g",,6.59,6.59,26.36,ea,0.0,0.0,NONE,2026-01-04T22:52:54.938819
+2 x 125g",,6.59,6.59,26.36,ea,0.0,0.0,,2026-01-04T23:11:59.029882
 PAK'nSAVE,"Rose & Mint Lamb Shoulder Chops
 
-kg",,18.99,18.99,18.99,kg,0.0,0.0,NONE,2026-01-04T22:52:54.963953
+kg",,18.99,18.99,18.99,kg,0.0,0.0,,2026-01-04T23:11:59.055522
 PAK'nSAVE,"Lisa's Mediterranean Falafel Mix
 
-400g",,8.29,8.29,,ea,0.0,0.0,NONE,2026-01-04T22:52:54.995495
+400g",,8.29,8.29,,ea,0.0,0.0,,2026-01-04T23:11:59.085093
 PAK'nSAVE,"Shore Mariner Seafood Marinara Mix
 
-300g",,9.49,9.49,31.63,ea,0.0,0.0,NONE,2026-01-04T22:52:55.020790
+300g",,9.49,9.49,31.63,ea,0.0,0.0,,2026-01-04T23:11:59.110692
 PAK'nSAVE,"Hellers Spicy Chorizo
 
-150g",,6.49,6.49,43.27,ea,0.0,0.0,NONE,2026-01-04T22:52:55.081451
+150g",,6.49,6.49,43.27,ea,0.0,0.0,,2026-01-04T23:11:59.170934
 PAK'nSAVE,"Tegel Free Range Chicken Mexican Wraps
 
-4pk",,11.49,11.49,,ea,0.0,0.0,NONE,2026-01-04T22:52:55.106808
+4pk",,11.49,11.49,,ea,0.0,0.0,,2026-01-04T23:11:59.196739
 PAK'nSAVE,"Verkerks Chorizo
 
-300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.133014
+300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.232737
 PAK'nSAVE,"Bird & Barrow Diced Chicken Breast
 
-kg",,27.49,27.49,27.49,kg,0.0,0.0,NONE,2026-01-04T22:52:55.162332
+kg",,27.49,27.49,27.49,kg,0.0,0.0,,2026-01-04T23:11:59.272301
 PAK'nSAVE,"Hellers Craft Venison Sausages
 
-6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.192915
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.303538
 PAK'nSAVE,"Tegel Free Range Meal Maker Sliced Cajun Chicken
 
-260g",,11.79,11.79,45.35,ea,0.0,0.0,NONE,2026-01-04T22:52:55.222467
+260g",,11.79,11.79,45.35,ea,0.0,0.0,,2026-01-04T23:11:59.333600
 PAK'nSAVE,"Tegel Free Range Manuka Smoked Chicken Rashers
 
-200g",,6.99,6.99,34.95,ea,0.0,0.0,NONE,2026-01-04T22:52:55.247846
+200g",,6.99,6.99,34.95,ea,0.0,0.0,,2026-01-04T23:11:59.359213
 PAK'nSAVE,"Frozen Whole Milk Fish
 
-kg",,16.49,16.49,16.49,kg,0.0,0.0,NONE,2026-01-04T22:52:55.274813
+kg",,16.49,16.49,16.49,kg,0.0,0.0,,2026-01-04T23:11:59.384782
 PAK'nSAVE,"Tegel Free Range Chicken Italian Wraps
 
-4pk",,11.49,11.49,,ea,0.0,0.0,NONE,2026-01-04T22:52:55.304452
+4pk",,11.49,11.49,,ea,0.0,0.0,,2026-01-04T23:11:59.415006
 PAK'nSAVE,"Pams Finest Authentic Italian Prosciutto Crudo
 
-70g",,8.49,8.49,121.29,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.367062
+70g",,8.49,8.49,121.29,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.477930
 PAK'nSAVE,"NZ Beef Topside Steak
 
-kg",,26.99,26.99,26.99,kg,0.0,0.0,NONE,2026-01-04T22:52:55.409572
+kg",,26.99,26.99,26.99,kg,0.0,0.0,,2026-01-04T23:11:59.513018
 PAK'nSAVE,"Tegel Fresh Free Range Smoked Chicken Breast
 
-300g",,12.99,12.99,43.3,ea,0.0,0.0,NONE,2026-01-04T22:52:55.446862
+300g",,12.99,12.99,43.3,ea,0.0,0.0,,2026-01-04T23:11:59.543638
 PAK'nSAVE,"Pams Finest European Duo Prosciutto & Milano Salami
 
-80g",,7.99,7.99,99.88,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.473534
+80g",,7.99,7.99,99.88,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.570338
 PAK'nSAVE,"Verkerks Dutch Salami
 
-300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.509036
+300g",,8.59,8.59,28.63,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.605460
 PAK'nSAVE,"NZ Beef Topside Roast
 
-kg",,25.99,25.99,25.99,kg,0.0,0.0,NONE,2026-01-04T22:52:55.544440
+kg",,25.99,25.99,25.99,kg,0.0,0.0,,2026-01-04T23:11:59.635297
 PAK'nSAVE,"Hellers Craft Spanish Chorizo Sausages
 
-200g",,6.95,6.95,34.75,ea,0.0,0.0,NONE,2026-01-04T22:52:55.575010
+200g",,6.95,6.95,34.75,ea,0.0,0.0,,2026-01-04T23:11:59.665585
 PAK'nSAVE,"Beehive Streaky Bacon
 
-1kg",,17.99,17.99,17.99,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.601860
+1kg",,17.99,17.99,17.99,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.692110
 PAK'nSAVE,"Aoraki Smokehouse Prepacked Bone In Salmon Fillets
 
-kg",,53.49,53.49,53.49,kg,0.0,0.0,NONE,2026-01-04T22:52:55.636853
+kg",,53.49,53.49,53.49,kg,0.0,0.0,,2026-01-04T23:11:59.726332
 PAK'nSAVE,"Lamb Butterfly Leg Roasts
 
-kg",,37.79,37.79,37.79,kg,0.0,0.0,NONE,2026-01-04T22:52:55.666790
+kg",,37.79,37.79,37.79,kg,0.0,0.0,,2026-01-04T23:11:59.755698
 PAK'nSAVE,"Regal Cold Smoked Salmon
 
-100g",,10.79,10.79,107.9,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.697700
+100g",,10.79,10.79,107.9,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.786324
 PAK'nSAVE,"Farmland Wickford Ham
 
-kg",,18.9,18.9,18.9,kg,0.0,0.0,EXTRA,2026-01-04T22:52:55.728683
+kg",,18.9,18.9,18.9,kg,0.0,0.0,EXTRA,2026-01-04T23:11:59.817348
 PAK'nSAVE,"Hellers Craft Angus Beef Breakfast Sausages
 
-10pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.763802
+10pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.852208
 PAK'nSAVE,"Farmland Shaved Ham Large Pre-Pack
 
-kg",,23.9,23.9,23.9,kg,0.0,0.0,NONE,2026-01-04T22:52:55.793689
+kg",,23.9,23.9,23.9,kg,0.0,0.0,,2026-01-04T23:11:59.882233
 PAK'nSAVE,"Hellers Craft Sliced Tandoori Chicken
 
-250g",,9.99,9.99,39.96,ea,0.0,0.0,EXTRA,2026-01-04T22:52:55.825302
+250g",,9.99,9.99,39.96,ea,0.0,0.0,EXTRA,2026-01-04T23:11:59.913007
 PAK'nSAVE,"Hellers Craft Sliced Ham Off The Bone
 
-250g",,10.79,10.79,43.16,ea,0.0,0.0,NONE,2026-01-04T22:52:55.854916
+250g",,10.79,10.79,43.16,ea,0.0,0.0,,2026-01-04T23:11:59.943371
 PAK'nSAVE,"NZ Pork Spare Ribs
 
-kg",,23.99,23.99,23.99,kg,0.0,0.0,NONE,2026-01-04T22:52:55.885172
+kg",,23.99,23.99,23.99,kg,0.0,0.0,,2026-01-04T23:11:59.973520
 PAK'nSAVE,"Vegie Delights Hot Dogs
 
-300g",,12.99,12.99,,ea,0.0,0.0,NONE,2026-01-04T22:52:55.910867
+300g",,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:11:59.999103
 PAK'nSAVE,"Prepacked Salmon Heads
 
-kg",,12.49,12.49,12.49,kg,0.0,0.0,NONE,2026-01-04T22:52:55.936000
+kg",,12.49,12.49,12.49,kg,0.0,0.0,,2026-01-04T23:12:00.024309
 PAK'nSAVE,"Tegel Free Range Meal Maker Shredded Satay Flavoured Chicken
 
-260g",,11.79,11.79,45.35,ea,0.0,0.0,NONE,2026-01-04T22:52:55.965578
+260g",,11.79,11.79,45.35,ea,0.0,0.0,,2026-01-04T23:12:00.054577
 PAK'nSAVE,"Sizzlers Original
 
-450g",,6.49,6.49,14.42,ea,0.0,0.0,NONE,2026-01-04T22:52:56.015880
+450g",,6.49,6.49,14.42,ea,0.0,0.0,,2026-01-04T23:12:00.104755
 PAK'nSAVE,"Bird & Barrow Chicken Mince
 
-kg",,27.49,27.49,27.49,kg,0.0,0.0,NONE,2026-01-04T22:53:13.376053
+kg",,27.49,27.49,27.49,kg,0.0,0.0,,2026-01-04T23:12:16.270532
 PAK'nSAVE,"Beehive Cheese Frankfurters
 
-800g",,13.85,13.85,17.31,ea,0.0,0.0,NONE,2026-01-04T22:53:13.439960
+800g",,13.85,13.85,17.31,ea,0.0,0.0,,2026-01-04T23:12:16.334063
 PAK'nSAVE,"NZ Monkfish Fillets
 
-kg",,34.99,34.99,34.99,kg,0.0,0.0,NONE,2026-01-04T22:53:13.465091
+kg",,34.99,34.99,34.99,kg,0.0,0.0,,2026-01-04T23:12:16.359589
 PAK'nSAVE,"Campbell's Butchery Sausage Meat
 
-450g",,7.25,7.25,16.11,ea,0.0,0.0,NONE,2026-01-04T22:53:13.494754
+450g",,7.25,7.25,16.11,ea,0.0,0.0,,2026-01-04T23:12:16.394519
 PAK'nSAVE,"Beard Brothers Old School Beef Sausages
 
-500g",,11.55,11.55,23.1,ea,0.0,0.0,NONE,2026-01-04T22:53:13.520734
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:12:16.420072
 PAK'nSAVE,"Hellers Family Frankfurters
 
-kg",,14.49,14.49,14.49,kg,0.0,0.0,NONE,2026-01-04T22:53:13.546656
+kg",,14.49,14.49,14.49,kg,0.0,0.0,,2026-01-04T23:12:16.445622
 PAK'nSAVE,"NZ Pork Scotch Fillet
 
-kg",,29.99,29.99,29.99,kg,0.0,0.0,NONE,2026-01-04T22:53:13.573432
+kg",,29.99,29.99,29.99,kg,0.0,0.0,,2026-01-04T23:12:16.471139
 PAK'nSAVE,"Nishin Indian Mackerel Fish
 
-800g",,10.35,10.35,12.94,ea,0.0,0.0,NONE,2026-01-04T22:53:13.603617
+800g",,10.35,10.35,12.94,ea,0.0,0.0,,2026-01-04T23:12:16.502033
 PAK'nSAVE,"Tegel Free Range Meal Maker Shredded Sweet Chilli Chicken
 
-100g",,5.99,5.99,59.9,ea,0.0,0.0,NONE,2026-01-04T22:53:13.669158
+100g",,5.99,5.99,59.9,ea,0.0,0.0,,2026-01-04T23:12:16.567866
 PAK'nSAVE,"NZ Lambs Fry
 
-kg",,13.99,13.99,13.99,kg,0.0,0.0,NONE,2026-01-04T22:53:13.695141
+kg",,13.99,13.99,13.99,kg,0.0,0.0,,2026-01-04T23:12:16.593500
 PAK'nSAVE,"Fresh Gurnard Fillets
 
-ea",,44.99,44.99,44.99,kg,0.0,0.0,NONE,2026-01-04T22:53:13.725053
+ea",,44.99,44.99,44.99,kg,0.0,0.0,,2026-01-04T23:12:16.623429
 PAK'nSAVE,"NZ Chicken Legs
 
-kg",,11.99,11.99,11.99,kg,0.0,0.0,NONE,2026-01-04T22:53:13.785784
+kg",,11.99,11.99,11.99,kg,0.0,0.0,,2026-01-04T23:12:16.684853
 PAK'nSAVE,"Tonzu Original High Protein Organic Tempeh
 
-250g",,8.19,8.19,,ea,0.0,0.0,NONE,2026-01-04T22:53:13.821143
+250g",,8.19,8.19,,ea,0.0,0.0,,2026-01-04T23:12:16.715055
 PAK'nSAVE,"Beard Brothers Lekker Braai Boerewors
 
-450g",,11.55,11.55,25.67,ea,0.0,0.0,NONE,2026-01-04T22:53:13.878208
+450g",,11.55,11.55,25.67,ea,0.0,0.0,,2026-01-04T23:12:16.771315
 PAK'nSAVE,"Pork Schnitzel
 
-kg",,23.49,23.49,23.49,kg,0.0,0.0,NONE,2026-01-04T22:53:13.938693
+kg",,23.49,23.49,23.49,kg,0.0,0.0,,2026-01-04T23:12:16.832034
 PAK'nSAVE,"Harris Farms Smokey T's Brisket n' Cheddar Sausage MAP
 
-450g",,9.99,9.99,22.2,ea,0.0,0.0,NONE,2026-01-04T22:53:13.968253
+450g",,9.99,9.99,22.2,ea,0.0,0.0,,2026-01-04T23:12:16.861990
 PAK'nSAVE,"Beef Ribeye Steak On The Bone
 
-kg",,45.49,45.49,45.49,kg,0.0,0.0,NONE,2026-01-04T22:53:13.993506
+kg",,45.49,45.49,45.49,kg,0.0,0.0,,2026-01-04T23:12:16.887671
 PAK'nSAVE,"Shore Mariner Squid Tentacles
 
-500g",,9.79,9.79,19.58,ea,0.0,0.0,NONE,2026-01-04T22:53:14.023509
+500g",,9.79,9.79,19.58,ea,0.0,0.0,,2026-01-04T23:12:16.918020
 PAK'nSAVE,"PrePacked Tarakihi Fillets
 
-kg",,44.99,44.99,44.99,kg,0.0,0.0,NONE,2026-01-04T22:53:14.053386
+kg",,44.99,44.99,44.99,kg,0.0,0.0,,2026-01-04T23:12:16.949597
 PAK'nSAVE,"Lamb Drumsticks
 
-kg",,23.49,23.49,23.49,kg,0.0,0.0,NONE,2026-01-04T22:53:14.083828
+kg",,23.49,23.49,23.49,kg,0.0,0.0,,2026-01-04T23:12:16.980566
 PAK'nSAVE,"Campbell's Butchery Beef Flavoured Sausages
 
-kg",,13.99,13.99,13.99,kg,0.0,0.0,NONE,2026-01-04T22:53:14.114628
+kg",,13.99,13.99,13.99,kg,0.0,0.0,,2026-01-04T23:12:17.010376
 PAK'nSAVE,"Plain Pack Sliced Pepperoni
 
-180g",,24.9,24.9,24.9,kg,0.0,0.0,NONE,2026-01-04T22:53:14.139585
+180g",,24.9,24.9,24.9,kg,0.0,0.0,,2026-01-04T23:12:17.035693
 PAK'nSAVE,"Whole Beef Ribeye
 
-kg",,46.99,46.99,46.99,kg,0.0,0.0,NONE,2026-01-04T22:53:14.164835
+kg",,46.99,46.99,46.99,kg,0.0,0.0,,2026-01-04T23:12:17.061113
 PAK'nSAVE,"Beard Brothers Kiwi Classic Pork & Cress Sausages
 
-500g",,11.55,11.55,23.1,ea,0.0,0.0,NONE,2026-01-04T22:53:14.219544
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:12:17.116700
 PAK'nSAVE,"Lamb Hearts
 
-kg",,14.99,14.99,14.99,kg,0.0,0.0,NONE,2026-01-04T22:53:14.244520
+kg",,14.99,14.99,14.99,kg,0.0,0.0,,2026-01-04T23:12:17.141819
 PAK'nSAVE,"Whole Golden Pompano
 
-kg",,19.99,19.99,19.99,ea,0.0,0.0,NONE,2026-01-04T22:53:14.274213
+kg",,19.99,19.99,19.99,ea,0.0,0.0,,2026-01-04T23:12:17.171591
 PAK'nSAVE,"Hellers Free Range Danish Eye Bacon
 
-250g",,9.99,9.99,39.96,ea,0.0,0.0,EXTRA,2026-01-04T22:53:14.300671
+250g",,9.99,9.99,39.96,ea,0.0,0.0,EXTRA,2026-01-04T23:12:17.199339
 PAK'nSAVE,"Harris Farms Lamb Herb n Manuka Burgers
 
-2 x 110g",,6.59,6.59,29.95,ea,0.0,0.0,NONE,2026-01-04T22:53:14.334764
+2 x 110g",,6.59,6.59,29.95,ea,0.0,0.0,,2026-01-04T23:12:17.234218
 PAK'nSAVE,"Beard Brothers Moroccan Inspired Beef & Spice Sausages
 
-500g",,11.55,11.55,23.1,ea,0.0,0.0,NONE,2026-01-04T22:53:14.361473
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:12:17.259367
 PAK'nSAVE,"NZ Beef T Bone Steak
 
-kg",,43.99,43.99,43.99,kg,0.0,0.0,NONE,2026-01-04T22:53:14.387369
+kg",,43.99,43.99,43.99,kg,0.0,0.0,,2026-01-04T23:12:17.284713
 PAK'nSAVE,"Hellers Smoked Saveloys
 
-1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T22:53:14.418879
+1kg",,10.99,10.99,10.99,ea,0.0,0.0,EXTRA,2026-01-04T23:12:17.316095
 PAK'nSAVE,"Crumbed Pork Schnitzel
 
-kg",,23.49,23.49,23.49,kg,0.0,0.0,NONE,2026-01-04T22:53:14.448847
+kg",,23.49,23.49,23.49,kg,0.0,0.0,,2026-01-04T23:12:17.345987
 PAK'nSAVE,"Farmland Pastrami Thin Sliced Beef
 
-100g",,6.99,6.99,69.9,ea,0.0,0.0,NONE,2026-01-04T22:53:14.474208
+100g",,6.99,6.99,69.9,ea,0.0,0.0,,2026-01-04T23:12:17.371507
 PAK'nSAVE,"Primo Smallgoods Kransky
 
-200g",,6.25,6.25,31.25,ea,0.0,0.0,NONE,2026-01-04T22:53:14.503749
+200g",,6.25,6.25,31.25,ea,0.0,0.0,,2026-01-04T23:12:17.401040
 PAK'nSAVE,"Pams Smokey Beef Sausages
 
-6 x 75g",,11.15,11.15,24.78,ea,0.0,0.0,NONE,2026-01-04T22:53:14.528751
+6 x 75g",,11.15,11.15,24.78,ea,0.0,0.0,,2026-01-04T23:12:17.426185
 PAK'nSAVE,"Farmland Beef Thin Sliced Roast
 
-100g",,6.99,6.99,69.9,ea,0.0,0.0,NONE,2026-01-04T22:53:14.553716
+100g",,6.99,6.99,69.9,ea,0.0,0.0,,2026-01-04T23:12:17.451491
 PAK'nSAVE,"Harris Farms Pulled Pork Burgers
 
-2 x 125g",,6.59,6.59,26.36,ea,0.0,0.0,NONE,2026-01-04T22:53:14.583078
+2 x 125g",,6.59,6.59,26.36,ea,0.0,0.0,,2026-01-04T23:12:17.482286
 PAK'nSAVE,"Farmland Silverside Thin Sliced Corned
 
-100g",,6.99,6.99,69.9,ea,0.0,0.0,NONE,2026-01-04T22:53:14.608214
+100g",,6.99,6.99,69.9,ea,0.0,0.0,,2026-01-04T23:12:17.507386
 PAK'nSAVE,"Beef Cheeks
 
-kg",,27.99,27.99,27.99,kg,0.0,0.0,NONE,2026-01-04T22:53:14.639146
+kg",,27.99,27.99,27.99,kg,0.0,0.0,,2026-01-04T23:12:17.536833
 PAK'nSAVE,"Farmland Thin Sliced Hot Pork
 
-100g",,6.99,6.99,69.9,ea,0.0,0.0,NONE,2026-01-04T22:53:14.664410
+100g",,6.99,6.99,69.9,ea,0.0,0.0,,2026-01-04T23:12:17.562062
 PAK'nSAVE,"Regal Cold Smoked Salmon
 
-200g",,20.15,20.15,100.75,ea,0.0,0.0,EXTRA,2026-01-04T22:53:14.726308
+200g",,20.15,20.15,100.75,ea,0.0,0.0,EXTRA,2026-01-04T23:12:17.623434
 PAK'nSAVE,"Verkerks Rookworst Authentic Dutch Smoked Sausage
 
-300g",,8.29,8.29,27.63,ea,0.0,0.0,EXTRA,2026-01-04T22:53:14.787488
+300g",,8.29,8.29,27.63,ea,0.0,0.0,EXTRA,2026-01-04T23:12:17.684785
 PAK'nSAVE,"NZ Pork Rump Steak
 
-kg",,30.49,30.49,30.49,kg,0.0,0.0,NONE,2026-01-04T22:53:32.100131
+kg",,30.49,30.49,30.49,kg,0.0,0.0,,2026-01-04T23:12:34.994333
 PAK'nSAVE,"Farmland Beef Thin Sliced Hot
 
-100g",,6.99,6.99,69.9,ea,0.0,0.0,NONE,2026-01-04T22:53:32.130548
+100g",,6.99,6.99,69.9,ea,0.0,0.0,,2026-01-04T23:12:35.025013
 PAK'nSAVE,"NZ Red Cod Fillets
 
-kg",,22.49,22.49,22.49,kg,0.0,0.0,NONE,2026-01-04T22:53:32.166680
+kg",,22.49,22.49,22.49,kg,0.0,0.0,,2026-01-04T23:12:35.061683
 PAK'nSAVE,"NZ Whole Beef Rump
 
-kg",,32.99,32.99,32.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.196385
+kg",,32.99,32.99,32.99,kg,0.0,0.0,,2026-01-04T23:12:35.091483
 PAK'nSAVE,"Tegel Free Range Crunchy Chicken Burgers
 
-4pk",,9.89,9.89,,ea,0.0,0.0,NONE,2026-01-04T22:53:32.226066
+4pk",,9.89,9.89,,ea,0.0,0.0,,2026-01-04T23:12:35.124333
 PAK'nSAVE,"Unsliced Beef Fillet Steak
 
-kg",,62.99,62.99,62.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.251778
+kg",,62.99,62.99,62.99,kg,0.0,0.0,,2026-01-04T23:12:35.151275
 PAK'nSAVE,"Campbell's Butchery Pork Flavoured Sausages
 
-kg",,12.99,12.99,12.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.281906
+kg",,12.99,12.99,12.99,kg,0.0,0.0,,2026-01-04T23:12:35.181751
 PAK'nSAVE,"Primo Smallgoods Cheese Kransky
 
-200g",,6.25,6.25,31.25,ea,0.0,0.0,NONE,2026-01-04T22:53:32.308379
+200g",,6.25,6.25,31.25,ea,0.0,0.0,,2026-01-04T23:12:35.207181
 PAK'nSAVE,"Campbell's Butchery Chipolatas Sausages
 
-kg",,16.99,16.99,16.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.333923
+kg",,16.99,16.99,16.99,kg,0.0,0.0,,2026-01-04T23:12:35.232652
 PAK'nSAVE,"Value Pre-Cooked Sausages
 
-60pk",,30.49,30.49,,ea,0.0,0.0,NONE,2026-01-04T22:53:32.359344
+60pk",,30.49,30.49,,ea,0.0,0.0,,2026-01-04T23:12:35.258119
 PAK'nSAVE,"Beard Brothers Old School Pork Sausages
 
-500g",,11.55,11.55,23.1,ea,0.0,0.0,NONE,2026-01-04T22:53:32.384649
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:12:35.284027
 PAK'nSAVE,"Pams Finest Tasty Duo Smoked Prosciutto & Hot Italian Salami
 
-80g",,11.29,11.29,141.13,ea,0.0,0.0,NONE,2026-01-04T22:53:32.409576
+80g",,11.29,11.29,141.13,ea,0.0,0.0,,2026-01-04T23:12:35.309037
 PAK'nSAVE,"NZ Pearl Ghost Shark Fillets
 
-kg",,21.29,21.29,21.29,kg,0.0,0.0,NONE,2026-01-04T22:53:32.438977
+kg",,21.29,21.29,21.29,kg,0.0,0.0,,2026-01-04T23:12:35.339089
 PAK'nSAVE,"Pork Fillets
 
-kg",,28.99,28.99,28.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.468647
+kg",,28.99,28.99,28.99,kg,0.0,0.0,,2026-01-04T23:12:35.368574
 PAK'nSAVE,"Beard Brothers Rum & Que Pitmaster Series Beef Bull Dust Sausages
 
-500g",,11.55,11.55,23.1,ea,0.0,0.0,NONE,2026-01-04T22:53:32.498315
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:12:35.398914
 PAK'nSAVE,"Prepacked Whole Mackerel Fish
 
-ea",,11.99,11.99,11.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.523331
+ea",,11.99,11.99,11.99,kg,0.0,0.0,,2026-01-04T23:12:35.424129
 PAK'nSAVE,"Shredded Chicken
 
-kg",,36.9,36.9,36.9,kg,0.0,0.0,NONE,2026-01-04T22:53:32.558686
+kg",,36.9,36.9,36.9,kg,0.0,0.0,,2026-01-04T23:12:35.453639
 PAK'nSAVE,"Beard Brothers Pork & Spiced Apple Sausages
 
-500g",,11.55,11.55,23.1,ea,0.0,0.0,NONE,2026-01-04T22:53:32.584328
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:12:35.479049
 PAK'nSAVE,"Harris Farms Chipolatas Sausages MAP
 
-450g",,9.99,9.99,22.2,ea,0.0,0.0,NONE,2026-01-04T22:53:32.640469
+450g",,9.99,9.99,22.2,ea,0.0,0.0,,2026-01-04T23:12:35.536164
 PAK'nSAVE,"NZ Snapper Fillets
 
-kg",,45.99,45.99,45.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.669974
+kg",,45.99,45.99,45.99,kg,0.0,0.0,,2026-01-04T23:12:35.565797
 PAK'nSAVE,"Pork & Pineapple Patties
 
-kg",,19.99,19.99,19.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.699752
+kg",,19.99,19.99,19.99,kg,0.0,0.0,,2026-01-04T23:12:35.595766
 PAK'nSAVE,"Pams Finest Premium Cooked Jumbo Shrimp
 
-500g",,18.35,18.35,36.7,ea,0.0,0.0,NONE,2026-01-04T22:53:32.729099
+500g",,18.35,18.35,36.7,ea,0.0,0.0,,2026-01-04T23:12:35.625312
 PAK'nSAVE,"Campbell's Butchery Crumbed Sausages
 
-kg",,15.99,15.99,15.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.784980
+kg",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:12:35.693077
 PAK'nSAVE,"NZ Common Blue Warehou Fillets
 
-kg",,29.99,29.99,29.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.810064
+kg",,29.99,29.99,29.99,kg,0.0,0.0,,2026-01-04T23:12:35.718751
 PAK'nSAVE,"Tegel Free Range Chargrill Chicken Steaks
 
-4pk",,9.89,9.89,,ea,0.0,0.0,NONE,2026-01-04T22:53:32.840554
+4pk",,9.89,9.89,,ea,0.0,0.0,,2026-01-04T23:12:35.748480
 PAK'nSAVE,"Campbell's Butchery Saveloys
 
-kg",,14.99,14.99,14.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.896343
+kg",,14.99,14.99,14.99,kg,0.0,0.0,,2026-01-04T23:12:35.805168
 PAK'nSAVE,"NZ Lamb Boneless Rolled Forquarter
 
-kg",,26.99,26.99,26.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.921418
+kg",,26.99,26.99,26.99,kg,0.0,0.0,,2026-01-04T23:12:35.830204
 PAK'nSAVE,"Curried Sausages
 
-kg",,18.99,18.99,18.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.951052
+kg",,18.99,18.99,18.99,kg,0.0,0.0,,2026-01-04T23:12:35.859713
 PAK'nSAVE,"Frozen Whole Raw Blue Swimming Crab
 
-kg",,16.99,16.99,16.99,kg,0.0,0.0,NONE,2026-01-04T22:53:32.975994
+kg",,16.99,16.99,16.99,kg,0.0,0.0,,2026-01-04T23:12:35.885435
 PAK'nSAVE,"Tegel BBQ Chicken Thighs Cooked
 
-kg",,18.9,18.9,18.9,kg,0.0,0.0,NONE,2026-01-04T22:53:33.001417
+kg",,18.9,18.9,18.9,kg,0.0,0.0,,2026-01-04T23:12:35.910698
 PAK'nSAVE,"Farmland Pre-packed NZ Sliced Deli Champagne Ham
 
-kg",,37.9,37.9,37.9,kg,0.0,0.0,NONE,2026-01-04T22:53:33.026390
+kg",,37.9,37.9,37.9,kg,0.0,0.0,,2026-01-04T23:12:35.936821
 PAK'nSAVE,"NZ Whole Beef Porterhouse
 
-kg",,39.49,39.49,39.49,kg,0.0,0.0,NONE,2026-01-04T22:53:33.057755
+kg",,39.49,39.49,39.49,kg,0.0,0.0,,2026-01-04T23:12:35.966877
 PAK'nSAVE,"Shore Mariner Crumbed Formed Squid Rings
 
-450g",,8.49,8.49,18.87,ea,0.0,0.0,NONE,2026-01-04T22:53:33.089103
+450g",,8.49,8.49,18.87,ea,0.0,0.0,,2026-01-04T23:12:35.996897
 PAK'nSAVE,"Hellers Plain Pack Sliced Honey Baked Ham
 
-kg",,19.9,19.9,19.9,kg,0.0,0.0,EXTRA,2026-01-04T22:53:33.115563
+kg",,19.9,19.9,19.9,kg,0.0,0.0,EXTRA,2026-01-04T23:12:36.023296
 PAK'nSAVE,"Harris Farms Traditional Beef Sausages MAP
 
-480g",,9.99,9.99,20.81,ea,0.0,0.0,NONE,2026-01-04T22:53:33.149738
+480g",,9.99,9.99,20.81,ea,0.0,0.0,,2026-01-04T23:12:36.058535
 PAK'nSAVE,"Shrimp Surimi Salad
 
-kg",,18.99,18.99,18.99,kg,0.0,0.0,NONE,2026-01-04T22:53:33.176164
+kg",,18.99,18.99,18.99,kg,0.0,0.0,,2026-01-04T23:12:36.084615
 PAK'nSAVE,"Diced Lamb
 
-kg",,29.99,29.99,29.99,kg,0.0,0.0,NONE,2026-01-04T22:53:33.201134
+kg",,29.99,29.99,29.99,kg,0.0,0.0,,2026-01-04T23:12:36.109829
 PAK'nSAVE,"Shore Mariner Cooked Vannamei Whole Prawns
 
-400g",,17.35,17.35,43.38,ea,0.0,0.0,NONE,2026-01-04T22:53:33.230731
+400g",,17.35,17.35,43.38,ea,0.0,0.0,,2026-01-04T23:12:36.139518
 PAK'nSAVE,"United Fish Co Oven Ready Salt & Pepper Battered Prawns
 
-250g",,8.99,8.99,35.96,ea,0.0,0.0,EXTRA,2026-01-04T22:53:33.257064
+250g",,8.99,8.99,35.96,ea,0.0,0.0,EXTRA,2026-01-04T23:12:36.165895
 PAK'nSAVE,"Campbell's Sausages PreCooked
 
-kg",,13.99,13.99,13.99,ea,0.0,0.0,NONE,2026-01-04T22:53:33.286675
+kg",,13.99,13.99,13.99,ea,0.0,0.0,,2026-01-04T23:12:36.195975
 PAK'nSAVE,"Farmland Sliced Corned Silverside Small Pre-Pack
 
-kg",,47.9,47.9,47.9,kg,0.0,0.0,NONE,2026-01-04T22:53:33.311764
+kg",,47.9,47.9,47.9,kg,0.0,0.0,,2026-01-04T23:12:36.221742
 PAK'nSAVE,"Whole Beef Eye Fillet
 
-kg",,61.99,61.99,61.99,kg,0.0,0.0,NONE,2026-01-04T22:53:33.341320
+kg",,61.99,61.99,61.99,kg,0.0,0.0,,2026-01-04T23:12:36.251354
 PAK'nSAVE,"Dressed Snapper
 
-kg",,24.99,24.99,24.99,kg,0.0,0.0,NONE,2026-01-04T22:53:33.397757
+kg",,24.99,24.99,24.99,kg,0.0,0.0,,2026-01-04T23:12:36.306384
 PAK'nSAVE,"Frozen PrePacked Whole Tarakihi Fish
 
-kg",,20.99,20.99,20.99,kg,0.0,0.0,NONE,2026-01-04T22:53:33.427779
+kg",,20.99,20.99,20.99,kg,0.0,0.0,,2026-01-04T23:12:36.337034
 PAK'nSAVE,"Hellers Prepacked Sliced Pork Luncheon
 
-kg",,12.9,12.9,12.9,kg,0.0,0.0,NONE,2026-01-04T22:53:33.457648
+kg",,12.9,12.9,12.9,kg,0.0,0.0,,2026-01-04T23:12:36.367386
 PAK'nSAVE,"Campbell's Butchery Battered Hot Dog
 
-kg",,27.49,27.49,27.49,kg,0.0,0.0,NONE,2026-01-04T22:53:33.482832
+kg",,27.49,27.49,27.49,kg,0.0,0.0,,2026-01-04T23:12:36.392649
 PAK'nSAVE,"United Fish Co Oven Ready Hot & Spicy Battered Prawns
 
-250g",,8.99,8.99,35.96,ea,0.0,0.0,EXTRA,2026-01-04T22:53:49.895088
+250g",,8.99,8.99,35.96,ea,0.0,0.0,EXTRA,2026-01-04T23:12:53.002521
 PAK'nSAVE,"Hellers Shaved Silverside
 
-kg",,38.9,38.9,38.9,kg,0.0,0.0,NONE,2026-01-04T22:53:49.927611
+kg",,38.9,38.9,38.9,kg,0.0,0.0,,2026-01-04T23:12:53.038565
 PAK'nSAVE,"Campbell's Butchery Smoked Saveloys
 
-kg",,14.99,14.99,14.99,kg,0.0,0.0,NONE,2026-01-04T22:53:49.952909
+kg",,14.99,14.99,14.99,kg,0.0,0.0,,2026-01-04T23:12:53.066899
 PAK'nSAVE,"Trevally Fillets (Prepack)
 
-kg",,30.99,30.99,30.99,kg,0.0,0.0,NONE,2026-01-04T22:53:49.978092
+kg",,30.99,30.99,30.99,kg,0.0,0.0,,2026-01-04T23:12:53.094973
 PAK'nSAVE,"United Fish Co Oven Ready Coconut Crumbed Prawns
 
-250g",,8.99,8.99,35.96,ea,0.0,0.0,EXTRA,2026-01-04T22:53:50.009257
+250g",,8.99,8.99,35.96,ea,0.0,0.0,EXTRA,2026-01-04T23:12:53.130744
 PAK'nSAVE,"Bird & Barrow Free Range Chicken Breast Manuka Honey & Soy Kebabs
 
-5pk",,10.49,10.49,,ea,0.0,0.0,NONE,2026-01-04T22:53:50.038812
+5pk",,10.49,10.49,,ea,0.0,0.0,,2026-01-04T23:12:53.162555
 PAK'nSAVE,"Farmland Cooked Roast Beef
 
-kg",,42.9,42.9,42.9,ea,0.0,0.0,NONE,2026-01-04T22:53:50.063833
+kg",,42.9,42.9,42.9,ea,0.0,0.0,,2026-01-04T23:12:53.189867
 PAK'nSAVE,"Ghiotti Soppressa Veneta
 
-70g",,8.79,8.79,125.57,ea,0.0,0.0,NONE,2026-01-04T22:53:50.089064
+70g",,8.79,8.79,125.57,ea,0.0,0.0,,2026-01-04T23:12:53.217490
 PAK'nSAVE,"Bird & Barrow Free Range Chicken Breast Coconut & Lemongrass Kebabs
 
-5pk",,10.49,10.49,,ea,0.0,0.0,NONE,2026-01-04T22:53:50.120041
+5pk",,10.49,10.49,,ea,0.0,0.0,,2026-01-04T23:12:53.250133
 PAK'nSAVE,"Hellers Craft Jumbo Cheese Brats
 
-4pk",,6.99,6.99,,ea,0.0,0.0,EXTRA,2026-01-04T22:53:50.146482
+4pk",,6.99,6.99,,ea,0.0,0.0,EXTRA,2026-01-04T23:12:53.279223
 PAK'nSAVE,"Shore Mariner Panko Crumbed Prawn Bites
 
-375g",,12.69,12.69,33.84,ea,0.0,0.0,NONE,2026-01-04T22:53:50.176161
+375g",,12.69,12.69,33.84,ea,0.0,0.0,,2026-01-04T23:12:53.311132
 PAK'nSAVE,"NZ Skate Wings
 
-kg",,13.99,13.99,13.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.201477
+kg",,13.99,13.99,13.99,kg,0.0,0.0,,2026-01-04T23:12:53.339142
 PAK'nSAVE,"Verkerks Pepperoni
 
-kg",,36.9,36.9,36.9,kg,0.0,0.0,NONE,2026-01-04T22:53:50.230833
+kg",,36.9,36.9,36.9,kg,0.0,0.0,,2026-01-04T23:12:53.372208
 PAK'nSAVE,"Ghiotti Chorizo Extra
 
-70g",,8.79,8.79,125.57,ea,0.0,0.0,NONE,2026-01-04T22:53:50.255502
+70g",,8.79,8.79,125.57,ea,0.0,0.0,,2026-01-04T23:12:53.406559
 PAK'nSAVE,"Whole Flounder Fish PrePacked
 
-kg",,29.49,29.49,29.49,kg,0.0,0.0,NONE,2026-01-04T22:53:50.285008
+kg",,29.49,29.49,29.49,kg,0.0,0.0,,2026-01-04T23:12:53.439626
 PAK'nSAVE,"Moki Fish Fillets
 
-ea",,32.99,32.99,32.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.314378
+ea",,32.99,32.99,32.99,kg,0.0,0.0,,2026-01-04T23:12:53.472324
 PAK'nSAVE,"Tegel Free Range Meal Maker Shredded Flame Grilled Style Chicken
 
-100g",,5.99,5.99,59.9,ea,0.0,0.0,NONE,2026-01-04T22:53:50.343682
+100g",,5.99,5.99,59.9,ea,0.0,0.0,,2026-01-04T23:12:53.504258
 PAK'nSAVE,"Ghiotti Chorizo Velita
 
-150g",,11.49,11.49,76.6,ea,0.0,0.0,NONE,2026-01-04T22:53:50.371059
+150g",,11.49,11.49,76.6,ea,0.0,0.0,,2026-01-04T23:12:53.531177
 PAK'nSAVE,"Prepacked Moki Fish Steaks
 
-ea",,15.99,15.99,15.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.400599
+ea",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:12:53.563390
 PAK'nSAVE,"Tilapia Frozen
 
-kg",,14.99,14.99,14.99,ea,0.0,0.0,NONE,2026-01-04T22:53:50.429999
+kg",,14.99,14.99,14.99,ea,0.0,0.0,,2026-01-04T23:12:53.595772
 PAK'nSAVE,"Martinez Salchichon Spanish Salami
 
-90g",,5.29,5.29,58.78,ea,0.0,0.0,NONE,2026-01-04T22:53:50.459352
+90g",,5.29,5.29,58.78,ea,0.0,0.0,,2026-01-04T23:12:53.627425
 PAK'nSAVE,"Sea Cuisine Vannamei 41/50 Whole Raw Prawns
 
-0.8kg",,23.95,23.95,29.94,ea,0.0,0.0,NONE,2026-01-04T22:53:50.484341
+0.8kg",,23.95,23.95,29.94,ea,0.0,0.0,,2026-01-04T23:12:53.653980
 PAK'nSAVE,"Lamb Rissoles
 
-kg",,20.99,20.99,20.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.513792
+kg",,20.99,20.99,20.99,kg,0.0,0.0,,2026-01-04T23:12:53.684966
 PAK'nSAVE,"Whole Perch
 
-ea",,11.99,11.99,11.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.538848
+ea",,11.99,11.99,11.99,kg,0.0,0.0,,2026-01-04T23:12:53.712766
 PAK'nSAVE,"Verkerks Medium Heat Chorizo
 
-250g",,6.79,6.79,27.16,ea,0.0,0.0,NONE,2026-01-04T22:53:50.568149
+250g",,6.79,6.79,27.16,ea,0.0,0.0,,2026-01-04T23:12:53.744110
 PAK'nSAVE,"Rig Fish Fillets
 
-ea",,37.99,37.99,37.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.624955
+ea",,37.99,37.99,37.99,kg,0.0,0.0,,2026-01-04T23:12:53.804728
 PAK'nSAVE,"PrePackaged Leather Jackets Fish
 
-kg",,18.49,18.49,18.49,kg,0.0,0.0,NONE,2026-01-04T22:53:50.654686
+kg",,18.49,18.49,18.49,kg,0.0,0.0,,2026-01-04T23:12:53.837103
 PAK'nSAVE,"Harris Farms Povi Masima
 
-5kg",,100.39,100.39,20.08,ea,0.0,0.0,NONE,2026-01-04T22:53:50.684192
+5kg",,100.39,100.39,20.08,ea,0.0,0.0,,2026-01-04T23:12:53.868939
 PAK'nSAVE,"Sea Cuisine Cooked Whole Prawns Vannamei 21/25
 
-800g",,29.19,29.19,36.49,ea,0.0,0.0,NONE,2026-01-04T22:53:50.713719
+800g",,29.19,29.19,36.49,ea,0.0,0.0,,2026-01-04T23:12:53.900876
 PAK'nSAVE,"Prepacked Conga Eel Steaks
 
-ea",,12.99,12.99,12.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.743164
+ea",,12.99,12.99,12.99,kg,0.0,0.0,,2026-01-04T23:12:53.932464
 PAK'nSAVE,"Beef Sirloin Roast
 
-ea",,39.99,39.99,39.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.772413
+ea",,39.99,39.99,39.99,kg,0.0,0.0,,2026-01-04T23:12:53.964038
 PAK'nSAVE,"Verkerks Traditional Chorizo
 
-kg",,36.9,36.9,36.9,kg,0.0,0.0,NONE,2026-01-04T22:53:50.801780
+kg",,36.9,36.9,36.9,kg,0.0,0.0,,2026-01-04T23:12:53.997767
 PAK'nSAVE,"Farmland Hot Pork Sliced RW Small
 
-kg",,59.9,59.9,59.9,kg,0.0,0.0,NONE,2026-01-04T22:53:50.826897
+kg",,59.9,59.9,59.9,kg,0.0,0.0,,2026-01-04T23:12:54.024906
 PAK'nSAVE,"Farmland Small RW Beef Pastrami Sliced
 
-kg",,59.9,59.9,59.9,kg,0.0,0.0,NONE,2026-01-04T22:53:50.856205
+kg",,59.9,59.9,59.9,kg,0.0,0.0,,2026-01-04T23:12:54.056804
 PAK'nSAVE,"Whole Trevally
 
-ea",,14.99,14.99,14.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.887066
+ea",,14.99,14.99,14.99,kg,0.0,0.0,,2026-01-04T23:12:54.088665
 PAK'nSAVE,"Tuna Steaks
 
-ea",,57.99,57.99,57.99,kg,0.0,0.0,NONE,2026-01-04T22:53:50.916458
+ea",,57.99,57.99,57.99,kg,0.0,0.0,,2026-01-04T23:12:54.120552
 PAK'nSAVE,"Tegel Free Range Southern Style Chicken Tenders
 
-8pk",,9.89,9.89,,ea,0.0,0.0,NONE,2026-01-04T22:53:50.945846
+8pk",,9.89,9.89,,ea,0.0,0.0,,2026-01-04T23:12:54.152090
 PAK'nSAVE,"Martinez Chorizo Extra Cured Sausages
 
-120g",,7.09,7.09,59.08,ea,0.0,0.0,NONE,2026-01-04T22:53:50.971728
+120g",,7.09,7.09,59.08,ea,0.0,0.0,,2026-01-04T23:12:54.179137
 PAK'nSAVE,"Quorn Meat -Free Sausages
 
-336g",,10.15,10.15,,ea,0.0,0.0,NONE,2026-01-04T22:53:50.996727
+336g",,10.15,10.15,,ea,0.0,0.0,,2026-01-04T23:12:54.205926
 PAK'nSAVE,"Steak & Onion Meatballs
 
-kg",,20.99,20.99,20.99,kg,0.0,0.0,NONE,2026-01-04T22:53:51.021481
+kg",,20.99,20.99,20.99,kg,0.0,0.0,,2026-01-04T23:12:54.232106
 PAK'nSAVE,"Fresh Salmon Fillet Pin Out
 
-kg",,61.99,61.99,61.99,kg,0.0,0.0,NONE,2026-01-04T22:53:51.050810
+kg",,61.99,61.99,61.99,kg,0.0,0.0,,2026-01-04T23:12:54.263486
 PAK'nSAVE,"Angus Beef Patties
 
-kg",,20.99,20.99,20.99,kg,0.0,0.0,NONE,2026-01-04T22:53:51.075994
+kg",,20.99,20.99,20.99,kg,0.0,0.0,,2026-01-04T23:12:54.292047
 PAK'nSAVE,"Frozen Crumbed Gurnard Fillets
 
-kg",,21.99,21.99,21.99,kg,0.0,0.0,EXTRA,2026-01-04T22:53:51.106503
+kg",,21.99,21.99,21.99,kg,0.0,0.0,EXTRA,2026-01-04T23:12:54.324809
 PAK'nSAVE,"Beef Sirloin Steak
 
-kg",,40.49,40.49,40.49,kg,0.0,0.0,NONE,2026-01-04T22:53:51.135870
+kg",,40.49,40.49,40.49,kg,0.0,0.0,,2026-01-04T23:12:54.372258
 PAK'nSAVE,"Whole Milk Fish
 
-kg",,16.49,16.49,16.49,kg,0.0,0.0,NONE,2026-01-04T22:53:51.166685
+kg",,16.49,16.49,16.49,kg,0.0,0.0,,2026-01-04T23:12:54.406949
 PAK'nSAVE,"Santa Bremor Herring Fillets In Oil
 
-260g",,7.79,7.79,,ea,0.0,0.0,NONE,2026-01-04T22:53:51.192197
+260g",,7.79,7.79,,ea,0.0,0.0,,2026-01-04T23:12:54.437710
 PAK'nSAVE,"United Fish Co Baby Octopus
 
-1kg",,22.09,22.09,22.09,ea,0.0,0.0,NONE,2026-01-04T22:53:51.217389
+1kg",,22.09,22.09,22.09,ea,0.0,0.0,,2026-01-04T23:12:54.468549
 PAK'nSAVE,"Ghiotti Fiesta Espanola
 
-85g",,12.79,12.79,150.47,ea,0.0,0.0,NONE,2026-01-04T22:53:51.247113
+85g",,12.79,12.79,150.47,ea,0.0,0.0,,2026-01-04T23:12:54.551616
 PAK'nSAVE,"Crumbed Lamb Schnitzel
 
-kg",,34.99,34.99,34.99,kg,0.0,0.0,NONE,2026-01-04T22:53:51.272050
-Woolworths,Woolworths NZ Chicken Breast Skinless Boneless Min Order 1kg,Woolworths,14.99,14.99,,ea,0.0,0.0,,2026-01-04T22:54:20.156372
-Woolworths,Woolworths Pork & Beef Mince Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.174589
-Woolworths,Woolworths NZ Beef Mince Grass Fed 18% Fat Tray 1kg,Woolworths,21.9,21.9,,ea,0.0,0.0,,2026-01-04T22:54:20.191643
-Woolworths,Woolworths NZ Beef Mince Grass Fed 5% Fat Tray 500g,Woolworths,16.9,16.9,,ea,0.0,0.0,,2026-01-04T22:54:20.208660
-Woolworths,Woolworths NZ Chicken Breast Skinless Boneless 0.6-0.8kg,Woolworths,15.8,15.8,,ea,0.0,0.0,,2026-01-04T22:54:20.225694
-Woolworths,Woolworths NZ Beef Mince Grass Fed 18% Fat Tray 500g,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T22:54:20.242733
-Woolworths,Woolworths NZ Chicken Thighs Skinless Boneless 1.0kg - 1.35kg,Woolworths,25.99,25.99,,ea,0.0,0.0,,2026-01-04T22:54:20.259337
-Woolworths,Waitoa Free Range Chicken Whole Butterfly Honey & Rosemary Each 1.1kg,,15.0,15.0,,ea,0.0,0.0,,2026-01-04T22:54:20.275910
-Woolworths,Woolworths NZ Diced Chicken 400g,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T22:54:20.292144
-Woolworths,Woolworths NZ Beef Mince Prime Grass Fed 13% Fat Tray 750g,Woolworths,17.9,19.9,,ea,2.0,10.1,,2026-01-04T22:54:20.304804
-Woolworths,Woolworths NZ Chicken Drumsticks 0.9-1.5kg 7-11pc,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T22:54:20.320939
-Woolworths,Woolworths Sausages Classic Beef 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.337638
-Woolworths,Turks Free Range Chicken Breast Skinless Fillet 450g,,9.9,9.9,,ea,0.0,0.0,,2026-01-04T22:54:20.355237
-Woolworths,Woolworths NZ Chicken Thighs Skinless Boneless 580g - 800g,Woolworths,25.99,25.99,,ea,0.0,0.0,,2026-01-04T22:54:20.371015
-Woolworths,Woolworths Chicken Tenderloins NZ Small Pack,Woolworths,22.2,22.2,,ea,0.0,0.0,,2026-01-04T22:54:20.387550
-Woolworths,Hellers Sausages Precooked 800g 12pack,,10.0,10.0,,ea,0.0,0.0,,2026-01-04T22:54:20.403834
-Woolworths,Woolworths Oven Ready Chicken Whole Sage & Onion Each 1.5kg,Woolworths,18.5,18.5,,ea,0.0,0.0,,2026-01-04T22:54:20.419691
-Woolworths,Macro Free Range NZ Chicken Breast Min Order 560g,,26.5,26.5,,ea,0.0,0.0,,2026-01-04T22:54:20.435737
-Woolworths,Woolworths Cook NZ Chicken Kebabs Honey Soy 5pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.451803
-Woolworths,Woolworths Cook NZ Chicken Kebabs Satay Tray 5pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.467783
-Woolworths,Bostocks Organic Boneless Chicken Breast Free Range 450g,,15.0,15.0,,ea,0.0,0.0,,2026-01-04T22:54:20.483449
-Woolworths,Woolworths NZ Beef Rump Steak Grass Fed 1pce,Woolworths,34.9,34.9,,ea,0.0,0.0,,2026-01-04T22:54:20.499457
-Woolworths,First Light Beef Mince Wagyu 400g,,10.7,12.45,,ea,1.75,14.1,,2026-01-04T22:54:20.511866
-Woolworths,Woolworths NZ Chicken Mince Breast 3% Fat Barn Raised Tray 400g,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T22:54:20.527971
-Woolworths,Woolworths Chicken Whole 1.9kg,Woolworths,17.0,17.0,,ea,0.0,0.0,,2026-01-04T22:54:20.543741
-Woolworths,Woolworths Cocktail Sausages Prepacked 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.559566
-Woolworths,Woolworths Frankfurters Prepacked 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.576054
-Woolworths,Woolworths NZ Pork Mince Free Farmed 13% Fat Tray 500g,Woolworths,10.9,10.9,,ea,0.0,0.0,,2026-01-04T22:54:20.591873
-Woolworths,Macro Free Range NZ Diced Chicken Tray 400g,,9.2,9.2,,ea,0.0,0.0,,2026-01-04T22:54:20.607734
-Woolworths,Woolworths Chicken Whole Each 1.35kg,Woolworths,14.8,14.8,,ea,0.0,0.0,,2026-01-04T22:54:20.623576
-Woolworths,Tegel Free Range Quick Cook Chicken Steaks Chargrilled 4pk 400g,,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:54:20.639674
-Woolworths,Woolworths Oven Ready Chicken Whole Country Style Each 1.5kg,Woolworths,18.5,18.5,,ea,0.0,0.0,,2026-01-04T22:54:20.655636
-Woolworths,Woolworths Lamb Leg Frozen Bone In 2.5 - 3.5kg,Woolworths,22.95,22.95,,ea,0.0,0.0,,2026-01-04T22:54:20.671288
-Woolworths,Woolworths NZ Chicken Breast Steaks 0.32 - 0.4kg,Woolworths,24.0,24.0,,ea,0.0,0.0,,2026-01-04T22:54:20.686921
-Woolworths,Woolworths Cook NZ Diced Chicken Breast Satay Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.703324
-Woolworths,Woolworths Cook NZ Butterflied Chicken Garlic & Herb 1.1kg,Woolworths,9.9,13.4,,ea,3.5,26.1,,2026-01-04T22:54:20.715822
-Woolworths,Woolworths Sausages Classic Pork 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:20.731513
-Woolworths,Macro Free Range NZ Chicken Thighs Fillets Min Order 550g,,31.0,31.0,,ea,0.0,0.0,,2026-01-04T22:54:20.747065
-Woolworths,Bostocks Organic Chicken Thighs 450g,,17.0,17.0,,ea,0.0,0.0,,2026-01-04T22:54:20.762837
-Woolworths,Woolworths NZ Beef Stir Fry Premium Grass Fed 400g Tray,Woolworths,13.5,13.5,,ea,0.0,0.0,,2026-01-04T22:54:20.778630
-Woolworths,Woolworths Beef Schnitzel,Woolworths,27.9,27.9,,ea,0.0,0.0,,2026-01-04T22:54:20.794411
-Woolworths,Woolworths Cook NZ Beef Steak Sirloin Garlic/Herb Butter 400g Tray 2pack,Woolworths,21.5,21.5,,ea,0.0,0.0,,2026-01-04T22:54:20.810543
-Woolworths,Woolworths NZ Beef Sirloin Steak Porterhouse Grass Fed 2pce,Woolworths,48.9,48.9,,ea,0.0,0.0,,2026-01-04T22:54:20.825840
-Woolworths,Macro Free Range NZ Chicken Breast Steaks Per Kg,,26.0,26.0,,ea,0.0,0.0,,2026-01-04T22:54:20.841744
-Woolworths,Woolworths NZ Beef Mince Grass Fed 5% Fat Tray 1kg,Woolworths,30.9,30.9,,ea,0.0,0.0,,2026-01-04T22:54:20.857434
-Woolworths,Hellers Sausages Precooked Chunky Cheese Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:54:20.873269
-Woolworths,Woolworths NZ Chicken Thigh Cutlets Skinless Bone In 900g - 1.1kg,Woolworths,14.9,16.9,,ea,1.9999999999999984,11.8,,2026-01-04T22:54:20.885655
-Woolworths,Woolworths NZ Chicken Breasts Skin On 1.7 - 2.1kg,Woolworths,14.6,14.6,,ea,0.0,0.0,,2026-01-04T22:54:20.901338
-Woolworths,Woolworths NZ Chicken Thighs Bone In Skin On 1.3-1.9kg,Woolworths,12.3,12.3,,ea,0.0,0.0,,2026-01-04T22:54:36.116602
-Woolworths,Woolworths Whole NZ Lamb Leg Bone In Grass Fed 2.5 - 3.5kg,Woolworths,26.95,26.95,,ea,0.0,0.0,,2026-01-04T22:54:36.134541
-Woolworths,Woolworths NZ Beef Scotch Fillet Steak Rib Eye Min Order 500g,Woolworths,53.9,53.9,,ea,0.0,0.0,,2026-01-04T22:54:36.151616
-Woolworths,Woolworths NZ Chicken Nibbles NZ 1.0kg - 1.2kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T22:54:36.167594
-Woolworths,Woolworths NZ Beef Meatballs 20 Pack Tray 400g,Woolworths,9.9,9.9,,ea,0.0,0.0,,2026-01-04T22:54:36.183620
-Woolworths,Woolworths Free Farmed Bone In Pork Shoulder Roast NZ,Woolworths,12.95,12.95,,ea,0.0,0.0,,2026-01-04T22:54:36.199986
-Woolworths,Woolworths Sausages Pork Italian Style 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.215990
-Woolworths,Woolworths Sausages Thin Beef 500g Tray 9pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.231581
-Woolworths,Hellers Ham Boneless Honey Baked Min Order 1.2kg,,18.99,18.99,,ea,0.0,0.0,,2026-01-04T22:54:36.247957
-Woolworths,Macro Free Range NZ Chicken Mince Breast Tray 400g,,7.8,7.8,,ea,0.0,0.0,,2026-01-04T22:54:36.263895
-Woolworths,Woolworths NZ Lamb Shoulder Chops Grass Fed 0.4-1.1kg 4pcs,Woolworths,15.9,23.95,,ea,8.049999999999999,33.6,,2026-01-04T22:54:36.276787
-Woolworths,Tegel Take Outs Chicken Burgers Louisiana Style Free Range 4pack,,10.0,10.0,,ea,0.0,0.0,,2026-01-04T22:54:36.293843
-Woolworths,Macro Free Range NZ Chicken Thigh Cutlets Min Order 500g,,21.5,21.5,,ea,0.0,0.0,,2026-01-04T22:54:36.309634
-Woolworths,Hellers Sausages London Pride 6pack,,9.85,10.95,,ea,1.0999999999999996,10.0,,2026-01-04T22:54:36.321924
-Woolworths,Hellers Family Franks 6pack 360g,,5.7,5.7,,ea,0.0,0.0,,2026-01-04T22:54:36.338413
-Woolworths,Woolworths Cook NZ Chicken Breast Strips Lemongrass Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.354598
-Woolworths,Woolworths Cook NZ Lamb Chops Shoulder Oriental Mint 0.6-1.3kg 4pcs,Woolworths,15.9,23.95,,ea,8.049999999999999,33.6,,2026-01-04T22:54:36.367228
-Woolworths,Waitoa Free Range Butterfly Chicken The Chicken Rub 1.1kg,,15.0,15.0,,ea,0.0,0.0,,2026-01-04T22:54:36.383088
-Woolworths,Woolworths Boneless Ham Honey Baked Min Order 900g,Woolworths,18.7,18.7,,ea,0.0,0.0,,2026-01-04T22:54:36.398621
-Woolworths,Hellers Burger Patties Mini Beef 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.414682
-Woolworths,Woolworths NZ Angus Beef Mince Grass Fed 10% Fat Tray 500g,Woolworths,15.9,15.9,,ea,0.0,0.0,,2026-01-04T22:54:36.430780
-Woolworths,Tegel Free Range Quick Cook Chicken Burger Patties Crunchy 4pk 400g,,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:54:36.446827
-Woolworths,"Woolworths Sausages Lamb, Herb & Garlic 450g Tray 6pack",Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T22:54:36.467761
-Woolworths,Hellers Sausages Old Fashioned Beef 6pack,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T22:54:36.483598
-Woolworths,Hellers Sausages Precooked Chinese Honey Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:54:36.498988
-Woolworths,Bostock Organic Free Range Chicken Tenderloins 500g,,15.5,15.5,,ea,0.0,0.0,,2026-01-04T22:54:36.515436
-Woolworths,Woolworths NZ Gravy Beef Grass Fed Min Order 550g,Woolworths,32.9,32.9,,ea,0.0,0.0,,2026-01-04T22:54:36.531012
-Woolworths,Woolworths Sausages Thin Pork 500g Tray 9pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.546746
-Woolworths,Woolworths NZ Free Farmed Pork Loin Chops 0.4-0.9kg 3-4pcs,Woolworths,19.99,19.99,,ea,0.0,0.0,,2026-01-04T22:54:36.562278
-Woolworths,Macro Free Range NZ Chicken Stir Fry Tray 400g,,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:54:36.578904
-Woolworths,Woolworths NZ Beef Steak Honey & Garlic Grass Fed,Woolworths,30.5,33.9,,ea,3.3999999999999986,10.0,,2026-01-04T22:54:36.591262
-Woolworths,Woolworths NZ Corned Beef Silverside Grass Fed 0.8-2kg,Woolworths,16.9,19.9,,ea,3.0,15.1,,2026-01-04T22:54:36.603458
-Woolworths,Woolworths NZ Free Farmed Pork Loin 500g Seal Fresh Steak 4pack,Woolworths,18.8,18.8,,ea,0.0,0.0,,2026-01-04T22:54:36.619093
-Woolworths,Woolworths Value Sausages Precooked Chicken 860g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.634769
-Woolworths,Hellers Frankfurters Family 1kg,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T22:54:36.647372
-Woolworths,Woolworths Cook NZ Diced Chicken Breast Hoisin Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.662945
-Woolworths,Woolworths Cook NZ Beef Steak Peppered Grass Fed 300g Tray 2pack,Woolworths,12.5,12.5,,ea,0.0,0.0,,2026-01-04T22:54:36.678428
-Woolworths,Hellers Sausages Genuine Pork 6pack,,9.85,10.95,,ea,1.0999999999999996,10.0,,2026-01-04T22:54:36.690823
-Woolworths,Woolworths NZ Beef Tenderised Steak Grass Fed 3-6pcs,Woolworths,30.5,33.9,,ea,3.3999999999999986,10.0,,2026-01-04T22:54:36.703111
-Woolworths,Hellers Cheerios Original Gluten Free Prepacked 1kg,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T22:54:36.715658
-Woolworths,Meat Street Lamb Grill Sticks Doner Kebab 5pk 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.730929
-Woolworths,Woolworths NZ Pork Mince Free Farmed 13% Fat Tray 1kg,Woolworths,19.5,19.5,,ea,0.0,0.0,,2026-01-04T22:54:36.746645
-Woolworths,Woolworths Cook NZ Chicken Breast Strips Peri Peri Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.762182
-Woolworths,Woolworths NZ Lamb Leg Steaks 270g Grass Fed Seal Fresh 2pack,Woolworths,13.5,13.5,,ea,0.0,0.0,,2026-01-04T22:54:36.777684
-Woolworths,Woolworths Beef Steak Sizzle,Woolworths,39.9,39.9,,ea,0.0,0.0,,2026-01-04T22:54:36.793107
-Woolworths,Woolworths Pork Sausages Breakfast 375g Tray 10pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:36.808634
-Woolworths,Woolworths NZ Beef Diced Chuck Steak 750g Tray,Woolworths,23.5,23.5,,ea,0.0,0.0,,2026-01-04T22:54:36.824033
-Woolworths,Woolworths NZ Chicken Breast Schnitzels Garlic & Herb Tray 2pack,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:54:36.839624
-Woolworths,Woolworths NZ Beef Burgers Classic 4pk Tray 400g,Woolworths,10.5,10.5,,ea,0.0,0.0,,2026-01-04T22:54:52.613576
-Woolworths,Woolworths Sausages Cheesy Beef 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:52.630901
-Woolworths,Macro Free Range Whole Chicken Min Order 1.45kg,,12.2,12.2,,ea,0.0,0.0,,2026-01-04T22:54:52.647183
-Woolworths,Woolworths NZ Beef Rump Steak Whole,Woolworths,32.9,32.9,,ea,0.0,0.0,,2026-01-04T22:54:52.662999
-Woolworths,Woolworths Beef Sausages Breakfast Grass Fed 375g Tray 10pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:52.680089
-Woolworths,Woolworths Beef Burger Patties 400g Tray 4pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:52.696019
-Woolworths,Hellers Sausages NZ Lamb & Thyme 6pack,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T22:54:52.711678
-Woolworths,Woolworths Leg Ham Boneless Min Order 900g,Woolworths,19.6,19.6,,ea,0.0,0.0,,2026-01-04T22:54:52.727607
-Woolworths,Woolworths NZ Chicken Schnitzel Crumbed Tray 2pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:52.743240
-Woolworths,Silver Fern Farms Beef Flat-Iron Steaks 220g,,16.95,16.95,,ea,0.0,0.0,,2026-01-04T22:54:52.759567
-Woolworths,Woolworths NZ Lamb Mince Grass Feed 13% Fat Tray 500g,Woolworths,17.5,17.5,,ea,0.0,0.0,,2026-01-04T22:54:52.775108
-Woolworths,Woolworths NZ Lamb Chops Loin Grass Fed Min Order 450g,Woolworths,34.95,34.95,,ea,0.0,0.0,,2026-01-04T22:54:52.791276
-Woolworths,Hellers Frankfurters 500g,,7.95,7.95,,ea,0.0,0.0,,2026-01-04T22:54:52.807171
-Woolworths,Woolworths Cook NZ Whole Chicken Oven Ready Smokey Bbq 1.5kg,Woolworths,18.5,18.5,,ea,0.0,0.0,,2026-01-04T22:54:52.823011
-Woolworths,Beehive Kransky Cheese 800g,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T22:54:52.835331
-Woolworths,Woolworths Sausages Angus Beef 450g Tray 6pack,Woolworths,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:54:52.851165
-Woolworths,Hellers Sausages Precooked Gluten Free Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:54:52.866742
-Woolworths,First Light NZ Beef Rump Steak Grass Fed Wagyu 250g Tray,,14.99,14.99,,ea,0.0,0.0,,2026-01-04T22:54:52.882606
-Woolworths,Woolworths Sausages Precooked Cheese Prepacked 1kg,Woolworths,8.0,8.95,,ea,0.9499999999999992,10.6,,2026-01-04T22:54:52.894935
-Woolworths,Hellers Burger Patties Angus 454g 4pack,,13.95,15.5,,ea,1.5500000000000007,10.0,,2026-01-04T22:54:52.907251
-Woolworths,Silver Fern Farms Honest Beef & Lamb Burgers With Manuka Smoked Salt 4 Pack 500g,,13.45,13.45,,ea,0.0,0.0,,2026-01-04T22:54:52.924161
-Woolworths,"Woolworths Sausages Spicy Chorizo, Pork & Beef 450g Tray 6pack",Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T22:54:52.936566
-Woolworths,Silver Fern Farms Beef Eye Fillet Steak 300g,,24.95,24.95,,ea,0.0,0.0,,2026-01-04T22:54:52.952513
-Woolworths,Woolworths Free Farmed NZ Pork Leg Roast Bone In,Woolworths,12.95,12.95,,ea,0.0,0.0,,2026-01-04T22:54:52.967935
-Woolworths,Tonzu Organic Tofu Natural Sausage 300g,,8.49,9.19,,ea,0.6999999999999993,7.6,,2026-01-04T22:54:52.980490
-Woolworths,Woolworths NZ Free Farmed 1/3 Ham Cooked On The Bone Min Order 2kg,Woolworths,18.99,18.99,,ea,0.0,0.0,,2026-01-04T22:54:52.996074
-Woolworths,Woolworths NZ Free Farmed Pork Belly 0.5-1.2kg,Woolworths,29.99,29.99,,ea,0.0,0.0,,2026-01-04T22:54:53.011805
-Woolworths,Woolworths NZ Chicken Tenders Crispy Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:53.027232
-Woolworths,Woolworths Cook NZ Chicken Tenderloins Sweet Chilli Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:53.042710
-Woolworths,Woolworths NZ Beef Blade Steak Grass Fed 1-2pcs,Woolworths,31.9,31.9,,ea,0.0,0.0,,2026-01-04T22:54:53.058248
-Woolworths,First Light Sausages Wagyu Beef 420g,,12.95,12.95,,ea,0.0,0.0,,2026-01-04T22:54:53.074010
-Woolworths,Woolworths Half Leg Ham Cooked On The Bone Min Order 4.8kg,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T22:54:53.089516
-Woolworths,Harmless Food Co Plant Based Chicken 250g,,9.0,10.0,,ea,1.0,10.0,,2026-01-04T22:54:53.101566
-Woolworths,Plan*T Chick*N Prepacked 250g,,12.49,12.49,,ea,0.0,0.0,,2026-01-04T22:54:53.117307
-Woolworths,Woolworths NZ Lamb Shoulder Chops Grass Fed 0.3-0.7kg 2pcs,Woolworths,15.9,23.95,,ea,8.049999999999999,33.6,,2026-01-04T22:54:53.129441
-Woolworths,Meat Street Beef Burgers Classic Rissoles 400g Tray 8pack,,8.0,8.0,,ea,0.0,0.0,,2026-01-04T22:54:53.144980
-Woolworths,Woolworths Beef Sausage Meat Vacuum Packed 450g,Woolworths,7.3,7.3,,ea,0.0,0.0,,2026-01-04T22:54:53.160444
-Woolworths,Silver Fern Farms Beef Stir-Fry 350g,,13.5,15.0,,ea,1.5,10.0,,2026-01-04T22:54:53.172826
-Woolworths,Woolworths NZ Beef Rump Steak Angus Grass Fed 1pc,Woolworths,37.9,37.9,,ea,0.0,0.0,,2026-01-04T22:54:53.188565
-Woolworths,Bostock Organic Sausages Chicken & Tarragon 290g,,11.45,11.45,,ea,0.0,0.0,,2026-01-04T22:54:53.203990
-Woolworths,Woolworths NZ Free Farmed Pork Belly Slices 0.35-0.6kg 5-8pc,Woolworths,29.99,29.99,,ea,0.0,0.0,,2026-01-04T22:54:53.219521
-Woolworths,Hellers Cheerios Sausages 500g,,7.95,7.95,,ea,0.0,0.0,,2026-01-04T22:54:53.235013
-Woolworths,Woolworths NZ Beef T-Bone Steak Grass Fed Small Tray 1pce,Woolworths,45.9,45.9,,ea,0.0,0.0,,2026-01-04T22:54:53.250320
-Woolworths,Woolworths Beef & Pork Meatballs 20 Pack Tray 400g,Woolworths,9.9,9.9,,ea,0.0,0.0,,2026-01-04T22:54:53.265517
-Woolworths,First Light Burger Patties Wagyu Beef 400g,,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:54:53.280995
-Woolworths,Silver Fern Farms Lamb Rumps 400g,,18.95,18.95,,ea,0.0,0.0,,2026-01-04T22:54:53.296450
-Woolworths,Woolworths NZ Chicken Nuggets Battered 330g Tray,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:54:53.312053
-Woolworths,Woolworths Beef Short Ribs,Woolworths,27.9,27.9,,ea,0.0,0.0,,2026-01-04T22:54:53.327447
-Woolworths,Woolworths NZ Free Farmed Pork Shoulder Chops 0.4-1kg 1-2pcs,Woolworths,14.95,14.95,,ea,0.0,0.0,,2026-01-04T22:55:10.575760
-Woolworths,Woolworths NZ Chicken Cutlets Skinless Bone In 630g - 800g,Woolworths,14.9,16.9,,ea,1.9999999999999984,11.8,,2026-01-04T22:55:10.589531
-Woolworths,Bostocks Organic Chicken Drumsticks Free Range 900g,,13.5,13.5,,ea,0.0,0.0,,2026-01-04T22:55:10.605617
-Woolworths,Woolworths NZ Beef Chuck Steak Grass Fed 1-2pcs,Woolworths,32.9,32.9,,ea,0.0,0.0,,2026-01-04T22:55:10.621527
-Woolworths,First Light Meatballs Wagyu Beef 400g,,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:55:10.637200
-Woolworths,Hellers Ham Boneless Leg Min Order 800g,,22.8,22.8,,ea,0.0,0.0,,2026-01-04T22:55:10.652954
-Woolworths,Woolworths NZ Chicken Burgers Crunchy Tray 4pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:10.668720
-Woolworths,Macro Free Range NZ Chicken Drumsticks Min Order 1kg,,12.8,12.8,,ea,0.0,0.0,,2026-01-04T22:55:10.684979
-Woolworths,Riverside Farm Duck Fat Rendered 360g,,6.0,6.0,,ea,0.0,0.0,,2026-01-04T22:55:10.700388
-Woolworths,Impossible Plant Based Mince Beef Prepacked 340g,,13.95,13.95,,ea,0.0,0.0,,2026-01-04T22:55:10.715943
-Woolworths,Woolworths NZ Free Farmed Pork Schnitzel 0.3-0.5kg 4-7pcs,Woolworths,25.0,25.0,,ea,0.0,0.0,,2026-01-04T22:55:10.731583
-Woolworths,Woolworths Sausages Angus Beef Hickory 450g Tray 6pack,Woolworths,12.99,12.99,,ea,0.0,0.0,,2026-01-04T22:55:10.747057
-Woolworths,Woolworths NZ Diced Pork Free Farmed Tray 400g,Woolworths,11.9,11.9,,ea,0.0,0.0,,2026-01-04T22:55:10.762463
-Woolworths,Woolworths NZ Free Farmed Half Leg Ham Cooked On The Bone Min Order 4kg,Woolworths,16.9,16.9,,ea,0.0,0.0,,2026-01-04T22:55:10.778119
-Woolworths,Woolworths NZ Beef Eye Fillet Grass Fed Min Order 200g,Woolworths,72.9,72.9,,ea,0.0,0.0,,2026-01-04T22:55:10.793919
-Woolworths,Bostocks Chicken Whole Organic 1.5kg,,26.99,26.99,,ea,0.0,0.0,,2026-01-04T22:55:10.817037
-Woolworths,Silver Fern Farms Lamb Steaks 220g,,16.95,16.95,,ea,0.0,0.0,,2026-01-04T22:55:10.841694
-Woolworths,Woolworths NZ Diced Beef Premium Grass Fed 400g Tray,Woolworths,15.5,15.5,,ea,0.0,0.0,,2026-01-04T22:55:10.857324
-Woolworths,Woolworths Beef Brisket,Woolworths,19.9,19.9,,ea,0.0,0.0,,2026-01-04T22:55:10.872622
-Woolworths,Woolworths Sausages Pork & Fennel 450g Tray 6pack,Woolworths,11.99,11.99,,ea,0.0,0.0,,2026-01-04T22:55:10.888190
-Woolworths,Hellers Sausages Cheese & Bacon Precooked Prepacked 1kg,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:55:10.903636
-Woolworths,Woolworths NZ Chicken Drumsticks 0.5 - 0.7kg,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T22:55:10.919758
-Woolworths,Woolworths Sausages Precooked Chicken Prepacked 1kg,Woolworths,8.0,8.95,,ea,0.9499999999999992,10.6,,2026-01-04T22:55:10.932228
-Woolworths,Woolworths NZ Beef Sirloin Steak Porterhouse Thin Cut Grass Fed 0.4-0.95kg,Woolworths,48.9,48.9,,ea,0.0,0.0,,2026-01-04T22:55:10.947967
-Woolworths,Woolworths NZ Free Farmed Pork Fillet Whole 0.2-0.6kg,Woolworths,31.99,31.99,,ea,0.0,0.0,,2026-01-04T22:55:10.963542
-Woolworths,Woolworths Sausages Cheese Frankfurters 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:10.979268
-Woolworths,Woolworths NZ Chicken Nibbles 0.4-0.7kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T22:55:10.994692
-Woolworths,Quorn Vegetarian Sausages Frozen 336g,,8.0,9.0,,ea,1.0,11.1,,2026-01-04T22:55:11.006906
-Woolworths,Woolworths Cook NZ Pork Loin Steaks Sweet & Smoky 2pack 250g,Woolworths,10.3,10.3,,ea,0.0,0.0,,2026-01-04T22:55:11.022860
-Woolworths,Woolworths NZ Free Farmed Pork Slices Bone In 0.45-1kg 3-6pcs,Woolworths,19.9,26.0,,ea,6.100000000000001,23.5,,2026-01-04T22:55:11.035070
-Woolworths,Woolworths NZ Chicken Breast Schnitzels Crumbed Tray 2pack,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:55:11.050548
-Woolworths,Hellers Sausages Precooked Prepacked 2kg Pack,,17.95,20.95,,ea,3.0,14.3,,2026-01-04T22:55:11.062782
-Woolworths,Woolworths Cook NZ Chicken Nibbles Buffalo 1.0kg - 1.1kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T22:55:11.074734
-Woolworths,Hellers Meatballs Pork 400g,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T22:55:11.090498
-Woolworths,Waitoa Free Range Sausages Plain Chicken 480g 6pack,,10.95,10.95,,ea,0.0,0.0,,2026-01-04T22:55:11.105934
-Woolworths,Beak & Sons Pork Ribs Hickory Bbq Min Order 1kg,,24.49,24.49,,ea,0.0,0.0,,2026-01-04T22:55:11.121591
-Woolworths,Woolworths Dripping Beef Pottle 450g,Woolworths,7.2,7.2,,ea,0.0,0.0,,2026-01-04T22:55:11.136927
-Woolworths,Woolworths NZ Chicken Pops Southern Style Tray 270g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:11.152211
-Woolworths,Woolworths Cook NZ Sweet Chilli Chicken Nibbles 0.55-0.75kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T22:55:11.164325
-Woolworths,Woolworths NZ Beef Scotch Fillet Steak Whole Min Order 3.5kg,Woolworths,51.9,51.9,,ea,0.0,0.0,,2026-01-04T22:55:11.179481
-Woolworths,Tegel Take Outs Chicken Strips Louisiana Style Free Range 6pack,,10.0,10.0,,ea,0.0,0.0,,2026-01-04T22:55:11.195803
-Woolworths,Woolworths Garlic & Herb Chicken Sausages 450g Tray 6pack,Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T22:55:11.207734
-Woolworths,Woolworths Cook NZ Chicken Drumsticks Smoky Bbq 0.8kg - 0.95kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T22:55:11.223381
-Woolworths,Silver Fern Farms Beef Medallions 400g,,21.95,21.95,,ea,0.0,0.0,,2026-01-04T22:55:11.238967
-Woolworths,Woolworths Cook NZ Chicken Nibbles Vietnamese Style 0.95kg - 1.1kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T22:55:11.251303
-Woolworths,Silver Fern Farms Venison Mince 500g,,13.4,14.95,,ea,1.549999999999999,10.4,,2026-01-04T22:55:11.263464
-Woolworths,Silver Fern Farms Honest Beef Burgers With Smoky Caramelized Onion 2 Pack 500g,,13.45,13.45,,ea,0.0,0.0,,2026-01-04T22:55:11.279966
-Woolworths,Silver Fern Farms Lamb Stir-Fry 350g,,14.95,14.95,,ea,0.0,0.0,,2026-01-04T22:55:11.295387
-Woolworths,Impossible Plant Based Burger Patties 113g Each 2pack,,10.0,12.0,,ea,2.0,16.7,,2026-01-04T22:55:27.938091
-Woolworths,Woolworths NZ Beef Burgers Mini Sliders 8pk Tray 400g,Woolworths,10.5,10.5,,ea,0.0,0.0,,2026-01-04T22:55:27.955036
-Woolworths,Hellers Saveloys Classic Prepacked 1kg,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T22:55:27.968188
-Woolworths,Silver Fern Farms Lamb Medallions 400g,,21.95,21.95,,ea,0.0,0.0,,2026-01-04T22:55:27.984002
-Woolworths,Woolworths Lamb Leg Butterflied Rosemary & Garlic Prepacked 400g,Woolworths,23.95,23.95,,ea,0.0,0.0,,2026-01-04T22:55:27.999561
-Woolworths,Meat Street Lamb Grill Sticks Oriental Mint 5pk 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:28.015271
-Woolworths,Beak & Sons Ready To Pull Pork Pulled In Apple Bbq Sauce 600g,,21.1,23.49,,ea,2.389999999999997,10.2,,2026-01-04T22:55:28.028126
-Woolworths,Woolworths NZ Beef Stir Fry Angus Grass Fed 400g Tray,Woolworths,15.9,15.9,,ea,0.0,0.0,,2026-01-04T22:55:28.043789
-Woolworths,Hellers Sausages Venison 6pack,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T22:55:28.059842
-Woolworths,Beak & Sons Pork Ribs Chinese Bbq Min Order 1kg,,24.49,24.49,,ea,0.0,0.0,,2026-01-04T22:55:28.075308
-Woolworths,Wool Sausages Precooked Chicken Herb Prepacked 1kg,,8.0,8.95,,ea,0.9499999999999992,10.6,,2026-01-04T22:55:28.087941
-Woolworths,Woolworths Saveloys Classic Prepacked 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:28.103433
-Woolworths,Woolworths NZ Free Farmed Pork Rump Steak 0.4-0.7kg 1-2pcs,Woolworths,23.95,23.95,,ea,0.0,0.0,,2026-01-04T22:55:28.119281
-Woolworths,Woolworths Sausages Pork Onion & Sage Prepacked 450g,Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T22:55:28.131694
-Woolworths,Hellers Sausages Classic Jumbo Bratwurst 420g 4pack,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:28.147125
-Woolworths,First Light NZ Beef Rib Eye Steak Wagyu Scotch Fillet 170g Pack,,19.0,21.9,,ea,2.8999999999999986,13.2,,2026-01-04T22:55:28.160034
-Woolworths,Woolworths NZ Beef Sirloin Steak Grass Fed Bulk Min Order 1.5kg,Woolworths,35.9,35.9,,ea,0.0,0.0,,2026-01-04T22:55:28.176170
-Woolworths,Woolworths NZ Beef Eye Fillet Steak Whole,Woolworths,59.9,59.9,,ea,0.0,0.0,,2026-01-04T22:55:28.191859
-Woolworths,Woolworths NZ Beef Burgers Our Best Angus 2pk Tray 300g,Woolworths,9.9,9.9,,ea,0.0,0.0,,2026-01-04T22:55:28.207255
-Woolworths,Woolworths NZ Chicken Pops Spicy Southern Style Tray 270g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:28.222710
-Woolworths,Woolworths Lamb Meatballs Mint & Parsley 360g,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T22:55:28.238100
-Woolworths,Woolworths Sausages Cheese Cocktail 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:28.253459
-Woolworths,Woolworths NZ Pork Steaks Marinated Free Farmed 0.65-1.2kg 12pcs,Woolworths,26.7,26.7,,ea,0.0,0.0,,2026-01-04T22:55:28.268929
-Woolworths,Woolworths NZ Free Farmed 1/4 Ham Champagne Min Order 1.7kg,Woolworths,33.7,33.7,,ea,0.0,0.0,,2026-01-04T22:55:28.284536
-Woolworths,Hellers Sausages Precooked Super Savoury Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:55:28.299878
-Woolworths,Woolworths Cook NZ Lamb Rump Rosemary & Honey 0.17-0.55kg,Woolworths,39.9,39.9,,ea,0.0,0.0,,2026-01-04T22:55:28.315298
-Woolworths,Plan*T Meat Alternative Spicy Chorizo 276g,,9.99,11.9,,ea,1.91,16.1,,2026-01-04T22:55:28.327474
-Woolworths,Woolworths NZ Chicken Legs 0.8kg - 1.1kg,Woolworths,12.3,12.3,,ea,0.0,0.0,,2026-01-04T22:55:28.342691
-Woolworths,Plan*T Meat Alternative Sage & Onion Sausages 276g,,9.99,11.9,,ea,1.91,16.1,,2026-01-04T22:55:28.355312
-Woolworths,Woolworths NZ Chicken Wings 0.65-1.2kg,Woolworths,11.3,11.3,,ea,0.0,0.0,,2026-01-04T22:55:28.370609
-Woolworths,Silver Fern Farms Venison Medallions 400g,,21.95,21.95,,ea,0.0,0.0,,2026-01-04T22:55:28.386185
-Woolworths,Woolworths NZ Free Farmed Whole Leg Ham Cooked On The Bone Min Order 9.8kg,Woolworths,18.99,18.99,,ea,0.0,0.0,,2026-01-04T22:55:28.401358
-Woolworths,Woolworths NZ Beef Scotch Fillet Steak Angus Thick Cut 1pc,Woolworths,58.9,58.9,,ea,0.0,0.0,,2026-01-04T22:55:28.416669
-Woolworths,Woolworths NZ Beef Scotch Fillet Steak Thin Cut Grass Fed 4-5pcs,Woolworths,53.9,53.9,,ea,0.0,0.0,,2026-01-04T22:55:28.432128
-Woolworths,Woolworths NZ Beef Sirloin Steak Whole,Woolworths,46.9,46.9,,ea,0.0,0.0,,2026-01-04T22:55:28.447490
-Woolworths,Turks Corn Fed Rissoles Crumbed 500g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:28.462734
-Woolworths,Macro Free Range NZ Chicken Breast Schnitzels Crumbed Tray 2pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:55:28.478011
-Woolworths,Woolworths NZ Beef Sirloin Steak Porterhouse Angus Thick Cut 1pc,Woolworths,52.9,52.9,,ea,0.0,0.0,,2026-01-04T22:55:28.493331
-Woolworths,Woolworths NZ Stir Fry Pork Free Farmed Tray 400g,Woolworths,11.9,11.9,,ea,0.0,0.0,,2026-01-04T22:55:28.508514
-Woolworths,Woolworths Boerewors Beef & Pork Tray 450g,Woolworths,9.5,11.95,,ea,2.4499999999999993,20.5,,2026-01-04T22:55:28.520920
-Woolworths,Hellers Saveloys Classic 500g,,7.95,7.95,,ea,0.0,0.0,,2026-01-04T22:55:28.536033
-Woolworths,Inghams Chicken Livers Pottle 350g,,6.49,6.49,,ea,0.0,0.0,,2026-01-04T22:55:28.551487
-Woolworths,Woolworths Beef Burger Patties Pale Ale 400g Tray 4pack,Woolworths,10.5,10.5,,ea,0.0,0.0,,2026-01-04T22:55:28.566760
-Woolworths,Silver Fern Farms Venison Steaks 220g,,16.95,16.95,,ea,0.0,0.0,,2026-01-04T22:55:28.582387
-Woolworths,Woolworths Beef Sliced Boneless Brisket,Woolworths,21.9,21.9,,ea,0.0,0.0,,2026-01-04T22:55:28.597749
-Woolworths,Birds Eye Plant Based Lamb Strips Greek Style 200g,,9.0,11.5,,ea,2.5,21.7,,2026-01-04T22:55:28.609872
-Woolworths,Beak & Sons Beef Casserole Beef & Ale 600g,,15.95,15.95,,ea,0.0,0.0,,2026-01-04T22:55:28.625168
-Woolworths,Woolworths NZ Lamb Rack Grass Fed Skin On,Woolworths,52.95,52.95,,ea,0.0,0.0,,2026-01-04T22:55:28.640520
-Woolworths,Woolworths NZ Free Farmed Pork Spare Ribs 0.4-0.8kg,Woolworths,23.79,23.79,,ea,0.0,0.0,,2026-01-04T22:55:43.719597
-Woolworths,Woolworths NZ Lamb Gourmet Hind Shanks 0.6-1.3kg 2pcs,Woolworths,28.9,28.9,,ea,0.0,0.0,,2026-01-04T22:55:43.736651
-Woolworths,Woolworths NZ Lamb Spare Ribs Grass Fed 0.5-0.9kg,Woolworths,28.95,28.95,,ea,0.0,0.0,,2026-01-04T22:55:43.752642
-Woolworths,Woolworths Lamb Leg Butterflied 400g,Woolworths,23.95,23.95,,ea,0.0,0.0,,2026-01-04T22:55:43.768774
-Woolworths,Woolworths NZ Free Farmed Half Ham Champagne Min Order 3.5kg,Woolworths,33.7,33.7,,ea,0.0,0.0,,2026-01-04T22:55:43.784436
-Woolworths,Asado Beef Short Ribs Min Order 600g,,29.9,29.9,,ea,0.0,0.0,,2026-01-04T22:55:43.800731
-Woolworths,Woolworths NZ Free Farmed Whole Leg Ham Champagne Min Order 4kg,Woolworths,33.7,33.7,,ea,0.0,0.0,,2026-01-04T22:55:43.816354
-Woolworths,Woolworths Whole Chicken Cranberry & Spiced Ginger 1.5kg,Woolworths,15.9,15.9,,ea,0.0,0.0,,2026-01-04T22:55:43.833139
-Woolworths,Woolworths Lamb Offcuts Bone In,Woolworths,12.95,12.95,,ea,0.0,0.0,,2026-01-04T22:55:43.848598
-Woolworths,Plan*T Vegan Frozen Meal Southern Fried Chicken 300g,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T22:55:43.864054
-Woolworths,Woolworths Cook NZ Chicken Drumsticks Crumbed 0.55kg - 0.7kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T22:55:43.879724
-Woolworths,Woolworths NZ Free Farmed Pork Hock 0.4-1.1kg,Woolworths,10.9,10.9,,ea,0.0,0.0,,2026-01-04T22:55:43.905261
-Woolworths,Woolworths Whole Leg Ham Cooked On The Bone Min Order 10kg,Woolworths,14.9,14.9,,ea,0.0,0.0,,2026-01-04T22:55:43.920605
-Woolworths,Tegel Free Range Breakfast Sausage 10 Pack 250g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:43.936897
-Woolworths,Woolworths NZ Pork Loin Steaks Marinated 300g Tray 2pack,Woolworths,12.0,12.0,,ea,0.0,0.0,,2026-01-04T22:55:43.952456
-Woolworths,Plan*T Smoky Chipotle Burger Patties Plant Based 230g 2pack,,9.99,9.99,,ea,0.0,0.0,,2026-01-04T22:55:43.967975
-Woolworths,Ww Cook Chicken Thigh Fillets Chilli & Ginger Per Kg,,25.99,25.99,,ea,0.0,0.0,,2026-01-04T22:55:43.983538
-Woolworths,Beak & Sons Lamb Shanks Garlic & Rosemary Min Order 750g,,27.8,30.9,,ea,3.099999999999998,10.0,,2026-01-04T22:55:43.996013
-Woolworths,Woolworths NZ Chicken Breast Burgers Spicy Southern Style Tray 2pack,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:55:44.011349
-Woolworths,First Light Burger Patties Wagyu Beef Sliders 400g,,11.65,12.99,,ea,1.34,10.3,,2026-01-04T22:55:44.023655
-Woolworths,Woolworths Pork Steak Scotch,Woolworths,35.0,35.0,,ea,0.0,0.0,,2026-01-04T22:55:44.039190
-Woolworths,Beak & Sons Sweet & Sour Pork Heat & Eat 600g,,15.95,15.95,,ea,0.0,0.0,,2026-01-04T22:55:44.054724
-Woolworths,Silver Fern Farms Burgers Beef & Venison Chilli & Lime 2 Pack 500g,,13.45,13.45,,ea,0.0,0.0,,2026-01-04T22:55:44.071273
-Woolworths,Beak & Sons Pork Belly Smoky Maple 600g,,20.7,22.99,,ea,2.289999999999999,10.0,,2026-01-04T22:55:44.083635
-Woolworths,Silver Fern Farms Lamb Loin Fillets 340g,,24.95,24.95,,ea,0.0,0.0,,2026-01-04T22:55:44.099551
-Woolworths,Beak & Sons Bbq Pork Ribs Craft Beer Glazed Min Order 1kg,,24.49,24.49,,ea,0.0,0.0,,2026-01-04T22:55:44.114985
-Woolworths,Woolworths Beef Meatballs Angus 12 Pack 360g,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T22:55:44.130621
-Woolworths,Riverside Farm Duck Leg Confit Style 160g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:44.145909
-Woolworths,Plan*T Vegan Frozen Meal Korean Fried Chicken 300g,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T22:55:44.161126
-Woolworths,Beak & Sons Beef Brisket Bourbon Prepacked 600g,,22.5,24.95,,ea,2.4499999999999993,9.8,,2026-01-04T22:55:44.173227
-Woolworths,First Light Venison Burger Patties 400g,,11.1,12.45,,ea,1.3499999999999996,10.8,,2026-01-04T22:55:44.185214
-Woolworths,Sun Pork Pork Belly Min Order 700g,,34.0,34.0,,ea,0.0,0.0,,2026-01-04T22:55:44.200463
-Woolworths,Plan*T Crispy Chicken Burger Patties Plant Based 230g 2pack,,9.99,9.99,,ea,0.0,0.0,,2026-01-04T22:55:44.216042
-Woolworths,Woolworths Cook Chicken Wings Korean Min Order 1.1kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T22:55:44.228245
-Woolworths,Woolworths NZ Bbq Lamb Riblets Smokey Chipotle Chilli Glaze 0.55-0.75kg,Woolworths,28.95,28.95,,ea,0.0,0.0,,2026-01-04T22:55:44.243500
-Woolworths,Woolworths NZ Beef Scotch Steak Grass Fed Min Order 1.4kg,Woolworths,43.9,43.9,,ea,0.0,0.0,,2026-01-04T22:55:44.258751
-Woolworths,Woolworths Lamb Shoulder Boneless With Stuffing,Woolworths,29.9,39.95,,ea,10.050000000000004,25.2,,2026-01-04T22:55:44.271398
-Woolworths,Meat Street Beef Grillsticks Cheesy Bacon 5 Pack 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T22:55:44.286731
-Woolworths,Woolworths NZ Beef Eye Angus Thick Cut 0.18-0.5kg 1pc,Woolworths,75.9,75.9,,ea,0.0,0.0,,2026-01-04T22:55:44.302568
-Woolworths,Woolworths Bbq NZ Pork Spare Ribs Chinese Honey Style 0.4-0.7kg,Woolworths,23.79,23.79,,ea,0.0,0.0,,2026-01-04T22:55:44.318389
-Woolworths,Beak & Sons Beef Curry Indian 600g,,15.95,15.95,,ea,0.0,0.0,,2026-01-04T22:55:44.334114
-Woolworths,Woolworths Sausages Pork Cranberry & Apple 6 Pack Tray 450g,Woolworths,6.9,8.9,,ea,2.0,22.5,,2026-01-04T22:55:44.346198
-Woolworths,Woolworths Pork Shoulder Roast With Stuffing,Woolworths,24.9,28.0,,ea,3.1000000000000014,11.1,,2026-01-04T22:55:44.358392
-Woolworths,Woolworths NZ Chicken Nibbles Crumbed Tray 320g,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T22:55:44.374058
+kg",,34.99,34.99,34.99,kg,0.0,0.0,,2026-01-04T23:12:54.579918
+PAK'nSAVE,"Farmland Small RW Hot Beef Sliced
+
+kg",,59.9,59.9,59.9,kg,0.0,0.0,,2026-01-04T23:13:10.815658
+PAK'nSAVE,"Tegel Tempura Battered Chicken Nuggets
+
+400g",,9.89,9.89,24.73,ea,0.0,0.0,,2026-01-04T23:13:10.845557
+PAK'nSAVE,"Pork Boneless & Skinless Loin Roast
+
+kg",,30.99,30.99,30.99,kg,0.0,0.0,,2026-01-04T23:13:10.870945
+PAK'nSAVE,"Grill Sticks Beef
+
+kg",,17.99,17.99,17.99,kg,0.0,0.0,,2026-01-04T23:13:10.900866
+PAK'nSAVE,"PrePacked Deep Sea Cod Fillets
+
+kg",,29.99,29.99,29.99,kg,0.0,0.0,,2026-01-04T23:13:10.927917
+PAK'nSAVE,"Sriracha Crab Nuggets
+
+kg",,21.99,21.99,21.99,kg,0.0,0.0,,2026-01-04T23:13:10.957506
+PAK'nSAVE,"Sea Cuisine Vannamei 51/60 Cooked Prawn Cutlets
+
+500g",,15.35,15.35,30.7,ea,0.0,0.0,,2026-01-04T23:13:10.982748
+PAK'nSAVE,"Prepacked Shrimp Cocktail
+
+kg",,27.9,27.9,27.9,kg,0.0,0.0,,2026-01-04T23:13:11.008035
+PAK'nSAVE,"Whole Sole Fish
+
+ea",,17.49,17.49,17.49,kg,0.0,0.0,,2026-01-04T23:13:11.037893
+PAK'nSAVE,"Roast Pork
+
+kg",,36.9,36.9,36.9,kg,0.0,0.0,EXTRA,2026-01-04T23:13:11.068924
+PAK'nSAVE,"Hellers Premium Roast Beef
+
+kg",,47.9,47.9,47.9,kg,0.0,0.0,,2026-01-04T23:13:11.102980
+PAK'nSAVE,"Pams Corned Pork Silverside
+
+kg",,18.79,18.79,18.79,kg,0.0,0.0,,2026-01-04T23:13:11.128251
+PAK'nSAVE,"Campbells Black Pudding
+
+kg",,21.99,21.99,21.99,ea,0.0,0.0,,2026-01-04T23:13:11.153933
+PAK'nSAVE,"Farmlands Teriyaki Pork Loin
+
+kg",,39.9,39.9,39.9,kg,0.0,0.0,,2026-01-04T23:13:11.185266
+PAK'nSAVE,"Westhaven New Zealand Littleneck Clams
+
+1kg",,22.95,22.95,22.95,ea,0.0,0.0,,2026-01-04T23:13:11.215130
+PAK'nSAVE,"Birds Eye Plant Based Wholemeal Crumb Chicken Style Tenders
+
+300g",,10.49,10.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:13:11.241544
+PAK'nSAVE,"Roast Lamb
+
+kg",,36.9,36.9,36.9,kg,0.0,0.0,EXTRA,2026-01-04T23:13:11.272408
+PAK'nSAVE,"Grill Sticks Lamb
+
+kg",,16.99,16.99,16.99,kg,0.0,0.0,,2026-01-04T23:13:11.302118
+PAK'nSAVE,"Perch Fish Fillets
+
+ea",,29.49,29.49,29.49,ea,0.0,0.0,,2026-01-04T23:13:11.327298
+PAK'nSAVE,"Pork Grill Sticks
+
+kg",,12.99,12.99,12.99,kg,0.0,0.0,,2026-01-04T23:13:11.356820
+PAK'nSAVE,"Beef Flat Iron Steak
+
+kg",,24.99,24.99,24.99,kg,0.0,0.0,,2026-01-04T23:13:11.386265
+PAK'nSAVE,"Campbells White Pudding
+
+kg",,21.99,21.99,21.99,ea,0.0,0.0,,2026-01-04T23:13:11.415984
+PAK'nSAVE,"Prepacked Dory Fillets
+
+kg",,59.99,59.99,59.99,ea,0.0,0.0,,2026-01-04T23:13:11.441165
+PAK'nSAVE,"Chicken Tenderloins
+
+kg",,21.49,21.49,21.49,kg,0.0,0.0,,2026-01-04T23:13:11.471926
+PAK'nSAVE,"Tegel Free Range Oven Ready Sage & Onion Roast Fresh Chicken
+
+1.5kg",,19.49,19.49,12.99,ea,0.0,0.0,,2026-01-04T23:13:11.501345
+PAK'nSAVE,"Tegel Free Range Oven Ready Homestyle Fresh Chicken
+
+1.5kg",,19.49,19.49,12.99,ea,0.0,0.0,,2026-01-04T23:13:11.527030
+PAK'nSAVE,"Fish
+
+ea",,57.99,57.99,57.99,kg,0.0,0.0,,2026-01-04T23:13:11.552395
+PAK'nSAVE,"Hellers Trusty BBQ Pre-Cooked Sausages
+
+500g",,5.0,5.0,10.0,ea,0.0,0.0,EXTRA,2026-01-04T23:13:11.583349
+PAK'nSAVE,"Silver Fern Farms Honest Beef & Lamb Burgers With A Hint Of Manuka Smoked Salt
+
+500g",,13.89,13.89,27.78,ea,0.0,0.0,EXTRA,2026-01-04T23:13:11.614083
+PAK'nSAVE,"United Fish Co Tangyang Crispy Squid
+
+400g",,11.55,11.55,28.88,ea,0.0,0.0,,2026-01-04T23:13:11.643654
+PAK'nSAVE,"Pams Mexican Chicken Kebabs
+
+275g",,6.29,6.29,22.87,ea,0.0,0.0,,2026-01-04T23:13:11.668877
+PAK'nSAVE,"Pams Satay Chicken Kebabs
+
+275g",,6.29,6.29,22.87,ea,0.0,0.0,,2026-01-04T23:13:11.693863
+PAK'nSAVE,"Pams Sage & Onion Stuffed Chicken Oven Ready
+
+1.5kg",,17.29,17.29,11.53,ea,0.0,0.0,,2026-01-04T23:13:11.721023
+PAK'nSAVE,"Pams Summer Roast Garlic & Lemon Chicken
+
+1.5kg",,15.05,15.05,10.03,ea,0.0,0.0,,2026-01-04T23:13:11.750474
+PAK'nSAVE,"Tasmania Bone Out Salmon Fillet
+
+kg",,61.99,61.99,61.99,ea,0.0,0.0,,2026-01-04T23:13:11.800838
+PAK'nSAVE,"Silver Fern Farms Beef and Venison with Chilli and Lime Burgers
+
+500g",,13.89,13.89,27.78,ea,0.0,0.0,EXTRA,2026-01-04T23:13:11.860904
+PAK'nSAVE,"Pams Spicy BBQ Pork Ribs
+
+600g",,12.29,12.29,20.48,ea,0.0,0.0,,2026-01-04T23:13:11.890489
+PAK'nSAVE,"Pams Smoky BBQ Pork Belly Bites
+
+400g",,11.79,11.79,29.48,ea,0.0,0.0,,2026-01-04T23:13:11.915592
+PAK'nSAVE,"Pams Chinese Style Pork Belly Bites
+
+400g",,11.79,11.79,29.48,ea,0.0,0.0,,2026-01-04T23:13:11.940398
+PAK'nSAVE,"John West Chunk Style Tuna In Olive Oil Blend
+
+12 x 95g",,18.99,18.99,16.66,ea,0.0,0.0,,2026-01-04T23:13:11.966821
+PAK'nSAVE,"John West Chunk Style Tuna in Springwater
+
+12 x 95g",,18.99,18.99,16.66,ea,0.0,0.0,,2026-01-04T23:13:11.991953
+PAK'nSAVE,"The Smokehouse Smoked Kawakawa Lemon Kingfish
+
+kg",,45.99,45.99,45.99,kg,0.0,0.0,,2026-01-04T23:13:12.016918
+PAK'nSAVE,"Tegel Free Range New Zealand Chicken Original Sausages
+
+6pk",,7.49,7.49,,ea,0.0,0.0,,2026-01-04T23:13:12.135070
+PAK'nSAVE,"Tegel Free Range New Zealand Chicken Classic Cheese Sausages
+
+6pk",,7.49,7.49,,ea,0.0,0.0,,2026-01-04T23:13:12.160254
+PAK'nSAVE,"Tegel Free Range New Zealand Chicken Breakfast Sausages
+
+10pk",,7.49,7.49,,ea,0.0,0.0,,2026-01-04T23:13:12.185447
+PAK'nSAVE,"Pams Cocktail Sausages
+
+2kg",,17.99,17.99,9.0,ea,0.0,0.0,,2026-01-04T23:13:29.802909
+PAK'nSAVE,"Pams Saveloys
+
+2kg",,17.99,17.99,9.0,ea,0.0,0.0,,2026-01-04T23:13:29.828388
+PAK'nSAVE,"Beard Brothers Precooked Sausages
+
+1kg",,14.19,14.19,14.19,ea,0.0,0.0,,2026-01-04T23:13:29.854046
+PAK'nSAVE,"Waitoa BBQ Free Range Butterflied Chicken
+
+1.1kg",,14.99,14.99,13.63,ea,0.0,0.0,,2026-01-04T23:13:29.879150
+PAK'nSAVE,"United Food Co Prawn Money Bags
+
+450g",,12.49,12.49,27.76,ea,0.0,0.0,,2026-01-04T23:13:29.908939
+PAK'nSAVE,"United Food Co Prawn Toast
+
+450g",,12.49,12.49,27.76,ea,0.0,0.0,,2026-01-04T23:13:29.935611
+PAK'nSAVE,"Primo Smallgoods Danish Salami
+
+200g",,10.29,10.29,51.45,ea,0.0,0.0,,2026-01-04T23:13:29.960862
+PAK'nSAVE,"Primo Smallgoods Hot Sopressa Salami
+
+200g",,10.29,10.29,51.45,ea,0.0,0.0,,2026-01-04T23:13:29.986000
+PAK'nSAVE,"Primo Smallgoods Pepperoni Salami
+
+200g",,10.29,10.29,51.45,ea,0.0,0.0,,2026-01-04T23:13:30.010964
+PAK'nSAVE,"United Fish Co Baby Octopus
+
+400g",,9.99,9.99,24.98,ea,0.0,0.0,,2026-01-04T23:13:30.035900
+PAK'nSAVE,"Hellers Craft Beer & Porter Sausages
+
+6pk",,9.49,9.49,,ea,0.0,0.0,EXTRA,2026-01-04T23:13:30.066543
+PAK'nSAVE,"Pams Value Raw Prawn Meat Pieces
+
+500g",,10.49,10.49,20.98,ea,0.0,0.0,EXTRA,2026-01-04T23:13:30.097352
+PAK'nSAVE,"Silver Fern Farms Honest Beef Burgers With Smokey Caramelised Onion
+
+500g",,13.89,13.89,27.78,ea,0.0,0.0,EXTRA,2026-01-04T23:13:30.132288
+PAK'nSAVE,"Pams Angus Beef Burger Patties
+
+400g",,12.25,12.25,30.63,ea,0.0,0.0,,2026-01-04T23:13:30.161625
+PAK'nSAVE,"Beard Brothers Beef & Smokey Bacon Sausages
+
+500g",,11.55,11.55,23.1,ea,0.0,0.0,,2026-01-04T23:13:30.192405
+PAK'nSAVE,"Pams Shredded Roast Chicken
+
+260g",,9.15,9.15,35.19,ea,0.0,0.0,,2026-01-04T23:13:30.217564
+PAK'nSAVE,"Pams Sliced Cajun Chicken
+
+260g",,9.15,9.15,35.19,ea,0.0,0.0,,2026-01-04T23:13:30.243280
+PAK'nSAVE,"Hawkes Bay Sausage Company Pork Sausages
+
+kg",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:13:30.268493
+PAK'nSAVE,"Hawkes Bay Sausage Company Beef Sausages
+
+kg",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:13:30.293506
+PAK'nSAVE,"Hawkes Bay Sausage Company Venison Sausages
+
+kg",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:13:30.318597
+PAK'nSAVE,"Whole Tipapia Fish PPK
+
+1kg",,14.99,14.99,14.99,ea,0.0,0.0,,2026-01-04T23:13:30.343401
+PAK'nSAVE,"United Fish Co Whole Sanma 60-70g
+
+1kg",,18.49,18.49,18.49,ea,0.0,0.0,,2026-01-04T23:13:30.504043
+PAK'nSAVE,"On The Menu Pub Faves Roast Beef
+
+320g",,7.99,7.99,,ea,0.0,0.0,,2026-01-04T23:13:30.533373
+PAK'nSAVE,"Hellers Craft Shredded Kentucky Chicken
+
+250g",,9.99,9.99,39.96,ea,0.0,0.0,EXTRA,2026-01-04T23:13:30.559497
+PAK'nSAVE,"United Fish Co Whole Sardines
+
+1kg",,9.99,9.99,9.99,ea,0.0,0.0,,2026-01-04T23:13:30.589001
+PAK'nSAVE,"Harris Farms Lamb Mince
+
+450g",,11.49,11.49,25.53,ea,0.0,0.0,,2026-01-04T23:13:30.618523
+PAK'nSAVE,"Champmar Whole Raw Vannamei 20/30 Count Prawns
+
+1kg",,27.99,27.99,27.99,ea,0.0,0.0,,2026-01-04T23:13:30.643506
+PAK'nSAVE,"Hawkes Bay Sausage Company Beef Sage & Onion Sausages
+
+kg",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:13:30.673069
+PAK'nSAVE,"Hawkes Bay Sausage Company Lamb & Mint Sausages
+
+kg",,15.99,15.99,15.99,kg,0.0,0.0,,2026-01-04T23:13:30.698083
+PAK'nSAVE,"Frozen Mackerel
+
+kg",,11.99,11.99,11.99,ea,0.0,0.0,,2026-01-04T23:13:30.724578
+PAK'nSAVE,"Southern Ocean New Zealand King Salmon Pieces
+
+150g",,13.29,13.29,88.6,ea,0.0,0.0,,2026-01-04T23:13:30.754276
+Woolworths,Woolworths NZ Chicken Breast Skinless Boneless Min Order 1kg,Woolworths,14.99,14.99,,ea,0.0,0.0,,2026-01-04T23:14:05.262559
+Woolworths,Woolworths Pork & Beef Mince Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.280257
+Woolworths,Woolworths NZ Beef Mince Grass Fed 18% Fat Tray 1kg,Woolworths,21.9,21.9,,ea,0.0,0.0,,2026-01-04T23:14:05.297500
+Woolworths,Woolworths NZ Beef Mince Grass Fed 5% Fat Tray 500g,Woolworths,16.9,16.9,,ea,0.0,0.0,,2026-01-04T23:14:05.314253
+Woolworths,Woolworths NZ Chicken Breast Skinless Boneless 0.6-0.8kg,Woolworths,15.8,15.8,,ea,0.0,0.0,,2026-01-04T23:14:05.331761
+Woolworths,Woolworths NZ Beef Mince Grass Fed 18% Fat Tray 500g,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T23:14:05.348396
+Woolworths,Woolworths NZ Chicken Thighs Skinless Boneless 1.0kg - 1.35kg,Woolworths,25.99,25.99,,ea,0.0,0.0,,2026-01-04T23:14:05.365222
+Woolworths,Waitoa Free Range Chicken Whole Butterfly Honey & Rosemary Each 1.1kg,,15.0,15.0,,ea,0.0,0.0,,2026-01-04T23:14:05.381875
+Woolworths,Woolworths NZ Diced Chicken 400g,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T23:14:05.398198
+Woolworths,Woolworths NZ Beef Mince Prime Grass Fed 13% Fat Tray 750g,Woolworths,17.9,19.9,,ea,2.0,10.1,,2026-01-04T23:14:05.411053
+Woolworths,Woolworths NZ Chicken Drumsticks 0.9-1.5kg 7-11pc,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T23:14:05.427450
+Woolworths,Woolworths Sausages Classic Beef 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.443942
+Woolworths,Turks Free Range Chicken Breast Skinless Fillet 450g,,9.9,9.9,,ea,0.0,0.0,,2026-01-04T23:14:05.461552
+Woolworths,Woolworths NZ Chicken Thighs Skinless Boneless 580g - 800g,Woolworths,25.99,25.99,,ea,0.0,0.0,,2026-01-04T23:14:05.477919
+Woolworths,Woolworths Chicken Tenderloins NZ Small Pack,Woolworths,22.2,22.2,,ea,0.0,0.0,,2026-01-04T23:14:05.495098
+Woolworths,Hellers Sausages Precooked 800g 12pack,,10.0,10.0,,ea,0.0,0.0,,2026-01-04T23:14:05.511245
+Woolworths,Woolworths Oven Ready Chicken Whole Sage & Onion Each 1.5kg,Woolworths,18.5,18.5,,ea,0.0,0.0,,2026-01-04T23:14:05.527285
+Woolworths,Macro Free Range NZ Chicken Breast Min Order 560g,,26.5,26.5,,ea,0.0,0.0,,2026-01-04T23:14:05.543145
+Woolworths,Woolworths Cook NZ Chicken Kebabs Honey Soy 5pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.559205
+Woolworths,Woolworths Cook NZ Chicken Kebabs Satay Tray 5pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.575376
+Woolworths,Bostocks Organic Boneless Chicken Breast Free Range 450g,,15.0,15.0,,ea,0.0,0.0,,2026-01-04T23:14:05.591158
+Woolworths,Woolworths NZ Beef Rump Steak Grass Fed 1pce,Woolworths,34.9,34.9,,ea,0.0,0.0,,2026-01-04T23:14:05.607513
+Woolworths,First Light Beef Mince Wagyu 400g,,10.7,12.45,,ea,1.75,14.1,,2026-01-04T23:14:05.620037
+Woolworths,Woolworths NZ Chicken Mince Breast 3% Fat Barn Raised Tray 400g,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T23:14:05.636581
+Woolworths,Woolworths Chicken Whole 1.9kg,Woolworths,17.0,17.0,,ea,0.0,0.0,,2026-01-04T23:14:05.652452
+Woolworths,Woolworths Cocktail Sausages Prepacked 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.668564
+Woolworths,Woolworths Frankfurters Prepacked 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.684683
+Woolworths,Woolworths NZ Pork Mince Free Farmed 13% Fat Tray 500g,Woolworths,10.9,10.9,,ea,0.0,0.0,,2026-01-04T23:14:05.700743
+Woolworths,Macro Free Range NZ Diced Chicken Tray 400g,,9.2,9.2,,ea,0.0,0.0,,2026-01-04T23:14:05.716471
+Woolworths,Woolworths Chicken Whole Each 1.35kg,Woolworths,14.8,14.8,,ea,0.0,0.0,,2026-01-04T23:14:05.732572
+Woolworths,Tegel Free Range Quick Cook Chicken Steaks Chargrilled 4pk 400g,,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:14:05.748397
+Woolworths,Woolworths Oven Ready Chicken Whole Country Style Each 1.5kg,Woolworths,18.5,18.5,,ea,0.0,0.0,,2026-01-04T23:14:05.764549
+Woolworths,Woolworths Lamb Leg Frozen Bone In 2.5 - 3.5kg,Woolworths,22.95,22.95,,ea,0.0,0.0,,2026-01-04T23:14:05.780382
+Woolworths,Woolworths NZ Chicken Breast Steaks 0.32 - 0.4kg,Woolworths,24.0,24.0,,ea,0.0,0.0,,2026-01-04T23:14:05.796060
+Woolworths,Woolworths Cook NZ Diced Chicken Breast Satay Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.812123
+Woolworths,Woolworths Cook NZ Butterflied Chicken Garlic & Herb 1.1kg,Woolworths,9.9,13.4,,ea,3.5,26.1,,2026-01-04T23:14:05.824644
+Woolworths,Woolworths Sausages Classic Pork 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:05.840329
+Woolworths,Macro Free Range NZ Chicken Thighs Fillets Min Order 550g,,31.0,31.0,,ea,0.0,0.0,,2026-01-04T23:14:05.856027
+Woolworths,Bostocks Organic Chicken Thighs 450g,,17.0,17.0,,ea,0.0,0.0,,2026-01-04T23:14:05.871894
+Woolworths,Woolworths NZ Beef Stir Fry Premium Grass Fed 400g Tray,Woolworths,13.5,13.5,,ea,0.0,0.0,,2026-01-04T23:14:05.887631
+Woolworths,Woolworths Beef Schnitzel,Woolworths,27.9,27.9,,ea,0.0,0.0,,2026-01-04T23:14:05.903867
+Woolworths,Woolworths Cook NZ Beef Steak Sirloin Garlic/Herb Butter 400g Tray 2pack,Woolworths,21.5,21.5,,ea,0.0,0.0,,2026-01-04T23:14:05.919643
+Woolworths,Woolworths NZ Beef Sirloin Steak Porterhouse Grass Fed 2pce,Woolworths,48.9,48.9,,ea,0.0,0.0,,2026-01-04T23:14:05.935327
+Woolworths,Macro Free Range NZ Chicken Breast Steaks Per Kg,,26.0,26.0,,ea,0.0,0.0,,2026-01-04T23:14:05.950989
+Woolworths,Woolworths NZ Beef Mince Grass Fed 5% Fat Tray 1kg,Woolworths,30.9,30.9,,ea,0.0,0.0,,2026-01-04T23:14:05.966968
+Woolworths,Hellers Sausages Precooked Chunky Cheese Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:14:05.982572
+Woolworths,Woolworths NZ Chicken Thigh Cutlets Skinless Bone In 900g - 1.1kg,Woolworths,14.9,16.9,,ea,1.9999999999999984,11.8,,2026-01-04T23:14:05.995138
+Woolworths,Woolworths NZ Chicken Breasts Skin On 1.7 - 2.1kg,Woolworths,14.6,14.6,,ea,0.0,0.0,,2026-01-04T23:14:06.010716
+Woolworths,Woolworths NZ Chicken Thighs Bone In Skin On 1.3-1.9kg,Woolworths,12.3,12.3,,ea,0.0,0.0,,2026-01-04T23:14:21.231396
+Woolworths,Woolworths Whole NZ Lamb Leg Bone In Grass Fed 2.5 - 3.5kg,Woolworths,26.95,26.95,,ea,0.0,0.0,,2026-01-04T23:14:21.249669
+Woolworths,Woolworths NZ Beef Scotch Fillet Steak Rib Eye Min Order 500g,Woolworths,53.9,53.9,,ea,0.0,0.0,,2026-01-04T23:14:21.267205
+Woolworths,Woolworths NZ Chicken Nibbles NZ 1.0kg - 1.2kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T23:14:21.283329
+Woolworths,Woolworths NZ Beef Meatballs 20 Pack Tray 400g,Woolworths,9.9,9.9,,ea,0.0,0.0,,2026-01-04T23:14:21.299558
+Woolworths,Woolworths Free Farmed Bone In Pork Shoulder Roast NZ,Woolworths,12.95,12.95,,ea,0.0,0.0,,2026-01-04T23:14:21.315966
+Woolworths,Woolworths Sausages Pork Italian Style 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.332230
+Woolworths,Woolworths Sausages Thin Beef 500g Tray 9pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.348047
+Woolworths,Hellers Ham Boneless Honey Baked Min Order 1.2kg,,18.99,18.99,,ea,0.0,0.0,,2026-01-04T23:14:21.364757
+Woolworths,Macro Free Range NZ Chicken Mince Breast Tray 400g,,7.8,7.8,,ea,0.0,0.0,,2026-01-04T23:14:21.380657
+Woolworths,Woolworths NZ Lamb Shoulder Chops Grass Fed 0.4-1.1kg 4pcs,Woolworths,15.9,23.95,,ea,8.049999999999999,33.6,,2026-01-04T23:14:21.393525
+Woolworths,Tegel Take Outs Chicken Burgers Louisiana Style Free Range 4pack,,10.0,10.0,,ea,0.0,0.0,,2026-01-04T23:14:21.410550
+Woolworths,Macro Free Range NZ Chicken Thigh Cutlets Min Order 500g,,21.5,21.5,,ea,0.0,0.0,,2026-01-04T23:14:21.426744
+Woolworths,Hellers Sausages London Pride 6pack,,9.85,10.95,,ea,1.0999999999999996,10.0,,2026-01-04T23:14:21.439118
+Woolworths,Hellers Family Franks 6pack 360g,,5.7,5.7,,ea,0.0,0.0,,2026-01-04T23:14:21.455803
+Woolworths,Woolworths Cook NZ Chicken Breast Strips Lemongrass Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.472553
+Woolworths,Woolworths Cook NZ Lamb Chops Shoulder Oriental Mint 0.6-1.3kg 4pcs,Woolworths,15.9,23.95,,ea,8.049999999999999,33.6,,2026-01-04T23:14:21.485390
+Woolworths,Waitoa Free Range Butterfly Chicken The Chicken Rub 1.1kg,,15.0,15.0,,ea,0.0,0.0,,2026-01-04T23:14:21.501319
+Woolworths,Woolworths Boneless Ham Honey Baked Min Order 900g,Woolworths,18.7,18.7,,ea,0.0,0.0,,2026-01-04T23:14:21.517107
+Woolworths,Hellers Burger Patties Mini Beef 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.532920
+Woolworths,Woolworths NZ Angus Beef Mince Grass Fed 10% Fat Tray 500g,Woolworths,15.9,15.9,,ea,0.0,0.0,,2026-01-04T23:14:21.548624
+Woolworths,Tegel Free Range Quick Cook Chicken Burger Patties Crunchy 4pk 400g,,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:14:21.564786
+Woolworths,"Woolworths Sausages Lamb, Herb & Garlic 450g Tray 6pack",Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T23:14:21.585653
+Woolworths,Hellers Sausages Old Fashioned Beef 6pack,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T23:14:21.601956
+Woolworths,Hellers Sausages Precooked Chinese Honey Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:14:21.617589
+Woolworths,Bostock Organic Free Range Chicken Tenderloins 500g,,15.5,15.5,,ea,0.0,0.0,,2026-01-04T23:14:21.633588
+Woolworths,Woolworths NZ Gravy Beef Grass Fed Min Order 550g,Woolworths,32.9,32.9,,ea,0.0,0.0,,2026-01-04T23:14:21.649102
+Woolworths,Woolworths Sausages Thin Pork 500g Tray 9pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.664667
+Woolworths,Woolworths NZ Free Farmed Pork Loin Chops 0.4-0.9kg 3-4pcs,Woolworths,19.99,19.99,,ea,0.0,0.0,,2026-01-04T23:14:21.680155
+Woolworths,Macro Free Range NZ Chicken Stir Fry Tray 400g,,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:14:21.696998
+Woolworths,Woolworths NZ Beef Steak Honey & Garlic Grass Fed,Woolworths,30.5,33.9,,ea,3.3999999999999986,10.0,,2026-01-04T23:14:21.709464
+Woolworths,Woolworths NZ Corned Beef Silverside Grass Fed 0.8-2kg,Woolworths,16.9,19.9,,ea,3.0,15.1,,2026-01-04T23:14:21.721877
+Woolworths,Woolworths NZ Free Farmed Pork Loin 500g Seal Fresh Steak 4pack,Woolworths,18.8,18.8,,ea,0.0,0.0,,2026-01-04T23:14:21.737685
+Woolworths,Woolworths Value Sausages Precooked Chicken 860g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.753602
+Woolworths,Hellers Frankfurters Family 1kg,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T23:14:21.766120
+Woolworths,Woolworths Cook NZ Diced Chicken Breast Hoisin Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.781987
+Woolworths,Woolworths Cook NZ Beef Steak Peppered Grass Fed 300g Tray 2pack,Woolworths,12.5,12.5,,ea,0.0,0.0,,2026-01-04T23:14:21.797879
+Woolworths,Hellers Sausages Genuine Pork 6pack,,9.85,10.95,,ea,1.0999999999999996,10.0,,2026-01-04T23:14:21.810166
+Woolworths,Woolworths NZ Beef Tenderised Steak Grass Fed 3-6pcs,Woolworths,30.5,33.9,,ea,3.3999999999999986,10.0,,2026-01-04T23:14:21.822898
+Woolworths,Hellers Cheerios Original Gluten Free Prepacked 1kg,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T23:14:21.835379
+Woolworths,Meat Street Lamb Grill Sticks Doner Kebab 5pk 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.851001
+Woolworths,Woolworths NZ Pork Mince Free Farmed 13% Fat Tray 1kg,Woolworths,19.5,19.5,,ea,0.0,0.0,,2026-01-04T23:14:21.866799
+Woolworths,Woolworths Cook NZ Chicken Breast Strips Peri Peri Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.882283
+Woolworths,Woolworths NZ Lamb Leg Steaks 270g Grass Fed Seal Fresh 2pack,Woolworths,13.5,13.5,,ea,0.0,0.0,,2026-01-04T23:14:21.898068
+Woolworths,Woolworths Beef Steak Sizzle,Woolworths,39.9,39.9,,ea,0.0,0.0,,2026-01-04T23:14:21.917621
+Woolworths,Woolworths Pork Sausages Breakfast 375g Tray 10pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:21.933646
+Woolworths,Woolworths NZ Beef Diced Chuck Steak 750g Tray,Woolworths,23.5,23.5,,ea,0.0,0.0,,2026-01-04T23:14:21.949325
+Woolworths,Woolworths NZ Chicken Breast Schnitzels Garlic & Herb Tray 2pack,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:14:21.965555
+Woolworths,Woolworths NZ Beef Burgers Classic 4pk Tray 400g,Woolworths,10.5,10.5,,ea,0.0,0.0,,2026-01-04T23:14:37.339544
+Woolworths,Woolworths Sausages Cheesy Beef 450g Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:37.356416
+Woolworths,Macro Free Range Whole Chicken Min Order 1.45kg,,12.2,12.2,,ea,0.0,0.0,,2026-01-04T23:14:37.372801
+Woolworths,Woolworths NZ Beef Rump Steak Whole,Woolworths,32.9,32.9,,ea,0.0,0.0,,2026-01-04T23:14:37.388820
+Woolworths,Woolworths Beef Sausages Breakfast Grass Fed 375g Tray 10pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:37.405421
+Woolworths,Woolworths Beef Burger Patties 400g Tray 4pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:37.421946
+Woolworths,Hellers Sausages NZ Lamb & Thyme 6pack,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T23:14:37.438934
+Woolworths,Woolworths Leg Ham Boneless Min Order 900g,Woolworths,19.6,19.6,,ea,0.0,0.0,,2026-01-04T23:14:37.454735
+Woolworths,Woolworths NZ Chicken Schnitzel Crumbed Tray 2pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:37.470438
+Woolworths,Silver Fern Farms Beef Flat-Iron Steaks 220g,,16.95,16.95,,ea,0.0,0.0,,2026-01-04T23:14:37.486649
+Woolworths,Woolworths NZ Lamb Mince Grass Feed 13% Fat Tray 500g,Woolworths,17.5,17.5,,ea,0.0,0.0,,2026-01-04T23:14:37.502289
+Woolworths,Woolworths NZ Lamb Chops Loin Grass Fed Min Order 450g,Woolworths,34.95,34.95,,ea,0.0,0.0,,2026-01-04T23:14:37.518194
+Woolworths,Hellers Frankfurters 500g,,7.95,7.95,,ea,0.0,0.0,,2026-01-04T23:14:37.533743
+Woolworths,Woolworths Cook NZ Whole Chicken Oven Ready Smokey Bbq 1.5kg,Woolworths,18.5,18.5,,ea,0.0,0.0,,2026-01-04T23:14:37.549552
+Woolworths,Beehive Kransky Cheese 800g,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T23:14:37.562123
+Woolworths,Woolworths Sausages Angus Beef 450g Tray 6pack,Woolworths,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:14:37.577893
+Woolworths,Hellers Sausages Precooked Gluten Free Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:14:37.593533
+Woolworths,First Light NZ Beef Rump Steak Grass Fed Wagyu 250g Tray,,14.99,14.99,,ea,0.0,0.0,,2026-01-04T23:14:37.609552
+Woolworths,Woolworths Sausages Precooked Cheese Prepacked 1kg,Woolworths,8.0,8.95,,ea,0.9499999999999992,10.6,,2026-01-04T23:14:37.621984
+Woolworths,Hellers Burger Patties Angus 454g 4pack,,13.95,15.5,,ea,1.5500000000000007,10.0,,2026-01-04T23:14:37.634369
+Woolworths,Silver Fern Farms Honest Beef & Lamb Burgers With Manuka Smoked Salt 4 Pack 500g,,13.45,13.45,,ea,0.0,0.0,,2026-01-04T23:14:37.651431
+Woolworths,"Woolworths Sausages Spicy Chorizo, Pork & Beef 450g Tray 6pack",Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T23:14:37.663724
+Woolworths,Silver Fern Farms Beef Eye Fillet Steak 300g,,24.95,24.95,,ea,0.0,0.0,,2026-01-04T23:14:37.679581
+Woolworths,Woolworths Free Farmed NZ Pork Leg Roast Bone In,Woolworths,12.95,12.95,,ea,0.0,0.0,,2026-01-04T23:14:37.695153
+Woolworths,Tonzu Organic Tofu Natural Sausage 300g,,8.49,9.19,,ea,0.6999999999999993,7.6,,2026-01-04T23:14:37.707939
+Woolworths,Woolworths NZ Free Farmed 1/3 Ham Cooked On The Bone Min Order 2kg,Woolworths,18.99,18.99,,ea,0.0,0.0,,2026-01-04T23:14:37.724057
+Woolworths,Woolworths NZ Free Farmed Pork Belly 0.5-1.2kg,Woolworths,29.99,29.99,,ea,0.0,0.0,,2026-01-04T23:14:37.739608
+Woolworths,Woolworths NZ Chicken Tenders Crispy Tray 6pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:37.755290
+Woolworths,Woolworths Cook NZ Chicken Tenderloins Sweet Chilli Prepacked 300g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:37.770710
+Woolworths,Woolworths NZ Beef Blade Steak Grass Fed 1-2pcs,Woolworths,31.9,31.9,,ea,0.0,0.0,,2026-01-04T23:14:37.786226
+Woolworths,First Light Sausages Wagyu Beef 420g,,12.95,12.95,,ea,0.0,0.0,,2026-01-04T23:14:37.801817
+Woolworths,Woolworths Half Leg Ham Cooked On The Bone Min Order 4.8kg,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T23:14:37.817532
+Woolworths,Harmless Food Co Plant Based Chicken 250g,,9.0,10.0,,ea,1.0,10.0,,2026-01-04T23:14:37.829625
+Woolworths,Plan*T Chick*N Prepacked 250g,,12.49,12.49,,ea,0.0,0.0,,2026-01-04T23:14:37.845290
+Woolworths,Woolworths NZ Lamb Shoulder Chops Grass Fed 0.3-0.7kg 2pcs,Woolworths,15.9,23.95,,ea,8.049999999999999,33.6,,2026-01-04T23:14:37.857617
+Woolworths,Meat Street Beef Burgers Classic Rissoles 400g Tray 8pack,,8.0,8.0,,ea,0.0,0.0,,2026-01-04T23:14:37.873234
+Woolworths,Woolworths Beef Sausage Meat Vacuum Packed 450g,Woolworths,7.3,7.3,,ea,0.0,0.0,,2026-01-04T23:14:37.889067
+Woolworths,Silver Fern Farms Beef Stir-Fry 350g,,13.5,15.0,,ea,1.5,10.0,,2026-01-04T23:14:37.901415
+Woolworths,Woolworths NZ Beef Rump Steak Angus Grass Fed 1pc,Woolworths,37.9,37.9,,ea,0.0,0.0,,2026-01-04T23:14:37.916914
+Woolworths,Bostock Organic Sausages Chicken & Tarragon 290g,,11.45,11.45,,ea,0.0,0.0,,2026-01-04T23:14:37.932665
+Woolworths,Woolworths NZ Free Farmed Pork Belly Slices 0.35-0.6kg 5-8pc,Woolworths,29.99,29.99,,ea,0.0,0.0,,2026-01-04T23:14:37.948234
+Woolworths,Hellers Cheerios Sausages 500g,,7.95,7.95,,ea,0.0,0.0,,2026-01-04T23:14:37.963839
+Woolworths,Woolworths NZ Beef T-Bone Steak Grass Fed Small Tray 1pce,Woolworths,45.9,45.9,,ea,0.0,0.0,,2026-01-04T23:14:37.979914
+Woolworths,Woolworths Beef & Pork Meatballs 20 Pack Tray 400g,Woolworths,9.9,9.9,,ea,0.0,0.0,,2026-01-04T23:14:37.995692
+Woolworths,First Light Burger Patties Wagyu Beef 400g,,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:14:38.011676
+Woolworths,Silver Fern Farms Lamb Rumps 400g,,18.95,18.95,,ea,0.0,0.0,,2026-01-04T23:14:38.027001
+Woolworths,Woolworths NZ Chicken Nuggets Battered 330g Tray,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:38.042596
+Woolworths,Woolworths Beef Short Ribs,Woolworths,27.9,27.9,,ea,0.0,0.0,,2026-01-04T23:14:38.058212
+Woolworths,Woolworths NZ Free Farmed Pork Shoulder Chops 0.4-1kg 1-2pcs,Woolworths,14.95,14.95,,ea,0.0,0.0,,2026-01-04T23:14:53.107207
+Woolworths,Woolworths NZ Chicken Cutlets Skinless Bone In 630g - 800g,Woolworths,14.9,16.9,,ea,1.9999999999999984,11.8,,2026-01-04T23:14:53.120940
+Woolworths,Bostocks Organic Chicken Drumsticks Free Range 900g,,13.5,13.5,,ea,0.0,0.0,,2026-01-04T23:14:53.137631
+Woolworths,Woolworths NZ Beef Chuck Steak Grass Fed 1-2pcs,Woolworths,32.9,32.9,,ea,0.0,0.0,,2026-01-04T23:14:53.153803
+Woolworths,First Light Meatballs Wagyu Beef 400g,,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:14:53.169731
+Woolworths,Hellers Ham Boneless Leg Min Order 800g,,22.8,22.8,,ea,0.0,0.0,,2026-01-04T23:14:53.186731
+Woolworths,Woolworths NZ Chicken Burgers Crunchy Tray 4pack,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:53.202653
+Woolworths,Macro Free Range NZ Chicken Drumsticks Min Order 1kg,,12.8,12.8,,ea,0.0,0.0,,2026-01-04T23:14:53.218225
+Woolworths,Riverside Farm Duck Fat Rendered 360g,,6.0,6.0,,ea,0.0,0.0,,2026-01-04T23:14:53.233947
+Woolworths,Impossible Plant Based Mince Beef Prepacked 340g,,13.95,13.95,,ea,0.0,0.0,,2026-01-04T23:14:53.250114
+Woolworths,Woolworths NZ Free Farmed Pork Schnitzel 0.3-0.5kg 4-7pcs,Woolworths,25.0,25.0,,ea,0.0,0.0,,2026-01-04T23:14:53.265749
+Woolworths,Woolworths Sausages Angus Beef Hickory 450g Tray 6pack,Woolworths,12.99,12.99,,ea,0.0,0.0,,2026-01-04T23:14:53.281498
+Woolworths,Woolworths NZ Diced Pork Free Farmed Tray 400g,Woolworths,11.9,11.9,,ea,0.0,0.0,,2026-01-04T23:14:53.297041
+Woolworths,Woolworths NZ Free Farmed Half Leg Ham Cooked On The Bone Min Order 4kg,Woolworths,16.9,16.9,,ea,0.0,0.0,,2026-01-04T23:14:53.313608
+Woolworths,Woolworths NZ Beef Eye Fillet Grass Fed Min Order 200g,Woolworths,72.9,72.9,,ea,0.0,0.0,,2026-01-04T23:14:53.329317
+Woolworths,Bostocks Chicken Whole Organic 1.5kg,,26.99,26.99,,ea,0.0,0.0,,2026-01-04T23:14:53.345300
+Woolworths,Silver Fern Farms Lamb Steaks 220g,,16.95,16.95,,ea,0.0,0.0,,2026-01-04T23:14:53.362514
+Woolworths,Woolworths NZ Diced Beef Premium Grass Fed 400g Tray,Woolworths,15.5,15.5,,ea,0.0,0.0,,2026-01-04T23:14:53.378517
+Woolworths,Woolworths Beef Brisket,Woolworths,19.9,19.9,,ea,0.0,0.0,,2026-01-04T23:14:53.394092
+Woolworths,Woolworths Sausages Pork & Fennel 450g Tray 6pack,Woolworths,11.99,11.99,,ea,0.0,0.0,,2026-01-04T23:14:53.409901
+Woolworths,Hellers Sausages Cheese & Bacon Precooked Prepacked 1kg,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:14:53.425744
+Woolworths,Woolworths NZ Chicken Drumsticks 0.5 - 0.7kg,Woolworths,8.0,8.0,,ea,0.0,0.0,,2026-01-04T23:14:53.441900
+Woolworths,Woolworths Sausages Precooked Chicken Prepacked 1kg,Woolworths,8.0,8.95,,ea,0.9499999999999992,10.6,,2026-01-04T23:14:53.454106
+Woolworths,Woolworths NZ Beef Sirloin Steak Porterhouse Thin Cut Grass Fed 0.4-0.95kg,Woolworths,48.9,48.9,,ea,0.0,0.0,,2026-01-04T23:14:53.469689
+Woolworths,Woolworths NZ Free Farmed Pork Fillet Whole 0.2-0.6kg,Woolworths,31.99,31.99,,ea,0.0,0.0,,2026-01-04T23:14:53.485926
+Woolworths,Woolworths Sausages Cheese Frankfurters 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:53.501560
+Woolworths,Woolworths NZ Chicken Nibbles 0.4-0.7kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T23:14:53.516950
+Woolworths,Quorn Vegetarian Sausages Frozen 336g,,8.0,9.0,,ea,1.0,11.1,,2026-01-04T23:14:53.529073
+Woolworths,Woolworths Cook NZ Pork Loin Steaks Sweet & Smoky 2pack 250g,Woolworths,10.3,10.3,,ea,0.0,0.0,,2026-01-04T23:14:53.544798
+Woolworths,Woolworths NZ Free Farmed Pork Slices Bone In 0.45-1kg 3-6pcs,Woolworths,19.9,26.0,,ea,6.100000000000001,23.5,,2026-01-04T23:14:53.557004
+Woolworths,Woolworths NZ Chicken Breast Schnitzels Crumbed Tray 2pack,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:14:53.572399
+Woolworths,Hellers Sausages Precooked Prepacked 2kg Pack,,17.95,20.95,,ea,3.0,14.3,,2026-01-04T23:14:53.584741
+Woolworths,Woolworths Cook NZ Chicken Nibbles Buffalo 1.0kg - 1.1kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T23:14:53.596948
+Woolworths,Hellers Meatballs Pork 400g,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T23:14:53.615291
+Woolworths,Waitoa Free Range Sausages Plain Chicken 480g 6pack,,10.95,10.95,,ea,0.0,0.0,,2026-01-04T23:14:53.631016
+Woolworths,Beak & Sons Pork Ribs Hickory Bbq Min Order 1kg,,24.49,24.49,,ea,0.0,0.0,,2026-01-04T23:14:53.646760
+Woolworths,Woolworths Dripping Beef Pottle 450g,Woolworths,7.2,7.2,,ea,0.0,0.0,,2026-01-04T23:14:53.662057
+Woolworths,Woolworths NZ Chicken Pops Southern Style Tray 270g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:14:53.677715
+Woolworths,Woolworths Cook NZ Sweet Chilli Chicken Nibbles 0.55-0.75kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T23:14:53.689901
+Woolworths,Woolworths NZ Beef Scotch Fillet Steak Whole Min Order 3.5kg,Woolworths,51.9,51.9,,ea,0.0,0.0,,2026-01-04T23:14:53.705339
+Woolworths,Tegel Take Outs Chicken Strips Louisiana Style Free Range 6pack,,10.0,10.0,,ea,0.0,0.0,,2026-01-04T23:14:53.722096
+Woolworths,Woolworths Garlic & Herb Chicken Sausages 450g Tray 6pack,Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T23:14:53.734416
+Woolworths,Woolworths Cook NZ Chicken Drumsticks Smoky Bbq 0.8kg - 0.95kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T23:14:53.750426
+Woolworths,Silver Fern Farms Beef Medallions 400g,,21.95,21.95,,ea,0.0,0.0,,2026-01-04T23:14:53.766035
+Woolworths,Woolworths Cook NZ Chicken Nibbles Vietnamese Style 0.95kg - 1.1kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T23:14:53.778740
+Woolworths,Silver Fern Farms Venison Mince 500g,,13.4,14.95,,ea,1.549999999999999,10.4,,2026-01-04T23:14:53.791098
+Woolworths,Silver Fern Farms Honest Beef Burgers With Smoky Caramelized Onion 2 Pack 500g,,13.45,13.45,,ea,0.0,0.0,,2026-01-04T23:14:53.807713
+Woolworths,Silver Fern Farms Lamb Stir-Fry 350g,,14.95,14.95,,ea,0.0,0.0,,2026-01-04T23:14:53.823427
+Woolworths,Impossible Plant Based Burger Patties 113g Each 2pack,,10.0,12.0,,ea,2.0,16.7,,2026-01-04T23:15:11.148751
+Woolworths,Woolworths NZ Beef Burgers Mini Sliders 8pk Tray 400g,Woolworths,10.5,10.5,,ea,0.0,0.0,,2026-01-04T23:15:11.166832
+Woolworths,Hellers Saveloys Classic Prepacked 1kg,,12.5,13.95,,ea,1.4499999999999993,10.4,,2026-01-04T23:15:11.179822
+Woolworths,Silver Fern Farms Lamb Medallions 400g,,21.95,21.95,,ea,0.0,0.0,,2026-01-04T23:15:11.196090
+Woolworths,Woolworths Lamb Leg Butterflied Rosemary & Garlic Prepacked 400g,Woolworths,23.95,23.95,,ea,0.0,0.0,,2026-01-04T23:15:11.211927
+Woolworths,Meat Street Lamb Grill Sticks Oriental Mint 5pk 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:11.227896
+Woolworths,Beak & Sons Ready To Pull Pork Pulled In Apple Bbq Sauce 600g,,21.1,23.49,,ea,2.389999999999997,10.2,,2026-01-04T23:15:11.240173
+Woolworths,Woolworths NZ Beef Stir Fry Angus Grass Fed 400g Tray,Woolworths,15.9,15.9,,ea,0.0,0.0,,2026-01-04T23:15:11.255837
+Woolworths,Hellers Sausages Venison 6pack,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T23:15:11.271840
+Woolworths,Beak & Sons Pork Ribs Chinese Bbq Min Order 1kg,,24.49,24.49,,ea,0.0,0.0,,2026-01-04T23:15:11.287574
+Woolworths,Wool Sausages Precooked Chicken Herb Prepacked 1kg,,8.0,8.95,,ea,0.9499999999999992,10.6,,2026-01-04T23:15:11.300529
+Woolworths,Woolworths Saveloys Classic Prepacked 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:11.316133
+Woolworths,Woolworths NZ Free Farmed Pork Rump Steak 0.4-0.7kg 1-2pcs,Woolworths,23.95,23.95,,ea,0.0,0.0,,2026-01-04T23:15:11.332268
+Woolworths,Woolworths Sausages Pork Onion & Sage Prepacked 450g,Woolworths,7.9,10.95,,ea,3.049999999999999,27.9,,2026-01-04T23:15:11.344628
+Woolworths,Hellers Sausages Classic Jumbo Bratwurst 420g 4pack,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:11.360327
+Woolworths,First Light NZ Beef Rib Eye Steak Wagyu Scotch Fillet 170g Pack,,19.0,21.9,,ea,2.8999999999999986,13.2,,2026-01-04T23:15:11.372864
+Woolworths,Woolworths NZ Beef Sirloin Steak Grass Fed Bulk Min Order 1.5kg,Woolworths,35.9,35.9,,ea,0.0,0.0,,2026-01-04T23:15:11.389136
+Woolworths,Woolworths NZ Beef Eye Fillet Steak Whole,Woolworths,59.9,59.9,,ea,0.0,0.0,,2026-01-04T23:15:11.405110
+Woolworths,Woolworths NZ Beef Burgers Our Best Angus 2pk Tray 300g,Woolworths,9.9,9.9,,ea,0.0,0.0,,2026-01-04T23:15:11.420915
+Woolworths,Woolworths NZ Chicken Pops Spicy Southern Style Tray 270g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:11.436606
+Woolworths,Woolworths Lamb Meatballs Mint & Parsley 360g,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T23:15:11.452104
+Woolworths,Woolworths Sausages Cheese Cocktail 500g,Woolworths,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:11.468003
+Woolworths,Woolworths NZ Pork Steaks Marinated Free Farmed 0.65-1.2kg 12pcs,Woolworths,26.7,26.7,,ea,0.0,0.0,,2026-01-04T23:15:11.483608
+Woolworths,Woolworths NZ Free Farmed 1/4 Ham Champagne Min Order 1.7kg,Woolworths,33.7,33.7,,ea,0.0,0.0,,2026-01-04T23:15:11.499450
+Woolworths,Hellers Sausages Precooked Super Savoury Prepacked 1kg Pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:15:11.514880
+Woolworths,Woolworths Cook NZ Lamb Rump Rosemary & Honey 0.17-0.55kg,Woolworths,39.9,39.9,,ea,0.0,0.0,,2026-01-04T23:15:11.530730
+Woolworths,Plan*T Meat Alternative Spicy Chorizo 276g,,9.99,11.9,,ea,1.91,16.1,,2026-01-04T23:15:11.543140
+Woolworths,Woolworths NZ Chicken Legs 0.8kg - 1.1kg,Woolworths,12.3,12.3,,ea,0.0,0.0,,2026-01-04T23:15:11.558785
+Woolworths,Plan*T Meat Alternative Sage & Onion Sausages 276g,,9.99,11.9,,ea,1.91,16.1,,2026-01-04T23:15:11.570943
+Woolworths,Woolworths NZ Chicken Wings 0.65-1.2kg,Woolworths,11.3,11.3,,ea,0.0,0.0,,2026-01-04T23:15:11.586345
+Woolworths,Silver Fern Farms Venison Medallions 400g,,21.95,21.95,,ea,0.0,0.0,,2026-01-04T23:15:11.601929
+Woolworths,Woolworths NZ Free Farmed Whole Leg Ham Cooked On The Bone Min Order 9.8kg,Woolworths,18.99,18.99,,ea,0.0,0.0,,2026-01-04T23:15:11.617590
+Woolworths,Woolworths NZ Beef Scotch Fillet Steak Angus Thick Cut 1pc,Woolworths,58.9,58.9,,ea,0.0,0.0,,2026-01-04T23:15:11.633147
+Woolworths,Woolworths NZ Beef Scotch Fillet Steak Thin Cut Grass Fed 4-5pcs,Woolworths,53.9,53.9,,ea,0.0,0.0,,2026-01-04T23:15:11.648723
+Woolworths,Woolworths NZ Beef Sirloin Steak Whole,Woolworths,46.9,46.9,,ea,0.0,0.0,,2026-01-04T23:15:11.664380
+Woolworths,Turks Corn Fed Rissoles Crumbed 500g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:11.679917
+Woolworths,Macro Free Range NZ Chicken Breast Schnitzels Crumbed Tray 2pack,,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:15:11.695587
+Woolworths,Woolworths NZ Beef Sirloin Steak Porterhouse Angus Thick Cut 1pc,Woolworths,52.9,52.9,,ea,0.0,0.0,,2026-01-04T23:15:11.711008
+Woolworths,Woolworths NZ Stir Fry Pork Free Farmed Tray 400g,Woolworths,11.9,11.9,,ea,0.0,0.0,,2026-01-04T23:15:11.728088
+Woolworths,Woolworths Boerewors Beef & Pork Tray 450g,Woolworths,9.5,11.95,,ea,2.4499999999999993,20.5,,2026-01-04T23:15:11.740423
+Woolworths,Hellers Saveloys Classic 500g,,7.95,7.95,,ea,0.0,0.0,,2026-01-04T23:15:11.755880
+Woolworths,Inghams Chicken Livers Pottle 350g,,6.49,6.49,,ea,0.0,0.0,,2026-01-04T23:15:11.771312
+Woolworths,Woolworths Beef Burger Patties Pale Ale 400g Tray 4pack,Woolworths,10.5,10.5,,ea,0.0,0.0,,2026-01-04T23:15:11.786765
+Woolworths,Silver Fern Farms Venison Steaks 220g,,16.95,16.95,,ea,0.0,0.0,,2026-01-04T23:15:11.802654
+Woolworths,Woolworths Beef Sliced Boneless Brisket,Woolworths,21.9,21.9,,ea,0.0,0.0,,2026-01-04T23:15:11.818227
+Woolworths,Birds Eye Plant Based Lamb Strips Greek Style 200g,,9.0,11.5,,ea,2.5,21.7,,2026-01-04T23:15:11.830718
+Woolworths,Beak & Sons Beef Casserole Beef & Ale 600g,,15.95,15.95,,ea,0.0,0.0,,2026-01-04T23:15:11.846213
+Woolworths,Woolworths NZ Lamb Rack Grass Fed Skin On,Woolworths,52.95,52.95,,ea,0.0,0.0,,2026-01-04T23:15:11.861711
+Woolworths,Woolworths NZ Free Farmed Pork Spare Ribs 0.4-0.8kg,Woolworths,23.79,23.79,,ea,0.0,0.0,,2026-01-04T23:15:26.929798
+Woolworths,Woolworths NZ Lamb Gourmet Hind Shanks 0.6-1.3kg 2pcs,Woolworths,28.9,28.9,,ea,0.0,0.0,,2026-01-04T23:15:26.947129
+Woolworths,Woolworths NZ Lamb Spare Ribs Grass Fed 0.5-0.9kg,Woolworths,28.95,28.95,,ea,0.0,0.0,,2026-01-04T23:15:26.963414
+Woolworths,Woolworths Lamb Leg Butterflied 400g,Woolworths,23.95,23.95,,ea,0.0,0.0,,2026-01-04T23:15:26.979357
+Woolworths,Woolworths NZ Free Farmed Half Ham Champagne Min Order 3.5kg,Woolworths,33.7,33.7,,ea,0.0,0.0,,2026-01-04T23:15:26.995367
+Woolworths,Asado Beef Short Ribs Min Order 600g,,29.9,29.9,,ea,0.0,0.0,,2026-01-04T23:15:27.011130
+Woolworths,Woolworths NZ Free Farmed Whole Leg Ham Champagne Min Order 4kg,Woolworths,33.7,33.7,,ea,0.0,0.0,,2026-01-04T23:15:27.027575
+Woolworths,Woolworths Whole Chicken Cranberry & Spiced Ginger 1.5kg,Woolworths,15.9,15.9,,ea,0.0,0.0,,2026-01-04T23:15:27.044370
+Woolworths,Woolworths Lamb Offcuts Bone In,Woolworths,12.95,12.95,,ea,0.0,0.0,,2026-01-04T23:15:27.059985
+Woolworths,Plan*T Vegan Frozen Meal Southern Fried Chicken 300g,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T23:15:27.075917
+Woolworths,Woolworths Cook NZ Chicken Drumsticks Crumbed 0.55kg - 0.7kg,Woolworths,13.2,13.2,,ea,0.0,0.0,,2026-01-04T23:15:27.092030
+Woolworths,Woolworths NZ Free Farmed Pork Hock 0.4-1.1kg,Woolworths,10.9,10.9,,ea,0.0,0.0,,2026-01-04T23:15:27.116820
+Woolworths,Woolworths Whole Leg Ham Cooked On The Bone Min Order 10kg,Woolworths,14.9,14.9,,ea,0.0,0.0,,2026-01-04T23:15:27.132743
+Woolworths,Tegel Free Range Breakfast Sausage 10 Pack 250g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:27.148211
+Woolworths,Woolworths NZ Pork Loin Steaks Marinated 300g Tray 2pack,Woolworths,12.0,12.0,,ea,0.0,0.0,,2026-01-04T23:15:27.163941
+Woolworths,Plan*T Smoky Chipotle Burger Patties Plant Based 230g 2pack,,9.99,9.99,,ea,0.0,0.0,,2026-01-04T23:15:27.179486
+Woolworths,Ww Cook Chicken Thigh Fillets Chilli & Ginger Per Kg,,25.99,25.99,,ea,0.0,0.0,,2026-01-04T23:15:27.195273
+Woolworths,Beak & Sons Lamb Shanks Garlic & Rosemary Min Order 750g,,27.8,30.9,,ea,3.099999999999998,10.0,,2026-01-04T23:15:27.207592
+Woolworths,Woolworths NZ Chicken Breast Burgers Spicy Southern Style Tray 2pack,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:15:27.223334
+Woolworths,First Light Burger Patties Wagyu Beef Sliders 400g,,11.65,12.99,,ea,1.34,10.3,,2026-01-04T23:15:27.236089
+Woolworths,Woolworths Pork Steak Scotch,Woolworths,35.0,35.0,,ea,0.0,0.0,,2026-01-04T23:15:27.251738
+Woolworths,Beak & Sons Sweet & Sour Pork Heat & Eat 600g,,15.95,15.95,,ea,0.0,0.0,,2026-01-04T23:15:27.267374
+Woolworths,Silver Fern Farms Burgers Beef & Venison Chilli & Lime 2 Pack 500g,,13.45,13.45,,ea,0.0,0.0,,2026-01-04T23:15:27.283867
+Woolworths,Beak & Sons Pork Belly Smoky Maple 600g,,20.7,22.99,,ea,2.289999999999999,10.0,,2026-01-04T23:15:27.296641
+Woolworths,Silver Fern Farms Lamb Loin Fillets 340g,,24.95,24.95,,ea,0.0,0.0,,2026-01-04T23:15:27.312238
+Woolworths,Beak & Sons Bbq Pork Ribs Craft Beer Glazed Min Order 1kg,,24.49,24.49,,ea,0.0,0.0,,2026-01-04T23:15:27.327947
+Woolworths,Woolworths Beef Meatballs Angus 12 Pack 360g,Woolworths,12.9,12.9,,ea,0.0,0.0,,2026-01-04T23:15:27.343378
+Woolworths,Riverside Farm Duck Leg Confit Style 160g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:27.359202
+Woolworths,Plan*T Vegan Frozen Meal Korean Fried Chicken 300g,,13.0,13.0,,ea,0.0,0.0,,2026-01-04T23:15:27.374762
+Woolworths,Beak & Sons Beef Brisket Bourbon Prepacked 600g,,22.5,24.95,,ea,2.4499999999999993,9.8,,2026-01-04T23:15:27.387177
+Woolworths,First Light Venison Burger Patties 400g,,11.1,12.45,,ea,1.3499999999999996,10.8,,2026-01-04T23:15:27.399515
+Woolworths,Sun Pork Pork Belly Min Order 700g,,34.0,34.0,,ea,0.0,0.0,,2026-01-04T23:15:27.415072
+Woolworths,Plan*T Crispy Chicken Burger Patties Plant Based 230g 2pack,,9.99,9.99,,ea,0.0,0.0,,2026-01-04T23:15:27.430746
+Woolworths,Woolworths Cook Chicken Wings Korean Min Order 1.1kg,Woolworths,13.3,14.8,,ea,1.5,10.1,,2026-01-04T23:15:27.443097
+Woolworths,Woolworths NZ Bbq Lamb Riblets Smokey Chipotle Chilli Glaze 0.55-0.75kg,Woolworths,28.95,28.95,,ea,0.0,0.0,,2026-01-04T23:15:27.458630
+Woolworths,Woolworths NZ Beef Scotch Steak Grass Fed Min Order 1.4kg,Woolworths,43.9,43.9,,ea,0.0,0.0,,2026-01-04T23:15:27.474238
+Woolworths,Woolworths Lamb Shoulder Boneless With Stuffing,Woolworths,29.9,39.95,,ea,10.050000000000004,25.2,,2026-01-04T23:15:27.486856
+Woolworths,Meat Street Beef Grillsticks Cheesy Bacon 5 Pack 300g,,8.5,8.5,,ea,0.0,0.0,,2026-01-04T23:15:27.502740
+Woolworths,Woolworths NZ Beef Eye Angus Thick Cut 0.18-0.5kg 1pc,Woolworths,75.9,75.9,,ea,0.0,0.0,,2026-01-04T23:15:27.518867
+Woolworths,Woolworths Bbq NZ Pork Spare Ribs Chinese Honey Style 0.4-0.7kg,Woolworths,23.79,23.79,,ea,0.0,0.0,,2026-01-04T23:15:27.534915
+Woolworths,Beak & Sons Beef Curry Indian 600g,,15.95,15.95,,ea,0.0,0.0,,2026-01-04T23:15:27.550460
+Woolworths,Woolworths Sausages Pork Cranberry & Apple 6 Pack Tray 450g,Woolworths,6.9,8.9,,ea,2.0,22.5,,2026-01-04T23:15:27.562893
+Woolworths,Woolworths Pork Shoulder Roast With Stuffing,Woolworths,24.9,28.0,,ea,3.1000000000000014,11.1,,2026-01-04T23:15:27.575277
+Woolworths,Woolworths NZ Chicken Nibbles Crumbed Tray 320g,Woolworths,9.0,9.0,,ea,0.0,0.0,,2026-01-04T23:15:27.591044
