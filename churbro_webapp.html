@@ -777,40 +777,102 @@
                 `Showing ${filteredProducts.length} of ${allProducts.length} products`;
         }
 
-        // Cross-store comparison
+        // Cross-store comparison with STRICT SIZE & TYPE MATCHING
         function findSimilarProducts(product) {
-            // Normalize product name for comparison
-            const normalize = (str) => {
+            // Extract size/weight from product name
+            function extractSize(name) {
+                const match = name.match(/(\d+\.?\d*)\s*(kg|g|ml|l)\b/i);
+                if (!match) return null;
+                
+                let value = parseFloat(match[1]);
+                const unit = match[2].toLowerCase();
+                
+                // Normalize to grams/ml
+                if (unit === 'kg') value *= 1000;
+                else if (unit === 'l') value *= 1000;
+                
+                return { value, unit: (unit === 'kg' || unit === 'g') ? 'g' : 'ml' };
+            }
+            
+            // Extract product type (key words that identify the product)
+            function extractProductType(name) {
+                const types = ['patties', 'patty', 'mince', 'brisket', 'curry', 'steak', 
+                              'chops', 'roast', 'fillet', 'fillets', 'slices', 'strips',
+                              'sausage', 'sausages', 'bacon', 'ham', 'salami', 'chicken',
+                              'beef', 'pork', 'lamb', 'salmon', 'fish'];
+                              
+                const nameLower = name.toLowerCase();
+                const foundTypes = types.filter(type => nameLower.includes(type));
+                return foundTypes.join(' ');
+            }
+            
+            // Normalize product name
+            function normalize(str) {
                 return str
                     .toLowerCase()
                     .replace(/\n/g, ' ')
                     .replace(/\s+/g, ' ')
-                    .replace(/woolworths nz|new world|pams|macro/gi, '')
-                    .replace(/prepacked|tray|pack|pk/gi, '')
-                    .replace(/\d+g|\d+kg|\d+ml|\d+l/gi, '')
+                    .replace(/woolworths nz|new world|paks*nsave/gi, '')
+                    .replace(/prepacked|prepack|tray|fresh|frozen|min order/gi, '')
                     .trim();
-            };
+            }
 
             const thisName = normalize(product.name);
+            const thisSize = extractSize(product.name);
+            const thisType = extractProductType(product.name);
             const similar = [];
 
             allProducts.forEach(p => {
                 if (p.store === product.store) return; // Skip same store
                 
                 const pName = normalize(p.name);
+                const pSize = extractSize(p.name);
+                const pType = extractProductType(p.name);
                 
-                // Calculate similarity (simple word overlap)
-                const thisWords = new Set(thisName.split(/\s+/).filter(w => w.length > 2));
-                const pWords = new Set(pName.split(/\s+/).filter(w => w.length > 2));
+                // EXACT SIZE MATCHING - Must be EXACTLY the same size
+                if (thisSize && pSize) {
+                    if (thisSize.unit !== pSize.unit) return;
+                    if (Math.abs(thisSize.value - pSize.value) > 10) return; // Max 10g difference
+                } else if (thisSize || pSize) {
+                    return; // One has size, other doesn't = different products
+                }
+                
+                // UNIT TYPE MATCHING
+                if (product.unit_type !== p.unit_type) return;
+                
+                // PRODUCT TYPE MATCHING - Must share key product identifiers
+                if (thisType && pType) {
+                    const thisTypeWords = new Set(thisType.split(/\s+/));
+                    const pTypeWords = new Set(pType.split(/\s+/));
+                    const typeIntersection = new Set([...thisTypeWords].filter(w => pTypeWords.has(w)));
+                    
+                    // Must share at least 50% of product type words
+                    if (typeIntersection.size / Math.max(thisTypeWords.size, pTypeWords.size) < 0.5) {
+                        return;
+                    }
+                }
+                
+                // NAME MATCHING - Must be highly similar (75% overlap)
+                const thisWords = new Set(thisName.split(/\s+/).filter(w => w.length > 3));
+                const pWords = new Set(pName.split(/\s+/).filter(w => w.length > 3));
                 const intersection = new Set([...thisWords].filter(w => pWords.has(w)));
+                
                 const similarity = intersection.size / Math.min(thisWords.size, pWords.size);
                 
-                if (similarity > 0.5) { // 50% word overlap
+                if (similarity > 0.75) {
                     similar.push(p);
                 }
             });
 
-            return similar;
+            // DEDUPLICATE: Keep only cheapest from each store
+            const byStore = {};
+            similar.forEach(p => {
+                if (!byStore[p.store] || p.price < byStore[p.store].price) {
+                    byStore[p.store] = p;
+                }
+            });
+
+            return Object.values(byStore);
         }
 
         // Render Products
