@@ -1,0 +1,16 @@
+# Ignore all scraped/cleaned data files
+newworld_specials_*.csv
+paknsave_deals_*.csv
+woolworths_specials_*.csv
+*_cleaned_*.csv
+churbro_master_*.csv
+
+# Ignore dated folders with archived data
+churbro_data_*/
+
+# Ignore logs if any
+*.log
+logs/
+
+# Keep only the API folder contents
+# (api/ folder and its contents will still be tracked)
