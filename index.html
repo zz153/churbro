@@ -410,9 +410,9 @@
         }
 
         .loading-spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid var(--gray-200);
+            width: 60px;
+            height: 60px;
+            border: 6px solid var(--gray-200);
             border-top-color: var(--primary);
             border-radius: 50%;
             animation: spin 1s linear infinite;
@@ -421,6 +421,23 @@
 
         @keyframes spin {
             to { transform: rotate(360deg); }
+        }
+
+        .loading p {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        .loading-more {
+            text-align: center;
+            padding: 30px;
+            color: var(--gray-600);
+        }
+
+        .loading-more .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border-width: 4px;
         }
 
         .empty-state {
@@ -587,6 +604,11 @@
             search: '',
             sort: 'name-asc'
         };
+        
+        // Lazy loading state
+        let currentIndex = 0;
+        const BATCH_SIZE = 50; // Load 50 products at a time
+        let isLoading = false;
 
         // Initialize
         window.onload = () => {
@@ -634,6 +656,17 @@
                 currentFilters.sort = e.target.value;
                 applyFilters();
             });
+            
+            // Infinite scroll
+            window.addEventListener('scroll', () => {
+                const scrollPosition = window.innerHeight + window.scrollY;
+                const pageHeight = document.documentElement.offsetHeight;
+                
+                // Load more when 500px from bottom
+                if (scrollPosition >= pageHeight - 500 && !isLoading) {
+                    loadMoreProducts();
+                }
+            });
         }
 
         function setActiveButton(btn, selector) {
@@ -641,17 +674,48 @@
             btn.classList.add('active');
         }
 
-        // Load Data
+        // Load Data with LocalStorage caching
         async function loadData() {
+            const startTime = performance.now();
+            const CACHE_KEY = 'churbro_data';
+            const CACHE_TIME_KEY = 'churbro_data_time';
+            const CACHE_DURATION = 3600000; // 1 hour in milliseconds
+            
             try {
+                // Check cache first
+                const cachedData = localStorage.getItem(CACHE_KEY);
+                const cacheTime = localStorage.getItem(CACHE_TIME_KEY);
+                const now = Date.now();
+                
+                if (cachedData && cacheTime && (now - parseInt(cacheTime) < CACHE_DURATION)) {
+                    console.log('✅ Loading from cache (instant!)');
+                    const data = JSON.parse(cachedData);
+                    allProducts = data.products || [];
+                    updateHeader(data);
+                    applyFilters();
+                    
+                    const loadTime = (performance.now() - startTime).toFixed(2);
+                    console.log(`⚡ Loaded ${allProducts.length} products from cache in ${loadTime}ms`);
+                    return;
+                }
+                
+                // Fetch fresh data
+                console.log('📡 Fetching fresh data from server...');
                 const response = await fetch(API_URL);
                 if (!response.ok) throw new Error('Failed to fetch data');
                 
                 const data = await response.json();
                 allProducts = data.products || [];
                 
+                // Cache the data
+                localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+                localStorage.setItem(CACHE_TIME_KEY, now.toString());
+                
                 updateHeader(data);
                 applyFilters();
+                
+                const loadTime = (performance.now() - startTime).toFixed(2);
+                console.log(`✅ Loaded ${allProducts.length} products in ${loadTime}ms`);
                 
             } catch (error) {
                 showError('Could not load data. Please try again later.');
@@ -886,8 +950,11 @@
             return Object.values(byStore);
         }
 
-        // Render Products
+        // Render Products with Lazy Loading
         function renderProducts() {
+            // Reset lazy loading
+            currentIndex = 0;
+            
             const container = document.getElementById('productsContainer');
             
             if (filteredProducts.length === 0) {
@@ -900,9 +967,41 @@
                 return;
             }
 
-            container.innerHTML = '<div class="products-grid">' + 
-                filteredProducts.map(product => createProductCard(product)).join('') +
-                '</div>';
+            // Clear container and load first batch
+            container.innerHTML = '<div class="products-grid"></div>';
+            loadMoreProducts();
+        }
+        
+        function loadMoreProducts() {
+            if (isLoading || currentIndex >= filteredProducts.length) return;
+            
+            isLoading = true;
+            const container = document.querySelector('.products-grid');
+            
+            // Show loading indicator if not first batch
+            if (currentIndex > 0) {
+                const loadingDiv = document.createElement('div');
+                loadingDiv.className = 'loading-more';
+                loadingDiv.id = 'loading-more';
+                loadingDiv.innerHTML = '<div class="loading-spinner"></div>';
+                document.getElementById('productsContainer').appendChild(loadingDiv);
+            }
+            
+            // Simulate small delay for smooth UX (can remove if too slow)
+            setTimeout(() => {
+                const batch = filteredProducts.slice(currentIndex, currentIndex + BATCH_SIZE);
+                const html = batch.map(product => createProductCard(product)).join('');
+                container.insertAdjacentHTML('beforeend', html);
+                
+                currentIndex += BATCH_SIZE;
+                isLoading = false;
+                
+                // Remove loading indicator
+                const loadingMore = document.getElementById('loading-more');
+                if (loadingMore) loadingMore.remove();
+                
+                console.log(`📦 Loaded ${currentIndex}/${filteredProducts.length} products`);
+            }, currentIndex === 0 ? 0 : 100); // No delay for first batch
         }
 
         function createProductCard(product) {
