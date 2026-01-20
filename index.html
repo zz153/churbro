@@ -147,6 +147,57 @@
             font-size: 1.2em;
         }
 
+        /* Autocomplete Dropdown */
+        .autocomplete-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 2px solid var(--gray-300);
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            display: none;
+        }
+
+        .autocomplete-dropdown.show {
+            display: block;
+        }
+
+        .autocomplete-item {
+            padding: 12px 20px;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .autocomplete-item:hover {
+            background: var(--gray-100);
+        }
+
+        .autocomplete-item-name {
+            font-weight: 500;
+            color: var(--gray-900);
+        }
+
+        .autocomplete-item-price {
+            font-size: 0.9em;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .autocomplete-no-results {
+            padding: 12px 20px;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
         /* Filter Section */
         .filter-section {
             margin-bottom: 20px;
@@ -538,6 +589,7 @@
                     autocomplete="off"
                 >
                 <span class="search-icon">🔍</span>
+                <div class="autocomplete-dropdown" id="autocompleteDropdown"></div>
             </div>
 
             <!-- Store Filter -->
@@ -582,7 +634,7 @@
                 <select class="sort-select" id="sortSelect">
                     <option value="name-asc">Name (A → Z)</option>
                     <option value="name-desc">Name (Z → A)</option>
-                    <option value="price-asc">Price (Low → High)</option>
+                    <option value="price-asc" selected>Price (Low → High)</option>
                     <option value="price-desc">Price (High → Low)</option>
                     <option value="discount-desc">Best Discount First</option>
                     <option value="saving-desc">Biggest Savings First</option>
@@ -614,7 +666,7 @@
             price: 'all',
             deal: 'all',
             search: '',
-            sort: 'name-asc'
+            sort: 'price-asc'  // Default to Price Low → High
         };
         
         // Lazy loading state
@@ -631,10 +683,72 @@
         // Setup Event Listeners
         function setupEventListeners() {
             // Search
-            document.getElementById('searchInput').addEventListener('input', (e) => {
+            // Search with autocomplete
+            const searchInput = document.getElementById('searchInput');
+            const autocompleteDropdown = document.getElementById('autocompleteDropdown');
+            
+            searchInput.addEventListener('input', (e) => {
+                const searchTerm = e.target.value.trim().toLowerCase();
                 currentFilters.search = e.target.value;
+                
+                // Show autocomplete suggestions
+                if (searchTerm.length >= 2) {
+                    showAutocomplete(searchTerm);
+                } else {
+                    autocompleteDropdown.classList.remove('show');
+                }
+                
                 applyFilters();
             });
+            
+            // Click outside to close autocomplete
+            document.addEventListener('click', (e) => {
+                if (!searchInput.contains(e.target) && !autocompleteDropdown.contains(e.target)) {
+                    autocompleteDropdown.classList.remove('show');
+                }
+            });
+            
+            // Keyboard navigation for autocomplete
+            searchInput.addEventListener('keydown', (e) => {
+                const items = autocompleteDropdown.querySelectorAll('.autocomplete-item');
+                if (e.key === 'Escape') {
+                    autocompleteDropdown.classList.remove('show');
+                }
+            });
+            
+            function showAutocomplete(searchTerm) {
+                // Find matching products
+                const matches = allProducts.filter(p => 
+                    p.name.toLowerCase().includes(searchTerm)
+                ).slice(0, 8); // Show max 8 suggestions
+                
+                if (matches.length === 0) {
+                    autocompleteDropdown.innerHTML = '<div class="autocomplete-no-results">No products found</div>';
+                    autocompleteDropdown.classList.add('show');
+                    return;
+                }
+                
+                // Create dropdown items
+                const html = matches.map(product => `
+                    <div class="autocomplete-item" data-product="${product.name}">
+                        <span class="autocomplete-item-name">${cleanProductName(product.name)}</span>
+                        <span class="autocomplete-item-price">$${product.price.toFixed(2)}</span>
+                    </div>
+                `).join('');
+                
+                autocompleteDropdown.innerHTML = html;
+                autocompleteDropdown.classList.add('show');
+                
+                // Add click handlers
+                autocompleteDropdown.querySelectorAll('.autocomplete-item').forEach(item => {
+                    item.addEventListener('click', () => {
+                        searchInput.value = item.dataset.product;
+                        currentFilters.search = item.dataset.product;
+                        autocompleteDropdown.classList.remove('show');
+                        applyFilters();
+                    });
+                });
+            }
 
             // Store filters
             document.querySelectorAll('[data-store]').forEach(btn => {
