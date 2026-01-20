@@ -1,0 +1,7 @@
+# ads.txt for ChurBro.net
+# Authorizes Google AdSense to sell ads on this site
+
+google.com, pub-8417229923832366, DIRECT, f08c47fec0942fa0
+
+# Optional: Add other ad networks here in the future
+# Format: <domain>, <publisher_id>, <relationship>, <certification_authority_id>
