@@ -26,6 +26,7 @@
             --new-world: #e31837;
             --paknsave: #fdb913;
             --woolworths: #0a8f3f;
+            --mad-butcher: #0066CC;
             --gray-100: #f8f9fa;
             --gray-200: #e9ecef;
             --gray-300: #dee2e6;
@@ -204,6 +205,11 @@
             border-color: var(--woolworths);
         }
 
+        .filter-btn.mad-butcher.active {
+            background: var(--mad-butcher);
+            border-color: var(--mad-butcher);
+        }
+
         .sort-select {
             padding: 10px 15px;
             border: 2px solid var(--gray-300);
@@ -268,6 +274,11 @@
 
         .store-badge.woolworths {
             background: var(--woolworths);
+            color: white;
+        }
+
+        .store-badge.mad-butcher {
+            background: var(--mad-butcher);
             color: white;
         }
 
@@ -537,6 +548,7 @@
                     <button class="filter-btn new-world" data-store="New World">New World</button>
                     <button class="filter-btn paknsave" data-store="PAK'nSAVE">PAK'nSAVE</button>
                     <button class="filter-btn woolworths" data-store="Woolworths">Woolworths</button>
+                    <button class="filter-btn mad-butcher" data-store="Mad Butcher">Mad Butcher</button>
                 </div>
             </div>
 
