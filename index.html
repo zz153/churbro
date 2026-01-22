@@ -592,6 +592,196 @@
                 font-size: 0.9em;
             }
         }
+
+        /* Email Signup Popup */
+        .email-popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .email-popup-overlay.show {
+            display: flex;
+        }
+
+        .email-popup {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            position: relative;
+            animation: slideUp 0.4s ease;
+        }
+
+        .email-popup-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 2em;
+            cursor: pointer;
+            color: var(--gray-600);
+            line-height: 1;
+            transition: color 0.2s;
+        }
+
+        .email-popup-close:hover {
+            color: var(--gray-900);
+        }
+
+        .email-popup-icon {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .email-popup h2 {
+            font-size: 1.8em;
+            color: var(--gray-900);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .email-popup p {
+            color: var(--gray-600);
+            font-size: 1.05em;
+            text-align: center;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .email-popup-benefits {
+            background: var(--gray-100);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .email-popup-benefit {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: var(--gray-900);
+        }
+
+        .email-popup-benefit:last-child {
+            margin-bottom: 0;
+        }
+
+        .email-popup-benefit span {
+            font-size: 1.1em;
+        }
+
+        .email-popup-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .email-popup-input {
+            flex: 1;
+            padding: 14px 18px;
+            border: 2px solid var(--gray-300);
+            border-radius: 10px;
+            font-size: 1em;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .email-popup-input:focus {
+            border-color: var(--primary);
+        }
+
+        .email-popup-submit {
+            padding: 14px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 1em;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .email-popup-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .email-popup-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .email-popup-privacy {
+            font-size: 0.85em;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
+        .email-popup-success {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .email-popup-success.show {
+            display: block;
+        }
+
+        .email-popup-success h3 {
+            color: var(--success);
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .email-popup {
+                padding: 30px 20px;
+            }
+
+            .email-popup h2 {
+                font-size: 1.5em;
+            }
+
+            .email-popup-form {
+                flex-direction: column;
+            }
+
+            .email-popup-submit {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1276,5 +1466,125 @@
         <span class="coffee-icon">☕</span>
         <span>Buy Me a Coffee</span>
     </a>
+
+    <!-- Email Signup Popup -->
+    <div class="email-popup-overlay" id="emailPopup">
+        <div class="email-popup">
+            <button class="email-popup-close" onclick="closeEmailPopup()">×</button>
+            
+            <div id="emailPopupForm">
+                <div class="email-popup-icon">🥩</div>
+                <h2>Get Dunedin's Best Meat Deals!</h2>
+                <p>Every Wednesday, get the week's top deals delivered to your inbox</p>
+                
+                <div class="email-popup-benefits">
+                    <div class="email-popup-benefit">
+                        <span>✓</span>
+                        <span>Top 10 cheapest items</span>
+                    </div>
+                    <div class="email-popup-benefit">
+                        <span>✓</span>
+                        <span>Biggest discounts (>30% off)</span>
+                    </div>
+                    <div class="email-popup-benefit">
+                        <span>✓</span>
+                        <span>All 4 stores compared</span>
+                    </div>
+                    <div class="email-popup-benefit">
+                        <span>✓</span>
+                        <span>100% free, unsubscribe anytime</span>
+                    </div>
+                </div>
+
+                <form class="email-popup-form" onsubmit="submitEmail(event)">
+                    <input 
+                        type="email" 
+                        class="email-popup-input" 
+                        id="emailInput" 
+                        placeholder="your.email@example.com" 
+                        required
+                    >
+                    <button type="submit" class="email-popup-submit" id="emailSubmitBtn">
+                        Subscribe
+                    </button>
+                </form>
+
+                <p class="email-popup-privacy">
+                    We respect your privacy. Unsubscribe anytime.
+                </p>
+            </div>
+
+            <div class="email-popup-success" id="emailPopupSuccess">
+                <div class="email-popup-icon">🎉</div>
+                <h3>You're all set!</h3>
+                <p>Check your email to confirm your subscription.<br>First email arrives next Wednesday!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Email Popup Logic
+        let emailPopupShown = false;
+
+        // Show popup after 10 seconds (only once per session)
+        setTimeout(() => {
+            if (!emailPopupShown && !localStorage.getItem('emailPopupClosed')) {
+                document.getElementById('emailPopup').classList.add('show');
+                emailPopupShown = true;
+            }
+        }, 10000); // 10 seconds
+
+        function closeEmailPopup() {
+            document.getElementById('emailPopup').classList.remove('show');
+            localStorage.setItem('emailPopupClosed', 'true');
+        }
+
+        // Close popup when clicking outside
+        document.getElementById('emailPopup').addEventListener('click', (e) => {
+            if (e.target.id === 'emailPopup') {
+                closeEmailPopup();
+            }
+        });
+
+        // Handle email submission
+        async function submitEmail(event) {
+            event.preventDefault();
+            
+            const email = document.getElementById('emailInput').value;
+            const submitBtn = document.getElementById('emailSubmitBtn');
+            
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Subscribing...';
+
+            try {
+                // Add to Mailchimp via their API
+                const response = await fetch('https://your-backend-endpoint.com/subscribe', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email: email })
+                });
+
+                if (response.ok) {
+                    // Show success message
+                    document.getElementById('emailPopupForm').classList.remove('show');
+                    document.getElementById('emailPopupSuccess').classList.add('show');
+                    
+                    // Close after 3 seconds
+                    setTimeout(() => {
+                        closeEmailPopup();
+                    }, 3000);
+                } else {
+                    throw new Error('Subscription failed');
+                }
+            } catch (error) {
+                alert('Oops! Something went wrong. Please try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Subscribe';
+            }
+        }
+    </script>
 </body>
 </html>
