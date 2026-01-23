@@ -593,6 +593,52 @@
             }
         }
 
+        /* Subscribe Floating Button */
+        .subscribe-button {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1em;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .subscribe-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 30px rgba(102, 126, 234, 0.6);
+            background: linear-gradient(135deg, #7c8ff0 0%, #8b5ec4 100%);
+        }
+
+        .subscribe-button:active {
+            transform: translateY(-1px);
+        }
+
+        .subscribe-icon {
+            font-size: 1.3em;
+        }
+
+        /* Responsive - smaller on mobile */
+        @media (max-width: 768px) {
+            .subscribe-button {
+                bottom: 80px;
+                left: 20px;
+                padding: 12px 18px;
+                font-size: 0.9em;
+            }
+        }
+
         /* Email Signup Popup */
         .email-popup-overlay {
             position: fixed;
@@ -1467,6 +1513,12 @@
         <span>Buy Me a Coffee</span>
     </a>
 
+    <!-- Subscribe Floating Button -->
+    <button class="subscribe-button" onclick="openEmailPopup()">
+        <span class="subscribe-icon">📧</span>
+        <span>Get Weekly Deals</span>
+    </button>
+
     <!-- Email Signup Popup -->
     <div class="email-popup-overlay" id="emailPopup">
         <div class="email-popup">
@@ -1526,17 +1578,25 @@
         // Email Popup Logic
         let emailPopupShown = false;
 
-        // Show popup after 10 seconds (only once per session)
+        // Show popup after 5 seconds (only once per session, unless reopened by button)
         setTimeout(() => {
             if (!emailPopupShown && !localStorage.getItem('emailPopupClosed')) {
-                document.getElementById('emailPopup').classList.add('show');
-                emailPopupShown = true;
+                openEmailPopup();
             }
-        }, 10000); // 10 seconds
+        }, 5000); // 5 seconds (changed from 10 for easier testing)
 
         function closeEmailPopup() {
             document.getElementById('emailPopup').classList.remove('show');
             localStorage.setItem('emailPopupClosed', 'true');
+        }
+
+        function openEmailPopup() {
+            // Reset form display
+            document.getElementById('emailPopupForm').style.display = 'block';
+            document.getElementById('emailPopupSuccess').classList.remove('show');
+            // Show popup
+            document.getElementById('emailPopup').classList.add('show');
+            emailPopupShown = true;
         }
 
         // Close popup when clicking outside
