@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-23T09:16:23.703123",
-  "total_products": 1388,
+  "last_updated": "2026-01-30T22:42:52.781847",
+  "total_products": 1402,
   "stores": [
     "New World",
     "PAK'nSAVE",
@@ -8,7 +8,7 @@
     "Mad Butcher"
   ],
   "price_range": {
-    "min": 5.0,
+    "min": 1.8,
     "max": 144.95
   }
 }
