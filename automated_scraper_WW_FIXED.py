@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Woolworths Scraper - FIXED VERSION
-Extracts the CORRECT pack price (big bold number), not multi-buy deals
+Woolworths Scraper - FIXED VERSION V2
+Extracts the CORRECT pack price and FILTERS OUT price text from product names
 """
 
 import asyncio
@@ -104,14 +104,40 @@ class WoolworthsScraper:
             return None
     
     async def extract_name(self, card) -> str:
-        """Extract product name"""
+        """Extract product name - IMPROVED with price filtering"""
         
-        # Strategy 1: Look for heading tags
+        def is_valid_product_name(text: str) -> bool:
+            """Check if text is a valid product name, not a price"""
+            if not text or len(text.strip()) < 10:
+                return False
+            
+            text = text.strip()
+            
+            # Reject if it's just price-like text
+            if text.startswith('$'):
+                return False
+            
+            # Reject if it's mostly numbers (like "5 20" or "8 80")
+            numbers_only = re.sub(r'[^\d]', '', text)
+            if len(numbers_only) > 0 and len(numbers_only) / len(text) > 0.5:  # More than 50% numbers
+                return False
+            
+            # Reject if it contains price patterns
+            if re.match(r'^\$?\d+[\s\n.]\d+$', text):
+                return False
+            
+            # Must contain at least some letters
+            if not re.search(r'[a-zA-Z]{3,}', text):  # At least 3 letters in a row
+                return False
+            
+            return True
+        
+        # Strategy 1: Look for heading tags (most reliable)
         for tag in ['h3', 'h2', 'h1', 'h4']:
             elem = await card.query_selector(tag)
             if elem:
                 text = await elem.inner_text()
-                if text and len(text.strip()) > 5:
+                if is_valid_product_name(text):
                     return text.strip()
         
         # Strategy 2: Look for product title link
@@ -120,13 +146,18 @@ class WoolworthsScraper:
             text = await link.inner_text()
             lines = text.split('\n')
             for line in lines:
-                if len(line.strip()) > 10 and not line.startswith('$'):
+                if is_valid_product_name(line):
                     return line.strip()
         
-        # Strategy 3: Title attribute
+        # Strategy 3: Try aria-label (often has clean product name)
+        aria_label = await card.get_attribute('aria-label')
+        if aria_label and is_valid_product_name(aria_label):
+            return aria_label.strip()
+        
+        # Strategy 4: Title attribute
         title = await card.get_attribute('title')
-        if title and len(title) > 5:
-            return title
+        if title and is_valid_product_name(title):
+            return title.strip()
         
         return None
     
@@ -284,7 +315,7 @@ class WoolworthsScraper:
     async def scrape_all(self) -> List[Dict]:
         """Scrape all pages"""
         
-        logger.info("🥩 Starting Woolworths scrape (FIXED VERSION)")
+        logger.info("🥩 Starting Woolworths scrape (FIXED VERSION V2)")
         
         async with async_playwright() as p:
             browser = await p.chromium.launch(
@@ -300,6 +331,9 @@ class WoolworthsScraper:
                 user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 locale='en-NZ',
                 timezone_id='Pacific/Auckland',
+                # FORCE DUNEDIN LOCATION!
+                geolocation={'latitude': -45.8788, 'longitude': 170.5028},  # Dunedin CBD
+                permissions=['geolocation'],
             )
             
             await context.set_extra_http_headers({
@@ -319,8 +353,8 @@ class WoolworthsScraper:
             max_pages = 100
             
             while page_num <= max_pages:
-                url = f"{self.base_url}?page={page_num}&inStockProductsOnly=false"
-                logger.info(f"📄 Fetching page {page_num}...")
+                url = f"{self.base_url}?store=dunedin&page={page_num}&inStockProductsOnly=false"
+                logger.info(f"📄 Fetching page {page_num} from DUNEDIN...")
                 
                 try:
                     if page_num > 1:
@@ -387,7 +421,7 @@ class WoolworthsScraper:
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Woolworths Scraper - FIXED')
+    parser = argparse.ArgumentParser(description='Woolworths Scraper - FIXED V2')
     parser.add_argument('--run-once', action='store_true', help='Run scraper once and exit')
     parser.add_argument('--debug', action='store_true', help='Enable debug mode')
     parser.add_argument('--headless', action='store_true', help='Run in headless mode')

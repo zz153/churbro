@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-ChurBro Daily Scraper V3 - Combined Script
-Scrapes all stores, cleans data, creates master CSV, and uploads to GitHub
+ChurBro Daily Scraper V4 - Combined Script with Mad Butcher!
+Scrapes all 4 stores, cleans data, creates master CSV, and uploads to GitHub
 """
 
 import subprocess
@@ -39,14 +39,15 @@ def run_script(script_name):
 def combine_csvs():
     """Combine all cleaned CSVs into one master file"""
     print(f"\n{'='*70}")
-    print("🔗 COMBINING ALL STORES INTO ONE CSV")
+    print("🔗 COMBINING ALL 4 STORES INTO ONE CSV")
     print('='*70)
     
     # Find the latest cleaned files
     files = {
         'newworld': sorted(Path('.').glob('newworld_cleaned_*.csv'))[-1],
         'paknsave': sorted(Path('.').glob('paknsave_cleaned_*.csv'))[-1],
-        'woolworths': sorted(Path('.').glob('woolworths_cleaned_*.csv'))[-1]
+        'woolworths': sorted(Path('.').glob('woolworths_cleaned_*.csv'))[-1],
+        'madbutcher': sorted(Path('.').glob('madbutcher_cleaned_*.csv'))[-1]
     }
     
     dfs = []
@@ -108,6 +109,25 @@ def combine_csvs():
     dfs.append(ww_clean)
     print(f"   ✓ Woolworths: {len(ww_clean)} products")
     
+    # Load Mad Butcher
+    print(f"📂 Loading Mad Butcher data...")
+    mb = pd.read_csv(files['madbutcher'])
+    mb_clean = pd.DataFrame({
+        'store': 'Mad Butcher',
+        'name': mb['name'],
+        'brand': mb['brand'],
+        'price': mb['price'],
+        'original_price': mb['original_price'],
+        'price_per_kg': mb['price_per_kg'],
+        'unit_type': mb['unit_type'],
+        'saving': mb['saving'],
+        'percent_off': mb['percent_off'],
+        'deal_type': mb.get('badge_type'),
+        'scraped_at': mb['scraped_at']
+    })
+    dfs.append(mb_clean)
+    print(f"   ✓ Mad Butcher: {len(mb_clean)} products")
+    
     # Combine all
     combined = pd.concat(dfs, ignore_index=True)
     
@@ -124,9 +144,11 @@ def combine_csvs():
     nw_count = len(combined[combined['store'] == 'New World'])
     ps_count = len(combined[combined['store'] == "PAK'nSAVE"])
     ww_count = len(combined[combined['store'] == 'Woolworths'])
-    print(f"   New World: {nw_count}")
-    print(f"   PAK'nSAVE: {ps_count}")
-    print(f"   Woolworths: {ww_count}")
+    mb_count = len(combined[combined['store'] == 'Mad Butcher'])
+    print(f"   New World:   {nw_count:4d}")
+    print(f"   PAK'nSAVE:   {ps_count:4d}")
+    print(f"   Woolworths:  {ww_count:4d}")
+    print(f"   Mad Butcher: {mb_count:4d}")
     print(f"   Price range: ${combined['price'].min():.2f} - ${combined['price'].max():.2f}")
     print(f"   Products with deals: {combined['deal_type'].notna().sum()}")
     print(f"   Products with discounts: {(combined['saving'] > 0).sum()}")
@@ -158,9 +180,11 @@ def organize_files(master_csv):
         *Path('.').glob('paknsave_cleaned_*.csv'),
         *Path('.').glob('woolworths_cleaned_*.csv'),
         *Path('.').glob('newworld_cleaned_*.csv'),
+        *Path('.').glob('madbutcher_cleaned_*.csv'),
         *Path('.').glob('woolworths_specials_*.csv'),
         *Path('.').glob('newworld_specials_*.csv'),
         *Path('.').glob('paknsave_deals_*.csv'),
+        *Path('.').glob('madbutcher_products_*.csv'),
     ]
     
     moved_count = 0
@@ -231,7 +255,7 @@ def create_api_files(master_csv):
         json.dump(metadata, f, indent=2)
     
     print(f"\n✅ Created: {json_file}")
-    print(f"   📊 {len(df)} products")
+    print(f"   📊 {len(df)} products from 4 stores")
     print(f"   📏 File size: {json_file.stat().st_size / 1024:.1f} KB")
     print(f"✅ Created: {csv_file}")
     print(f"✅ Created: {metadata_file}")
@@ -249,7 +273,7 @@ def auto_upload_to_github():
         print("💡 To enable auto-upload:")
         print("   1. Run: git init")
         print("   2. Run: git remote add origin https://github.com/YOUR-USERNAME/churbro.git")
-        print("   3. Follow QUICK-CHECKLIST.md")
+        print("   3. Follow DEPLOYMENT_GUIDE_V4.md")
         return
     
     try:
@@ -257,7 +281,7 @@ def auto_upload_to_github():
         subprocess.run(['git', 'add', 'api/'], check=True)
         
         # Commit with timestamp
-        commit_msg = f"Update prices - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+        commit_msg = f"Update prices - {datetime.now().strftime('%Y-%m-%d %H:%M')} - 4 stores"
         subprocess.run(['git', 'commit', '-m', commit_msg], check=True)
         
         # Push to GitHub
@@ -271,23 +295,24 @@ def auto_upload_to_github():
         print("💡 You may need to:")
         print("   1. Configure git credentials")
         print("   2. Set up GitHub remote")
-        print("   3. Check QUICK-CHECKLIST.md for setup instructions")
+        print("   3. Check DEPLOYMENT_GUIDE_V4.md for setup instructions")
 
 def main():
     """Main execution flow"""
     print("\n" + "="*70)
-    print("🥩 CHURBRO DAILY SCRAPER V3 (WITH MASTER CSV)")
+    print("🥩 CHURBRO DAILY SCRAPER V4 - WITH MAD BUTCHER!")
     print("="*70)
     print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
     # PHASE 1: Scraping
-    print("\n🕷️  PHASE 1: SCRAPING STORES")
+    print("\n🕷️  PHASE 1: SCRAPING 4 STORES")
     print("="*70)
     
     scrapers = [
         'automated_scraper_NW_FIXED_V3.py',
         'automated_scraper_PS_FIXED_V3.py',
-        'automated_scraper_WW_FIXED.py'
+        'automated_scraper_WW_FIXED.py',  # No _V3 suffix!
+        'automated_scraper_MB.py'
     ]
     
     for scraper in scrapers:
@@ -302,7 +327,8 @@ def main():
     cleaners = [
         'cleanup_newworld_v3.py',
         'cleanup_paknsave_v3.py',
-        'cleanup_woolworths.py'
+        'cleanup_woolworths.py',  # No _v3 suffix!
+        'cleanup_madbutcher.py'
     ]
     
     for cleaner in cleaners:
@@ -321,8 +347,9 @@ def main():
     
     print(f"\n⏰ Finished: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"\n🚀 USE THIS FILE IN CHURBRO APP:")
-    print(f"   📁 {master_csv_path}")
-    print(f"\n   This file has ALL stores combined!")
+    print(f"   📄 {master_csv_path}")
+    print(f"\n   This file has ALL 4 STORES combined!")
+    print(f"   Stores: New World, PAK'nSAVE, Woolworths, Mad Butcher")
     print(f"   Columns: store, name, brand, price, original_price, price_per_kg,")
     print(f"            unit_type, saving, percent_off, deal_type, scraped_at\n")
     
@@ -340,12 +367,13 @@ def main():
     print(f"\n{'='*70}")
     print("🎉 ALL DONE!")
     print('='*70)
-    print("✅ Scraped all stores")
+    print("✅ Scraped all 4 stores (NW, PS, WW, MB)")
     print("✅ Cleaned data")
     print("✅ Combined into master CSV")
     print("✅ Created API files (api/latest.json)")
     print("✅ Uploaded to GitHub (if configured)")
-    print(f"\n📱 Web app will auto-update in 1-2 minutes!")
+    print(f"\n📱 ChurBro.net will auto-update in 1-2 minutes!")
+    print(f"🥩 Now featuring Mad Butcher specialty prices!")
     print('='*70 + "\n")
 
 if __name__ == "__main__":

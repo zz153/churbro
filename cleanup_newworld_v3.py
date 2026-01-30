@@ -41,7 +41,7 @@ def clean_newworld(input_file: str):
     
     # RULE 1: Remove cheap products (< $5)
     print(f"\n🔪 Removing products with sale_price < $5...")
-    df = df[df['sale_price'] >= 5.0]
+    df = df[df['sale_price'] >= 3.5]
     final_count = len(df)
     removed = initial_count - final_count
     print(f"   ✂️  Removed: {removed} products")

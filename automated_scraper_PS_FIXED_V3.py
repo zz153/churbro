@@ -314,6 +314,9 @@ class PaknsaveScraper:
                 user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 locale='en-NZ',
                 timezone_id='Pacific/Auckland',
+                # FORCE DUNEDIN LOCATION!
+                geolocation={'latitude': -45.8788, 'longitude': 170.5028},  # Dunedin CBD
+                permissions=['geolocation'],
             )
             
             await context.set_extra_http_headers({
@@ -333,8 +336,8 @@ class PaknsaveScraper:
             max_pages = 100
             
             while page_num <= max_pages:
-                url = f"{self.base_url}?pg={page_num}"
-                logger.info(f"📄 Fetching page {page_num}...")
+                url = f"{self.base_url}?store=dunedin&pg={page_num}"
+                logger.info(f"📄 Fetching page {page_num} from DUNEDIN...")
                 
                 try:
                     if page_num > 1:
