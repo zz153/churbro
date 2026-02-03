@@ -3,98 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How ChurBro Works</title>
-    <meta name="description" content="Learn how ChurBro compares meat prices across Dunedin supermarkets to help you save money.">
+    <title>How It Works - ChurBro</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; color: #333; background: #f9fafb; }
-        
-        /* Header with Navigation */
-        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px 20px 25px 20px; text-align: center; }
-        .header h1 { font-size: 2.5em; margin-bottom: 8px; }
-        .header p { font-size: 1.2em; color: white; margin-bottom: 20px; }
-        .header nav { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; padding-top: 10px; }
-        .header nav a { color: white; text-decoration: none; font-weight: 600; padding: 8px 16px; border-radius: 6px; transition: background 0.2s; font-size: 0.95em; }
-        .header nav a:hover { background: rgba(255,255,255,0.2); }
-        
-        .container { max-width: 900px; margin: 40px auto; background: white; padding: 50px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
-        h2 { color: #1a202c; margin-top: 35px; margin-bottom: 18px; font-size: 1.8em; }
-        p, li { color: #4a5568; font-size: 1.05em; margin-bottom: 15px; line-height: 1.7; }
-        ul { margin-left: 30px; }
-        .highlight { background: #fffbeb; padding: 20px; border-radius: 8px; margin: 25px 0; border-left: 4px solid #f59e0b; }
-        blockquote { background: #f0f9ff; padding: 20px; border-left: 4px solid #0284c7; margin: 25px 0; font-style: italic; }
-        .footer { max-width: 1200px; margin: 60px auto 40px; padding: 0 20px; text-align: center; color: #718096; }
-        .footer a { color: #667eea; text-decoration: none; margin: 0 10px; }
-        
-        @media (max-width: 768px) { 
-            .container { padding: 30px 20px; margin: 20px; } 
-            .header h1 { font-size: 2em; } 
-            .header nav { gap: 8px; } 
-            .header nav a { padding: 6px 12px; font-size: 0.85em; } 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .header nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-top: 10px;
+        }
+
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background 0.2s;
+            font-size: 0.95em;
+        }
+
+        .header nav a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Content */
+        .content {
+            padding: 50px 40px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        .content h3 {
+            font-size: 1.5em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .content ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .content li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .content strong {
+            color: #333;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1em;
+            margin-top: 30px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        footer p {
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .header nav {
+                gap: 8px;
+            }
+
+            .header nav a {
+                padding: 6px 12px;
+                font-size: 0.85em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h2 {
+                font-size: 1.6em;
+            }
+
+            .content h3 {
+                font-size: 1.3em;
+            }
+
+            .content p, .content li {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>How ChurBro Works</h1>
-        <p>Simple, transparent price comparison</p>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/how-it-works/">How It Works</a>
-            <a href="/faq/">FAQ</a>
-            <a href="/contactus/">Contact</a>
-            <a href="/privacy/">Privacy</a>
-            <a href="/terms/">Terms</a>
-        </nav>
-    </div>
-
     <div class="container">
-        <p>ChurBro is a price comparison platform designed to help Dunedin shoppers find the best meat deals across major supermarkets — quickly, transparently, and for free.</p>
-
-        <h2>🔍 Step 1: Daily Price Collection</h2>
-        <p>Each day at 10 PM, ChurBro automatically collects publicly available meat prices from major Dunedin retailers:</p>
-        <ul>
-            <li>PAK'nSAVE</li>
-            <li>New World</li>
-            <li>Woolworths</li>
-            <li>Mad Butcher</li>
-        </ul>
-        <p>This includes regular prices, promotional specials, and Club Deals where applicable.</p>
-
-        <h2>📊 Step 2: Product Matching & Comparison</h2>
-        <p>Products are matched by type, cut, and weight wherever possible. ChurBro then compares prices across stores to highlight:</p>
-        <ul>
-            <li>The cheapest available option</li>
-            <li>Price differences between stores</li>
-            <li>Discounted or promotional items</li>
-        </ul>
-
-        <h2>💡 Step 3: Clear, Actionable Results</h2>
-        <p>Instead of forcing you to check multiple supermarket websites, ChurBro shows everything in one place — making it easy to decide where to shop.</p>
-
-        <div class="highlight">
-            <p><strong>⚠️ Important Disclaimer:</strong> Prices shown on ChurBro are for comparison purposes only. Final prices may vary by store, location, stock availability, or loyalty programme membership. Always verify prices before purchasing.</p>
+        <!-- Header with Navigation -->
+        <div class="header">
+            <h1>🥩 ChurBro</h1>
+            <p>Compare meat prices across Dunedin supermarkets</p>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/how-it-works/">How It Works</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/contactus/">Contact</a>
+                <a href="/privacy/">Privacy</a>
+                <a href="/terms/">Terms</a>
+            </nav>
         </div>
 
-        <h2>🎯 Our Goal</h2>
-        <blockquote>
-            <strong>Help Dunedin households and students save money through transparent, data-driven price comparison.</strong>
-        </blockquote>
-        <p>ChurBro is independent, free to use, and continually improving.</p>
+        <!-- Main Content -->
+        <div class="content">
+            <h2>🔍 How ChurBro Works</h2>
 
-        <h2>📧 Want to Learn More?</h2>
-        <p>Visit our <a href="/about/" style="color: #667eea;">About page</a> or <a href="/contactus/" style="color: #667eea;">contact us</a> with questions.</p>
+            <p>ChurBro is a price comparison platform designed to help Dunedin shoppers find the best meat deals across major supermarkets — quickly, transparently, and for free.</p>
+
+            <h3>📊 Daily Price Collection</h3>
+
+            <p>ChurBro regularly collects publicly available meat prices from major Dunedin retailers:</p>
+
+            <ul>
+                <li>PAK'nSAVE</li>
+                <li>New World</li>
+                <li>Woolworths</li>
+                <li>Mad Butcher</li>
+            </ul>
+
+            <p>Prices are updated daily, including regular prices, promotional specials, and Club Deals. Check back anytime for the latest deals!</p>
+
+            <h3>🔎 Search & Compare</h3>
+
+            <p>Simply search for any meat product (e.g., "chicken breast" or "beef mince") and see prices from all four stores side-by-side. Filter by store, price range, or deals to find exactly what you need.</p>
+
+            <div class="highlight-box">
+                <p><strong>Example:</strong> Search "chicken drumsticks" and instantly see prices ranging from $5.69/kg to $8.99/kg across stores — that's up to 37% in potential savings just by shopping at the right place!</p>
+            </div>
+
+            <h3>💰 Save Money</h3>
+
+            <p>Compare prices across all four stores instantly. See which retailer offers the best value for the products you need. Sort by price, discount percentage, or biggest savings to maximize your grocery budget.</p>
+
+            <p><strong>It's that simple. Save time. Save money. Shop smarter.</strong></p>
+
+            <div style="text-align: center;">
+                <a href="/" class="cta-button">Start Comparing Prices →</a>
+            </div>
+        </div>
     </div>
 
-    <div class="footer">
-        <p>&copy; 2026 ChurBro. All rights reserved.</p>
+    <!-- Footer -->
+    <footer>
         <p>
             <a href="/about/">About</a> |
+            <a href="/how-it-works/">How It Works</a> |
+            <a href="/faq/">FAQ</a> |
+            <a href="/contactus/">Contact</a> |
             <a href="/privacy/">Privacy</a> |
-            <a href="/terms/">Terms</a> |
-            <a href="/contactus/">Contact</a>
+            <a href="/terms/">Terms</a>
         </p>
-    </div>
+        <p>&copy; 2026 ChurBro. Dunedin, New Zealand.</p>
+    </footer>
+
 </body>
 </html>
