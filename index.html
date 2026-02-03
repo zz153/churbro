@@ -843,6 +843,28 @@
             }
         }
 
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideOut {
+            from {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            to {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+        }
+
         @media (max-width: 768px) {
             .email-popup {
                 padding: 30px 20px;
@@ -988,12 +1010,12 @@
             price: 'all',
             deal: 'all',
             search: '',
-            sort: 'price-asc'  // Default to Price Low → High
+            sort: 'price-asc'
         };
         
         // Lazy loading state
         let currentIndex = 0;
-        const BATCH_SIZE = 50; // Load 50 products at a time
+        const BATCH_SIZE = 50;
         let isLoading = false;
 
         // Initialize
@@ -1004,8 +1026,6 @@
 
         // Setup Event Listeners
         function setupEventListeners() {
-            // Search
-            // Search with autocomplete
             const searchInput = document.getElementById('searchInput');
             const autocompleteDropdown = document.getElementById('autocompleteDropdown');
             
@@ -1013,7 +1033,6 @@
                 const searchTerm = e.target.value.trim().toLowerCase();
                 currentFilters.search = e.target.value;
                 
-                // Show autocomplete suggestions
                 if (searchTerm.length >= 2) {
                     showAutocomplete(searchTerm);
                 } else {
@@ -1023,26 +1042,22 @@
                 applyFilters();
             });
             
-            // Click outside to close autocomplete
             document.addEventListener('click', (e) => {
                 if (!searchInput.contains(e.target) && !autocompleteDropdown.contains(e.target)) {
                     autocompleteDropdown.classList.remove('show');
                 }
             });
             
-            // Keyboard navigation for autocomplete
             searchInput.addEventListener('keydown', (e) => {
-                const items = autocompleteDropdown.querySelectorAll('.autocomplete-item');
                 if (e.key === 'Escape') {
                     autocompleteDropdown.classList.remove('show');
                 }
             });
             
             function showAutocomplete(searchTerm) {
-                // Find matching products
                 const matches = allProducts.filter(p => 
                     p.name.toLowerCase().includes(searchTerm)
-                ).slice(0, 8); // Show max 8 suggestions
+                ).slice(0, 8);
                 
                 if (matches.length === 0) {
                     autocompleteDropdown.innerHTML = '<div class="autocomplete-no-results">No products found</div>';
@@ -1050,7 +1065,6 @@
                     return;
                 }
                 
-                // Create dropdown items
                 const html = matches.map(product => `
                     <div class="autocomplete-item" data-product="${product.name}">
                         <span class="autocomplete-item-name">${cleanProductName(product.name)}</span>
@@ -1061,7 +1075,6 @@
                 autocompleteDropdown.innerHTML = html;
                 autocompleteDropdown.classList.add('show');
                 
-                // Add click handlers
                 autocompleteDropdown.querySelectorAll('.autocomplete-item').forEach(item => {
                     item.addEventListener('click', () => {
                         searchInput.value = item.dataset.product;
@@ -1072,7 +1085,6 @@
                 });
             }
 
-            // Store filters
             document.querySelectorAll('[data-store]').forEach(btn => {
                 btn.addEventListener('click', () => {
                     setActiveButton(btn, '[data-store]');
@@ -1081,7 +1093,6 @@
                 });
             });
 
-            // Price filters
             document.querySelectorAll('[data-price]').forEach(btn => {
                 btn.addEventListener('click', () => {
                     setActiveButton(btn, '[data-price]');
@@ -1090,7 +1101,6 @@
                 });
             });
 
-            // Deal filters
             document.querySelectorAll('[data-deal]').forEach(btn => {
                 btn.addEventListener('click', () => {
                     setActiveButton(btn, '[data-deal]');
@@ -1099,18 +1109,15 @@
                 });
             });
 
-            // Sort
             document.getElementById('sortSelect').addEventListener('change', (e) => {
                 currentFilters.sort = e.target.value;
                 applyFilters();
             });
             
-            // Infinite scroll
             window.addEventListener('scroll', () => {
                 const scrollPosition = window.innerHeight + window.scrollY;
                 const pageHeight = document.documentElement.offsetHeight;
                 
-                // Load more when 500px from bottom
                 if (scrollPosition >= pageHeight - 500 && !isLoading) {
                     loadMoreProducts();
                 }
@@ -1122,71 +1129,103 @@
             btn.classList.add('active');
         }
 
-        // Load Data with LocalStorage caching
+        // SMART CACHE: Load cached data instantly, always check for updates
         async function loadData() {
             const startTime = performance.now();
             const CACHE_KEY = 'churbro_data';
-            const CACHE_TIME_KEY = 'churbro_data_time';
-            const CACHE_DURATION = 3600000; // 1 hour in milliseconds
+            const CACHE_VERSION_KEY = 'churbro_version';
             
             try {
-                // Check cache first
+                // Load cached data FIRST (instant UX)
                 const cachedData = localStorage.getItem(CACHE_KEY);
-                const cacheTime = localStorage.getItem(CACHE_TIME_KEY);
-                const now = Date.now();
+                const cachedVersion = localStorage.getItem(CACHE_VERSION_KEY);
                 
-                if (cachedData && cacheTime && (now - parseInt(cacheTime) < CACHE_DURATION)) {
-                    console.log('✅ Loading from cache (instant!)');
+                if (cachedData) {
+                    console.log('⚡ Loading from cache...');
                     const data = JSON.parse(cachedData);
                     allProducts = data.products || [];
                     updateHeader(data);
                     applyFilters();
                     
                     const loadTime = (performance.now() - startTime).toFixed(2);
-                    console.log(`⚡ Loaded ${allProducts.length} products from cache in ${loadTime}ms`);
-                    return;
+                    console.log(`✅ Loaded ${allProducts.length} products from cache in ${loadTime}ms`);
                 }
                 
-                // Fetch fresh data
-                console.log('📡 Fetching fresh data from server...');
-                const response = await fetch(API_URL);
-                if (!response.ok) throw new Error('Failed to fetch data');
+                // ALWAYS check for updates in background
+                console.log('🔄 Checking for updates...');
+                const response = await fetch(API_URL + '?t=' + Date.now());
+                if (!response.ok) {
+                    if (cachedData) return;
+                    throw new Error('Failed to fetch data');
+                }
                 
-                const data = await response.json();
-                allProducts = data.products || [];
+                const freshData = await response.json();
+                const freshVersion = freshData.updated_at;
                 
-                // Cache the data
-                localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-                localStorage.setItem(CACHE_TIME_KEY, now.toString());
-                
-                updateHeader(data);
-                applyFilters();
-                
-                const loadTime = (performance.now() - startTime).toFixed(2);
-                console.log(`✅ Loaded ${allProducts.length} products in ${loadTime}ms`);
+                // Check if data is newer
+                if (freshVersion !== cachedVersion) {
+                    console.log('🆕 New data available! Updating...');
+                    
+                    // Update cache
+                    localStorage.setItem(CACHE_KEY, JSON.stringify(freshData));
+                    localStorage.setItem(CACHE_VERSION_KEY, freshVersion);
+                    
+                    // Update display
+                    allProducts = freshData.products || [];
+                    updateHeader(freshData);
+                    applyFilters();
+                    
+                    // Show notification
+                    showUpdateNotification();
+                } else {
+                    console.log('✅ Data is up to date!');
+                }
                 
             } catch (error) {
-                showError('Could not load data. Please try again later.');
+                if (!cachedData) {
+                    showError('Could not load data. Please try again later.');
+                }
                 console.error('Error:', error);
             }
+        }
+
+        // Show notification when data updates
+        function showUpdateNotification() {
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10000;
+                font-weight: 600;
+                animation: slideIn 0.3s ease;
+            `;
+            notification.textContent = '✨ Prices updated!';
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
         }
 
         function updateHeader(data) {
             const updateTime = new Date(data.updated_at).toLocaleString();
             document.getElementById('updateInfo').textContent = `Last updated: ${updateTime}`;
-            
             document.getElementById('totalProducts').textContent = data.total_products || 0;
         }
 
-        // Filtering Logic
         function applyFilters() {
             filteredProducts = allProducts.filter(product => {
-                // Store filter
                 if (currentFilters.store !== 'all' && product.store !== currentFilters.store) {
                     return false;
                 }
 
-                // Price filter
                 if (currentFilters.price !== 'all') {
                     const price = product.price;
                     const [min, max] = currentFilters.price.split('-').map(p => {
@@ -1202,7 +1241,6 @@
                     }
                 }
 
-                // Deal filter
                 if (currentFilters.deal !== 'all') {
                     if (currentFilters.deal === 'any') {
                         if (!product.deal_type || product.deal_type === null) return false;
@@ -1215,7 +1253,6 @@
                     }
                 }
 
-                // Search filter (fuzzy matching)
                 if (currentFilters.search) {
                     const searchTerm = currentFilters.search.toLowerCase().trim();
                     const searchable = [
@@ -1224,7 +1261,6 @@
                         product.store || ''
                     ].join(' ').toLowerCase();
                     
-                    // Split search into words for multi-word matching
                     const searchWords = searchTerm.split(/\s+/);
                     const matchesAll = searchWords.every(word => searchable.includes(word));
                     
@@ -1234,10 +1270,7 @@
                 return true;
             });
 
-            // Apply sorting
             sortProducts();
-            
-            // Update display
             updateStats();
             renderProducts();
         }
@@ -1278,13 +1311,11 @@
         }
 
         function updateStats() {
-            // Average price
             const avgPrice = filteredProducts.length > 0
                 ? filteredProducts.reduce((sum, p) => sum + p.price, 0) / filteredProducts.length
                 : 0;
             document.getElementById('avgPrice').textContent = `$${avgPrice.toFixed(2)}`;
 
-            // Best deal
             const bestDeal = filteredProducts.reduce((max, p) => 
                 p.percent_off > (max?.percent_off || 0) ? p : max
             , null);
@@ -1292,17 +1323,12 @@
                 ? `${bestDeal.percent_off.toFixed(0)}% off`
                 : 'N/A';
 
-            // Showing count
             document.getElementById('showingCount').textContent = filteredProducts.length;
-
-            // Results header
             document.getElementById('resultsHeader').textContent = 
                 `Showing ${filteredProducts.length} of ${allProducts.length} products`;
         }
 
-        // Cross-store comparison with STRICT SIZE & TYPE MATCHING
         function findSimilarProducts(product) {
-            // Extract size/weight from product name
             function extractSize(name) {
                 const match = name.match(/(\d+\.?\d*)\s*(kg|g|ml|l)\b/i);
                 if (!match) return null;
@@ -1310,14 +1336,12 @@
                 let value = parseFloat(match[1]);
                 const unit = match[2].toLowerCase();
                 
-                // Normalize to grams/ml
                 if (unit === 'kg') value *= 1000;
                 else if (unit === 'l') value *= 1000;
                 
                 return { value, unit: (unit === 'kg' || unit === 'g') ? 'g' : 'ml' };
             }
             
-            // Extract product type (key words that identify the product)
             function extractProductType(name) {
                 const types = ['patties', 'patty', 'mince', 'brisket', 'curry', 'steak', 
                               'chops', 'roast', 'fillet', 'fillets', 'slices', 'strips',
@@ -1329,7 +1353,6 @@
                 return foundTypes.join(' ');
             }
             
-            // Normalize product name
             function normalize(str) {
                 return str
                     .toLowerCase()
@@ -1346,36 +1369,31 @@
             const similar = [];
 
             allProducts.forEach(p => {
-                if (p.store === product.store) return; // Skip same store
+                if (p.store === product.store) return;
                 
                 const pName = normalize(p.name);
                 const pSize = extractSize(p.name);
                 const pType = extractProductType(p.name);
                 
-                // EXACT SIZE MATCHING - Must be EXACTLY the same size
                 if (thisSize && pSize) {
                     if (thisSize.unit !== pSize.unit) return;
-                    if (Math.abs(thisSize.value - pSize.value) > 10) return; // Max 10g difference
+                    if (Math.abs(thisSize.value - pSize.value) > 10) return;
                 } else if (thisSize || pSize) {
-                    return; // One has size, other doesn't = different products
+                    return;
                 }
                 
-                // UNIT TYPE MATCHING
                 if (product.unit_type !== p.unit_type) return;
                 
-                // PRODUCT TYPE MATCHING - Must share key product identifiers
                 if (thisType && pType) {
                     const thisTypeWords = new Set(thisType.split(/\s+/));
                     const pTypeWords = new Set(pType.split(/\s+/));
                     const typeIntersection = new Set([...thisTypeWords].filter(w => pTypeWords.has(w)));
                     
-                    // Must share at least 50% of product type words
                     if (typeIntersection.size / Math.max(thisTypeWords.size, pTypeWords.size) < 0.5) {
                         return;
                     }
                 }
                 
-                // NAME MATCHING - Must be highly similar (75% overlap)
                 const thisWords = new Set(thisName.split(/\s+/).filter(w => w.length > 3));
                 const pWords = new Set(pName.split(/\s+/).filter(w => w.length > 3));
                 const intersection = new Set([...thisWords].filter(w => pWords.has(w)));
@@ -1387,7 +1405,6 @@
                 }
             });
 
-            // DEDUPLICATE: Keep only cheapest from each store
             const byStore = {};
             similar.forEach(p => {
                 if (!byStore[p.store] || p.price < byStore[p.store].price) {
@@ -1398,11 +1415,8 @@
             return Object.values(byStore);
         }
 
-        // Render Products with Lazy Loading
         function renderProducts() {
-            // Reset lazy loading
             currentIndex = 0;
-            
             const container = document.getElementById('productsContainer');
             
             if (filteredProducts.length === 0) {
@@ -1415,7 +1429,6 @@
                 return;
             }
 
-            // Clear container and load first batch
             container.innerHTML = '<div class="products-grid"></div>';
             loadMoreProducts();
         }
@@ -1426,7 +1439,6 @@
             isLoading = true;
             const container = document.querySelector('.products-grid');
             
-            // Show loading indicator if not first batch
             if (currentIndex > 0) {
                 const loadingDiv = document.createElement('div');
                 loadingDiv.className = 'loading-more';
@@ -1435,7 +1447,6 @@
                 document.getElementById('productsContainer').appendChild(loadingDiv);
             }
             
-            // Simulate small delay for smooth UX (can remove if too slow)
             setTimeout(() => {
                 const batch = filteredProducts.slice(currentIndex, currentIndex + BATCH_SIZE);
                 const html = batch.map(product => createProductCard(product)).join('');
@@ -1444,19 +1455,17 @@
                 currentIndex += BATCH_SIZE;
                 isLoading = false;
                 
-                // Remove loading indicator
                 const loadingMore = document.getElementById('loading-more');
                 if (loadingMore) loadingMore.remove();
                 
                 console.log(`📦 Loaded ${currentIndex}/${filteredProducts.length} products`);
-            }, currentIndex === 0 ? 0 : 100); // No delay for first batch
+            }, currentIndex === 0 ? 0 : 100);
         }
 
         function createProductCard(product) {
             const storeClass = product.store.toLowerCase().replace(/'/g, '').replace(/\s+/g, '-');
             const hasDiscount = product.percent_off > 0;
             
-            // Deal badges
             let dealBadges = '';
             if (product.deal_type) {
                 const dealType = product.deal_type.toLowerCase();
@@ -1474,14 +1483,12 @@
                 }
             }
 
-            // Price display
             let priceHTML = `<span class="current-price">$${product.price.toFixed(2)}</span>`;
             if (hasDiscount && product.original_price !== product.price) {
                 priceHTML += `<span class="original-price">$${product.original_price.toFixed(2)}</span>`;
                 priceHTML += `<span class="savings-badge">${product.percent_off.toFixed(0)}% OFF</span>`;
             }
 
-            // Price per kg
             let pricePerKg = '';
             if (product.price_per_kg && product.unit_type === 'kg') {
                 pricePerKg = `<div class="price-per-kg">$${product.price_per_kg.toFixed(2)}/kg</div>`;
@@ -1489,7 +1496,6 @@
                 pricePerKg = `<div class="price-per-kg">$${product.price_per_kg.toFixed(2)}/kg</div>`;
             }
 
-            // Cross-store comparison
             const similarProducts = findSimilarProducts(product);
             let comparisonHTML = '';
             
@@ -1616,15 +1622,13 @@
     </div>
 
     <script>
-        // Email Popup Logic
         let emailPopupShown = false;
 
-        // Show popup after 5 seconds (only once per session, unless reopened by button)
         setTimeout(() => {
             if (!emailPopupShown && !localStorage.getItem('emailPopupClosed')) {
                 openEmailPopup();
             }
-        }, 5000); // 5 seconds (changed from 10 for easier testing)
+        }, 5000);
 
         function closeEmailPopup() {
             document.getElementById('emailPopup').classList.remove('show');
@@ -1632,42 +1636,27 @@
         }
 
         function openEmailPopup() {
-            // Reset form display
             document.getElementById('emailPopupForm').style.display = 'block';
             document.getElementById('emailPopupSuccess').classList.remove('show');
-            // Show popup
             document.getElementById('emailPopup').classList.add('show');
             emailPopupShown = true;
         }
 
-        // Close popup when clicking outside
         document.getElementById('emailPopup').addEventListener('click', (e) => {
             if (e.target.id === 'emailPopup') {
                 closeEmailPopup();
             }
         });
 
-        // Handle email submission
         async function submitEmail(event) {
             event.preventDefault();
-            
-            const email = document.getElementById('emailInput').value;
-            
-            // Open Mailchimp signup form in new tab
             window.open('http://eepurl.com/jxH4cc', '_blank');
-            
-            // Show success message
             document.getElementById('emailPopupForm').style.display = 'none';
             document.getElementById('emailPopupSuccess').classList.add('show');
-            
-            // Close popup after 3 seconds
-            setTimeout(() => {
-                closeEmailPopup();
-            }, 3000);
+            setTimeout(() => closeEmailPopup(), 3000);
         }
     </script>
 
-    <!-- Footer with links to all pages -->
     <footer style="background: white; padding: 30px 20px; text-align: center; border-top: 1px solid #e5e7eb; margin-top: 60px;">
         <p style="color: #718096; margin-bottom: 10px;">
             <a href="/about/" style="color: #667eea; text-decoration: none; margin: 0 10px;">About</a> |
@@ -1682,4 +1671,3 @@
 
 </body>
 </html>
- 
