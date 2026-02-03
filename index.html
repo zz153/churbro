@@ -1496,7 +1496,7 @@
                 pricePerKg = `<div class="price-per-kg">$${product.price_per_kg.toFixed(2)}/kg</div>`;
             }
 
-            const similarProducts = findSimilarProducts(product);
+            const similarProducts = []; 
             let comparisonHTML = '';
             
             if (similarProducts.length > 0) {
