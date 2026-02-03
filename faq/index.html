@@ -4,134 +4,349 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ - ChurBro</title>
-    <meta name="description" content="Frequently asked questions about ChurBro's meat price comparison service.">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; color: #333; background: #f9fafb; }
-        
-        /* Header with Navigation */
-        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px 20px 25px 20px; text-align: center; }
-        .header h1 { font-size: 2.5em; margin-bottom: 8px; }
-        .header p { font-size: 1.2em; opacity: 0.9; margin-bottom: 20px; }
-        .header nav { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; padding-top: 10px; }
-        .header nav a { color: white; text-decoration: none; font-weight: 600; padding: 8px 16px; border-radius: 6px; transition: background 0.2s; font-size: 0.95em; }
-        .header nav a:hover { background: rgba(255,255,255,0.2); }
-        
-        .container { max-width: 900px; margin: 40px auto; background: white; padding: 50px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
-        .faq-item { margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid #e2e8f0; }
-        .faq-question { font-size: 1.3em; font-weight: 700; color: #2d3748; margin-bottom: 12px; }
-        .faq-answer { color: #4a5568; font-size: 1.05em; line-height: 1.7; }
-        .faq-answer ul { margin-left: 25px; margin-top: 10px; }
-        .footer { max-width: 1200px; margin: 60px auto 40px; padding: 0 20px; text-align: center; color: #718096; }
-        .footer a { color: #667eea; text-decoration: none; margin: 0 10px; }
-        
-        @media (max-width: 768px) { 
-            .container { padding: 30px 20px; margin: 20px; } 
-            .header h1 { font-size: 2em; } 
-            .header nav { gap: 8px; } 
-            .header nav a { padding: 6px 12px; font-size: 0.85em; } 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .header nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-top: 10px;
+        }
+
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background 0.2s;
+            font-size: 0.95em;
+        }
+
+        .header nav a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Content */
+        .content {
+            padding: 50px 40px;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #667eea;
+            text-align: center;
+        }
+
+        .content .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        .faq-item {
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .faq-answer ul {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        .faq-answer li {
+            margin-bottom: 8px;
+        }
+
+        .faq-answer strong {
+            color: #333;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1em;
+            margin-top: 30px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .cta-section {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 40px;
+            border-top: 2px solid #e5e7eb;
+        }
+
+        /* Footer */
+        footer {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        footer p {
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .header nav {
+                gap: 8px;
+            }
+
+            .header nav a {
+                padding: 6px 12px;
+                font-size: 0.85em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h2 {
+                font-size: 1.6em;
+            }
+
+            .faq-question {
+                font-size: 1.2em;
+            }
+
+            .faq-answer {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Frequently Asked Questions</h1>
-        <p>Everything you need to know about ChurBro</p>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/how-it-works/">How It Works</a>
-            <a href="/faq/">FAQ</a>
-            <a href="/contactus/">Contact</a>
-            <a href="/privacy/">Privacy</a>
-            <a href="/terms/">Terms</a>
-        </nav>
-    </div>
-
     <div class="container">
-        <div class="faq-item">
-            <div class="faq-question">What is ChurBro?</div>
-            <div class="faq-answer">
-                ChurBro is a free meat price comparison website for Dunedin. We compare prices across New World, PAK'nSAVE, Woolworths, and Mad Butcher daily so you can find the best deals.
-            </div>
+        <!-- Header with Navigation -->
+        <div class="header">
+            <h1>🥩 ChurBro</h1>
+            <p>Compare meat prices across Dunedin supermarkets</p>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/how-it-works/">How It Works</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/contactus/">Contact</a>
+                <a href="/privacy/">Privacy</a>
+                <a href="/terms/">Terms</a>
+            </nav>
         </div>
 
-        <div class="faq-item">
-            <div class="faq-question">Is ChurBro really free?</div>
-            <div class="faq-answer">
-                Yes! 100% free. No subscriptions, no hidden fees, no paywalls. We're supported by advertising.
-            </div>
-        </div>
+        <!-- Main Content -->
+        <div class="content">
+            <h2>Frequently Asked Questions</h2>
+            <p class="subtitle">Everything you need to know about ChurBro</p>
 
-        <div class="faq-item">
-            <div class="faq-question">How often are prices updated?</div>
-            <div class="faq-answer">
-                Prices are updated every night at 10 PM. Our automated scrapers collect fresh pricing data from all four stores daily.
+            <div class="faq-item">
+                <div class="faq-question">What is ChurBro?</div>
+                <div class="faq-answer">
+                    ChurBro is a free meat price comparison website for Dunedin. We compare prices across New World, PAK'nSAVE, Woolworths, and Mad Butcher daily so you can find the best deals.
+                </div>
             </div>
-        </div>
 
-        <div class="faq-item">
-            <div class="faq-question">Are the prices accurate?</div>
-            <div class="faq-answer">
-                We strive for 100% accuracy, but please note:
-                <ul>
-                    <li>Prices are accurate as of the last update (10 PM daily)</li>
-                    <li>Stores may change prices throughout the day</li>
-                    <li>Always verify prices at the store before purchasing</li>
-                </ul>
+            <div class="faq-item">
+                <div class="faq-question">Is ChurBro really free?</div>
+                <div class="faq-answer">
+                    Yes! 100% free. No subscriptions, no hidden fees, no paywalls. We're supported by advertising.
+                </div>
             </div>
-        </div>
 
-        <div class="faq-item">
-            <div class="faq-question">Do you include Club Card prices?</div>
-            <div class="faq-answer">
-                Yes! We display New World Club Deal prices and all special offers from all stores.
+            <div class="faq-item">
+                <div class="faq-question">How often are prices updated?</div>
+                <div class="faq-answer">
+                    Prices are updated daily. We regularly collect fresh pricing data from all four stores to ensure you have access to current deals and specials.
+                </div>
             </div>
-        </div>
 
-        <div class="faq-item">
-            <div class="faq-question">Which stores does ChurBro track?</div>
-            <div class="faq-answer">
-                Currently:
-                <ul>
-                    <li>New World Dunedin (~340 products)</li>
-                    <li>PAK'nSAVE Dunedin (~389 products)</li>
-                    <li>Woolworths Dunedin (~281 products)</li>
-                    <li>Mad Butcher Dunedin (~195 products)</li>
-                </ul>
+            <div class="faq-item">
+                <div class="faq-question">Are the prices accurate?</div>
+                <div class="faq-answer">
+                    We strive for 100% accuracy, but please note:
+                    <ul>
+                        <li>Prices reflect the most recent data collection</li>
+                        <li>Stores may change prices throughout the day</li>
+                        <li>Some products may become unavailable after our update</li>
+                        <li>Always verify prices at the store before purchasing</li>
+                    </ul>
+                    ChurBro helps you identify the best deals, but final prices should always be confirmed in-store.
+                </div>
             </div>
-        </div>
 
-        <div class="faq-item">
-            <div class="faq-question">Is ChurBro affiliated with any supermarkets?</div>
-            <div class="faq-answer">
-                <strong>No.</strong> ChurBro is 100% independent. We're not affiliated with New World, PAK'nSAVE, Woolworths, or Mad Butcher.
+            <div class="faq-item">
+                <div class="faq-question">Do you include Club Card prices?</div>
+                <div class="faq-answer">
+                    Yes! We display New World Club Deal prices and all special offers from all stores.
+                </div>
             </div>
-        </div>
 
-        <div class="faq-item">
-            <div class="faq-question">Who created ChurBro?</div>
-            <div class="faq-answer">
-                ChurBro was created by Dr. Zohaib Rana, a Postdoctoral Fellow at the University of Otago. Read more on our <a href="/about/" style="color: #667eea;">About page</a>.
+            <div class="faq-item">
+                <div class="faq-question">Which stores does ChurBro track?</div>
+                <div class="faq-answer">
+                    Currently:
+                    <ul>
+                        <li>New World Dunedin (~340 products)</li>
+                        <li>PAK'nSAVE Dunedin (~389 products)</li>
+                        <li>Woolworths Dunedin (~271 products)</li>
+                        <li>Mad Butcher Dunedin (~112 products)</li>
+                    </ul>
+                    We're constantly working to expand our product range!
+                </div>
             </div>
-        </div>
 
-        <div class="faq-item">
-            <div class="faq-question">I have a question that's not answered here</div>
-            <div class="faq-answer">
-                Contact us at <a href="mailto:contact@churbro.net" style="color: #667eea;">contact@churbro.net</a>. We typically respond within 24-48 hours.
+            <div class="faq-item">
+                <div class="faq-question">Why can't I find a specific product?</div>
+                <div class="faq-answer">
+                    Not all products are available at all stores, and some items may be out of stock or discontinued. We only show products that are currently listed on each store's website. Try searching with different keywords or check back later!
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I search for specific brands?</div>
+                <div class="faq-answer">
+                    Yes! Our search works with product names, brands, and types. Try searching for "Pams bacon," "Hellers sausages," or just "chicken breast."
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Will you add more stores or products?</div>
+                <div class="faq-answer">
+                    We're exploring expanding to more grocery categories (vegetables, dairy, pantry items) and potentially more stores. If there's demand from the Dunedin community, we'll keep growing! Share your feedback via our <a href="/contactus/" style="color: #667eea;">contact page</a>.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do you make money?</div>
+                <div class="faq-answer">
+                    ChurBro is currently supported by Google AdSense advertising. We're a Dunedin-based startup experiment built to help the local community save money on groceries.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Who built ChurBro?</div>
+                <div class="faq-answer">
+                    ChurBro was built by a local Dunedin researcher and radio host who got tired of overpaying for meat! It's a small startup project designed to help the Dunedin community. Learn more on our <a href="/about/" style="color: #667eea;">About page</a>.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">I found a bug or incorrect price. How do I report it?</div>
+                <div class="faq-answer">
+                    We appreciate your help! Please <a href="/contactus/" style="color: #667eea;">contact us</a> with details about the issue, and we'll fix it as quickly as possible.
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <p style="font-size: 1.2em; color: #555; margin-bottom: 20px;">
+                    <strong>Ready to start saving?</strong>
+                </p>
+                <a href="/" class="cta-button">Compare Prices Now →</a>
             </div>
         </div>
     </div>
 
-    <div class="footer">
-        <p>&copy; 2026 ChurBro. All rights reserved.</p>
+    <!-- Footer -->
+    <footer>
         <p>
             <a href="/about/">About</a> |
+            <a href="/how-it-works/">How It Works</a> |
+            <a href="/faq/">FAQ</a> |
+            <a href="/contactus/">Contact</a> |
             <a href="/privacy/">Privacy</a> |
-            <a href="/terms/">Terms</a> |
-            <a href="/contactus/">Contact</a>
+            <a href="/terms/">Terms</a>
         </p>
-    </div>
+        <p>&copy; 2026 ChurBro. Dunedin, New Zealand.</p>
+    </footer>
+
 </body>
 </html>
