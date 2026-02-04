@@ -1052,6 +1052,11 @@
                 if (e.key === 'Escape') {
                     autocompleteDropdown.classList.remove('show');
                 }
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    autocompleteDropdown.classList.remove('show');
+                    applyFilters();
+                }
             });
             
             function showAutocomplete(searchTerm) {
@@ -1483,7 +1488,13 @@
                 }
             }
 
-            let priceHTML = `<span class="current-price">$${product.price.toFixed(2)}</span>`;
+            // Show unit type if product is per kg
+            let unitLabel = '';
+            if (product.unit_type === 'kg' && product.price_per_kg) {
+                unitLabel = '/kg';
+            }
+
+            let priceHTML = `<span class="current-price">$${product.price.toFixed(2)}${unitLabel}</span>`;
             if (hasDiscount && product.original_price !== product.price) {
                 priceHTML += `<span class="original-price">$${product.original_price.toFixed(2)}</span>`;
                 priceHTML += `<span class="savings-badge">${product.percent_off.toFixed(0)}% OFF</span>`;
