@@ -128,13 +128,18 @@
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
 
-        .submit-button:hover {
+        .submit-button:hover:not(:disabled) {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
         }
 
-        .submit-button:active {
+        .submit-button:active:not(:disabled) {
             transform: translateY(0);
+        }
+
+        .submit-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
         }
 
         .privacy-note {
@@ -158,6 +163,44 @@
 
         .back-link a:hover {
             text-decoration: underline;
+        }
+
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        .success-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .success-message h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .success-message p {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .success-message a {
+            display: inline-block;
+            padding: 14px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
         }
 
         /* Anti-bot field (hidden) */
@@ -190,55 +233,66 @@
         </div>
 
         <div class="content">
-            <div class="benefits">
-                <div class="benefit">
-                    <span class="benefit-icon">✓</span>
-                    <span>Top 10 cheapest items across all 4 stores</span>
+            <div id="formContainer">
+                <div class="benefits">
+                    <div class="benefit">
+                        <span class="benefit-icon">✓</span>
+                        <span>Top 10 cheapest items across all 4 stores</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-icon">✓</span>
+                        <span>Biggest discounts (30%+ off deals)</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-icon">✓</span>
+                        <span>Compare New World, PAK'nSAVE, Woolworths & Mad Butcher</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-icon">✓</span>
+                        <span>100% free, unsubscribe anytime</span>
+                    </div>
                 </div>
-                <div class="benefit">
-                    <span class="benefit-icon">✓</span>
-                    <span>Biggest discounts (30%+ off deals)</span>
-                </div>
-                <div class="benefit">
-                    <span class="benefit-icon">✓</span>
-                    <span>Compare New World, PAK'nSAVE, Woolworths & Mad Butcher</span>
-                </div>
-                <div class="benefit">
-                    <span class="benefit-icon">✓</span>
-                    <span>100% free, unsubscribe anytime</span>
-                </div>
+
+                <form id="subscribeForm">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="EMAIL" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fname">First Name (optional)</label>
+                        <input type="text" id="fname" name="FNAME" placeholder="John">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">Last Name (optional)</label>
+                        <input type="text" id="lname" name="LNAME" placeholder="Smith">
+                    </div>
+
+                    <!-- Anti-bot honeypot field -->
+                    <div class="hp-field" aria-hidden="true">
+                        <input type="text" name="b_62afac4dc4fbb26578344128b_cdd14e4ab1" tabindex="-1" value="">
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="submit-button">
+                        Subscribe to Weekly Deals
+                    </button>
+
+                    <p class="privacy-note">
+                        We respect your privacy. Unsubscribe anytime. No spam, ever.
+                    </p>
+                </form>
             </div>
 
-            <form action="https://churbro.us16.list-manage.com/subscribe/post?u=62afac4dc4fbb26578344128b&amp;id=cdd14e4ab1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                
-                <div class="form-group">
-                    <label for="mce-EMAIL">Email Address *</label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="your.email@example.com">
-                </div>
-
-                <div class="form-group">
-                    <label for="mce-FNAME">First Name (optional)</label>
-                    <input type="text" value="" name="FNAME" id="mce-FNAME" placeholder="John">
-                </div>
-
-                <div class="form-group">
-                    <label for="mce-LNAME">Last Name (optional)</label>
-                    <input type="text" value="" name="LNAME" id="mce-LNAME" placeholder="Smith">
-                </div>
-
-                <!-- Anti-bot honeypot field -->
-                <div class="hp-field" aria-hidden="true">
-                    <input type="text" name="b_62afac4dc4fbb26578344128b_cdd14e4ab1" tabindex="-1" value="">
-                </div>
-
-                <button type="submit" name="subscribe" class="submit-button">
-                    Subscribe to Weekly Deals
-                </button>
-
-                <p class="privacy-note">
-                    We respect your privacy. Unsubscribe anytime. No spam, ever.
+            <div id="successMessage" class="success-message">
+                <div class="success-icon">🎉</div>
+                <h2>You're all set!</h2>
+                <p>
+                    Check your email to confirm your subscription.<br>
+                    Your first weekly deals email arrives next Wednesday!
                 </p>
-            </form>
+                <a href="/">Back to ChurBro</a>
+            </div>
         </div>
 
         <div class="back-link">
@@ -247,23 +301,41 @@
     </div>
 
     <script>
-        // Show success message after form submission
-        document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function() {
+        document.getElementById('subscribeForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const formContainer = document.getElementById('formContainer');
+            const successMessage = document.getElementById('successMessage');
+            
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Subscribing...';
+            
+            // Get form data
+            const formData = new FormData(this);
+            const email = formData.get('EMAIL');
+            const fname = formData.get('FNAME');
+            const lname = formData.get('LNAME');
+            
+            // Build URL with query parameters
+            const url = 'https://churbro.us16.list-manage.com/subscribe/post-json?u=62afac4dc4fbb26578344128b&id=cdd14e4ab1&c=?';
+            const params = new URLSearchParams({
+                EMAIL: email,
+                FNAME: fname || '',
+                LNAME: lname || ''
+            });
+            
+            // Use JSONP to bypass CORS
+            const script = document.createElement('script');
+            script.src = url + '&' + params.toString();
+            document.body.appendChild(script);
+            
+            // Show success after 2 seconds
             setTimeout(function() {
-                document.querySelector('.content').innerHTML = `
-                    <div style="text-align: center; padding: 40px 20px;">
-                        <div style="font-size: 4em; margin-bottom: 20px;">🎉</div>
-                        <h2 style="color: #333; margin-bottom: 15px; font-size: 1.8em;">You're all set!</h2>
-                        <p style="color: #666; font-size: 1.1em; line-height: 1.6;">
-                            Check your email to confirm your subscription.<br>
-                            Your first weekly deals email arrives next Wednesday!
-                        </p>
-                        <a href="/" style="display: inline-block; margin-top: 30px; padding: 14px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 10px; font-weight: 600;">
-                            Back to ChurBro
-                        </a>
-                    </div>
-                `;
-            }, 1000);
+                formContainer.style.display = 'none';
+                successMessage.classList.add('show');
+            }, 2000);
         });
     </script>
 </body>
