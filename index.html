@@ -672,19 +672,6 @@
         }
 
         /* Email Signup Popup */
-        .email-popup-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 10000;
-            animation: fadeIn 0.3s ease;
-        }
 
         .email-popup-overlay.show {
             display: flex;
@@ -1572,101 +1559,12 @@
     </a>
 
     <!-- Subscribe Floating Button -->
-    <button class="subscribe-button" onclick="openEmailPopup()">
+    <button class="subscribe-button" onclick="window.open('https://churbro.net/subscribe', '_blank')">
         <span class="subscribe-icon">📧</span>
         <span>Get Weekly Deals</span>
     </button>
 
-    <!-- Email Signup Popup -->
-    <div class="email-popup-overlay" id="emailPopup">
-        <div class="email-popup">
-            <button class="email-popup-close" onclick="closeEmailPopup()">×</button>
-            
-            <div id="emailPopupForm">
-                <div class="email-popup-icon">🥩</div>
-                <h2>Get Dunedin's Best Meat Deals!</h2>
-                <p>Every Wednesday, get the week's top deals delivered to your inbox</p>
-                
-                <div class="email-popup-benefits">
-                    <div class="email-popup-benefit">
-                        <span>✓</span>
-                        <span>Top 10 cheapest items</span>
-                    </div>
-                    <div class="email-popup-benefit">
-                        <span>✓</span>
-                        <span>Biggest discounts (>30% off)</span>
-                    </div>
-                    <div class="email-popup-benefit">
-                        <span>✓</span>
-                        <span>All 4 stores compared</span>
-                    </div>
-                    <div class="email-popup-benefit">
-                        <span>✓</span>
-                        <span>100% free, unsubscribe anytime</span>
-                    </div>
-                </div>
 
-                <form class="email-popup-form" onsubmit="submitEmail(event)">
-                    <input 
-                        type="email" 
-                        class="email-popup-input" 
-                        id="emailInput" 
-                        placeholder="your.email@example.com" 
-                        required
-                    >
-                    <button type="submit" class="email-popup-submit" id="emailSubmitBtn">
-                        Subscribe
-                    </button>
-                </form>
-
-                <p class="email-popup-privacy">
-                    We respect your privacy. Unsubscribe anytime.
-                </p>
-            </div>
-
-            <div class="email-popup-success" id="emailPopupSuccess">
-                <div class="email-popup-icon">🎉</div>
-                <h3>You're all set!</h3>
-                <p>Check your email to confirm your subscription.<br>First email arrives next Wednesday!</p>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        let emailPopupShown = false;
-
-        setTimeout(() => {
-            if (!emailPopupShown && !localStorage.getItem('emailPopupClosed')) {
-                openEmailPopup();
-            }
-        }, 5000);
-
-        function closeEmailPopup() {
-            document.getElementById('emailPopup').classList.remove('show');
-            localStorage.setItem('emailPopupClosed', 'true');
-        }
-
-        function openEmailPopup() {
-            document.getElementById('emailPopupForm').style.display = 'block';
-            document.getElementById('emailPopupSuccess').classList.remove('show');
-            document.getElementById('emailPopup').classList.add('show');
-            emailPopupShown = true;
-        }
-
-        document.getElementById('emailPopup').addEventListener('click', (e) => {
-            if (e.target.id === 'emailPopup') {
-                closeEmailPopup();
-            }
-        });
-
-        async function submitEmail(event) {
-            event.preventDefault();
-            window.open('http://eepurl.com/jxH4cc', '_blank');
-            document.getElementById('emailPopupForm').style.display = 'none';
-            document.getElementById('emailPopupSuccess').classList.add('show');
-            setTimeout(() => closeEmailPopup(), 3000);
-        }
-    </script>
 
     <footer style="background: white; padding: 30px 20px; text-align: center; border-top: 1px solid #e5e7eb; margin-top: 60px;">
         <p style="color: #718096; margin-bottom: 10px;">
