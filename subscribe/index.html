@@ -2,73 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://churbro.us16.list-manage.com/subscribe?u=62afac4dc4fbb26578344128b&id=cdd14e4ab1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subscribe to ChurBro - Redirecting...</title>
+    <title>Subscribe to ChurBro Weekly Deals</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
             padding: 20px;
         }
-        .redirect-box {
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
             background: white;
-            padding: 40px;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
             text-align: center;
-            max-width: 500px;
         }
-        .redirect-box h1 {
-            color: #667eea;
-            margin-bottom: 20px;
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
         }
-        .redirect-box p {
-            color: #666;
-            font-size: 1.1em;
-            margin-bottom: 20px;
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
         }
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid #667eea;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 20px auto;
+
+        .iframe-container {
+            width: 100%;
+            height: 600px;
+            border: none;
+            background: white;
         }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
-        .manual-link {
+
+        .back-link {
+            text-align: center;
+            padding: 20px;
+            background: white;
+        }
+
+        .back-link a {
             color: #667eea;
             text-decoration: none;
             font-weight: 600;
+            font-size: 1.1em;
         }
-        .manual-link:hover {
+
+        .back-link a:hover {
             text-decoration: underline;
         }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .iframe-container {
+                height: 700px;
+            }
+        }
     </style>
-    <script>
-        // JavaScript redirect as backup
-        window.location.href = "https://churbro.us16.list-manage.com/subscribe?u=62afac4dc4fbb26578344128b&id=cdd14e4ab1";
-    </script>
 </head>
 <body>
-    <div class="redirect-box">
-        <h1>🥩 Subscribe to ChurBro</h1>
-        <p>Redirecting you to our signup page...</p>
-        <div class="spinner"></div>
-        <p style="font-size: 0.9em; color: #999;">
-            If you're not redirected automatically, 
-            <a href="https://churbro.us16.list-manage.com/subscribe?u=62afac4dc4fbb26578344128b&id=cdd14e4ab1" class="manual-link">click here</a>.
-        </p>
+    <div class="container">
+        <div class="header">
+            <h1>🥩 Get Weekly Meat Deals</h1>
+            <p>Subscribe for Dunedin's best meat prices every Wednesday</p>
+        </div>
+
+        <div class="iframe-container">
+            <iframe src="https://churbro.us16.list-manage.com/subscribe?u=62afac4dc4fbb26578344128b&id=cdd14e4ab1" 
+                    frameborder="0" 
+                    scrolling="yes"
+                    title="ChurBro Newsletter Signup">
+            </iframe>
+        </div>
+
+        <div class="back-link">
+            <a href="/">← Back to ChurBro</a>
+        </div>
     </div>
 </body>
 </html>
