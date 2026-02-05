@@ -16,11 +16,14 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .container {
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 600px;
+            width: 100%;
             background: white;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
@@ -30,57 +33,150 @@
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 40px 20px;
+            padding: 50px 40px;
             text-align: center;
         }
 
+        .header-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
         .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            font-weight: 700;
         }
 
         .header p {
-            font-size: 1.2em;
-            opacity: 0.9;
+            font-size: 1.1em;
+            opacity: 0.95;
+            line-height: 1.6;
         }
 
-        .iframe-container {
-            width: 100%;
-            height: 600px;
-            border: none;
-            background: white;
+        .content {
+            padding: 50px 40px;
         }
 
-        iframe {
+        .benefits {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 35px;
+        }
+
+        .benefit {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.05em;
+        }
+
+        .benefit:last-child {
+            margin-bottom: 0;
+        }
+
+        .benefit-icon {
+            color: #10b981;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+            font-size: 1em;
+        }
+
+        .form-group input {
             width: 100%;
-            height: 100%;
+            padding: 14px 18px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+            outline: none;
+        }
+
+        .form-group input:focus {
+            border-color: #667eea;
+        }
+
+        .form-group input::placeholder {
+            color: #9ca3af;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
             border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .submit-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .submit-button:active {
+            transform: translateY(0);
+        }
+
+        .privacy-note {
+            text-align: center;
+            margin-top: 20px;
+            color: #6b7280;
+            font-size: 0.9em;
         }
 
         .back-link {
             text-align: center;
             padding: 20px;
-            background: white;
         }
 
         .back-link a {
             color: #667eea;
             text-decoration: none;
             font-weight: 600;
-            font-size: 1.1em;
+            font-size: 1em;
         }
 
         .back-link a:hover {
             text-decoration: underline;
         }
 
+        /* Anti-bot field (hidden) */
+        .hp-field {
+            position: absolute;
+            left: -5000px;
+        }
+
         @media (max-width: 768px) {
+            .header {
+                padding: 40px 30px;
+            }
+
             .header h1 {
                 font-size: 1.8em;
             }
-            
-            .iframe-container {
-                height: 700px;
+
+            .content {
+                padding: 40px 30px;
             }
         }
     </style>
@@ -88,21 +184,87 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🥩 Get Weekly Meat Deals</h1>
-            <p>Subscribe for Dunedin's best meat prices every Wednesday</p>
+            <div class="header-icon">🥩</div>
+            <h1>Get Dunedin's Best Meat Deals</h1>
+            <p>Every Wednesday, we'll send you the week's top deals straight to your inbox</p>
         </div>
 
-        <div class="iframe-container">
-            <iframe src="https://churbro.us16.list-manage.com/subscribe?u=62afac4dc4fbb26578344128b&id=cdd14e4ab1" 
-                    frameborder="0" 
-                    scrolling="yes"
-                    title="ChurBro Newsletter Signup">
-            </iframe>
+        <div class="content">
+            <div class="benefits">
+                <div class="benefit">
+                    <span class="benefit-icon">✓</span>
+                    <span>Top 10 cheapest items across all 4 stores</span>
+                </div>
+                <div class="benefit">
+                    <span class="benefit-icon">✓</span>
+                    <span>Biggest discounts (30%+ off deals)</span>
+                </div>
+                <div class="benefit">
+                    <span class="benefit-icon">✓</span>
+                    <span>Compare New World, PAK'nSAVE, Woolworths & Mad Butcher</span>
+                </div>
+                <div class="benefit">
+                    <span class="benefit-icon">✓</span>
+                    <span>100% free, unsubscribe anytime</span>
+                </div>
+            </div>
+
+            <form action="https://churbro.us16.list-manage.com/subscribe/post?u=62afac4dc4fbb26578344128b&amp;id=cdd14e4ab1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                
+                <div class="form-group">
+                    <label for="mce-EMAIL">Email Address *</label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="mce-FNAME">First Name (optional)</label>
+                    <input type="text" value="" name="FNAME" id="mce-FNAME" placeholder="John">
+                </div>
+
+                <div class="form-group">
+                    <label for="mce-LNAME">Last Name (optional)</label>
+                    <input type="text" value="" name="LNAME" id="mce-LNAME" placeholder="Smith">
+                </div>
+
+                <!-- Anti-bot honeypot field -->
+                <div class="hp-field" aria-hidden="true">
+                    <input type="text" name="b_62afac4dc4fbb26578344128b_cdd14e4ab1" tabindex="-1" value="">
+                </div>
+
+                <button type="submit" name="subscribe" class="submit-button">
+                    Subscribe to Weekly Deals
+                </button>
+
+                <p class="privacy-note">
+                    We respect your privacy. Unsubscribe anytime. No spam, ever.
+                </p>
+            </form>
         </div>
 
         <div class="back-link">
             <a href="/">← Back to ChurBro</a>
         </div>
     </div>
+
+    <script>
+        // Show success message after form submission
+        document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function() {
+            setTimeout(function() {
+                document.querySelector('.content').innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px;">
+                        <div style="font-size: 4em; margin-bottom: 20px;">🎉</div>
+                        <h2 style="color: #333; margin-bottom: 15px; font-size: 1.8em;">You're all set!</h2>
+                        <p style="color: #666; font-size: 1.1em; line-height: 1.6;">
+                            Check your email to confirm your subscription.<br>
+                            Your first weekly deals email arrives next Wednesday!
+                        </p>
+                        <a href="/" style="display: inline-block; margin-top: 30px; padding: 14px 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 10px; font-weight: 600;">
+                            Back to ChurBro
+                        </a>
+                    </div>
+                `;
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
