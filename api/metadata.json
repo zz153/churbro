@@ -1,14 +1,13 @@
 {
-  "last_updated": "2026-02-25T09:21:58.221438",
-  "total_products": 1328,
+  "last_updated": "2026-03-14T07:37:43.681340",
+  "total_products": 980,
   "stores": [
     "New World",
     "PAK'nSAVE",
-    "Woolworths",
-    "Mad Butcher"
+    "Woolworths"
   ],
   "price_range": {
-    "min": 1.8,
-    "max": 144.95
+    "min": 2.79,
+    "max": 74.99
   }
 }
