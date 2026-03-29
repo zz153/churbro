@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-03-29T09:44:05.417501",
-  "total_products": 1238,
+  "last_updated": "2026-03-30T12:28:21.191639",
+  "total_products": 1243,
   "stores": [
     "New World",
     "PAK'nSAVE",
     "Woolworths"
   ],
   "price_range": {
-    "min": 2.0,
+    "min": 2.59,
     "max": 74.99
   }
 }
