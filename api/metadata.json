@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-07T10:52:17.695154",
-  "total_products": 2007,
+  "last_updated": "2026-05-08T08:52:11.324784",
+  "total_products": 1248,
   "stores": [
     "New World",
     "PAK'nSAVE",
@@ -8,6 +8,6 @@
   ],
   "price_range": {
     "min": 1.5,
-    "max": 72.5
+    "max": 74.99
   }
 }
