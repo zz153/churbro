@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-05-10T11:20:49.472256",
+  "today": "2026-05-10",
+  "compared_to": "2026-05-10",
+  "summary": {
+    "price_drops": 1,
+    "price_increases": 0,
+    "new_products": 1,
+    "dropped_products": 1
+  },
+  "price_drops": [
+    {
+      "store": "New World",
+      "name": "Pams Fresh Whole Chicken Medium 1.5kg",
+      "brand": NaN,
+      "old_price": 15.15,
+      "new_price": 12.99,
+      "change": -2.16,
+      "change_pct": -14.3,
+      "unit_type": "ea",
+      "price_per_kg": 8.66
+    }
+  ],
+  "price_increases": [],
+  "new_products": [
+    {
+      "store": "New World",
+      "name": "Beef Whole Scotch Fillet kg",
+      "brand": NaN,
+      "price": 46.99,
+      "unit_type": "kg"
+    }
+  ],
+  "dropped_products": [
+    {
+      "store": "New World",
+      "name": "Kingfisher Seafood Premium Cooked Prawn Meat 500g",
+      "brand": NaN,
+      "price": 14.99
+    }
+  ]
+}
