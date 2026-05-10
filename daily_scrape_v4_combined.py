@@ -111,6 +111,13 @@ def combine_csvs():
     # Combine all
     combined = pd.concat(dfs, ignore_index=True)
     
+    # Deduplicate: same store + same name = keep first
+    before = len(combined)
+    combined = combined.drop_duplicates(subset=['store', 'name'], keep='first')
+    removed = before - len(combined)
+    if removed > 0:
+        print(f"   🧹 Removed {removed} duplicate products")
+    
     # Generate filename
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     output_file = f'churbro_master_{timestamp}.csv'
@@ -285,9 +292,9 @@ def main():
     print("="*70)
     
     scrapers = [
-        'automated_scraper_NW_FIXED_V3.py',
-        'automated_scraper_PS_FIXED_V3.py',
-        'automated_scraper_WW_FIXED.py'
+        'scrapers/newworld.py',
+        'scrapers/paknsave.py',
+        'scrapers/woolworths.py'
     ]
     
     for scraper in scrapers:
@@ -300,9 +307,9 @@ def main():
     print("="*70)
     
     cleaners = [
-        'cleanup_newworld_v3.py',
-        'cleanup_paknsave_v3.py',
-        'cleanup_woolworths.py'
+        'scrapers/cleanup_newworld.py',
+        'scrapers/cleanup_paknsave.py',
+        'scrapers/cleanup_woolworths.py',
     ]
     
     for cleaner in cleaners:
@@ -332,6 +339,11 @@ def main():
     print("="*70)
     create_api_files(master_csv_path)
     
+    # PHASE 5.5: Price monitoring
+    print("\n\n📊 PHASE 5.5: PRICE MONITORING")
+    print("="*70)
+    run_script("price_monitor.py")
+
     # PHASE 6: Upload to GitHub
     print("\n\n🚀 PHASE 6: UPLOADING TO GITHUB")
     print("="*70)

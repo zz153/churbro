@@ -41,13 +41,21 @@ def clean_newworld(input_file: str):
     
     # RULE 1: Remove cheap products (< $5)
     print(f"\n🔪 Removing products with sale_price < $5...")
-    df = df[df['sale_price'] >= 3.5]
+    # Pre-calculate raw percent off to detect suspicious prices
+    df['percent_off_raw'] = ((df['original_price'] - df['sale_price']) / df['original_price'].replace(0, 1) * 100)
+
+    df = df[df['sale_price'] >= 5.0]
     final_count = len(df)
     removed = initial_count - final_count
     print(f"   ✂️  Removed: {removed} products")
     
     # RULE 2: Recalculate savings and percentages for ALL products
     print(f"\n💰 Recalculating savings...")
+    # Fix: if sale_price is suspiciously low vs original (>80% off and sale_price < $10)
+    # it's likely a per-unit reference price being misread as the sale price
+    suspicious = (df['percent_off_raw'] > 80) & (df['sale_price'] < 10) & (df['original_price'] > 20)
+    df.loc[suspicious, 'sale_price'] = df.loc[suspicious, 'original_price']
+
     df['saving'] = (df['original_price'] - df['sale_price']).round(2)
     df['percent_off'] = ((df['original_price'] - df['sale_price']) / df['original_price'] * 100).round(1)
     

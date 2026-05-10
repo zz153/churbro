@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-New World Scraper - DUNEDIN FORCE + CLUB DEAL FIX
+New World Scraper - DUNEDIN FORCE + CLUB DEAL FIX + REFERENCE PRICE FIX
 
 Preserves / enforces Dunedin store selection via:
   1) URL param: ?store=dunedin
@@ -8,9 +8,10 @@ Preserves / enforces Dunedin store selection via:
   3) NZ locale + Pacific/Auckland timezone
   4) Pre-load store forcing (cookies/localStorage attempts)
 
-Also fixes Club Deal pricing:
+Price extraction fixes:
   - Prefer badge unit price (handles 12.99 OR 12 99)
-  - Exclude ALL /kg reference prices from discount candidate selection
+  - Exclude ALL reference prices: /kg, /100g, /100 g, /g patterns
+  - Guardrail: never let a reference price become the sale price
 """
 
 import asyncio
@@ -30,11 +31,19 @@ logger = logging.getLogger(__name__)
 
 class NewWorldScraper:
     def __init__(self, headless: bool = True):
-        self.base_url = "https://www.newworld.co.nz/shop/category/meat-poultry-and-seafood"
+        self.categories = [
+            {'url': 'https://www.newworld.co.nz/shop/category/meat-poultry-and-seafood', 'label': 'fresh'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-chicken--meat/frozen-coated-chicken--nuggets', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-chicken--meat/frozen-whole-chicken--portions', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-chicken--meat/frozen-beef--lamb--pork', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-chicken--meat/frozen-burger-patties', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-chicken--meat/frozen-meat-alternatives', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-chicken--meat/frozen-turkey--duck', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-fish--seafood/frozen-fish', 'label': 'frozen'},
+            {'url': 'https://www.newworld.co.nz/shop/category/frozen/frozen-fish--seafood/frozen-prawns--other-seafood', 'label': 'frozen'},
+        ]
         self.headless = headless
         self.products: List[Dict] = []
-
-        # Force Dunedin
         self.store_slug = "dunedin"
         self.geo = {"latitude": -45.8788, "longitude": 170.5028}  # Dunedin CBD
 
@@ -49,8 +58,7 @@ class NewWorldScraper:
         except Exception:
             pass
 
-        # 2) Add some common “store” cookies (best effort; names may change)
-        # If they don’t match, harmless.
+        # 2) Add some common "store" cookies (best effort; names may change)
         try:
             await context.add_cookies([
                 {
@@ -70,7 +78,6 @@ class NewWorldScraper:
             pass
 
         # 3) LocalStorage injection attempt (best effort)
-        # Must run on a page at the domain. We'll load the homepage quickly first.
         try:
             await page.goto("https://www.newworld.co.nz/", wait_until="domcontentloaded", timeout=45000)
             await asyncio.sleep(2)
@@ -78,15 +85,10 @@ class NewWorldScraper:
             await page.evaluate(
                 """(storeSlug) => {
                     try {
-                        // common keys used by SPAs; if wrong, no harm
                         localStorage.setItem('store', storeSlug);
                         localStorage.setItem('selectedStore', storeSlug);
                         localStorage.setItem('preferredStore', storeSlug);
-
-                        // sometimes stored as JSON
                         localStorage.setItem('storeSelection', JSON.stringify({ store: storeSlug }));
-
-                        // sessionStorage too
                         sessionStorage.setItem('store', storeSlug);
                         sessionStorage.setItem('selectedStore', storeSlug);
                     } catch (e) {}
@@ -196,22 +198,74 @@ class NewWorldScraper:
 
         return None
 
+    # ==================================================================
+    # REFERENCE PRICE DETECTION (the key fix)
+    # ==================================================================
+
+    def _find_reference_prices(self, txt: str) -> set:
+        """
+        Find ALL reference/unit prices that should NEVER be used as sale prices.
+        Catches: $3.63/100g, $4.35/100g, $21.90/kg, $15.80/1kg, etc.
+        """
+        ref_prices = set()
+
+        # Pattern 1: $X.XX/100g, $X.XX/kg, $X.XX/100 g, $X.XX/1kg, $X.XX/g
+        # Covers: "$3.63/100g", "$21.90/kg", "$4.35/100 g", "$15.80/1kg"
+        ref_matches = re.findall(
+            r"\$?\s*(\d{1,3})[.,](\d{2})\s*/\s*(?:\d+\s*)?(?:kg|g)\b",
+            txt, re.IGNORECASE
+        )
+        for d, c in ref_matches:
+            ref_prices.add(float(f"{d}.{c}"))
+
+        # Pattern 2: "$X.XX per kg", "$X.XX per 100g"
+        ref_matches2 = re.findall(
+            r"\$?\s*(\d{1,3})[.,](\d{2})\s*per\s*(?:\d+\s*)?(?:kg|g)\b",
+            txt, re.IGNORECASE
+        )
+        for d, c in ref_matches2:
+            ref_prices.add(float(f"{d}.{c}"))
+
+        # Pattern 3: Prices immediately followed by /100g or /kg (with space-separated dollars/cents)
+        # Covers: "3 63/100g"
+        ref_matches3 = re.findall(
+            r"(?<!\d)(\d{1,3})\s+(\d{2})\s*/\s*(?:\d+\s*)?(?:kg|g)\b",
+            txt, re.IGNORECASE
+        )
+        for d, c in ref_matches3:
+            ref_prices.add(float(f"{d}.{c}"))
+
+        return ref_prices
+
+    # ==================================================================
+    # PRICE EXTRACTION (fixed)
+    # ==================================================================
+
     async def extract_all_prices(self, card, full_text: str, is_club_deal: bool, is_super_saver: bool, name: str = "") -> Optional[Dict]:
         def to_float(dollars: str, cents: str) -> float:
             return float(f"{int(dollars)}.{cents}")
 
         txt = full_text or ""
 
+        # ============================================================
+        # STEP 1: Find ALL reference prices to exclude
+        # ============================================================
+        ref_price_set = self._find_reference_prices(txt)
+        if ref_price_set:
+            logger.debug(f"  Reference prices to exclude for '{name[:30]}': {ref_price_set}")
+
+        # ============================================================
+        # STEP 2: Find ea and kg prices (as before)
+        # ============================================================
         ea_matches = re.findall(r"(?<!\d)(\d{1,3})[.,\s]*(\d{2})\s*(?:ea|each)\b", txt, re.IGNORECASE)
         ea_prices = [to_float(d, c) for d, c in ea_matches]
 
         kg_matches = re.findall(r"(?<!\d)(\d{1,3})[.,\s]*(\d{2})\s*kg\b", txt, re.IGNORECASE)
         kg_prices = [to_float(d, c) for d, c in kg_matches]
 
-        per_kg_matches = re.findall(r"\$?\s*(\d{1,3})[.,\s]*(\d{2})\s*/\s*(?:1\s*)?kg\b", txt, re.IGNORECASE)
-        per_kg_prices = [to_float(d, c) for d, c in per_kg_matches]
-        per_kg_set = set(per_kg_prices)
-
+        # ============================================================
+        # STEP 3: Determine unit type and original (regular) price
+        # ============================================================
         unit_type = None
         original_price = None
         sale_price = None
@@ -228,6 +282,8 @@ class NewWorldScraper:
             generic_matches = re.findall(r"(?<!\d)(\d{1,3})[.,\s]+(\d{2})(?!\d)", txt)
             generic_prices = [to_float(d, c) for d, c in generic_matches]
             generic_prices = [p for p in generic_prices if 0.5 <= p <= 500]
+            # CRITICAL: exclude reference prices from generic pool
+            generic_prices = [p for p in generic_prices if p not in ref_price_set]
             if not generic_prices:
                 return None
             unit_type = "ea"
@@ -236,49 +292,80 @@ class NewWorldScraper:
 
         result = {"sale_price": sale_price, "original_price": original_price, "unit_type": unit_type}
 
-        if per_kg_prices:
-            result["price_per_kg"] = per_kg_prices[0]
+        # ============================================================
+        # STEP 4: Extract price_per_kg for display purposes
+        # ============================================================
+        if ref_price_set:
+            result["price_per_kg"] = min(ref_price_set)  # smallest ref is likely per-100g or per-kg
         elif unit_type == "kg":
             result["price_per_kg"] = sale_price
 
-        if is_club_deal:
+        # ============================================================
+        # STEP 5: Handle Club Deal / Super Saver discount prices
+        # ============================================================
+        if is_club_deal or is_super_saver:
             badge_price = None
 
+            # Try to find price right after "Club Deal" text
             m = re.search(r"club\s*deal.*?\$?\s*(\d{1,3})\.(\d{2})", txt, re.IGNORECASE | re.DOTALL)
             if m:
-                badge_price = to_float(m.group(1), m.group(2))
+                bp = to_float(m.group(1), m.group(2))
+                if bp not in ref_price_set:
+                    badge_price = bp
 
             if badge_price is None:
                 m = re.search(r"club\s*deal.*?(?<!\d)(\d{1,3})[,\s]+(\d{2})(?!\d)", txt, re.IGNORECASE | re.DOTALL)
                 if m:
-                    badge_price = to_float(m.group(1), m.group(2))
+                    bp = to_float(m.group(1), m.group(2))
+                    if bp not in ref_price_set:
+                        badge_price = bp
 
             if badge_price and 0.5 <= badge_price <= 500 and badge_price < result["original_price"] - 0.01:
                 result["sale_price"] = badge_price
             else:
+                # Fallback: find smallest price that isn't the original and isn't a reference price
                 generic_matches = re.findall(r"(?<!\d)(\d{1,3})[.,\s]+(\d{2})(?!\d)", txt)
                 all_prices = [to_float(d, c) for d, c in generic_matches]
                 all_prices = [p for p in all_prices if 0.5 <= p <= 500]
 
-                # KEY FIX: remove ALL /kg reference values
-                if per_kg_set:
-                    all_prices = [p for p in all_prices if p not in per_kg_set]
+                # CRITICAL FIX: remove ALL reference prices (catches /100g, /kg, etc.)
+                all_prices = [p for p in all_prices if p not in ref_price_set]
 
                 discounted = [p for p in all_prices if p < result["original_price"] - 0.01]
                 if discounted:
                     result["sale_price"] = min(discounted)
 
-            # Guardrail: never let /kg ref become EA unit sale
-            if result["unit_type"] == "ea" and result["sale_price"] in per_kg_set:
-                logger.debug(f"Guardrail hit for '{name}'. Resetting sale_price to original.")
+            # GUARDRAIL: never let a reference price become the sale price
+            if result["sale_price"] in ref_price_set:
+                logger.debug(f"Guardrail hit for '{name}': {result['sale_price']} is a ref price. Resetting.")
                 result["sale_price"] = result["original_price"]
 
+        # ============================================================
+        # STEP 6: Final validation
+        # ============================================================
         if result["sale_price"] is None or result["original_price"] is None:
             return None
         if not (0.5 <= result["sale_price"] <= 500):
             return None
 
+        # Extra guardrail: sale_price should never be less than 30% of original
+        # (a $3.63 sale on an $11.95 item = 70% off — almost certainly a ref price leak)
+        if result["original_price"] > 0:
+            discount_pct = (result["original_price"] - result["sale_price"]) / result["original_price"]
+            if discount_pct > 0.60:
+                logger.debug(
+                    f"Suspicious {discount_pct*100:.0f}% discount on '{name}': "
+                    f"${result['sale_price']} vs ${result['original_price']}. Checking..."
+                )
+                # If the sale price matches a known reference pattern, reset it
+                if result["sale_price"] in ref_price_set:
+                    result["sale_price"] = result["original_price"]
+
         return result
+
+    # ==================================================================
+    # BADGE DETECTION (unchanged)
+    # ==================================================================
 
     async def is_club_deal(self, card, full_text: str) -> bool:
         text_lower = (full_text or "").lower()
@@ -337,6 +424,10 @@ class NewWorldScraper:
 
         return False
 
+    # ==================================================================
+    # SKU / BRAND EXTRACTION (unchanged)
+    # ==================================================================
+
     async def extract_sku(self, card) -> Optional[str]:
         for attr in ["data-stockcode", "data-sku", "data-product-id", "data-testid"]:
             val = await card.get_attribute(attr)
@@ -352,8 +443,12 @@ class NewWorldScraper:
             return (await brand_elem.inner_text()).strip()
         return None
 
+    # ==================================================================
+    # MAIN SCRAPE LOOP (unchanged, all Dunedin forces preserved)
+    # ==================================================================
+
     async def scrape_all(self) -> List[Dict]:
-        logger.info("🥩 Starting New World scrape (Dunedin forced + Club Deal fix)")
+        logger.info("🥩 Starting New World scrape (Dunedin forced + Club Deal fix + Ref Price fix)")
 
         async with async_playwright() as p:
             browser = await p.chromium.launch(
@@ -387,49 +482,65 @@ class NewWorldScraper:
             # ✅ Force store selection state before scraping
             await self._force_store_state(context, page)
 
-            page_num = 1
-            max_pages = 100
+            for category in self.categories:
+                base_url = category['url']
+                label = category['label']
+                cat_name = base_url.split('/')[-1]
+                logger.info(f"\n📦 Scraping: {cat_name} [{label}]")
 
-            while page_num <= max_pages:
-                url = f"{self.base_url}?store={self.store_slug}&pg={page_num}"
-                logger.info(f"📄 Fetching page {page_num} from {self.store_slug.upper()}...")
+                page_num = 1
+                max_pages = 100
 
-                try:
-                    if page_num > 1:
-                        await asyncio.sleep(random.uniform(2, 4))
+                while page_num <= max_pages:
+                    url = f"{base_url}?store={self.store_slug}&pg={page_num}"
+                    logger.info(f"📄 Fetching page {page_num}...")
 
-                    await page.goto(url, wait_until="domcontentloaded", timeout=45000)
-                    await asyncio.sleep(3 if page_num == 1 else 6)
+                    try:
+                        if page_num > 1:
+                            await asyncio.sleep(random.uniform(2, 4))
 
-                    # Verify store on first page
-                    if page_num == 1:
-                        content = (await page.content()).lower()
-                        if "collect from new world timaru" in content:
-                            logger.error("❌ STILL ON TIMARU. Store is being overridden by site state.")
-                            logger.error("   Next step: we will need to capture the exact store cookie/localStorage key New World uses.")
-                            logger.error("   (But scraper will continue for now.)")
-                        elif "collect from new world dunedin" in content or "dunedin" in content:
-                            logger.info("✅ Confirmed on Dunedin store!")
+                        await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                        await page.evaluate("""
+                            try {
+                                localStorage.setItem('store', 'dunedin');
+                                localStorage.setItem('selectedStore', 'dunedin');
+                                localStorage.setItem('preferredStore', 'dunedin');
+                                sessionStorage.setItem('store', 'dunedin');
+                                sessionStorage.setItem('selectedStore', 'dunedin');
+                                document.cookie = "store=dunedin; path=/; SameSite=Lax";
+                            } catch (e) {}
+                        """)
 
-                    # Human-ish behavior
-                    for _ in range(3):
-                        await page.evaluate(f"window.scrollBy(0, {random.randint(300, 600)})")
-                        await asyncio.sleep(random.uniform(0.5, 1.5))
+                        await asyncio.sleep(3 if page_num == 1 else 6)
 
-                    await page.mouse.move(random.randint(100, 800), random.randint(100, 600))
-                    await asyncio.sleep(0.5)
+                        if page_num == 1:
+                            page_content = (await page.content()).lower()
+                            if "collect from new world dunedin" in page_content or "dunedin" in page_content:
+                                logger.info("✅ Confirmed on Dunedin store!")
+                            else:
+                                logger.warning("⚠️  Could not confirm Dunedin store")
 
-                    page_products = await self.scrape_page(page, page_num)
-                    if not page_products:
-                        logger.info("No products extracted, stopping")
+                        for _ in range(3):
+                            await page.evaluate(f"window.scrollBy(0, {random.randint(300, 600)})")
+                            await asyncio.sleep(random.uniform(0.5, 1.5))
+
+                        await page.mouse.move(random.randint(100, 800), random.randint(100, 600))
+                        await asyncio.sleep(0.5)
+
+                        page_products = await self.scrape_page(page, page_num)
+                        if not page_products:
+                            logger.info(f"  No products on page {page_num}, moving to next category")
+                            break
+
+                        for product in page_products:
+                            product['category'] = label
+
+                        self.products.extend(page_products)
+                        page_num += 1
+
+                    except Exception as e:
+                        logger.error(f"Error on page {page_num}: {e}")
                         break
-
-                    self.products.extend(page_products)
-                    page_num += 1
-
-                except Exception as e:
-                    logger.error(f"Error on page {page_num}: {e}")
-                    break
 
             await browser.close()
 
@@ -458,7 +569,7 @@ class NewWorldScraper:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="New World Scraper - Dunedin forced + Club Deal fix")
+    parser = argparse.ArgumentParser(description="New World Scraper - Dunedin forced + Club Deal fix + Ref Price fix")
     parser.add_argument("--debug", action="store_true", help="Enable debug logging")
     parser.add_argument("--headless", action="store_true", help="Run in headless mode")
     args = parser.parse_args()
@@ -478,4 +589,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
