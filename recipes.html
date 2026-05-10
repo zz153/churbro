@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes – ChurBro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --brand-purple: #6C63D5;
+    --brand-purple-dark: #4a42a8;
+    --brand-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-dark: #1a1a2e;
+    --text-mid: #4a4a6a;
+    --text-light: #8888aa;
+    --bg: #f7f7fb;
+    --white: #ffffff;
+    --border: #e8e8f0;
+    --card-shadow: 0 2px 20px rgba(108,99,213,0.08);
+    --card-hover: 0 8px 40px rgba(108,99,213,0.18);
+    --radius: 16px;
+    --radius-sm: 8px;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text-dark);
+    min-height: 100vh;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--brand-gradient);
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 20px rgba(102,126,234,0.3);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+  }
+  .nav-logo span { font-size: 1.5rem; }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  .nav-links a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover, .nav-links a.active { color: white; }
+  .nav-links a.active { font-weight: 500; border-bottom: 2px solid white; padding-bottom: 2px; }
+
+  /* HERO */
+  .hero {
+    background: var(--brand-gradient);
+    padding: 4rem 2rem 5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -20%;
+    width: 60%;
+    height: 200%;
+    background: rgba(255,255,255,0.04);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .hero-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 100px;
+    margin-bottom: 1.2rem;
+    border: 1px solid rgba(255,255,255,0.25);
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    color: white;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 400;
+  }
+  .hero p {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.05rem;
+    max-width: 520px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    color: var(--brand-purple-dark);
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 12px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  .hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
+
+  /* FILTERS */
+  .filters-wrap {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 64px;
+    z-index: 50;
+  }
+  .filters {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-label {
+    font-size: 0.78rem;
+    color: var(--text-light);
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-right: 0.4rem;
+  }
+  .filter-btn {
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    color: var(--text-mid);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    padding: 6px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .filter-btn:hover { border-color: var(--brand-purple); color: var(--brand-purple); }
+  .filter-btn.active {
+    background: var(--brand-purple);
+    border-color: var(--brand-purple);
+    color: white;
+    font-weight: 500;
+  }
+
+  /* SEARCH */
+  .search-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 2rem 0;
+  }
+  .search-box {
+    position: relative;
+    max-width: 480px;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 12px 16px 12px 44px;
+    border: 1.5px solid var(--border);
+    border-radius: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    background: white;
+    color: var(--text-dark);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-box input:focus { border-color: var(--brand-purple); }
+  .search-box input::placeholder { color: var(--text-light); }
+  .search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-light);
+    font-size: 1rem;
+  }
+
+  /* GRID */
+  .recipes-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  .section-count {
+    font-size: 0.85rem;
+    color: var(--text-light);
+  }
+  .recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  /* RECIPE CARD */
+  .recipe-card {
+    background: white;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border);
+    transition: transform 0.25s, box-shadow 0.25s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  .recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--card-hover);
+  }
+  .card-image {
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  .card-image-bg {
+    position: absolute;
+    inset: 0;
+    opacity: 0.12;
+    background-size: cover;
+  }
+  .cuisine-tag {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: white;
+    color: var(--brand-purple);
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 100px;
+    border: 1px solid var(--border);
+  }
+  .weekly-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #ff6b35;
+    color: white;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 4px 10px;
+    border-radius: 100px;
+  }
+  .card-body {
+    padding: 1.2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    line-height: 1.3;
+  }
+  .card-desc {
+    font-size: 0.85rem;
+    color: var(--text-mid);
+    line-height: 1.5;
+    font-weight: 300;
+  }
+  .card-meta {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--border);
+  }
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.78rem;
+    color: var(--text-light);
+  }
+  .meta-item svg { width: 13px; height: 13px; flex-shrink: 0; }
+  .card-ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 0.4rem;
+  }
+  .ingredient-pill {
+    background: #f0effe;
+    color: var(--brand-purple-dark);
+    font-size: 0.72rem;
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .ingredient-pill:hover { background: #ddd9fc; }
+  .ingredient-pill.clickable::after { content: ' ↗'; font-size: 0.65rem; opacity: 0.7; }
+
+  /* MODAL OVERLAY */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20,20,40,0.6);
+    z-index: 200;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    backdrop-filter: blur(4px);
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: white;
+    border-radius: var(--radius);
+    max-width: 680px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 80px rgba(0,0,0,0.3);
+    animation: modalIn 0.25s ease;
+  }
+  @keyframes modalIn {
+    from { opacity: 0; transform: scale(0.95) translateY(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .modal-hero {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    position: relative;
+    border-radius: var(--radius) var(--radius) 0 0;
+    overflow: hidden;
+  }
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.9);
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dark);
+    transition: background 0.2s;
+  }
+  .modal-close:hover { background: white; }
+  .modal-body { padding: 1.5rem 2rem 2rem; }
+  .modal-cuisine { font-size: 0.75rem; font-weight: 500; color: var(--brand-purple); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.4rem; }
+  .modal-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 600; margin-bottom: 0.5rem; line-height: 1.2; }
+  .modal-desc { color: var(--text-mid); font-size: 0.9rem; line-height: 1.6; font-weight: 300; margin-bottom: 1.5rem; }
+  .modal-meta { display: flex; gap: 1.5rem; margin-bottom: 1.5rem; }
+  .modal-meta-item { text-align: center; }
+  .modal-meta-item .val { font-size: 1.2rem; font-weight: 500; color: var(--text-dark); }
+  .modal-meta-item .lab { font-size: 0.72rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.06em; }
+  .modal-section-title { font-size: 0.8rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-light); margin-bottom: 0.8rem; margin-top: 1.5rem; }
+  .ingredients-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
+  .ing-tag { background: #f0effe; color: var(--brand-purple-dark); font-size: 0.82rem; padding: 5px 12px; border-radius: 100px; text-decoration: none; transition: background 0.2s; display: inline-block; }
+  .ing-tag:hover { background: #ddd9fc; }
+  .steps-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+  .step { display: flex; gap: 1rem; align-items: flex-start; }
+  .step-num { width: 28px; height: 28px; border-radius: 50%; background: var(--brand-gradient); color: white; font-size: 0.78rem; font-weight: 500; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+  .step-text { font-size: 0.88rem; color: var(--text-mid); line-height: 1.6; font-weight: 300; }
+  .price-cta { margin-top: 2rem; padding: 1rem 1.2rem; background: #f0effe; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+  .price-cta p { font-size: 0.85rem; color: var(--brand-purple-dark); font-weight: 400; }
+  .price-cta a { background: var(--brand-purple); color: white; text-decoration: none; font-size: 0.82rem; font-weight: 500; padding: 8px 18px; border-radius: 100px; white-space: nowrap; transition: background 0.2s; }
+  .price-cta a:hover { background: var(--brand-purple-dark); }
+
+  /* WEEKLY FEATURE */
+  .weekly-feature {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding: 0 2rem;
+  }
+  .featured-card {
+    background: var(--brand-gradient);
+    border-radius: var(--radius);
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2rem;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .featured-card::before {
+    content: '';
+    position: absolute;
+    right: -5%;
+    top: -30%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+  }
+  .featured-badge { display: inline-block; background: rgba(255,255,255,0.2); color: white; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; border: 1px solid rgba(255,255,255,0.3); margin-bottom: 1rem; }
+  .featured-title { font-family: 'Playfair Display', serif; font-size: 2rem; color: white; font-weight: 600; margin-bottom: 0.6rem; line-height: 1.2; }
+  .featured-desc { color: rgba(255,255,255,0.8); font-size: 0.9rem; font-weight: 300; line-height: 1.6; margin-bottom: 1.5rem; max-width: 420px; }
+  .featured-btn { display: inline-flex; align-items: center; gap: 8px; background: white; color: var(--brand-purple-dark); font-weight: 500; font-size: 0.88rem; padding: 11px 22px; border-radius: 100px; border: none; cursor: pointer; transition: transform 0.2s; }
+  .featured-btn:hover { transform: translateY(-2px); }
+  .featured-emoji { font-size: 6rem; line-height: 1; }
+
+  /* FOOTER */
+  footer { text-align: center; padding: 3rem 2rem; color: var(--text-light); font-size: 0.82rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+  footer a { color: var(--brand-purple); text-decoration: none; }
+
+  /* NO RESULTS */
+  .no-results { text-align: center; padding: 4rem 2rem; color: var(--text-light); }
+  .no-results p { font-size: 1.1rem; }
+
+  @media (max-width: 640px) {
+    .featured-card { grid-template-columns: 1fr; }
+    .featured-emoji { font-size: 4rem; }
+    .nav-links { display: none; }
+    .modal-body { padding: 1rem 1.2rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <span>🥩</span> ChurBro
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Compare Prices</a></li>
+      <li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="about/index.html">About</a></li>
+      <li><a href="faq/index.html">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-tag">🍳 New recipe every week</div>
+  <h1>Authentic Recipes,<br><em>Real Dunedin Prices</em></h1>
+  <p>Cook the world's best dishes with ingredients you can find — and price-compare — right here in Dunedin.</p>
+  <a href="index.html" class="hero-cta">Compare ingredient prices →</a>
+</div>
+
+<div class="filters-wrap">
+  <div class="filters">
+    <span class="filter-label">Cuisine</span>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="south-asian">South Asian</button>
+    <button class="filter-btn" data-filter="east-asian">East Asian</button>
+    <button class="filter-btn" data-filter="middle-eastern">Middle Eastern</button>
+    <button class="filter-btn" data-filter="nz-pacific">NZ & Pacific</button>
+    <button class="filter-btn" data-filter="european">European</button>
+    <button class="filter-btn" data-filter="african">African</button>
+    <button class="filter-btn" data-filter="latin">Latin American</button>
+  </div>
+</div>
+
+<div class="weekly-feature">
+  <div class="featured-card" id="featured-card">
+    <div>
+      <div class="featured-badge">⭐ Recipe of the Week</div>
+      <div class="featured-title" id="featured-title">Karachi Dum Biryani</div>
+      <div class="featured-desc" id="featured-desc">Slow-steamed mutton biryani with whole spices, caramelised onions, and kewra water — the definitive Karachi street recipe.</div>
+      <button class="featured-btn" id="featured-btn" onclick="openRecipe(0)">View Full Recipe →</button>
+    </div>
+    <div class="featured-emoji" id="featured-emoji">🍛</div>
+  </div>
+</div>
+
+<div class="search-wrap">
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="search-input" placeholder="Search recipes, ingredients, cuisines...">
+  </div>
+</div>
+
+<div class="recipes-section">
+  <div class="section-header">
+    <h2 class="section-title">All Recipes</h2>
+    <span class="section-count" id="recipe-count"></span>
+  </div>
+  <div class="recipes-grid" id="recipes-grid"></div>
+  <div class="no-results" id="no-results" style="display:none">
+    <p>No recipes found. Try a different filter or search.</p>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModalOutside(event)">
+  <div class="modal" id="modal">
+    <div class="modal-hero" id="modal-hero"></div>
+    <div class="modal-body">
+      <div class="modal-cuisine" id="modal-cuisine"></div>
+      <div class="modal-title" id="modal-title"></div>
+      <div class="modal-desc" id="modal-desc"></div>
+      <div class="modal-meta" id="modal-meta"></div>
+      <div class="modal-section-title">Ingredients</div>
+      <div class="ingredients-list" id="modal-ingredients"></div>
+      <div class="modal-section-title">Method</div>
+      <ol class="steps-list" id="modal-steps"></ol>
+      <div class="price-cta">
+        <p>💰 Compare ingredient prices across New World, PAK'nSAVE & Woolworths</p>
+        <a href="index.html" id="modal-search-link">Find ingredients →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>ChurBro Recipes — Authentic dishes, Dunedin prices. Updated weekly.<br>
+  <a href="index.html">← Back to price comparison</a></p>
+</footer>
+
+<script>
+const RECIPES = [
+  {
+    id: 0,
+    name: "Karachi Dum Biryani",
+    cuisine: "South Asian",
+    region: "Pakistani",
+    filter: "south-asian",
+    emoji: "🍛",
+    bg: "#f5e6d3",
+    weekly: true,
+    time: "2.5 hrs",
+    serves: 6,
+    difficulty: "Medium",
+    desc: "Slow-steamed mutton biryani with whole spices, caramelised onions, and kewra water — the definitive Karachi street recipe.",
+    keyIngredients: ["mutton or beef", "basmati rice", "yoghurt", "onions", "tomatoes"],
+    allIngredients: ["1kg bone-in mutton or beef", "750g basmati rice", "250g yoghurt", "4 large onions", "4 tomatoes", "¾ cup oil or ghee", "7 garlic cloves", "2 tbsp ginger", "6 green chillies", "Fresh coriander & mint", "Kewra water", "Whole spices (cardamom, cloves, cinnamon, star anise)"],
+    steps: [
+      "Fry sliced onions in hot oil until deep golden brown — this takes 20 minutes. Reserve half for layering.",
+      "Bloom whole spices in the remaining oil. Add garlic, ginger, and tomatoes. Cook until masala thickens.",
+      "Add mutton and yoghurt. Cook on high 5 mins then low heat 45 mins until tender and oil separates.",
+      "Parboil soaked basmati rice to 70% doneness. Drain immediately.",
+      "Layer rice over meat masala. Top with fried onions, coriander, mint, lemon juice and kewra water.",
+      "Seal pot with a flat tawa underneath. High heat 3 min, then lowest heat 25 min. Do not open lid.",
+      "Rest 10 min then gently fold from the sides. Serve with raita."
+    ]
+  },
+  {
+    id: 1,
+    name: "Hainanese Chicken Rice",
+    cuisine: "East Asian",
+    region: "Singaporean",
+    filter: "east-asian",
+    emoji: "🍚",
+    bg: "#e8f4f0",
+    weekly: false,
+    time: "1.5 hrs",
+    serves: 4,
+    difficulty: "Easy",
+    desc: "Silky poached chicken served over fragrant rice cooked in the poaching broth, with three classic dipping sauces.",
+    keyIngredients: ["whole chicken", "jasmine rice", "ginger", "spring onion", "garlic"],
+    allIngredients: ["1 whole chicken (~1.5kg)", "2 cups jasmine rice", "4 spring onions", "6cm ginger piece", "4 garlic cloves", "Sesame oil", "Soy sauce", "Oyster sauce", "Chilli, lime (for sauce)", "Cucumber to serve"],
+    steps: [
+      "Rub chicken with salt inside and out. Stuff cavity with spring onion and ginger slices.",
+      "Poach chicken in a pot of water with ginger and spring onion for 45 min on very low simmer. It should never boil.",
+      "Remove chicken and plunge into ice water for 10 min — this gives the silky skin.",
+      "Use the poaching broth to cook jasmine rice with garlic and ginger. Toast rice in sesame oil first.",
+      "Make the three sauces: chilli-ginger, dark soy, and spring onion oil.",
+      "Slice chicken and serve over rice with cucumber, broth on the side, and all three sauces."
+    ]
+  },
+  {
+    id: 2,
+    name: "Hāngī-style Lamb Shoulder",
+    cuisine: "NZ & Pacific",
+    region: "Māori",
+    filter: "nz-pacific",
+    emoji: "🍖",
+    bg: "#f0ede8",
+    weekly: false,
+    time: "4 hrs",
+    serves: 8,
+    difficulty: "Easy",
+    desc: "A slow-roasted lamb shoulder that honours the hāngī tradition — earth-smoked flavours achieved in a home oven with puha and watercress.",
+    keyIngredients: ["lamb shoulder", "puha or watercress", "kumara", "potatoes", "cabbage"],
+    allIngredients: ["2kg lamb shoulder bone-in", "4 large kumara", "500g potatoes", "Half cabbage", "Bunch puha or watercress", "Garlic cloves", "Rosemary", "Salt & pepper", "Liquid smoke (optional)", "Foil for wrapping"],
+    steps: [
+      "Stud lamb with garlic and rosemary. Season generously. If using liquid smoke, rub a few drops over the surface.",
+      "Peel and halve kumara and potatoes. Arrange in a large roasting pan around the lamb.",
+      "Cover tightly with foil. Roast at 160°C for 3.5 hours until lamb is completely tender.",
+      "Remove foil last 30 min to brown the surface.",
+      "Steam puha or watercress separately until just wilted. Season simply with butter and salt.",
+      "Serve lamb on a board with the vegetables and greens. Pull apart rather than carve."
+    ]
+  },
+  {
+    id: 3,
+    name: "Lebanese Shawarma",
+    cuisine: "Middle Eastern",
+    region: "Lebanese",
+    filter: "middle-eastern",
+    emoji: "🌯",
+    bg: "#fef3e8",
+    weekly: false,
+    time: "45 min",
+    serves: 4,
+    difficulty: "Easy",
+    desc: "Marinated chicken thighs with warm spices, grilled and wrapped in flatbread with garlic sauce, pickles, and fresh tomato.",
+    keyIngredients: ["chicken thighs", "yoghurt", "flatbread", "garlic", "lemon"],
+    allIngredients: ["800g chicken thighs", "½ cup yoghurt", "4 garlic cloves", "2 lemons", "2 tsp cumin", "1 tsp turmeric", "1 tsp paprika", "½ tsp cinnamon", "½ tsp allspice", "Flatbreads", "Tomato, parsley, pickles"],
+    steps: [
+      "Mix yoghurt, garlic, lemon juice, and all spices. Coat chicken thighs and marinate at least 2 hours.",
+      "Grill or pan-fry chicken on high heat until charred and cooked through, about 6-7 min per side.",
+      "Make garlic sauce (toum): blend garlic with lemon juice and slowly drizzle in oil until thick and white.",
+      "Rest chicken 5 min then slice thinly against the grain.",
+      "Warm flatbreads. Spread garlic sauce, add sliced chicken, tomato, parsley, and pickled cucumber.",
+      "Roll tightly and serve immediately."
+    ]
+  },
+  {
+    id: 4,
+    name: "Nigerian Peanut Soup",
+    cuisine: "African",
+    region: "Nigerian",
+    filter: "african",
+    emoji: "🥜",
+    bg: "#fdeee8",
+    weekly: false,
+    time: "1 hr",
+    serves: 6,
+    difficulty: "Easy",
+    desc: "Rich, deeply savoury groundnut soup with bone-in chicken and a smoky dried fish base — a West African staple.",
+    keyIngredients: ["whole chicken", "peanut butter", "tomatoes", "onion", "scotch bonnet"],
+    allIngredients: ["1 whole chicken, jointed", "1 cup peanut butter (natural)", "4 tomatoes", "2 onions", "2 scotch bonnet chillies", "Crayfish or dried shrimp (optional)", "Chicken stock", "Palm oil (or vegetable oil)", "Salt & seasoning", "Spinach to serve"],
+    steps: [
+      "Season chicken joints and brown in hot oil in batches. Set aside.",
+      "Blend tomatoes, one onion, and scotch bonnet into a rough paste. Fry in the same pot 15 min.",
+      "Add chicken back. Pour in stock to just cover. Simmer 25 min.",
+      "Whisk peanut butter with a cup of the hot broth until smooth. Stir into the pot.",
+      "Add crayfish if using. Simmer another 15 min until sauce thickens and oil floats to the top.",
+      "Stir in spinach at the end. Serve over rice or with fufu."
+    ]
+  },
+  {
+    id: 5,
+    name: "Peruvian Lomo Saltado",
+    cuisine: "Latin American",
+    region: "Peruvian",
+    filter: "latin",
+    emoji: "🥩",
+    bg: "#eef0fe",
+    weekly: false,
+    time: "30 min",
+    serves: 4,
+    difficulty: "Easy",
+    desc: "A Chifa classic — beef stir-fried with tomatoes, red onion, and ají amarillo, served over both rice and chips simultaneously.",
+    keyIngredients: ["beef sirloin", "red onion", "tomatoes", "soy sauce", "chips"],
+    allIngredients: ["600g beef sirloin or rump steak", "2 red onions", "3 tomatoes", "3 tbsp soy sauce", "2 tbsp oyster sauce", "1 tbsp red wine vinegar", "2 tsp cumin", "Ají amarillo paste (or yellow capsicum)", "Coriander", "Chips & rice to serve"],
+    steps: [
+      "Slice beef into thick strips. Season with cumin, salt, and pepper.",
+      "Get a wok or large pan smoking hot. Sear beef in batches — do not crowd the pan. Set aside.",
+      "In the same pan, stir-fry onion wedges and tomato wedges on high heat 2 min — they should char slightly.",
+      "Return beef. Add soy sauce, oyster sauce, vinegar, and ají amarillo. Toss quickly on high heat.",
+      "Scatter fresh coriander. Serve immediately over white rice with thick-cut chips on the side.",
+      "The sauces should soak into both the rice and the chips — that's the point."
+    ]
+  },
+  {
+    id: 6,
+    name: "Greek Slow-Roasted Lamb",
+    cuisine: "European",
+    region: "Greek",
+    filter: "european",
+    emoji: "🫙",
+    bg: "#eef5e8",
+    weekly: false,
+    time: "4 hrs",
+    serves: 6,
+    difficulty: "Easy",
+    desc: "Lamb leg slow-roasted with lemon, garlic, oregano, and olive oil until it falls off the bone — kleftiko style.",
+    keyIngredients: ["lamb leg", "lemon", "garlic", "oregano", "potatoes"],
+    allIngredients: ["1.8kg lamb leg bone-in", "8 garlic cloves", "3 lemons", "4 tbsp dried oregano", "½ cup olive oil", "800g potatoes", "2 onions", "300ml white wine", "Salt & pepper", "Fresh rosemary"],
+    steps: [
+      "Make deep cuts in the lamb and stuff each with a sliver of garlic and dried oregano.",
+      "Marinate overnight in lemon juice, olive oil, oregano, salt and pepper.",
+      "Place lamb in a large roasting dish. Arrange potatoes and onions around. Pour in white wine.",
+      "Seal tightly with foil. Roast at 160°C for 3.5 hours — the lamb must be completely tender.",
+      "Remove foil and increase to 210°C for 20 min to crisp the outside.",
+      "Rest 15 min. Serve with the roasting juices poured over, and a Greek salad alongside."
+    ]
+  },
+  {
+    id: 7,
+    name: "Japanese Gyudon",
+    cuisine: "East Asian",
+    region: "Japanese",
+    filter: "east-asian",
+    emoji: "🍜",
+    bg: "#fef9e8",
+    weekly: false,
+    time: "25 min",
+    serves: 4,
+    difficulty: "Easy",
+    desc: "Thinly sliced beef and onion simmered in a sweet-savoury dashi broth, served over hot steamed rice — Japan's favourite quick meal.",
+    keyIngredients: ["beef mince or sliced beef", "onion", "soy sauce", "mirin", "eggs"],
+    allIngredients: ["500g thinly sliced beef (or beef mince)", "2 large onions", "4 tbsp soy sauce", "3 tbsp mirin", "2 tbsp sake (or dry sherry)", "1 tbsp sugar", "1 cup dashi stock (or chicken stock)", "4 eggs", "Steamed rice", "Pickled ginger to serve"],
+    steps: [
+      "Slice onions into thin half-moons. Simmer in dashi, soy sauce, mirin, sake, and sugar for 5 min.",
+      "Add thinly sliced beef. Cook on medium heat until just done — don't overcook.",
+      "Crack eggs and gently slide over the beef. Cover and cook 1-2 min until whites set but yolks are still runny.",
+      "Serve immediately over steamed rice with the broth spooned generously over.",
+      "Top with pickled ginger and spring onion if available."
+    ]
+  }
+];
+
+let currentFilter = 'all';
+let currentSearch = '';
+
+function renderCards() {
+  const grid = document.getElementById('recipes-grid');
+  const noResults = document.getElementById('no-results');
+  const count = document.getElementById('recipe-count');
+
+  const filtered = RECIPES.filter(r => {
+    const matchFilter = currentFilter === 'all' || r.filter === currentFilter;
+    const matchSearch = currentSearch === '' ||
+      r.name.toLowerCase().includes(currentSearch) ||
+      r.region.toLowerCase().includes(currentSearch) ||
+      r.keyIngredients.some(i => i.toLowerCase().includes(currentSearch));
+    return matchFilter && matchSearch;
+  });
+
+  count.textContent = `${filtered.length} recipe${filtered.length !== 1 ? 's' : ''}`;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    noResults.style.display = 'block';
+    return;
+  }
+  noResults.style.display = 'none';
+
+  grid.innerHTML = filtered.map(r => `
+    <div class="recipe-card" onclick="openRecipe(${r.id})">
+      <div class="card-image" style="background:${r.bg}">
+        <span style="position:relative;z-index:1">${r.emoji}</span>
+        <div class="cuisine-tag">${r.region}</div>
+        ${r.weekly ? '<div class="weekly-badge">⭐ This week</div>' : ''}
+      </div>
+      <div class="card-body">
+        <div class="card-title">${r.name}</div>
+        <div class="card-desc">${r.desc}</div>
+        <div class="card-ingredients">
+          ${r.keyIngredients.map(i => `<span class="ingredient-pill">${i}</span>`).join('')}
+        </div>
+        <div class="card-meta">
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            ${r.time}
+          </span>
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Serves ${r.serves}
+          </span>
+          <span class="meta-item" style="margin-left:auto;color:var(--brand-purple);font-weight:500">
+            ${r.difficulty}
+          </span>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openRecipe(id) {
+  const r = RECIPES.find(x => x.id === id);
+  if (!r) return;
+
+  document.getElementById('modal-hero').style.background = r.bg;
+  document.getElementById('modal-hero').innerHTML = `
+    <span style="font-size:5rem">${r.emoji}</span>
+    <button class="modal-close" onclick="closeModal()">✕</button>
+  `;
+  document.getElementById('modal-cuisine').textContent = `${r.cuisine} · ${r.region}`;
+  document.getElementById('modal-title').textContent = r.name;
+  document.getElementById('modal-desc').textContent = r.desc;
+  document.getElementById('modal-meta').innerHTML = `
+    <div class="modal-meta-item"><div class="val">${r.time}</div><div class="lab">Total Time</div></div>
+    <div class="modal-meta-item"><div class="val">${r.serves}</div><div class="lab">Serves</div></div>
+    <div class="modal-meta-item"><div class="val">${r.difficulty}</div><div class="lab">Difficulty</div></div>
+  `;
+  document.getElementById('modal-ingredients').innerHTML = r.allIngredients
+    .map(i => `<a class="ing-tag" href="index.html?q=${encodeURIComponent(i.replace(/^[\d\s\w]*\s/, ''))}">${i}</a>`)
+    .join('');
+  document.getElementById('modal-steps').innerHTML = r.steps
+    .map((s, i) => `<li class="step"><div class="step-num">${i+1}</div><div class="step-text">${s}</div></li>`)
+    .join('');
+
+  const mainIng = r.keyIngredients[0];
+  document.getElementById('modal-search-link').href = `index.html?q=${encodeURIComponent(mainIng)}`;
+
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModalOutside(e) {
+  if (e.target === document.getElementById('modal-overlay')) closeModal();
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderCards();
+  });
+});
+
+document.getElementById('search-input').addEventListener('input', e => {
+  currentSearch = e.target.value.toLowerCase().trim();
+  renderCards();
+});
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+renderCards();
+</script>
+</body>
+</html>
