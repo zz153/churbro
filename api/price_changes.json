@@ -1,250 +1,174 @@
 {
-  "generated_at": "2026-05-19T09:00:26.051607",
-  "today": "2026-05-19",
-  "compared_to": "2026-05-18",
+  "generated_at": "2026-05-20T08:56:45.979837",
+  "today": "2026-05-20",
+  "compared_to": "2026-05-19",
   "summary": {
-    "price_drops": 7,
-    "price_increases": 8,
-    "new_products": 6,
-    "dropped_products": 4
+    "price_drops": 2,
+    "price_increases": 2,
+    "new_products": 3,
+    "dropped_products": 15
   },
   "price_drops": [
     {
       "store": "PAK'nSAVE",
-      "name": "Farmland Shaved Ham Medium Pre-Packed kg",
+      "name": "NZ Pork Spare Ribs kg",
       "brand": NaN,
-      "old_price": 23.9,
-      "new_price": 20.8,
-      "change": -3.1,
-      "change_pct": -13.0,
+      "old_price": 23.29,
+      "new_price": 20.99,
+      "change": -2.3,
+      "change_pct": -9.9,
       "unit_type": "kg",
-      "price_per_kg": 20.8
+      "price_per_kg": 20.99
     },
     {
       "store": "PAK'nSAVE",
-      "name": "Hellers Chinese Honey Sausages 1kg",
+      "name": "Waitoa Whole Chicken with Garden Herbs Stuffing 1.5kg",
       "brand": NaN,
-      "old_price": 13.19,
+      "old_price": 14.99,
       "new_price": 12.99,
-      "change": -0.2,
-      "change_pct": -1.5,
+      "change": -2.0,
+      "change_pct": -13.3,
       "unit_type": "ea",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Gluten Free Original Sausages 1kg",
-      "brand": NaN,
-      "old_price": 13.19,
-      "new_price": 12.99,
-      "change": -0.2,
-      "change_pct": -1.5,
-      "unit_type": "ea",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Cheese & Bacon Sausages 1kg",
-      "brand": NaN,
-      "old_price": 13.19,
-      "new_price": 12.99,
-      "change": -0.2,
-      "change_pct": -1.5,
-      "unit_type": "ea",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Super Savoury Sausages 1kg",
-      "brand": NaN,
-      "old_price": 13.19,
-      "new_price": 12.99,
-      "change": -0.2,
-      "change_pct": -1.5,
-      "unit_type": "ea",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Chunky Cheese Sausages 1kg",
-      "brand": NaN,
-      "old_price": 13.19,
-      "new_price": 12.99,
-      "change": -0.2,
-      "change_pct": -1.5,
-      "unit_type": "ea",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Classic Pre-Cooked Chicken Sausages 1kg",
-      "brand": NaN,
-      "old_price": 13.19,
-      "new_price": 12.99,
-      "change": -0.2,
-      "change_pct": -1.5,
-      "unit_type": "ea",
-      "price_per_kg": 12.99
+      "price_per_kg": 8.66
     }
   ],
   "price_increases": [
     {
       "store": "New World",
-      "name": "Tegel BBQ Chicken Thighs Cooked kg",
+      "name": "Hellers 12 Classic Pre-Cooked Sausages 800g",
       "brand": NaN,
-      "old_price": 14.09,
-      "new_price": 14.9,
-      "change": 0.81,
-      "change_pct": 5.7,
+      "old_price": 8.49,
+      "new_price": 9.99,
+      "change": 1.5,
+      "change_pct": 17.7,
+      "unit_type": "ea",
+      "price_per_kg": 10.42
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Farmland Shaved Ham Medium Pre-Packed kg",
+      "brand": NaN,
+      "old_price": 20.8,
+      "new_price": 20.9,
+      "change": 0.1,
+      "change_pct": 0.5,
       "unit_type": "kg",
-      "price_per_kg": 14.9
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Chicken Breast Garlic Butter Kievs 2 Pack 300g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Gluten Free Chicken Tenders Gluten Free Original 350g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Gluten Free Chicken Burgers Gluten Free 400g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Chicken Bites Low Carb 350g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Chicken Tenders Original 350g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Gluten Free Chicken Tenders Karaage With Ginger & Soy 380g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Free Range Gluten Free Chicken Nuggets 450g",
-      "brand": NaN,
-      "old_price": 12.39,
-      "new_price": 13.0,
-      "change": 0.61,
-      "change_pct": 4.9,
-      "unit_type": "ea",
-      "price_per_kg": NaN
+      "price_per_kg": 20.9
     }
   ],
   "new_products": [
     {
       "store": "PAK'nSAVE",
-      "name": "De Gustibus Prosciutto Smoked 70g",
+      "name": "Pieter's Pepperoni Salami 100g",
       "brand": NaN,
-      "price": 7.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Riverside Farm Duck Breasts Confit Style 280g",
-      "brand": NaN,
-      "price": 14.49,
+      "price": 2.69,
       "unit_type": "ea"
     },
     {
       "store": "PAK'nSAVE",
-      "name": "Ghiotti Fiesta Espanola 85g",
+      "name": "Pieter's Danish Salami 100g",
       "brand": NaN,
-      "price": 11.99,
+      "price": 2.69,
       "unit_type": "ea"
     },
     {
       "store": "PAK'nSAVE",
-      "name": "De Gustibus Crudo Prosciutto 70g",
+      "name": "Hellers Shaved Beef Pastrami 100g",
       "brand": NaN,
-      "price": 7.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Gianni Negrini Salame With Truffle 125g",
-      "brand": NaN,
-      "price": 11.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Hellers Sausages Country Pork 6 Pack 450g",
-      "brand": NaN,
-      "price": 10.99,
+      "price": 4.69,
       "unit_type": "ea"
     }
   ],
   "dropped_products": [
     {
-      "store": "PAK'nSAVE",
-      "name": "Fry's Plant-Based Vegan Popcorn Chick'n 270g",
+      "store": "New World",
+      "name": "Hellers Craft Jumbo Classic Brats 4pk",
       "brand": NaN,
-      "price": 8.49
+      "price": 9.29
     },
     {
       "store": "New World",
-      "name": "Chicken Maryland kg",
+      "name": "Tegel Free Range Crunchy Chicken Burgers 4pk",
       "brand": NaN,
-      "price": 9.49
-    },
-    {
-      "store": "New World",
-      "name": "Beard Brothers Inspired Pork & Leek Sausages 500g",
-      "brand": NaN,
-      "price": 12.49
+      "price": 9.99
     },
     {
       "store": "Woolworths",
-      "name": "Hellers Sausages Country Pork 480g 6pack",
+      "name": "Woolworths Essentials Chicken Breast Pieces Value Pack",
+      "brand": "Woolworths",
+      "price": 13.9
+    },
+    {
+      "store": "New World",
+      "name": "Hellers London Pride Sausages 6pk",
       "brand": NaN,
-      "price": 10.99
+      "price": 10.79
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Beef Casserole Beef & Ale 600g",
+      "brand": NaN,
+      "price": 16.7
+    },
+    {
+      "store": "New World",
+      "name": "Hellers New Yorker Porker Sausages 6pk",
+      "brand": NaN,
+      "price": 10.79
+    },
+    {
+      "store": "New World",
+      "name": "Hellers The Godfather Sausages 6pk",
+      "brand": NaN,
+      "price": 10.79
+    },
+    {
+      "store": "New World",
+      "name": "Tegel Free Range Chargrill Chicken Steaks 4pk",
+      "brand": NaN,
+      "price": 9.99
+    },
+    {
+      "store": "New World",
+      "name": "Brink's Honey Soy Chicken Kebabs 5pk",
+      "brand": NaN,
+      "price": 9.89
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Essentials Chicken Boneless Thigh Pieces Value Pack",
+      "brand": "Woolworths",
+      "price": 16.9
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Essentials Chicken Tenderloin Pieces Value Pack",
+      "brand": "Woolworths",
+      "price": 15.9
+    },
+    {
+      "store": "New World",
+      "name": "Brink's Sweet Sriracha Chilli Chicken Kebabs 5pk",
+      "brand": NaN,
+      "price": 9.89
+    },
+    {
+      "store": "Woolworths",
+      "name": "Hellers Pork Tenders Sweet Chilli 600g",
+      "brand": NaN,
+      "price": 12.99
+    },
+    {
+      "store": "New World",
+      "name": "Hellers Genuine Pork Sausages 6pk",
+      "brand": NaN,
+      "price": 10.79
+    },
+    {
+      "store": "New World",
+      "name": "Brink's Satay Chicken Kebabs 5pk",
+      "brand": NaN,
+      "price": 9.89
     }
   ]
 }
