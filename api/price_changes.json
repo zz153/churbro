@@ -1,229 +1,285 @@
 {
-  "generated_at": "2026-05-27T13:52:00.160058",
-  "today": "2026-05-27",
-  "compared_to": "2026-05-25",
+  "generated_at": "2026-05-28T08:53:33.359976",
+  "today": "2026-05-28",
+  "compared_to": "2026-05-27",
   "summary": {
-    "price_drops": 14,
-    "price_increases": 1,
-    "new_products": 3,
-    "dropped_products": 4
+    "price_drops": 1,
+    "price_increases": 3,
+    "new_products": 24,
+    "dropped_products": 9
   },
   "price_drops": [
     {
       "store": "PAK'nSAVE",
-      "name": "Lamb Shanks (Knuckles) kg",
+      "name": "Beef Cheeks kg",
       "brand": NaN,
-      "old_price": 26.99,
-      "new_price": 19.99,
-      "change": -7.0,
-      "change_pct": -25.9,
+      "old_price": 19.99,
+      "new_price": 14.99,
+      "change": -5.0,
+      "change_pct": -25.0,
       "unit_type": "kg",
-      "price_per_kg": 19.99
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Large Prawn Twisters 300g",
-      "brand": NaN,
-      "old_price": 14.99,
-      "new_price": 8.99,
-      "change": -6.0,
-      "change_pct": -40.0,
-      "unit_type": "ea",
-      "price_per_kg": 29.97
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Pams Whole Chicken Large 1.9kg",
-      "brand": NaN,
-      "old_price": 18.49,
-      "new_price": 13.99,
-      "change": -4.5,
-      "change_pct": -24.3,
-      "unit_type": "ea",
-      "price_per_kg": 7.36
-    },
-    {
-      "store": "New World",
-      "name": "Pams Value Precooked Middle Bacon 700g",
-      "brand": NaN,
-      "old_price": 11.99,
-      "new_price": 8.49,
-      "change": -3.5,
-      "change_pct": -29.2,
-      "unit_type": "ea",
-      "price_per_kg": 12.13
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Beef Topside Roast kg",
-      "brand": NaN,
-      "old_price": 25.99,
-      "new_price": 22.99,
-      "change": -3.0,
-      "change_pct": -11.5,
-      "unit_type": "kg",
-      "price_per_kg": 22.99
-    },
-    {
-      "store": "New World",
-      "name": "Ingham's Garlic & Herb Butterfly Chicken 1.1kg",
-      "brand": NaN,
-      "old_price": 12.99,
-      "new_price": 9.99,
-      "change": -3.0,
-      "change_pct": -23.1,
-      "unit_type": "ea",
-      "price_per_kg": 9.08
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Beef Porterhouse Steak kg",
-      "brand": NaN,
-      "old_price": 40.99,
-      "new_price": 38.99,
-      "change": -2.0,
-      "change_pct": -4.9,
-      "unit_type": "kg",
-      "price_per_kg": 38.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Ingham's Garlic & Herb Butterfly Chicken 1.1kg",
-      "brand": NaN,
-      "old_price": 11.99,
-      "new_price": 9.99,
-      "change": -2.0,
-      "change_pct": -16.7,
-      "unit_type": "ea",
-      "price_per_kg": 9.08
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Ingham's Butterfly Chicken Tandoori 1.1kg",
-      "brand": NaN,
-      "old_price": 11.99,
-      "new_price": 9.99,
-      "change": -2.0,
-      "change_pct": -16.7,
-      "unit_type": "ea",
-      "price_per_kg": 9.08
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Bulk Porterhouse Steak kg",
-      "brand": NaN,
-      "old_price": 40.99,
-      "new_price": 38.99,
-      "change": -2.0,
-      "change_pct": -4.9,
-      "unit_type": "kg",
-      "price_per_kg": 38.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Pork Crackling kg",
-      "brand": NaN,
-      "old_price": 8.99,
-      "new_price": 6.99,
-      "change": -2.0,
-      "change_pct": -22.2,
-      "unit_type": "kg",
-      "price_per_kg": 6.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Beef Skirt Steak kg",
-      "brand": NaN,
-      "old_price": 27.49,
-      "new_price": 25.99,
-      "change": -1.5,
-      "change_pct": -5.5,
-      "unit_type": "kg",
-      "price_per_kg": 25.99
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Crumbed Fish Fingers 800g",
-      "brand": NaN,
-      "old_price": 10.99,
-      "new_price": 9.49,
-      "change": -1.5,
-      "change_pct": -13.6,
-      "unit_type": "ea",
-      "price_per_kg": 11.86
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Crumbed Whiting Fish 600g",
-      "brand": NaN,
-      "old_price": 10.99,
-      "new_price": 9.99,
-      "change": -1.0,
-      "change_pct": -9.1,
-      "unit_type": "ea",
-      "price_per_kg": 16.65
+      "price_per_kg": 14.99
     }
   ],
   "price_increases": [
     {
       "store": "PAK'nSAVE",
-      "name": "Tegel Fresh Whole Chicken 1.7kg",
+      "name": "Ingham's Butterfly Chicken Tandoori 1.1kg",
       "brand": NaN,
-      "old_price": 14.79,
-      "new_price": 14.99,
-      "change": 0.2,
-      "change_pct": 1.4,
+      "old_price": 9.99,
+      "new_price": 12.99,
+      "change": 3.0,
+      "change_pct": 30.0,
       "unit_type": "ea",
-      "price_per_kg": 8.82
+      "price_per_kg": 11.81
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Ingham's Garlic & Herb Butterfly Chicken 1.1kg",
+      "brand": NaN,
+      "old_price": 9.99,
+      "new_price": 12.99,
+      "change": 3.0,
+      "change_pct": 30.0,
+      "unit_type": "ea",
+      "price_per_kg": 11.81
+    },
+    {
+      "store": "New World",
+      "name": "Bird & Barrow Free Range Whole Chicken kg",
+      "brand": NaN,
+      "old_price": 11.25,
+      "new_price": 11.99,
+      "change": 0.74,
+      "change_pct": 6.6,
+      "unit_type": "kg",
+      "price_per_kg": 11.99
     }
   ],
   "new_products": [
     {
-      "store": "Woolworths",
-      "name": "Riverside Farm Duck Leg Confit Style 160g",
+      "store": "PAK'nSAVE",
+      "name": "Shore Mariner Cooked Vannamei Whole Prawns 700g",
       "brand": NaN,
-      "price": 8.5,
+      "price": 28.79,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths Chicken Whole Frozen 1.7kg",
-      "brand": "Woolworths",
-      "price": 12.0,
+      "store": "PAK'nSAVE",
+      "name": "United Food Co Prawn Toast 450g",
+      "brand": NaN,
+      "price": 12.49,
       "unit_type": "ea"
     },
     {
-      "store": "New World",
-      "name": "Farmland Silverside Thin Sliced Corned 100g",
+      "store": "PAK'nSAVE",
+      "name": "Shore Mariner Whole Black Tiger 16/20 Prawns 800g",
       "brand": NaN,
-      "price": 7.59,
+      "price": 29.59,
       "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Silver Fern Farms Beef and Venison with Chilli and Lime Burgers 500g",
+      "brand": NaN,
+      "price": 12.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "PrePacked Deep Sea Cod Fillets kg",
+      "brand": NaN,
+      "price": 28.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Silver Fern Farms Honest Beef Burgers With Smokey Caramelised Onion 500g",
+      "brand": NaN,
+      "price": 12.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Silver Fern Farms Honest Beef Burgers With A Touch Of Horopito Pepper 500g",
+      "brand": NaN,
+      "price": 12.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "United Food Co Prawn Money Bags 450g",
+      "brand": NaN,
+      "price": 12.49,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Tasmania Bone In Salmon Fillet kg",
+      "brand": NaN,
+      "price": 56.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Silver Fern Farms Honest Beef & Lamb Burgers With A Hint Of Manuka Smoked Salt 500g",
+      "brand": NaN,
+      "price": 12.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "NZ Snapper Steaks Fresh kg",
+      "brand": NaN,
+      "price": 35.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Yellowfin Tuna Loin kg",
+      "brand": NaN,
+      "price": 52.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Shore Mariner Crumbed Fish Fingers 800g",
+      "brand": NaN,
+      "price": 9.79,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Shore Mariner Squid Tubes 500g",
+      "brand": NaN,
+      "price": 16.79,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Ling Fillets kg",
+      "brand": NaN,
+      "price": 31.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "PPK Salmon Trim Tasmanian Catch kg",
+      "brand": NaN,
+      "price": 19.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "PrePacked Whole Warehou kg",
+      "brand": NaN,
+      "price": 14.49,
+      "unit_type": "kg"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Salmon Frames Tasmanian Catch kg",
+      "brand": NaN,
+      "price": 18.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Shore Mariner Cuttlefish Balls 300g",
+      "brand": NaN,
+      "price": 4.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "NZ Snapper Heads kg",
+      "brand": NaN,
+      "price": 9.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Fisherking Salmon Portions Bone Out 2 x 135g",
+      "brand": NaN,
+      "price": 14.49,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Sea Cuisine Supermix Raw Prawn Meat 400g",
+      "brand": NaN,
+      "price": 8.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "The Smokehouse Smoked Kawakawa Lemon Kingfish kg",
+      "brand": NaN,
+      "price": 45.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Dressed Snapper kg",
+      "brand": NaN,
+      "price": 23.99,
+      "unit_type": "kg"
     }
   ],
   "dropped_products": [
     {
-      "store": "New World",
-      "name": "Beard Brothers Moroccan Inspired Beef & Spice Sausages 500g",
+      "store": "PAK'nSAVE",
+      "name": "Tegel Premium Chicken Mince kg",
       "brand": NaN,
-      "price": 12.49
+      "price": 23.99
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Tegel BBQ Chicken Thighs Cooked kg",
+      "brand": NaN,
+      "price": 17.9
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Ingham's Chicken Nibbles kg",
+      "brand": NaN,
+      "price": 12.29
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Ingham's Chicken Thigh Fillet Skin Off kg",
+      "brand": NaN,
+      "price": 24.79
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Tegel Real Chicken Luncheon kg",
+      "brand": NaN,
+      "price": 12.9
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Ingham's Loose Chicken Nibbles kg",
+      "brand": NaN,
+      "price": 12.29
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Topside Beef Mince kg",
+      "brand": NaN,
+      "price": 25.99
     },
     {
       "store": "New World",
-      "name": "Bird & Barrow Free Range Chicken Breast Satay Kebabs 5pk",
+      "name": "Hellers Shaved Honey Baked Ham 200g",
       "brand": NaN,
-      "price": 10.99
+      "price": 5.49
     },
     {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Chicken Breast Manuka Honey & Soy Kebabs 5pk",
+      "store": "PAK'nSAVE",
+      "name": "Farmland Sliced Luncheon Large Pre-Pack kg",
       "brand": NaN,
-      "price": 10.99
-    },
-    {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Chicken Breast Coconut & Lemongrass Kebabs 5pk",
-      "brand": NaN,
-      "price": 10.99
+      "price": 20.9
     }
   ]
 }
