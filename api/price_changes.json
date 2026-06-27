@@ -1,528 +1,143 @@
 {
-  "generated_at": "2026-06-26T14:47:30.484210",
-  "today": "2026-06-26",
-  "compared_to": "2026-06-22",
+  "generated_at": "2026-06-28T09:14:43.723139",
+  "today": "2026-06-28",
+  "compared_to": "2026-06-26",
   "summary": {
-    "price_drops": 14,
-    "price_increases": 14,
-    "new_products": 15,
-    "dropped_products": 16
+    "price_drops": 6,
+    "price_increases": 1,
+    "new_products": 5,
+    "dropped_products": 2
   },
   "price_drops": [
     {
       "store": "PAK'nSAVE",
-      "name": "Regal Salmon Fillets kg",
+      "name": "Hellers Beef Burgers 6pk",
       "brand": NaN,
-      "old_price": 57.99,
-      "new_price": 47.99,
-      "change": -10.0,
-      "change_pct": -17.2,
-      "unit_type": "kg",
-      "price_per_kg": 47.99
-    },
-    {
-      "store": "New World",
-      "name": "Pams Value Precooked Middle Bacon 700g",
-      "brand": NaN,
-      "old_price": 15.25,
-      "new_price": 6.99,
-      "change": -8.26,
-      "change_pct": -54.2,
-      "unit_type": "ea",
-      "price_per_kg": 9.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Waitoa Free Range Boneless Skinless Chicken Breasts kg",
-      "brand": NaN,
-      "old_price": 25.29,
-      "new_price": 17.99,
-      "change": -7.3,
-      "change_pct": -28.9,
-      "unit_type": "kg",
-      "price_per_kg": 17.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Chicken Tenderloins kg",
-      "brand": NaN,
-      "old_price": 22.69,
-      "new_price": 15.99,
-      "change": -6.7,
-      "change_pct": -29.5,
-      "unit_type": "kg",
-      "price_per_kg": 15.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Waitoa Fresh Whole Chicken Bag kg",
-      "brand": NaN,
-      "old_price": 11.99,
-      "new_price": 8.99,
-      "change": -3.0,
-      "change_pct": -25.0,
-      "unit_type": "kg",
-      "price_per_kg": 8.99
-    },
-    {
-      "store": "New World",
-      "name": "Zamora Homemade Ltd The Criollo Sausages 450g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 13.9,
-      "change": -2.09,
-      "change_pct": -13.1,
-      "unit_type": "ea",
-      "price_per_kg": 30.89
-    },
-    {
-      "store": "New World",
-      "name": "Zamora Homemade Ltd German Bratwurst 450g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 13.9,
-      "change": -2.09,
-      "change_pct": -13.1,
-      "unit_type": "ea",
-      "price_per_kg": 30.89
-    },
-    {
-      "store": "New World",
-      "name": "Zamora Homemade Ltd Fennel Sausages 400g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 13.9,
-      "change": -2.09,
-      "change_pct": -13.1,
-      "unit_type": "ea",
-      "price_per_kg": 34.75
-    },
-    {
-      "store": "New World",
-      "name": "Zamora Homemade Ltd Chilli Sausages 450g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 13.9,
-      "change": -2.09,
-      "change_pct": -13.1,
-      "unit_type": "ea",
-      "price_per_kg": 30.89
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Farmland Shaved Ham 1kg",
-      "brand": NaN,
-      "old_price": 21.95,
-      "new_price": 19.9,
-      "change": -2.05,
-      "change_pct": -9.3,
-      "unit_type": "ea",
-      "price_per_kg": 19.9
-    },
-    {
-      "store": "New World",
-      "name": "Zamora Homemade Ltd Pork & Sage Sausages 350g",
-      "brand": NaN,
-      "old_price": 14.99,
-      "new_price": 13.9,
-      "change": -1.09,
-      "change_pct": -7.3,
-      "unit_type": "ea",
-      "price_per_kg": 39.71
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Value Pre-Cooked Sausages 60pk",
-      "brand": NaN,
-      "old_price": 31.49,
-      "new_price": 30.99,
-      "change": -0.5,
-      "change_pct": -1.6,
+      "old_price": 14.05,
+      "new_price": 7.99,
+      "change": -6.06,
+      "change_pct": -43.1,
       "unit_type": "ea",
       "price_per_kg": NaN
     },
     {
       "store": "PAK'nSAVE",
-      "name": "Hellers Shaved Manuka Smoked Ham 200g",
+      "name": "Waitoa Whole Chicken with Garden Herbs Stuffing 1.5kg",
       "brand": NaN,
-      "old_price": 5.39,
-      "new_price": 4.99,
-      "change": -0.4,
-      "change_pct": -7.4,
+      "old_price": 19.99,
+      "new_price": 13.99,
+      "change": -6.0,
+      "change_pct": -30.0,
       "unit_type": "ea",
-      "price_per_kg": 24.95
+      "price_per_kg": 9.33
     },
     {
       "store": "PAK'nSAVE",
-      "name": "Pams Honey Soy Chicken Kebabs 275g",
+      "name": "Chicken Thighs kg",
       "brand": NaN,
-      "old_price": 6.39,
+      "old_price": 11.99,
+      "new_price": 7.79,
+      "change": -4.2,
+      "change_pct": -35.0,
+      "unit_type": "kg",
+      "price_per_kg": 7.79
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Pams Classic Beef Sausages 6 x 75g",
+      "brand": NaN,
+      "old_price": 9.89,
       "new_price": 5.99,
-      "change": -0.4,
-      "change_pct": -6.3,
+      "change": -3.9,
+      "change_pct": -39.4,
       "unit_type": "ea",
-      "price_per_kg": 21.78
+      "price_per_kg": 13.31
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Bulk Chicken Thighs kg",
+      "brand": NaN,
+      "old_price": 10.99,
+      "new_price": 7.79,
+      "change": -3.2,
+      "change_pct": -29.1,
+      "unit_type": "kg",
+      "price_per_kg": 7.79
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "PrePacked Tarakihi Fillets kg",
+      "brand": NaN,
+      "old_price": 39.99,
+      "new_price": 38.99,
+      "change": -1.0,
+      "change_pct": -2.5,
+      "unit_type": "kg",
+      "price_per_kg": 38.99
     }
   ],
   "price_increases": [
     {
       "store": "PAK'nSAVE",
-      "name": "Farmland Bacon Bones kg",
+      "name": "Waitoa Fresh Whole Chicken Bag kg",
       "brand": NaN,
-      "old_price": 9.79,
+      "old_price": 8.99,
       "new_price": 11.99,
-      "change": 2.2,
-      "change_pct": 22.5,
+      "change": 3.0,
+      "change_pct": 33.4,
       "unit_type": "kg",
       "price_per_kg": 11.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Waitoa Manuka Honey & Rosemary Chicken 1.1kg",
-      "brand": NaN,
-      "old_price": 13.49,
-      "new_price": 14.99,
-      "change": 1.5,
-      "change_pct": 11.1,
-      "unit_type": "ea",
-      "price_per_kg": 13.63
-    },
-    {
-      "store": "New World",
-      "name": "Tonzu Organic Tempeh 250g",
-      "brand": NaN,
-      "old_price": 7.99,
-      "new_price": 9.19,
-      "change": 1.2,
-      "change_pct": 15.0,
-      "unit_type": "ea",
-      "price_per_kg": 3.68
-    },
-    {
-      "store": "New World",
-      "name": "Tonzu Organic Smoky Horopito Plant-Based Chunky Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 10.39,
-      "change": 0.9,
-      "change_pct": 9.5,
-      "unit_type": "ea",
-      "price_per_kg": 3.46
-    },
-    {
-      "store": "New World",
-      "name": "Tonzu Organic Smokey BBQ Plant-Based Patties 300g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 10.39,
-      "change": 0.9,
-      "change_pct": 9.5,
-      "unit_type": "ea",
-      "price_per_kg": 3.46
-    },
-    {
-      "store": "New World",
-      "name": "Tonzu Organic Italian Herb Plant Based Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 10.39,
-      "change": 0.9,
-      "change_pct": 9.5,
-      "unit_type": "ea",
-      "price_per_kg": 3.46
-    },
-    {
-      "store": "New World",
-      "name": "Tonzu Organic Sage & Onion Plant-Based Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 10.39,
-      "change": 0.9,
-      "change_pct": 9.5,
-      "unit_type": "ea",
-      "price_per_kg": 3.46
-    },
-    {
-      "store": "New World",
-      "name": "Tonzu Organic Garlic & Chilli Plant-Based Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 10.39,
-      "change": 0.9,
-      "change_pct": 9.5,
-      "unit_type": "ea",
-      "price_per_kg": 3.46
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tonzu Organic Italian Herb Plant Based Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.29,
-      "new_price": 9.89,
-      "change": 0.6,
-      "change_pct": 6.5,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tonzu Organic Smoky Horopito Plant-Based Chunky Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.29,
-      "new_price": 9.89,
-      "change": 0.6,
-      "change_pct": 6.5,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tonzu Organic Smokey BBQ Plant-Based Patties 300g",
-      "brand": NaN,
-      "old_price": 9.29,
-      "new_price": 9.89,
-      "change": 0.6,
-      "change_pct": 6.5,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tonzu Organic Garlic & Chilli Plant-Based Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.29,
-      "new_price": 9.89,
-      "change": 0.6,
-      "change_pct": 6.5,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tonzu Organic Sage & Onion Plant-Based Sausages 300g",
-      "brand": NaN,
-      "old_price": 9.29,
-      "new_price": 9.89,
-      "change": 0.6,
-      "change_pct": 6.5,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tonzu Organic Tempeh 250g",
-      "brand": NaN,
-      "old_price": 7.99,
-      "new_price": 8.49,
-      "change": 0.5,
-      "change_pct": 6.3,
-      "unit_type": "ea",
-      "price_per_kg": NaN
     }
   ],
   "new_products": [
     {
-      "store": "Woolworths",
-      "name": "Woolworths Lamb Leg Frozen Bone In Min Order 3kg",
-      "brand": "Woolworths",
-      "price": 22.95,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Hellers NZ Continental Carve Ham kg",
-      "brand": NaN,
-      "price": 32.9,
-      "unit_type": "kg"
-    },
-    {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Cheese Crumb Chicken Schnitzel 300g",
-      "brand": NaN,
-      "price": 9.29,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Farmland Beef Thin Sliced Roast 100g",
-      "brand": NaN,
-      "price": 7.59,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Farmland Beef Thin Sliced Hot 100g",
-      "brand": NaN,
-      "price": 7.59,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Beef Tenderised Steak Min Order 500g",
-      "brand": "Woolworths",
-      "price": 33.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Picanha Beef Rump Roast kg",
-      "brand": NaN,
-      "price": 34.99,
-      "unit_type": "kg"
-    },
-    {
-      "store": "New World",
-      "name": "Farmland Thin Sliced Hot Pork 100g",
-      "brand": NaN,
-      "price": 7.59,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Farmland Silverside Thin Sliced Corned 100g",
-      "brand": NaN,
-      "price": 7.59,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Rosemary Ciabatta Crumb Chicken Schnitzel 300g",
-      "brand": NaN,
-      "price": 9.29,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Shaved Honey Baked Ham 200g",
-      "brand": NaN,
-      "price": 7.05,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Tegel BBQ Drums Cooked kg",
-      "brand": NaN,
-      "price": 19.9,
-      "unit_type": "kg"
-    },
-    {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Dukkah Crumb Chicken Tenders 300g",
-      "brand": NaN,
-      "price": 9.29,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Coconut & Lemongrass Crumb Chicken Tenders 300g",
-      "brand": NaN,
-      "price": 9.29,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Farmland Pastrami Thin Sliced Beef 100g",
-      "brand": NaN,
-      "price": 7.59,
-      "unit_type": "ea"
-    }
-  ],
-  "dropped_products": [
-    {
-      "store": "New World",
-      "name": "Bird & Barrow Free Range Chicken Breast Coconut & Lemongrass Kebabs 5pk",
-      "brand": NaN,
-      "price": 10.99
-    },
-    {
-      "store": "Woolworths",
-      "name": "Bostocks Organic Chicken Thighs 450g",
-      "brand": NaN,
-      "price": 17.9
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Crumbed Fish Fingers 800g",
-      "brand": NaN,
-      "price": 10.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Silver Fern Farms New Zealand Grass-Fed Beef Medallions 400g",
-      "brand": NaN,
-      "price": 20.15
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Craft Shredded Kentucky Chicken 250g",
-      "brand": NaN,
-      "price": 12.65
-    },
-    {
       "store": "New World",
       "name": "Sea Cuisine Sweet Thai Chilli Prawn Skewers 400g",
       "brand": NaN,
-      "price": 17.79
+      "price": 17.79,
+      "unit_type": "ea"
     },
     {
       "store": "PAK'nSAVE",
-      "name": "Hellers New Yorker Porker Mini Bites 70g",
+      "name": "Lets Eat Plant-Based Burger Patties 400g",
       "brand": NaN,
-      "price": 2.99
-    },
-    {
-      "store": "Woolworths",
-      "name": "Let's Eat Plant Based Southern Style Bites 400g",
-      "brand": NaN,
-      "price": 10.0
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Lamb Leg Frozen Bone In 2.5 - 3.5kg",
-      "brand": "Woolworths",
-      "price": 22.95
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Crumbed Whiting Fish 600g",
-      "brand": NaN,
-      "price": 10.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Beef Topside Roast kg",
-      "brand": NaN,
-      "price": 25.99
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Lamb Leg Butterflied 400g",
-      "brand": "Woolworths",
-      "price": 23.95
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Pams Classic Crumb Fish Fillets 480g",
-      "brand": NaN,
-      "price": 6.75
+      "price": 12.89,
+      "unit_type": "ea"
     },
     {
       "store": "New World",
       "name": "Hellers NZ Free Farmed Shaved Champagne Ham 100g",
       "brand": NaN,
-      "price": 5.29
+      "price": 5.29,
+      "unit_type": "ea"
     },
     {
       "store": "New World",
-      "name": "Bird & Barrow Free Range Chicken Breast Manuka Honey & Soy Kebabs 5pk",
+      "name": "United Fish Co New Zealand Hoki Wedges Crumbed Fillets 1kg",
       "brand": NaN,
-      "price": 10.99
+      "price": 19.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Silver Fern Farms New Zealand Grass-Fed Beef Medallions 400g",
+      "brand": NaN,
+      "price": 20.15,
+      "unit_type": "ea"
+    }
+  ],
+  "dropped_products": [
+    {
+      "store": "PAK'nSAVE",
+      "name": "Lets Eat Plant-Based Tasty Tenders 400g",
+      "brand": NaN,
+      "price": 12.89
     },
     {
       "store": "New World",
-      "name": "Bird & Barrow Free Range Chicken Breast Satay Kebabs 5pk",
+      "name": "Thomson West Coast Bacon Tennessee Hog (Bourbon) Bacon 250g",
       "brand": NaN,
-      "price": 10.99
+      "price": 8.49
     }
   ]
 }
