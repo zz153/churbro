@@ -1,307 +1,91 @@
 {
-  "generated_at": "2026-07-01T10:03:53.374958",
-  "today": "2026-07-01",
-  "compared_to": "2026-06-30",
+  "generated_at": "2026-07-02T08:14:50.842557",
+  "today": "2026-07-02",
+  "compared_to": "2026-07-01",
   "summary": {
-    "price_drops": 15,
-    "price_increases": 3,
-    "new_products": 6,
-    "dropped_products": 8
+    "price_drops": 0,
+    "price_increases": 0,
+    "new_products": 8,
+    "dropped_products": 3
   },
-  "price_drops": [
-    {
-      "store": "PAK'nSAVE",
-      "name": "Waitoa Free Range Boneless Skinless Chicken Breasts kg",
-      "brand": NaN,
-      "old_price": 25.29,
-      "new_price": 17.99,
-      "change": -7.3,
-      "change_pct": -28.9,
-      "unit_type": "kg",
-      "price_per_kg": 17.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Point End Brisket Slices kg",
-      "brand": NaN,
-      "old_price": 27.99,
-      "new_price": 22.99,
-      "change": -5.0,
-      "change_pct": -17.9,
-      "unit_type": "ea",
-      "price_per_kg": 22.99
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Oven Ready Sage & Onion Roast Fresh Chicken 1.5kg",
-      "brand": NaN,
-      "old_price": 16.99,
-      "new_price": 12.79,
-      "change": -4.2,
-      "change_pct": -24.7,
-      "unit_type": "ea",
-      "price_per_kg": 8.53
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Oven Ready Homestyle Fresh Chicken 1.5kg",
-      "brand": NaN,
-      "old_price": 16.99,
-      "new_price": 12.79,
-      "change": -4.2,
-      "change_pct": -24.7,
-      "unit_type": "ea",
-      "price_per_kg": 8.53
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Ingham's Butterfly Chicken Tandoori 1.1kg",
-      "brand": NaN,
-      "old_price": 12.29,
-      "new_price": 8.99,
-      "change": -3.3,
-      "change_pct": -26.9,
-      "unit_type": "ea",
-      "price_per_kg": 8.17
-    },
-    {
-      "store": "New World",
-      "name": "NZ Pork Shoulder Chops kg",
-      "brand": NaN,
-      "old_price": 13.49,
-      "new_price": 10.99,
-      "change": -2.5,
-      "change_pct": -18.5,
-      "unit_type": "kg",
-      "price_per_kg": 10.99
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Manuka Smoked Streaky Bacon 400g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 8.49,
-      "change": -1.5,
-      "change_pct": -15.0,
-      "unit_type": "ea",
-      "price_per_kg": 21.23
-    },
-    {
-      "store": "New World",
-      "name": "United Fish Co Formed Crumbed Calamari Rings 500g",
-      "brand": NaN,
-      "old_price": 7.49,
-      "new_price": 5.99,
-      "change": -1.5,
-      "change_pct": -20.0,
-      "unit_type": "ea",
-      "price_per_kg": 11.98
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Louisiana Style Free Range Chicken Nibbles 750g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 11.72
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Nashville Style Free Range Chicken Burgers 600g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 14.65
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Louisiana Style Free Range Chicken Tenders 500g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 17.58
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Louisiana Style Free Range Chicken Burgers 600g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 14.65
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Nashville Style Free Range Chicken Nibbles 750g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 11.72
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Nashville Style Free Range Chicken Tenders 500g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 17.58
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Take Outs Nashville Style Free Range Chicken Poppers 650g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 8.79,
-      "change": -1.0,
-      "change_pct": -10.2,
-      "unit_type": "ea",
-      "price_per_kg": 13.52
-    }
-  ],
-  "price_increases": [
-    {
-      "store": "New World",
-      "name": "Ghiotti Salame Milano 70g",
-      "brand": NaN,
-      "old_price": 6.99,
-      "new_price": 8.99,
-      "change": 2.0,
-      "change_pct": 28.6,
-      "unit_type": "ea",
-      "price_per_kg": 128.43
-    },
-    {
-      "store": "New World",
-      "name": "Ghiotti Soppressa Veneta 70g",
-      "brand": NaN,
-      "old_price": 6.99,
-      "new_price": 8.99,
-      "change": 2.0,
-      "change_pct": 28.6,
-      "unit_type": "ea",
-      "price_per_kg": 128.43
-    },
-    {
-      "store": "New World",
-      "name": "Ghiotti Chorizo Extra 70g",
-      "brand": NaN,
-      "old_price": 6.99,
-      "new_price": 8.99,
-      "change": 2.0,
-      "change_pct": 28.6,
-      "unit_type": "ea",
-      "price_per_kg": 128.43
-    }
-  ],
+  "price_drops": [],
+  "price_increases": [],
   "new_products": [
     {
       "store": "Woolworths",
-      "name": "Shore Mariner Marinara Mix 300g",
+      "name": "Angel Bay Burger Patties Gourmet Lamb 6pack 720g",
       "brand": NaN,
-      "price": 8.0,
+      "price": 18.04,
       "unit_type": "ea"
     },
     {
       "store": "Woolworths",
-      "name": "United Fish Co Sardines Whole 1kg Pack",
-      "brand": NaN,
-      "price": 9.9,
-      "unit_type": "ea"
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Craft Shredded Kentucky Chicken 250g",
-      "brand": NaN,
-      "price": 12.65,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Surimi Mix Prepacked 1kg",
-      "brand": "Woolworths",
-      "price": 9.4,
-      "unit_type": "ea"
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Mussel Meat 300g",
-      "brand": NaN,
-      "price": 7.69,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Leader Fish Bites Chilli Lime 400g",
+      "name": "Leader Fish Bites Tandoori 400g",
       "brand": NaN,
       "price": 7.0,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Quorn Vegetarian Meal Meat & Soy Free Mince Frozen 300g",
+      "brand": NaN,
+      "price": 10.8,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Dannys Falafel Frozen 250g",
+      "brand": NaN,
+      "price": 10.49,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Bostocks Organic Chicken Thighs 450g",
+      "brand": NaN,
+      "price": 17.9,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Leader Rosti Kumara 420g",
+      "brand": NaN,
+      "price": 6.5,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Let's Eat Plant Based Tasty Tenders 400g",
+      "brand": NaN,
+      "price": 11.5,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Frys Vegetarian Burgers Meat Free Chicken Style 4pack 320g",
+      "brand": NaN,
+      "price": 7.9,
       "unit_type": "ea"
     }
   ],
   "dropped_products": [
     {
-      "store": "PAK'nSAVE",
-      "name": "Pams Crispy Batter Fish Fillets 480g",
-      "brand": NaN,
-      "price": 6.75
-    },
-    {
       "store": "New World",
-      "name": "Lets Eat Plant-Based Tasty Tenders 400g",
-      "brand": NaN,
-      "price": 13.89
-    },
-    {
-      "store": "New World",
-      "name": "Captains Choice Crumbed Fish Portions 710g",
-      "brand": NaN,
-      "price": 9.79
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Shaved Manuka Smoked Ham 200g",
-      "brand": NaN,
-      "price": 2.99
-    },
-    {
-      "store": "New World",
-      "name": "Fry's Plant-Based Vegan Steak-style Strips 250g",
+      "name": "Fry's Plant-Based Vegan Smoked Hot Dogs 240g",
       "brand": NaN,
       "price": 11.19
     },
     {
-      "store": "New World",
-      "name": "First Light Flat Iron Wagyu Beef Steak 250g",
+      "store": "PAK'nSAVE",
+      "name": "Fry's Plant-Based Vegan Smoked Hot Dogs 240g",
       "brand": NaN,
-      "price": 11.99
+      "price": 10.89
     },
     {
       "store": "PAK'nSAVE",
-      "name": "Shore Mariner Crumbed Formed Squid Rings 1kg",
+      "name": "Fry's Plant-Based Vegan Homestyle Chick'n Burgers 320g",
       "brand": NaN,
-      "price": 17.89
-    },
-    {
-      "store": "New World",
-      "name": "Beard Brothers Inspired Pork & Leek Sausages 500g",
-      "brand": NaN,
-      "price": 12.49
+      "price": 10.89
     }
   ]
 }
