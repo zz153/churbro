@@ -1,37 +1,394 @@
 {
-  "generated_at": "2026-07-16T15:12:02.974231",
-  "today": "2026-07-16",
+  "generated_at": "2026-07-17T08:59:30.024148",
+  "today": "2026-07-17",
   "compared_to": "2026-07-16",
   "summary": {
-    "price_drops": 0,
-    "price_increases": 0,
-    "new_products": 3,
-    "dropped_products": 0
+    "price_drops": 1,
+    "price_increases": 9,
+    "new_products": 19,
+    "dropped_products": 22
   },
-  "price_drops": [],
-  "price_increases": [],
-  "new_products": [
+  "price_drops": [
     {
       "store": "PAK'nSAVE",
-      "name": "Shore Mariner Mussel Meat 300g",
+      "name": "Lamb Steak kg",
       "brand": NaN,
-      "price": 7.49,
+      "old_price": 35.49,
+      "new_price": 29.99,
+      "change": -5.5,
+      "change_pct": -15.5,
+      "unit_type": "kg",
+      "price_per_kg": 29.99
+    }
+  ],
+  "price_increases": [
+    {
+      "store": "PAK'nSAVE",
+      "name": "Beehive Streaky Bacon 800g",
+      "brand": NaN,
+      "old_price": 12.99,
+      "new_price": 20.89,
+      "change": 7.9,
+      "change_pct": 60.8,
+      "unit_type": "ea",
+      "price_per_kg": 26.11
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Lamb Loin Chops kg",
+      "brand": NaN,
+      "old_price": 23.99,
+      "new_price": 28.99,
+      "change": 5.0,
+      "change_pct": 20.8,
+      "unit_type": "kg",
+      "price_per_kg": 25.99
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Bulk Lamb Loin Chops kg",
+      "brand": NaN,
+      "old_price": 23.99,
+      "new_price": 25.99,
+      "change": 2.0,
+      "change_pct": 8.3,
+      "unit_type": "kg",
+      "price_per_kg": 25.99
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Fresh NZ Warehou Blue Fillet kg",
+      "brand": NaN,
+      "old_price": 26.99,
+      "new_price": 27.99,
+      "change": 1.0,
+      "change_pct": 3.7,
+      "unit_type": "ea",
+      "price_per_kg": 27.99
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Pams Crumbed Fish Fingers 500g",
+      "brand": NaN,
+      "old_price": 7.55,
+      "new_price": 7.65,
+      "change": 0.1,
+      "change_pct": 1.3,
+      "unit_type": "ea",
+      "price_per_kg": 15.3
+    },
+    {
+      "store": "New World",
+      "name": "Pams Crumbed Fish Fingers 500g",
+      "brand": NaN,
+      "old_price": 7.79,
+      "new_price": 7.89,
+      "change": 0.1,
+      "change_pct": 1.3,
+      "unit_type": "ea",
+      "price_per_kg": 15.78
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Pams Classic Crumb Fish Fillets 480g",
+      "brand": NaN,
+      "old_price": 6.75,
+      "new_price": 6.85,
+      "change": 0.1,
+      "change_pct": 1.5,
+      "unit_type": "ea",
+      "price_per_kg": 14.27
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Pams Lemon Pepper Crumb Fish Fillets 480g",
+      "brand": NaN,
+      "old_price": 6.75,
+      "new_price": 6.85,
+      "change": 0.1,
+      "change_pct": 1.5,
+      "unit_type": "ea",
+      "price_per_kg": 14.27
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Pams Crispy Batter Fish Fillets 480g",
+      "brand": NaN,
+      "old_price": 6.75,
+      "new_price": 6.85,
+      "change": 0.1,
+      "change_pct": 1.5,
+      "unit_type": "ea",
+      "price_per_kg": 14.27
+    }
+  ],
+  "new_products": [
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Sirloin Steak 1 Piece Min Order 225g",
+      "brand": "Woolworths",
+      "price": 41.99,
       "unit_type": "ea"
     },
     {
       "store": "Woolworths",
-      "name": "Inghams Chicken Whole Each 1.5kg",
-      "brand": NaN,
-      "price": 14.9,
+      "name": "Woolworths Chicken Thighs Bone In Skin On Medium Tray Min Order 505g",
+      "brand": "Woolworths",
+      "price": 12.7,
       "unit_type": "ea"
     },
     {
       "store": "Woolworths",
-      "name": "Bostocks Chicken Whole Organic 1.5kg",
+      "name": "Macro Free Range Chicken Drumsticks Tray Min Order 650g",
       "brand": NaN,
-      "price": 29.4,
+      "price": 12.4,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Bbq Pork Ribs Craft Beer Glazed Min Order 1kg",
+      "brand": NaN,
+      "price": 22.0,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Breast Skin On Bulk Pack Min Order 1.2kg",
+      "brand": "Woolworths",
+      "price": 12.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Feet Medium Tray Min Order 365g",
+      "brand": "Woolworths",
+      "price": 7.0,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Beef Corned Silverside Min Order 1.1kg",
+      "brand": "Woolworths",
+      "price": 15.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Breast Skinless Boneless NZ Min Order 600g",
+      "brand": "Woolworths",
+      "price": 16.3,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Lamb Shoulder Chops Oriental Mint Min Order 800g",
+      "brand": "Woolworths",
+      "price": 17.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Pork Ribs Hickory Bbq Per Kg",
+      "brand": NaN,
+      "price": 22.0,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Breast Skinless & Boneless Min Order 800g",
+      "brand": "Woolworths",
+      "price": 16.3,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Legs Whole NZ Large Tray Min Order 1.55kg",
+      "brand": "Woolworths",
+      "price": 12.7,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Drumsticks NZ Small Tray Min Order 1.2kg",
+      "brand": "Woolworths",
+      "price": 7.3,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Tenderloins Small Tray Min Order 460g",
+      "brand": "Woolworths",
+      "price": 23.7,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Cook NZ Chicken Nibbles Buffalo Min Order 400g",
+      "brand": "Woolworths",
+      "price": 15.3,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Pork Ribs Chinese Bbq Per Kg",
+      "brand": NaN,
+      "price": 22.0,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Cook NZ Chicken Nibbles Sweet Chilli Min Order 550g",
+      "brand": "Woolworths",
+      "price": 15.3,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Wings Medium Tray Min Order 580g",
+      "brand": "Woolworths",
+      "price": 11.65,
+      "unit_type": "ea"
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Nibbles Medium Tray Min Order 625g",
+      "brand": "Woolworths",
+      "price": 13.6,
       "unit_type": "ea"
     }
   ],
-  "dropped_products": []
+  "dropped_products": [
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Legs Whole NZ Large Tray",
+      "brand": "Woolworths",
+      "price": 12.7
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Wings Medium Tray",
+      "brand": "Woolworths",
+      "price": 11.65
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Breast Skin On Bulk Pack",
+      "brand": "Woolworths",
+      "price": 12.99
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Lamb Shoulder Chops Oriental Mint",
+      "brand": "Woolworths",
+      "price": 17.99
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Cook NZ Chicken Nibbles Sweet Chilli",
+      "brand": "Woolworths",
+      "price": 15.3
+    },
+    {
+      "store": "New World",
+      "name": "Hellers Honey Baked Ham Off The Bone 250g",
+      "brand": NaN,
+      "price": 8.49
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Feet Medium Tray",
+      "brand": "Woolworths",
+      "price": 7.0
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Pork Ribs Hickory Bbq Min Order 1kg",
+      "brand": NaN,
+      "price": 22.0
+    },
+    {
+      "store": "Woolworths",
+      "name": "Macro Free Range Chicken Drumsticks Tray",
+      "brand": NaN,
+      "price": 12.4
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Bbq Pork Ribs Craft Beer Glazed",
+      "brand": NaN,
+      "price": 22.0
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Beef Corned Silverside",
+      "brand": "Woolworths",
+      "price": 15.99
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Sirloin Steak 1 Piece",
+      "brand": "Woolworths",
+      "price": 41.99
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Drumsticks NZ Small Tray",
+      "brand": "Woolworths",
+      "price": 7.3
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Nibbles Medium Tray",
+      "brand": "Woolworths",
+      "price": 13.6
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Thighs Bone In Skin On Medium Tray",
+      "brand": "Woolworths",
+      "price": 12.7
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Breast Skinless Boneless NZ",
+      "brand": "Woolworths",
+      "price": 16.3
+    },
+    {
+      "store": "New World",
+      "name": "Plan*t Spicy Chorizo Sausages 275g",
+      "brand": NaN,
+      "price": 11.95
+    },
+    {
+      "store": "PAK'nSAVE",
+      "name": "Shore Mariner Whole Round Scad (8-10 per bag) 800g",
+      "brand": NaN,
+      "price": 7.19
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Breast Skinless & Boneless Large Tray",
+      "brand": "Woolworths",
+      "price": 16.3
+    },
+    {
+      "store": "Woolworths",
+      "name": "Beak & Sons Pork Ribs Chinese Bbq Min Order 1kg",
+      "brand": NaN,
+      "price": 22.0
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Cook NZ Chicken Nibbles Buffalo",
+      "brand": "Woolworths",
+      "price": 15.3
+    },
+    {
+      "store": "Woolworths",
+      "name": "Woolworths Chicken Tenderloins Small Tray",
+      "brand": "Woolworths",
+      "price": 23.7
+    }
+  ]
 }
