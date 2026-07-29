@@ -1,1733 +1,889 @@
 {
-  "generated_at": "2026-07-28T17:47:15.984380",
-  "today": "2026-07-28",
-  "compared_to": "2026-07-19",
+  "generated_at": "2026-07-29T14:58:09.783425",
+  "today": "2026-07-29",
+  "compared_to": "2026-07-28",
   "summary": {
-    "price_drops": 323,
-    "price_increases": 335,
-    "new_products": 336,
-    "dropped_products": 44
+    "price_drops": 10,
+    "price_increases": 10,
+    "new_products": 126,
+    "dropped_products": 249
   },
   "price_drops": [
     {
       "store": "New World",
-      "name": "Pork Sirloin Steak kg",
+      "name": "NZ Lamb Leg Chops kg",
       "brand": NaN,
-      "old_price": 29.99,
-      "new_price": 21.99,
+      "old_price": 32.99,
+      "new_price": 24.99,
       "change": -8.0,
-      "change_pct": -26.7,
+      "change_pct": -24.2,
       "unit_type": "kg",
-      "price_per_kg": 21.99
+      "price_per_kg": 24.99
     },
     {
       "store": "New World",
-      "name": "Tegel Free Range Crumbed Chicken Nuggets 900g",
+      "name": "Stir Fry Pork kg",
       "brand": NaN,
-      "old_price": 16.99,
-      "new_price": 9.79,
-      "change": -7.2,
-      "change_pct": -42.4,
-      "unit_type": "ea",
-      "price_per_kg": 10.88
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Tempura Battered Chicken Nuggets 900g",
-      "brand": NaN,
-      "old_price": 16.99,
-      "new_price": 9.79,
-      "change": -7.2,
-      "change_pct": -42.4,
-      "unit_type": "ea",
-      "price_per_kg": 10.88
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Beef Porterhouse Steak kg",
-      "brand": NaN,
-      "old_price": 41.49,
-      "new_price": 34.79,
-      "change": -6.7,
-      "change_pct": -16.1,
-      "unit_type": "kg",
-      "price_per_kg": 34.79
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tasmania Bone Out Salmon Fillet kg",
-      "brand": NaN,
-      "old_price": 63.99,
-      "new_price": 57.99,
-      "change": -6.0,
-      "change_pct": -9.4,
-      "unit_type": "ea",
-      "price_per_kg": 57.99
-    },
-    {
-      "store": "New World",
-      "name": "Beak & Sons Tender & Smoky Apple BBQ Pulled Pork 600g",
-      "brand": NaN,
-      "old_price": 27.85,
-      "new_price": 21.99,
-      "change": -5.86,
-      "change_pct": -21.0,
-      "unit_type": "ea",
-      "price_per_kg": 36.65
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Bulk Porterhouse Steak kg",
-      "brand": NaN,
-      "old_price": 40.49,
-      "new_price": 34.79,
-      "change": -5.7,
-      "change_pct": -14.1,
-      "unit_type": "kg",
-      "price_per_kg": 34.79
-    },
-    {
-      "store": "New World",
-      "name": "Beehive Streaky Bacon 800g",
-      "brand": NaN,
-      "old_price": 21.79,
-      "new_price": 16.79,
-      "change": -5.0,
-      "change_pct": -22.9,
-      "unit_type": "ea",
-      "price_per_kg": 20.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Beef Blade Steak kg",
-      "brand": NaN,
-      "old_price": 30.89,
-      "new_price": 25.99,
-      "change": -4.9,
-      "change_pct": -15.9,
-      "unit_type": "kg",
-      "price_per_kg": 25.99
-    },
-    {
-      "store": "New World",
-      "name": "NZ Beef Topside Steak kg",
-      "brand": NaN,
-      "old_price": 28.49,
-      "new_price": 23.99,
-      "change": -4.5,
-      "change_pct": -15.8,
-      "unit_type": "kg",
-      "price_per_kg": 23.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Beehive Streaky Bacon 800g",
-      "brand": NaN,
-      "old_price": 20.89,
-      "new_price": 16.49,
-      "change": -4.4,
-      "change_pct": -21.1,
-      "unit_type": "ea",
-      "price_per_kg": 20.61
-    },
-    {
-      "store": "New World",
-      "name": "Freedom Farms Streaky Bacon 250g",
-      "brand": NaN,
-      "old_price": 16.69,
-      "new_price": 12.49,
-      "change": -4.2,
-      "change_pct": -25.2,
-      "unit_type": "ea",
-      "price_per_kg": 49.96
-    },
-    {
-      "store": "New World",
-      "name": "Regal Cold Smoked Salmon 200g",
-      "brand": NaN,
-      "old_price": 24.09,
-      "new_price": 19.99,
-      "change": -4.1,
-      "change_pct": -17.0,
-      "unit_type": "ea",
-      "price_per_kg": 99.95
-    },
-    {
-      "store": "New World",
-      "name": "Regal Manuka Smoked Salmon 200g",
-      "brand": NaN,
-      "old_price": 24.09,
-      "new_price": 19.99,
-      "change": -4.1,
-      "change_pct": -17.0,
-      "unit_type": "ea",
-      "price_per_kg": 99.95
-    },
-    {
-      "store": "New World",
-      "name": "Lamb Shoulder Chops kg",
-      "brand": NaN,
-      "old_price": 23.99,
-      "new_price": 19.99,
+      "old_price": 26.99,
+      "new_price": 22.99,
       "change": -4.0,
-      "change_pct": -16.7,
+      "change_pct": -14.8,
       "unit_type": "kg",
-      "price_per_kg": 19.99
+      "price_per_kg": 22.99
     },
     {
       "store": "New World",
-      "name": "Waitoa Whole Chicken with Garden Herbs Stuffing 1.5kg",
+      "name": "Bostock Brothers 100% Certified Organic Free Range Chicken Livers 400g",
       "brand": NaN,
-      "old_price": 21.49,
-      "new_price": 17.49,
-      "change": -4.0,
-      "change_pct": -18.6,
+      "old_price": 9.99,
+      "new_price": 6.99,
+      "change": -3.0,
+      "change_pct": -30.0,
       "unit_type": "ea",
-      "price_per_kg": 11.66
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Shore Mariner Raw Vannamei 21/25 Prawn Cutlets 1kg",
-      "brand": NaN,
-      "old_price": 33.99,
-      "new_price": 29.99,
-      "change": -4.0,
-      "change_pct": -11.8,
-      "unit_type": "ea",
-      "price_per_kg": 29.99
+      "price_per_kg": 17.48
     },
     {
       "store": "New World",
-      "name": "Shore Mariner Panko Crumbed Scallop Bites 375g",
+      "name": "Casa Modena Pork Shank 650g",
       "brand": NaN,
-      "old_price": 14.89,
-      "new_price": 10.99,
-      "change": -3.9,
-      "change_pct": -26.2,
+      "old_price": 17.99,
+      "new_price": 15.99,
+      "change": -2.0,
+      "change_pct": -11.1,
       "unit_type": "ea",
-      "price_per_kg": 29.31
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Panko Crumbed Prawn Bites 375g",
-      "brand": NaN,
-      "old_price": 14.89,
-      "new_price": 10.99,
-      "change": -3.9,
-      "change_pct": -26.2,
-      "unit_type": "ea",
-      "price_per_kg": 29.31
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Chicken Legs kg",
-      "brand": NaN,
-      "old_price": 12.19,
-      "new_price": 8.29,
-      "change": -3.9,
-      "change_pct": -32.0,
-      "unit_type": "kg",
-      "price_per_kg": 8.29
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Large Prawn Twisters 300g",
-      "brand": NaN,
-      "old_price": 14.99,
-      "new_price": 11.19,
-      "change": -3.8,
-      "change_pct": -25.4,
-      "unit_type": "ea",
-      "price_per_kg": 37.3
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Trusty BBQ Pre-Cooked Sausages 2kg",
-      "brand": NaN,
-      "old_price": 23.59,
-      "new_price": 19.79,
-      "change": -3.8,
-      "change_pct": -16.1,
-      "unit_type": "ea",
-      "price_per_kg": 9.9
-    },
-    {
-      "store": "New World",
-      "name": "Thigh Cutlets kg",
-      "brand": NaN,
-      "old_price": 17.79,
-      "new_price": 13.99,
-      "change": -3.8,
-      "change_pct": -21.4,
-      "unit_type": "kg",
-      "price_per_kg": 13.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Grandpa's Meat & Bacon Co. Manuka Smoked Streaky Bacon 500g",
-      "brand": NaN,
-      "old_price": 14.99,
-      "new_price": 11.29,
-      "change": -3.7,
-      "change_pct": -24.7,
-      "unit_type": "ea",
-      "price_per_kg": 22.58
-    },
-    {
-      "store": "New World",
-      "name": "Hutton's Streaky Bacon 400g",
-      "brand": NaN,
-      "old_price": 11.65,
-      "new_price": 7.99,
-      "change": -3.66,
-      "change_pct": -31.4,
-      "unit_type": "ea",
-      "price_per_kg": 19.98
-    },
-    {
-      "store": "New World",
-      "name": "Aoraki Smokehouse BBQ & Horopito Dry Rub Hot Smoked Salmon Portion 140g",
-      "brand": NaN,
-      "old_price": 18.99,
-      "new_price": 15.49,
-      "change": -3.5,
-      "change_pct": -18.4,
-      "unit_type": "ea",
-      "price_per_kg": 110.64
-    },
-    {
-      "store": "New World",
-      "name": "Aoraki Smokehouse Pohutukawa Wood Smoked Salmon Portion 140g",
-      "brand": NaN,
-      "old_price": 18.99,
-      "new_price": 15.49,
-      "change": -3.5,
-      "change_pct": -18.4,
-      "unit_type": "ea",
-      "price_per_kg": 110.64
-    },
-    {
-      "store": "New World",
-      "name": "Aoraki Smokehouse Original Artisan Hot Smoked Salmon Portion 140g",
-      "brand": NaN,
-      "old_price": 18.99,
-      "new_price": 15.49,
-      "change": -3.5,
-      "change_pct": -18.4,
-      "unit_type": "ea",
-      "price_per_kg": 110.64
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Bulk Chicken Legs kg",
-      "brand": NaN,
-      "old_price": 11.79,
-      "new_price": 8.29,
-      "change": -3.5,
-      "change_pct": -29.7,
-      "unit_type": "kg",
-      "price_per_kg": 8.29
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Manuka Smoked Chicken Rashers 350g",
-      "brand": NaN,
-      "old_price": 11.95,
-      "new_price": 8.49,
-      "change": -3.46,
-      "change_pct": -29.0,
-      "unit_type": "ea",
-      "price_per_kg": 24.26
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Manuka Smoked Middle Eye Bacon 500g",
-      "brand": NaN,
-      "old_price": 13.89,
-      "new_price": 10.49,
-      "change": -3.4,
-      "change_pct": -24.5,
-      "unit_type": "ea",
-      "price_per_kg": 20.98
+      "price_per_kg": 24.6
     },
     {
       "store": "PAK'nSAVE",
       "name": "Pams Value Precooked Middle Bacon 700g",
       "brand": NaN,
-      "old_price": 14.39,
-      "new_price": 10.99,
-      "change": -3.4,
-      "change_pct": -23.6,
-      "unit_type": "ea",
-      "price_per_kg": 15.7
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Pams Raw Peeled Prawns 300g",
-      "brand": NaN,
-      "old_price": 13.25,
+      "old_price": 10.99,
       "new_price": 9.99,
-      "change": -3.26,
-      "change_pct": -24.6,
+      "change": -1.0,
+      "change_pct": -9.1,
       "unit_type": "ea",
-      "price_per_kg": 33.3
-    },
-    {
-      "store": "New World",
-      "name": "Pams Sage & Onion Stuffed Chicken Oven Ready 1.5kg",
-      "brand": NaN,
-      "old_price": 19.65,
-      "new_price": 16.49,
-      "change": -3.16,
-      "change_pct": -16.1,
-      "unit_type": "ea",
-      "price_per_kg": 10.99
-    },
-    {
-      "store": "New World",
-      "name": "Pams Original Chicken Oven Ready 1.5kg",
-      "brand": NaN,
-      "old_price": 19.65,
-      "new_price": 16.49,
-      "change": -3.16,
-      "change_pct": -16.1,
-      "unit_type": "ea",
-      "price_per_kg": 10.99
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Herb & Garlic Crumb 100% Wild Caught NZ Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
+      "price_per_kg": 14.27
     },
     {
       "store": "PAK'nSAVE",
-      "name": "NZ Cross Cut Beef Blade Steak kg",
-      "brand": NaN,
-      "old_price": 26.99,
-      "new_price": 23.99,
-      "change": -3.0,
-      "change_pct": -11.1,
-      "unit_type": "kg",
-      "price_per_kg": 23.99
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Original Crumb 100% Wild Caught NZ Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Beer Battered 100% Wild Caught NZ Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Lightly Battered 100% Wild Caught NZ Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Tempura Battered 100% Wild Caught Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
-    },
-    {
-      "store": "New World",
-      "name": "Grandpa's Meat & Bacon Co. Manuka Smoked Streaky Bacon 250g",
-      "brand": NaN,
-      "old_price": 8.99,
-      "new_price": 5.99,
-      "change": -3.0,
-      "change_pct": -33.4,
-      "unit_type": "ea",
-      "price_per_kg": 23.96
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Farmland Shaved Ham Medium Pre-Packed kg",
-      "brand": NaN,
-      "old_price": 23.9,
-      "new_price": 20.9,
-      "change": -3.0,
-      "change_pct": -12.6,
-      "unit_type": "kg",
-      "price_per_kg": 20.9
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Shore Mariner Raw Half Cut Swimmer Crab Grade 3L 1kg",
-      "brand": NaN,
-      "old_price": 30.99,
-      "new_price": 27.99,
-      "change": -3.0,
-      "change_pct": -9.7,
-      "unit_type": "ea",
-      "price_per_kg": 27.99
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Lemon Crumb 100% Wild Caught NZ Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
-    },
-    {
-      "store": "Woolworths",
-      "name": "Ocean Pearl Prawns Whole Raw Banana Frozen 800g",
-      "brand": NaN,
-      "old_price": 30.0,
-      "new_price": 27.0,
-      "change": -3.0,
-      "change_pct": -10.0,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "New World",
-      "name": "United Fish Co Formed Crumbed Calamari Rings 500g",
+      "name": "Hobson's Value Shoulder Bacon 1kg",
       "brand": NaN,
       "old_price": 10.99,
-      "new_price": 7.99,
-      "change": -3.0,
-      "change_pct": -27.3,
-      "unit_type": "ea",
-      "price_per_kg": 15.98
-    },
-    {
-      "store": "New World",
-      "name": "Birds Eye Oven Bake Lemon Pepper Crumb 100% Wild Caught NZ Hoki Fillets 425g",
-      "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 6.99,
-      "change": -3.0,
-      "change_pct": -30.0,
-      "unit_type": "ea",
-      "price_per_kg": 16.45
-    },
-    {
-      "store": "New World",
-      "name": "NZ Premium Beef Mince kg",
-      "brand": NaN,
-      "old_price": 30.99,
-      "new_price": 27.99,
-      "change": -3.0,
-      "change_pct": -9.7,
-      "unit_type": "kg",
-      "price_per_kg": 27.99
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Craft Shredded Kentucky Chicken 250g",
-      "brand": NaN,
-      "old_price": 12.89,
       "new_price": 9.99,
-      "change": -2.9,
-      "change_pct": -22.5,
+      "change": -1.0,
+      "change_pct": -9.1,
       "unit_type": "ea",
-      "price_per_kg": 39.96
+      "price_per_kg": 9.99
+    },
+    {
+      "store": "New World",
+      "name": "Lamb Back Straps kg",
+      "brand": NaN,
+      "old_price": 64.99,
+      "new_price": 63.99,
+      "change": -1.0,
+      "change_pct": -1.5,
+      "unit_type": "kg",
+      "price_per_kg": 63.99
+    },
+    {
+      "store": "New World",
+      "name": "De Gustibus Salame Emiliano 70g",
+      "brand": NaN,
+      "old_price": 7.99,
+      "new_price": 6.99,
+      "change": -1.0,
+      "change_pct": -12.5,
+      "unit_type": "ea",
+      "price_per_kg": 99.86
+    },
+    {
+      "store": "New World",
+      "name": "De Gustibus Chorizo 70g",
+      "brand": NaN,
+      "old_price": 7.99,
+      "new_price": 6.99,
+      "change": -1.0,
+      "change_pct": -12.5,
+      "unit_type": "ea",
+      "price_per_kg": 99.86
+    },
+    {
+      "store": "New World",
+      "name": "De Gustibus Crudo Prosciutto 70g",
+      "brand": NaN,
+      "old_price": 8.49,
+      "new_price": 7.99,
+      "change": -0.5,
+      "change_pct": -5.9,
+      "unit_type": "ea",
+      "price_per_kg": 114.14
     }
   ],
   "price_increases": [
     {
-      "store": "PAK'nSAVE",
-      "name": "Waitoa Free Range Boneless Skinless Chicken Thighs kg",
+      "store": "New World",
+      "name": "Tegel Frozen Whole Chicken 950g",
       "brand": NaN,
-      "old_price": 17.99,
-      "new_price": 26.99,
-      "change": 9.0,
-      "change_pct": 50.0,
-      "unit_type": "kg",
-      "price_per_kg": 26.99
+      "old_price": 6.99,
+      "new_price": 10.99,
+      "change": 4.0,
+      "change_pct": 57.2,
+      "unit_type": "ea",
+      "price_per_kg": 11.57
     },
     {
-      "store": "PAK'nSAVE",
-      "name": "Boneless Chicken Thigh Fillets kg",
+      "store": "New World",
+      "name": "Bone Out Salmon Fillets kg",
       "brand": NaN,
-      "old_price": 15.79,
-      "new_price": 24.79,
-      "change": 9.0,
-      "change_pct": 57.0,
+      "old_price": 66.99,
+      "new_price": 69.99,
+      "change": 3.0,
+      "change_pct": 4.5,
       "unit_type": "kg",
-      "price_per_kg": 24.79
+      "price_per_kg": 69.99
     },
     {
-      "store": "PAK'nSAVE",
-      "name": "Waitoa Free Range Boneless Skinless Chicken Breasts kg",
+      "store": "New World",
+      "name": "Ghiotti Soppressa Veneta 70g",
       "brand": NaN,
-      "old_price": 17.99,
-      "new_price": 25.29,
-      "change": 7.3,
-      "change_pct": 40.6,
-      "unit_type": "kg",
-      "price_per_kg": 25.29
+      "old_price": 6.99,
+      "new_price": 8.99,
+      "change": 2.0,
+      "change_pct": 28.6,
+      "unit_type": "ea",
+      "price_per_kg": 128.43
     },
     {
-      "store": "PAK'nSAVE",
-      "name": "Plain Pack Shaved Deli Ham Small Pack kg",
+      "store": "New World",
+      "name": "Ghiotti Chorizo Extra 70g",
       "brand": NaN,
-      "old_price": 12.9,
-      "new_price": 19.9,
-      "change": 7.0,
-      "change_pct": 54.3,
-      "unit_type": "kg",
-      "price_per_kg": 19.9
+      "old_price": 6.99,
+      "new_price": 8.99,
+      "change": 2.0,
+      "change_pct": 28.6,
+      "unit_type": "ea",
+      "price_per_kg": 128.43
     },
     {
-      "store": "PAK'nSAVE",
-      "name": "Plain Pack Shaved Deli Ham Medium Pack kg",
+      "store": "New World",
+      "name": "Ghiotti Salame Milano 70g",
       "brand": NaN,
-      "old_price": 12.9,
-      "new_price": 19.9,
-      "change": 7.0,
-      "change_pct": 54.3,
-      "unit_type": "kg",
-      "price_per_kg": 19.9
+      "old_price": 6.99,
+      "new_price": 8.99,
+      "change": 2.0,
+      "change_pct": 28.6,
+      "unit_type": "ea",
+      "price_per_kg": 128.43
     },
     {
-      "store": "PAK'nSAVE",
-      "name": "Pork Sirloin Steak kg",
+      "store": "New World",
+      "name": "First Light Perfectly Aged Wagyu Beef Ribeye 170g",
       "brand": NaN,
-      "old_price": 24.99,
-      "new_price": 31.79,
-      "change": 6.8,
-      "change_pct": 27.2,
-      "unit_type": "kg",
-      "price_per_kg": 31.79
+      "old_price": 20.99,
+      "new_price": 22.16,
+      "change": 1.17,
+      "change_pct": 5.6,
+      "unit_type": "ea",
+      "price_per_kg": 130.35
+    },
+    {
+      "store": "New World",
+      "name": "Silver Fern Farms Grass-Fed Venison Steaks 220g",
+      "brand": NaN,
+      "old_price": 15.65,
+      "new_price": 16.65,
+      "change": 1.0,
+      "change_pct": 6.4,
+      "unit_type": "ea",
+      "price_per_kg": 75.68
     },
     {
       "store": "New World",
       "name": "NZ Frenched Lamb Rack kg",
       "brand": NaN,
-      "old_price": 56.99,
-      "new_price": 62.99,
-      "change": 6.0,
-      "change_pct": 10.5,
+      "old_price": 62.99,
+      "new_price": 63.99,
+      "change": 1.0,
+      "change_pct": 1.6,
       "unit_type": "kg",
-      "price_per_kg": 62.99
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Panko Chicken Tenders 750g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 15.69,
-      "change": 5.9,
-      "change_pct": 60.3,
-      "unit_type": "ea",
-      "price_per_kg": 20.92
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Southern Style Chicken Tenders 750g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 15.69,
-      "change": 5.9,
-      "change_pct": 60.3,
-      "unit_type": "ea",
-      "price_per_kg": 20.92
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Super Tasty Chicken Bites 750g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 15.69,
-      "change": 5.9,
-      "change_pct": 60.3,
-      "unit_type": "ea",
-      "price_per_kg": 20.92
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Chargrill Chicken Steaks 650g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 15.69,
-      "change": 5.9,
-      "change_pct": 60.3,
-      "unit_type": "ea",
-      "price_per_kg": 24.14
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Crunchy Chicken Burgers 650g",
-      "brand": NaN,
-      "old_price": 9.79,
-      "new_price": 15.69,
-      "change": 5.9,
-      "change_pct": 60.3,
-      "unit_type": "ea",
-      "price_per_kg": 24.14
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Ol' Smokey Streaky Bacon 800g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 21.79,
-      "change": 5.8,
-      "change_pct": 36.3,
-      "unit_type": "ea",
-      "price_per_kg": 27.24
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Honey Cured Streaky Bacon 800g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 21.79,
-      "change": 5.8,
-      "change_pct": 36.3,
-      "unit_type": "ea",
-      "price_per_kg": 27.24
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Manuka Smoked Streaky Bacon 800g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 21.79,
-      "change": 5.8,
-      "change_pct": 36.3,
-      "unit_type": "ea",
-      "price_per_kg": 27.24
-    },
-    {
-      "store": "New World",
-      "name": "Chicken Nibbles kg",
-      "brand": NaN,
-      "old_price": 7.99,
-      "new_price": 13.49,
-      "change": 5.5,
-      "change_pct": 68.8,
-      "unit_type": "kg",
-      "price_per_kg": 13.49
-    },
-    {
-      "store": "New World",
-      "name": "Beak & Sons Mellow & Saucy Smoky Maple Pork Belly 600g",
-      "brand": NaN,
-      "old_price": 21.69,
-      "new_price": 26.89,
-      "change": 5.2,
-      "change_pct": 24.0,
-      "unit_type": "ea",
-      "price_per_kg": 44.82
-    },
-    {
-      "store": "New World",
-      "name": "Angel Bay Premium Angus Beef Patties 720g",
-      "brand": NaN,
-      "old_price": 14.49,
-      "new_price": 19.55,
-      "change": 5.06,
-      "change_pct": 34.9,
-      "unit_type": "ea",
-      "price_per_kg": 27.15
-    },
-    {
-      "store": "New World",
-      "name": "Angel Bay Premium Gluten Free Beef Patties 720g",
-      "brand": NaN,
-      "old_price": 14.49,
-      "new_price": 19.55,
-      "change": 5.06,
-      "change_pct": 34.9,
-      "unit_type": "ea",
-      "price_per_kg": 27.15
-    },
-    {
-      "store": "New World",
-      "name": "Beef Scotch Fillet Steak kg",
-      "brand": NaN,
-      "old_price": 44.99,
-      "new_price": 49.99,
-      "change": 5.0,
-      "change_pct": 11.1,
-      "unit_type": "kg",
-      "price_per_kg": 49.99
-    },
-    {
-      "store": "New World",
-      "name": "Tegel BBQ Drums Cooked kg",
-      "brand": NaN,
-      "old_price": 14.9,
-      "new_price": 19.9,
-      "change": 5.0,
-      "change_pct": 33.6,
-      "unit_type": "kg",
-      "price_per_kg": 19.9
-    },
-    {
-      "store": "New World",
-      "name": "Mega Chicken Nibbles kg",
-      "brand": NaN,
-      "old_price": 7.99,
-      "new_price": 12.99,
-      "change": 5.0,
-      "change_pct": 62.6,
-      "unit_type": "kg",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "New World",
-      "name": "Tegel BBQ Chicken Thighs Cooked kg",
-      "brand": NaN,
-      "old_price": 14.9,
-      "new_price": 19.9,
-      "change": 5.0,
-      "change_pct": 33.6,
-      "unit_type": "kg",
-      "price_per_kg": 19.9
-    },
-    {
-      "store": "New World",
-      "name": "Grandpa's Meat & Bacon Co. Manuka Smoked Streaky Bacon 500g",
-      "brand": NaN,
-      "old_price": 11.49,
-      "new_price": 15.99,
-      "change": 4.5,
-      "change_pct": 39.2,
-      "unit_type": "ea",
-      "price_per_kg": 31.98
-    },
-    {
-      "store": "New World",
-      "name": "Farmland Streaky Bacon 500g",
-      "brand": NaN,
-      "old_price": 13.49,
-      "new_price": 17.89,
-      "change": 4.4,
-      "change_pct": 32.6,
-      "unit_type": "ea",
-      "price_per_kg": 35.78
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Grandpa's Meat & Bacon Co. Manuka Smoked Streaky Bacon 1kg",
-      "brand": NaN,
-      "old_price": 18.79,
-      "new_price": 22.99,
-      "change": 4.2,
-      "change_pct": 22.4,
-      "unit_type": "ea",
-      "price_per_kg": 22.99
-    },
-    {
-      "store": "New World",
-      "name": "Pams Finest Premium Cooked Jumbo Shrimp 500g",
-      "brand": NaN,
-      "old_price": 17.9,
-      "new_price": 21.99,
-      "change": 4.09,
-      "change_pct": 22.8,
-      "unit_type": "ea",
-      "price_per_kg": 43.98
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Farmland Shaved Ham 1kg",
-      "brand": NaN,
-      "old_price": 17.9,
-      "new_price": 21.95,
-      "change": 4.05,
-      "change_pct": 22.6,
-      "unit_type": "ea",
-      "price_per_kg": 21.95
-    },
-    {
-      "store": "New World",
-      "name": "NZ Chicken Legs kg",
-      "brand": NaN,
-      "old_price": 8.99,
-      "new_price": 12.99,
-      "change": 4.0,
-      "change_pct": 44.5,
-      "unit_type": "kg",
-      "price_per_kg": 12.99
-    },
-    {
-      "store": "New World",
-      "name": "NZ Pork Mince kg",
-      "brand": NaN,
-      "old_price": 14.99,
-      "new_price": 18.99,
-      "change": 4.0,
-      "change_pct": 26.7,
-      "unit_type": "kg",
-      "price_per_kg": 18.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Point End Brisket Slices kg",
-      "brand": NaN,
-      "old_price": 23.99,
-      "new_price": 27.99,
-      "change": 4.0,
-      "change_pct": 16.7,
-      "unit_type": "ea",
-      "price_per_kg": 27.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Farmland Sliced Champagne Ham Small Pre-Packed kg",
-      "brand": NaN,
-      "old_price": 25.9,
-      "new_price": 29.9,
-      "change": 4.0,
-      "change_pct": 15.4,
-      "unit_type": "kg",
-      "price_per_kg": 29.9
+      "price_per_kg": 63.99
     },
     {
       "store": "PAK'nSAVE",
       "name": "Waitoa Manuka Honey & Rosemary Chicken 1.1kg",
       "brand": NaN,
-      "old_price": 9.99,
-      "new_price": 13.99,
-      "change": 4.0,
-      "change_pct": 40.0,
-      "unit_type": "ea",
-      "price_per_kg": 12.72
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Pork Baby Back Ribs Frozen Min Order 1kg",
-      "brand": "Woolworths",
-      "old_price": 16.99,
-      "new_price": 20.95,
-      "change": 3.96,
-      "change_pct": 23.3,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "John West Chunk Style Tuna In Olive Oil Blend 12 x 95g",
-      "brand": NaN,
-      "old_price": 15.99,
-      "new_price": 19.89,
-      "change": 3.9,
-      "change_pct": 24.4,
-      "unit_type": "ea",
-      "price_per_kg": 17.45
-    },
-    {
-      "store": "New World",
-      "name": "Leader Pumpkin & Spinach Patties 400g",
-      "brand": NaN,
-      "old_price": 8.99,
-      "new_price": 12.85,
-      "change": 3.86,
-      "change_pct": 42.9,
-      "unit_type": "ea",
-      "price_per_kg": 3.21
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Manuka Smoked Ham 900g",
-      "brand": NaN,
-      "old_price": 14.99,
-      "new_price": 18.85,
-      "change": 3.86,
-      "change_pct": 25.8,
-      "unit_type": "ea",
-      "price_per_kg": 20.94
-    },
-    {
-      "store": "New World",
-      "name": "Leader Mediterranean Style Falafel 425g",
-      "brand": NaN,
-      "old_price": 8.99,
-      "new_price": 12.85,
-      "change": 3.86,
-      "change_pct": 42.9,
-      "unit_type": "ea",
-      "price_per_kg": 3.02
-    },
-    {
-      "store": "New World",
-      "name": "Leader NZ Fish Cakes 12 x 60g",
-      "brand": NaN,
-      "old_price": 8.35,
-      "new_price": 12.05,
-      "change": 3.7,
-      "change_pct": 44.3,
-      "unit_type": "ea",
-      "price_per_kg": 16.74
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Free Range Danish Streaky Bacon 250g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 13.05,
-      "change": 3.56,
-      "change_pct": 37.5,
-      "unit_type": "ea",
-      "price_per_kg": 52.2
-    },
-    {
-      "store": "Woolworths",
-      "name": "Sea Treasure Prawn Whole Cooked Prawns Large 800g",
-      "brand": NaN,
-      "old_price": 29.0,
-      "new_price": 32.5,
-      "change": 3.5,
-      "change_pct": 12.1,
-      "unit_type": "ea",
-      "price_per_kg": NaN
-    },
-    {
-      "store": "New World",
-      "name": "Leader Southern Style Chicken Bites 500g",
-      "brand": NaN,
-      "old_price": 9.39,
-      "new_price": 12.79,
-      "change": 3.4,
-      "change_pct": 36.2,
-      "unit_type": "ea",
-      "price_per_kg": 2.56
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Tegel Free Range Manuka Smoked Chicken Rashers 350g",
-      "brand": NaN,
-      "old_price": 7.99,
-      "new_price": 11.39,
-      "change": 3.4,
-      "change_pct": 42.6,
-      "unit_type": "ea",
-      "price_per_kg": 32.54
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Free Range Danish Eye Bacon 250g",
-      "brand": NaN,
-      "old_price": 9.49,
-      "new_price": 12.85,
-      "change": 3.36,
-      "change_pct": 35.4,
-      "unit_type": "ea",
-      "price_per_kg": 51.4
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Henderson's Manuka Smoked Middle Bacon 500g",
-      "brand": NaN,
-      "old_price": 19.99,
-      "new_price": 23.15,
-      "change": 3.16,
-      "change_pct": 15.8,
-      "unit_type": "ea",
-      "price_per_kg": 46.3
-    },
-    {
-      "store": "New World",
-      "name": "Roast Pork kg",
-      "brand": NaN,
-      "old_price": 39.9,
-      "new_price": 42.9,
-      "change": 3.0,
-      "change_pct": 7.5,
-      "unit_type": "kg",
-      "price_per_kg": 42.9
-    },
-    {
-      "store": "New World",
-      "name": "Ingham's Spicy Chicken Tenders 500g",
-      "brand": NaN,
       "old_price": 13.99,
-      "new_price": 16.99,
-      "change": 3.0,
-      "change_pct": 21.4,
-      "unit_type": "ea",
-      "price_per_kg": 33.98
-    },
-    {
-      "store": "New World",
-      "name": "Shore Mariner Cooked & Peeled Prawns 400g",
-      "brand": NaN,
-      "old_price": 11.99,
       "new_price": 14.99,
-      "change": 3.0,
-      "change_pct": 25.0,
+      "change": 1.0,
+      "change_pct": 7.1,
       "unit_type": "ea",
-      "price_per_kg": 37.48
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Butlers Falafels 1kg",
-      "brand": NaN,
-      "old_price": 16.99,
-      "new_price": 19.99,
-      "change": 3.0,
-      "change_pct": 17.7,
-      "unit_type": "ea",
-      "price_per_kg": NaN
+      "price_per_kg": 13.63
     },
     {
       "store": "New World",
-      "name": "Ingham's Chicken Tenders 500g",
+      "name": "First Light Perfectly Aged Wagyu Beef Porterhouse 170g",
       "brand": NaN,
-      "old_price": 13.99,
-      "new_price": 16.99,
-      "change": 3.0,
-      "change_pct": 21.4,
+      "old_price": 17.99,
+      "new_price": 18.49,
+      "change": 0.5,
+      "change_pct": 2.8,
       "unit_type": "ea",
-      "price_per_kg": 33.98
+      "price_per_kg": 108.76
     }
   ],
   "new_products": [
     {
-      "store": "Woolworths",
-      "name": "Patties Savouries Mini Party Pies 560g 12pack",
+      "store": "New World",
+      "name": "Loose Bacon kg",
       "brand": NaN,
-      "price": 3.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Angel Bay Gourmet Breakfast Beef Sausage Patties 500g",
-      "brand": NaN,
-      "price": 14.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Beef Mince Prime Grass Fed 13% Fat Tray 750g",
-      "brand": "Woolworths",
-      "price": 17.5,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Hellers Burger Patties Mini Beef 300g",
-      "brand": NaN,
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Angel Bay Burger Patties Lite Gourmet Beef 6pack (Part Cooked) 600g",
-      "brand": NaN,
-      "price": 14.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Angus Beef Thick Cut Scotch Min Order 300g",
-      "brand": "Woolworths",
-      "price": 57.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Angus Beef Mince Grass Fed 10% Fat Tray 500g",
-      "brand": "Woolworths",
-      "price": 15.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Silver Fern Farms Beef Medallions 400g",
-      "brand": NaN,
-      "price": 21.35,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Hellers Sausages Classic Jumbo Bratwurst 420g 4pack",
-      "brand": NaN,
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Cook NZ Chicken Kebabs Honey Soy 5pack",
-      "brand": "Woolworths",
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Free Farmed Pork Schnitzel Min Order 400g",
-      "brand": "Woolworths",
-      "price": 24.95,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Beak & Sons Pork Ribs Chinese Bbq Per Kg",
-      "brand": NaN,
-      "price": 24.49,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Lamb Flaps Average 1.3kg",
-      "brand": "Woolworths",
-      "price": 18.95,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Cook NZ Butterflied Chicken Garlic & Herb 1.1kg",
-      "brand": "Woolworths",
-      "price": 13.7,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Auntie Dai Dumplings Pork & Garlic Chives Frozen 600g",
-      "brand": NaN,
-      "price": 5.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Lamb Spare Ribs Min Order 650g",
-      "brand": "Woolworths",
-      "price": 27.9,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Chicken Nibbles Maple Bbq Bag 1kg",
-      "brand": NaN,
-      "price": 12.2,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Value Sausages Precooked Chicken 860g",
-      "brand": "Woolworths",
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Hellers Sausages Precooked Chunky Cheese Prepacked 1kg Pack",
-      "brand": NaN,
-      "price": 14.79,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Sausages Cheese Frankfurters 500g",
-      "brand": "Woolworths",
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Chicken Necks Medium Tray",
-      "brand": "Woolworths",
-      "price": 6.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Lamb Gourmet Hind Shanks Min Order 850g",
-      "brand": "Woolworths",
       "price": 28.99,
-      "unit_type": "ea"
+      "unit_type": "kg"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths Chicken Whole 1.9kg",
-      "brand": "Woolworths",
-      "price": 19.25,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Hellers Ham Boneless Leg Min Order 950g",
+      "store": "New World",
+      "name": "Cured Smokey Jalapeno & Cheese Frankfurters 350g",
       "brand": NaN,
-      "price": 23.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Beak & Sons Beef Casserole Beef & Ale 600g",
-      "brand": NaN,
-      "price": 16.49,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Silver Fern Farms Lamb Rumps 400g",
-      "brand": NaN,
-      "price": 20.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Chicken Legs Whole NZ Large Tray Min Order 1.55kg",
-      "brand": "Woolworths",
-      "price": 12.7,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Pork Spare Ribs Min Order 600g",
-      "brand": "Woolworths",
-      "price": 24.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Waitoa Chicken Burgers Homestyle Free Range 650g",
-      "brand": NaN,
-      "price": 16.5,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Tegel Free Range Chicken Schnitzel Crumbed Gluten Free 400g",
-      "brand": NaN,
-      "price": 9.0,
+      "price": 11.99,
       "unit_type": "ea"
     },
     {
       "store": "New World",
-      "name": "Hellers Manuka Smoked Shoulder Bacon 200g",
+      "name": "Ingham's Spicy Chicken Nibbles 1kg",
       "brand": NaN,
-      "price": 5.39,
+      "price": 21.19,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths Double Smoked Bacon Hocks Min Order 700g",
-      "brand": "Woolworths",
-      "price": 15.9,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Tegel Free Range Chicken Wraps Mexican 4pack",
+      "store": "New World",
+      "name": "Harris Farms Free Farmed Pork Mince MAP 500g",
       "brand": NaN,
-      "price": 12.5,
+      "price": 13.19,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Impossible Plant Based Mince Beef Prepacked 340g",
+      "store": "New World",
+      "name": "Beef Kebabs kg",
       "brand": NaN,
-      "price": 13.95,
-      "unit_type": "ea"
+      "price": 35.99,
+      "unit_type": "kg"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths Angus Beef Thick Cut Eye Fillet Average 200g",
-      "brand": "Woolworths",
-      "price": 72.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Sausages Spicy Chorizo Style 450g Tray 6pack",
-      "brand": "Woolworths",
-      "price": 11.5,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Beef Tenderised Steak Min Order 500g",
-      "brand": "Woolworths",
-      "price": 33.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths Kransky Cheese 480g Tray 6pack",
-      "brand": "Woolworths",
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Sausages Lamb Herb & Garlic 450g Tray 6pack",
-      "brand": "Woolworths",
-      "price": 14.3,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Plan*T Chick*N Prepacked 250g",
+      "store": "New World",
+      "name": "Sea Cuisine Cooked & Peeled Shrimp 1kg",
       "brand": NaN,
-      "price": 10.99,
+      "price": 25.79,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Bostocks Chicken Whole Organic 1.5kg",
+      "store": "New World",
+      "name": "Roast Beef & Mustard Sausages kg",
       "brand": NaN,
-      "price": 30.4,
-      "unit_type": "ea"
+      "price": 21.99,
+      "unit_type": "kg"
     },
     {
-      "store": "Woolworths",
-      "name": "Tegel Take Outs Chicken Burgers Louisiana Style Free Range 4pack",
+      "store": "New World",
+      "name": "Harris Farms Organic Beef Rump SP 235g",
       "brand": NaN,
-      "price": 10.0,
+      "price": 15.19,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Tegel Free Range Breakfast Sausage 10 Pack 250g",
+      "store": "New World",
+      "name": "First Light Wagyu Beef Fillet 150g",
       "brand": NaN,
-      "price": 9.0,
+      "price": 23.29,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Beef Roast Topside Grass Fed 0.8-2.3kg",
-      "brand": "Woolworths",
-      "price": 26.99,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Chicken Pops Southern Style Tray 270g",
-      "brand": "Woolworths",
-      "price": 9.0,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Hellers Sausages London Pride 6pack",
+      "store": "New World",
+      "name": "Primo Smallgoods Spanish Chorizo 200g",
       "brand": NaN,
-      "price": 8.3,
+      "price": 5.49,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "First Light Sausages Wagyu Beef 420g",
+      "store": "New World",
+      "name": "Harris Farms Tomato & Basil Sausages MAP 450g",
+      "brand": NaN,
+      "price": 10.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Harris Farms Traditional Saveloys MAP 480g",
+      "brand": NaN,
+      "price": 10.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Fresh Red Gurnard Fillets kg",
+      "brand": NaN,
+      "price": 49.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Santa Bremor Matias Herring Fillets 250g",
+      "brand": NaN,
+      "price": 8.49,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Pams Finest Fresh New Zealand Duck Legs 500g",
+      "brand": NaN,
+      "price": 17.85,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Tegel Free Range Fresh Chicken Breast Small Fillet kg",
+      "brand": NaN,
+      "price": 25.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Bostock Brothers 100% Certified Organic Free Range Boneless Chicken Thighs 500g",
+      "brand": NaN,
+      "price": 22.65,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Pams Whole Chicken 1.35kg",
+      "brand": NaN,
+      "price": 13.79,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "First Light Flat Iron Wagyu Beef Steak 250g",
+      "brand": NaN,
+      "price": 14.39,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Hellers Classic Pre-Cooked Chicken Sausages 1kg",
+      "brand": NaN,
+      "price": 14.65,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Pams Smokey Beef Sausages 6 x 75g",
+      "brand": NaN,
+      "price": 12.05,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Verkerks Epicurean Gouda Salami 100g",
+      "brand": NaN,
+      "price": 6.79,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Corte Buona Pancetta Flat 80g",
+      "brand": NaN,
+      "price": 8.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Ingham's Butterfly Chicken Tandoori 1.1kg",
       "brand": NaN,
       "price": 13.99,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths NZ Sausages Cheesy Beef 450g Tray 6pack",
-      "brand": "Woolworths",
-      "price": 11.6,
-      "unit_type": "ea"
-    },
-    {
-      "store": "Woolworths",
-      "name": "Angel Bay Burger Patties Gourmet Beef Gluten Free 720g",
+      "store": "New World",
+      "name": "Harris Farms Traditional Beef Sausages MAP 480g",
       "brand": NaN,
-      "price": 14.69,
+      "price": 10.29,
       "unit_type": "ea"
     },
     {
-      "store": "Woolworths",
-      "name": "Woolworths Chicken Wings Medium Tray Min Order 580g",
-      "brand": "Woolworths",
-      "price": 11.65,
+      "store": "New World",
+      "name": "Ghiotti Salchichon 70g",
+      "brand": NaN,
+      "price": 8.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Monkfish Fillets kg",
+      "brand": NaN,
+      "price": 36.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Pams Cracked Pepper Hot Smoked Salmon 150g",
+      "brand": NaN,
+      "price": 15.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Thick Cut Sirloin Steak kg",
+      "brand": NaN,
+      "price": 41.89,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Hellers Pastrami kg",
+      "brand": NaN,
+      "price": 48.06,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Farmland Streaky Bacon 250g",
+      "brand": NaN,
+      "price": 6.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Silver Fern Farms New Zealand Grass-Fed Beef Flat-Iron Steaks 220g",
+      "brand": NaN,
+      "price": 16.65,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Beef Rump Steak Eye Cut kg",
+      "brand": NaN,
+      "price": 41.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "First Light Slow Cooked Soy & Sesame Wagyu Shank 400g",
+      "brand": NaN,
+      "price": 19.25,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Aoraki Smokehouse BBQ & Horopito Dry Rub Hot Smoked Salmon Portion 180g",
+      "brand": NaN,
+      "price": 21.69,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Cured Vension Biersticks 180g",
+      "brand": NaN,
+      "price": 8.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Bostock Brothers 100% Certified Organic Free Range Skinless Chicken Breast 500g",
+      "brand": NaN,
+      "price": 17.89,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Tegel Free Range Fresh Thigh Fillet Chicken kg",
+      "brand": NaN,
+      "price": 28.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Lamb Butterfly Leg Roasts kg",
+      "brand": NaN,
+      "price": 41.49,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Plain Pack Sliced Pepperoni 180g",
+      "brand": NaN,
+      "price": 29.9,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Leader Southern Style Chicken Patties 8 x 85g",
+      "brand": NaN,
+      "price": 16.79,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Merchant of Venison Farmed Venison Mince 500g",
+      "brand": NaN,
+      "price": 13.75,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Bostock Brothers 100% Certified Organic Free Range Chicken Whole Leg Cutlets kg",
+      "brand": NaN,
+      "price": 27.49,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Corte Buona Hot Spianata Salami 80g",
+      "brand": NaN,
+      "price": 8.99,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Santa Bremor Herring Fillets In Oil 260g",
+      "brand": NaN,
+      "price": 8.89,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Harris Farms Chipolatas Sausages MAP 450g",
+      "brand": NaN,
+      "price": 10.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Harris Farms North Canterbury Beef Sliders 300g 300g",
+      "brand": NaN,
+      "price": 10.29,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Point End Wagyu Brisket kg",
+      "brand": NaN,
+      "price": 33.79,
+      "unit_type": "ea"
+    },
+    {
+      "store": "New World",
+      "name": "Fresh Snapper Fillets kg",
+      "brand": NaN,
+      "price": 49.99,
+      "unit_type": "kg"
+    },
+    {
+      "store": "New World",
+      "name": "Hellers Family Franks 1kg",
+      "brand": NaN,
+      "price": 12.49,
       "unit_type": "ea"
     }
   ],
   "dropped_products": [
     {
-      "store": "PAK'nSAVE",
-      "name": "Verkerks Pepperoni kg",
+      "store": "New World",
+      "name": "Premium Game Ltd Venison Leg Medallions 500g",
       "brand": NaN,
-      "price": 36.9
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "NZ Chicken Drumsticks Marinated kg",
-      "brand": NaN,
-      "price": 6.79
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Coke 2.25L",
-      "brand": NaN,
-      "price": 3.79
+      "price": 21.49
     },
     {
       "store": "New World",
-      "name": "Skinless Chicken Breast kg",
+      "name": "Silver Fern Farms Beef and Venison with Chilli and Lime Burgers 500g",
       "brand": NaN,
-      "price": 15.69
+      "price": 13.99
     },
     {
       "store": "New World",
-      "name": "Beard Brothers Old School Pork Sausages 500g",
+      "name": "United Fish Co Oven Ready Salt & Pepper Battered Prawns 250g",
       "brand": NaN,
-      "price": 12.49
+      "price": 7.99
     },
     {
       "store": "New World",
-      "name": "Hellers NZ Free Farmed Shaved Champagne Ham 100g",
+      "name": "Sea Cuisine Raw Prawn Meat SuperMix 500g",
       "brand": NaN,
-      "price": 5.25
+      "price": 9.85
     },
     {
       "store": "New World",
-      "name": "Tegel Free Range Chargrill Chicken Steaks 4pk",
+      "name": "Hellers Craft Sliced Barbecue Chicken 250g",
       "brand": NaN,
       "price": 9.99
     },
     {
       "store": "New World",
-      "name": "Tegel Free Range Chicken Italian Wraps 4pk",
+      "name": "Beak & Sons Chinese BBQ Pork Ribs kg",
+      "brand": NaN,
+      "price": 24.45
+    },
+    {
+      "store": "New World",
+      "name": "NZ Chicken Livers kg",
+      "brand": NaN,
+      "price": 21.99
+    },
+    {
+      "store": "New World",
+      "name": "Shore Mariner Mussel Meat 300g",
+      "brand": NaN,
+      "price": 7.69
+    },
+    {
+      "store": "New World",
+      "name": "Pork Leg kg",
+      "brand": NaN,
+      "price": 12.59
+    },
+    {
+      "store": "New World",
+      "name": "Crumbed Pork Schnitzel kg",
+      "brand": NaN,
+      "price": 24.99
+    },
+    {
+      "store": "New World",
+      "name": "Leckies Swiss Roll kg",
+      "brand": NaN,
+      "price": 16.39
+    },
+    {
+      "store": "New World",
+      "name": "Beard Brothers Old School Venison Sausages 500g",
       "brand": NaN,
       "price": 12.49
     },
     {
       "store": "New World",
-      "name": "NZ Beef Prime Mince kg",
+      "name": "Leader Crumbed Chicken Schnitzels 8 x 100g",
       "brand": NaN,
-      "price": 26.99
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Diet Coke 330ml Cans 8pack",
-      "brand": NaN,
-      "price": 11.0
+      "price": 16.79
     },
     {
       "store": "New World",
-      "name": "Hellers Spicy Chorizo 150g",
+      "name": "Sea Breeze Basa White Fish Pieces 600g",
       "brand": NaN,
-      "price": 5.79
+      "price": 6.75
     },
     {
       "store": "New World",
-      "name": "Brinks Malaysian Satay Chicken Kebab 5pk",
-      "brand": NaN,
-      "price": 9.89
-    },
-    {
-      "store": "New World",
-      "name": "NZ Chicken Drumsticks Marinated kg",
-      "brand": NaN,
-      "price": 7.29
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Crunchy Chicken Burgers 4pk",
+      "name": "De Gustibus Salame With Truffle 70g",
       "brand": NaN,
       "price": 9.99
     },
     {
       "store": "New World",
-      "name": "Tegel Free Range Meal Maker Shredded Flame Grilled Style Chicken 100g",
+      "name": "Pams Classic Pork Sausages 6 x 75g",
       "brand": NaN,
-      "price": 6.19
+      "price": 10.09
     },
     {
-      "store": "Woolworths",
-      "name": "Coca Cola No Sugar Soft Drink Vanilla 330ml Cans 8pack",
+      "store": "New World",
+      "name": "Meat Street Doner Kebab Lamb Grill Sticks 5 x 60g",
       "brand": NaN,
-      "price": 11.0
+      "price": 7.99
     },
     {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Zero Sugar 330ml Cans 30pack",
+      "store": "New World",
+      "name": "Mega Chicken Nibbles kg",
+      "brand": NaN,
+      "price": 12.99
+    },
+    {
+      "store": "New World",
+      "name": "Tegel Nibbles 1.5kg",
+      "brand": NaN,
+      "price": 20.85
+    },
+    {
+      "store": "New World",
+      "name": "NZ Gravy Beef kg",
+      "brand": NaN,
+      "price": 34.69
+    },
+    {
+      "store": "New World",
+      "name": "Tegel Free Range Chicken Luncheon 800g",
+      "brand": NaN,
+      "price": 7.99
+    },
+    {
+      "store": "New World",
+      "name": "Mega Beef Schnitzel kg",
       "brand": NaN,
       "price": 26.99
     },
     {
       "store": "New World",
-      "name": "Hellers Genuine Pork Sausages 6pk",
+      "name": "Tegel Free Range Oven Ready Homestyle Fresh Chicken 1.5kg",
       "brand": NaN,
-      "price": 10.49
-    },
-    {
-      "store": "Woolworths",
-      "name": "United Fish Co Hot & Spicy Battered Prawns Oven Ready 250g 16pack",
-      "brand": NaN,
-      "price": 8.6
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Zero Sugar 250ml Cans 15pack",
-      "brand": NaN,
-      "price": 15.0
+      "price": 19.99
     },
     {
       "store": "New World",
-      "name": "Hellers Craft Homegrown Lamb Sausages 6pk",
+      "name": "United Fish Co Tangyang Crispy Squid 400g",
       "brand": NaN,
-      "price": 10.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Hellers Sliced Champagne Leg Ham kg",
-      "brand": NaN,
-      "price": 23.9
+      "price": 13.05
     },
     {
       "store": "New World",
-      "name": "Verkerks Pepperoni kg",
+      "name": "Bird & Barrow Chicken Mince kg",
+      "brand": NaN,
+      "price": 27.99
+    },
+    {
+      "store": "New World",
+      "name": "NZ Chicken Necks kg",
+      "brand": NaN,
+      "price": 6.49
+    },
+    {
+      "store": "New World",
+      "name": "Beef Minute Steak kg",
+      "brand": NaN,
+      "price": 25.49
+    },
+    {
+      "store": "New World",
+      "name": "Pams Precooked Cheese Sausages 1kg",
+      "brand": NaN,
+      "price": 10.79
+    },
+    {
+      "store": "New World",
+      "name": "Mega Chicken Thighs kg",
+      "brand": NaN,
+      "price": 11.99
+    },
+    {
+      "store": "New World",
+      "name": "Farmland Cooked Beef Tongue kg",
+      "brand": NaN,
+      "price": 67.9
+    },
+    {
+      "store": "New World",
+      "name": "Birds Eye Oven Bake Herb & Garlic Crumb 100% Wild Caught NZ Hoki Fillets 425g",
+      "brand": NaN,
+      "price": 6.99
+    },
+    {
+      "store": "New World",
+      "name": "Leckies White Pudding kg",
+      "brand": NaN,
+      "price": 20.99
+    },
+    {
+      "store": "New World",
+      "name": "Hawkes Bay Sausage Company Beef Sausages kg",
+      "brand": NaN,
+      "price": 15.79
+    },
+    {
+      "store": "New World",
+      "name": "Verkerks Pepperoni Salami kg",
       "brand": NaN,
       "price": 39.9
     },
     {
       "store": "New World",
-      "name": "Pams Free Range Diced Chicken Breast 450g",
+      "name": "Waitoa Free Range Boneless Skinless Chicken Breasts kg",
       "brand": NaN,
-      "price": 8.99
+      "price": 25.99
     },
     {
       "store": "New World",
-      "name": "Brinks Chinese Honey Soy Chicken Kebab 5pk",
+      "name": "Brink's Chicken Tenderloins kg",
       "brand": NaN,
-      "price": 9.89
+      "price": 23.99
     },
     {
       "store": "New World",
-      "name": "Bird & Barrow Free Range Rosemary Ciabatta Crumb Chicken Schnitzel 300g",
-      "brand": NaN,
-      "price": 9.29
-    },
-    {
-      "store": "New World",
-      "name": "Pams Free Range Boneless Skinless Chicken Thighs 400g",
-      "brand": NaN,
-      "price": 10.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Pams Classic Pork Sausages 6 x 75g",
-      "brand": NaN,
-      "price": 9.89
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Zero Sugar 330ml Cans 8pack",
-      "brand": NaN,
-      "price": 11.0
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Garlic & Herb Butterflied New Zealand Chicken 1.35kg",
-      "brand": NaN,
-      "price": 15.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Pams Classic Beef Sausages 6 x 75g",
-      "brand": NaN,
-      "price": 9.89
-    },
-    {
-      "store": "New World",
-      "name": "Beehive Shoulder Bacon 200g",
-      "brand": NaN,
-      "price": 5.99
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Mild Chorizo 150g",
-      "brand": NaN,
-      "price": 5.79
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Shaved Beef Pastrami 100g",
-      "brand": NaN,
-      "price": 5.25
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Meal Maker Shredded Roast Chicken 100g",
-      "brand": NaN,
-      "price": 6.19
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Diet Coke 2.25L",
-      "brand": NaN,
-      "price": 3.79
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink Zero Sugar 2.25L",
-      "brand": NaN,
-      "price": 3.79
-    },
-    {
-      "store": "New World",
-      "name": "Pams Angus Beef Burger Patties 400g",
-      "brand": NaN,
-      "price": 13.55
-    },
-    {
-      "store": "New World",
-      "name": "Hellers Beef Burgers 6pk",
-      "brand": NaN,
-      "price": 15.05
-    },
-    {
-      "store": "New World",
-      "name": "NZ Beef Mince kg",
-      "brand": NaN,
-      "price": 21.99
-    },
-    {
-      "store": "PAK'nSAVE",
-      "name": "Plain Pack Shaved Champagne Ham 250g",
-      "brand": NaN,
-      "price": 22.9
-    },
-    {
-      "store": "Woolworths",
-      "name": "Coca Cola Soft Drink 330ml Cans 8pack",
-      "brand": NaN,
-      "price": 11.0
-    },
-    {
-      "store": "New World",
-      "name": "Tegel Free Range Chicken Mexican Wraps 4pk",
+      "name": "Beard Brothers Rum & Que Pitmaster Series Venison Ram Rod Sausages 500g",
       "brand": NaN,
       "price": 12.49
     },
     {
       "store": "New World",
-      "name": "Tegel Free Range Meal Maker Shredded Sweet Chilli Chicken 100g",
+      "name": "Fresh French Lamb Cutlets kg",
       "brand": NaN,
-      "price": 6.19
+      "price": 56.99
+    },
+    {
+      "store": "New World",
+      "name": "Beef Ribeye Steak On The Bone kg",
+      "brand": NaN,
+      "price": 50.99
+    },
+    {
+      "store": "New World",
+      "name": "Solander Arrow Squid 1kg",
+      "brand": NaN,
+      "price": 24.99
+    },
+    {
+      "store": "New World",
+      "name": "Pams Finest Tasty Duo Smoked Prosciutto & Hot Italian Salami 80g",
+      "brand": NaN,
+      "price": 12.79
+    },
+    {
+      "store": "New World",
+      "name": "United Fish Co New Zealand Tarakihi Crumbed Fillets 600g",
+      "brand": NaN,
+      "price": 19.29
+    },
+    {
+      "store": "New World",
+      "name": "NZ Pork Spare Ribs kg",
+      "brand": NaN,
+      "price": 24.99
+    },
+    {
+      "store": "New World",
+      "name": "Hellers Manuka Smoked Rasher Bacon 200g",
+      "brand": NaN,
+      "price": 6.15
+    },
+    {
+      "store": "New World",
+      "name": "Tegel BBQ Drums Cooked kg",
+      "brand": NaN,
+      "price": 19.9
+    },
+    {
+      "store": "New World",
+      "name": "Pams Satay Chicken Kebabs 275g",
+      "brand": NaN,
+      "price": 6.95
+    },
+    {
+      "store": "New World",
+      "name": "Shore Mariner Raw Medium Prawn Cutlets 800g",
+      "brand": NaN,
+      "price": 21.39
+    },
+    {
+      "store": "New World",
+      "name": "Pams Value Precooked Middle Bacon 700g",
+      "brand": NaN,
+      "price": 15.25
+    },
+    {
+      "store": "New World",
+      "name": "Henderson's Manuka Smoked Streaky Bacon 500g",
+      "brand": NaN,
+      "price": 22.29
+    },
+    {
+      "store": "New World",
+      "name": "Salmon Fillets Bone-In",
+      "brand": NaN,
+      "price": 58.79
     }
   ]
 }
